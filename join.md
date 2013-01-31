@@ -4,29 +4,30 @@ title: 參與我們
 id: join
 ---
 
-請參閱正在討論的[新手指南](https://github.com/g0v/dev/wiki/g0v-newstuff)
+*本頁面持續更新，請參閱正在討論的[新手指南](https://github.com/g0v/dev/wiki/g0v-newstuff)，同時我們也試著讓您更容易參與 g0v.tw，改進此頁面的討論請參考 [g0v.tw 首頁設計](https://github.com/g0v/dev/issues/2)*
+
+歡迎開發者、設計者、社會運動工作者、法律專家、文字工作者， 以及有興趣的公民，來盡一己之力運用科技參與社會。 你可以選擇已經進行的專案加入，也可以廣邀好手進行自己的點子。
+
+
+有時間出時間，沒時間可以考慮出錢贊助幫忙付 Hackthon 的場地費，點心費。:)
 
 ## 聯絡方式
 
 g0v 的成員來自四面八方，幾乎透過網路一同工作。因此主要使用 [IRC](http://zh.wikipedia.org/wiki/IRC)(網路聊天室) 溝通，歡迎加入我們的聊天室
 
-* 請登入 freenode，進入 #g0v.tw，不熟悉使用IRC請見[IRC設定](https://hackpad.com/g0v-hackath1n-%7C--%E6%8A%80%E8%A1%93%E5%95%8F%E9%A1%8C%E7%9C%8B%E9%80%99%E9%82%8A-PGAV6P6hb3N)
-* 或是使用 [Web界面](http://webchat.freenode.net/?channels=g0v.tw)
-* 請注意，聊天室為公開，任何人皆可進入，並且發言都有程式紀錄。
+我們使用的是公開聊天室，任何人皆可進入，並且發言都有程式紀錄。
 
-各專案可能會有自己偏好的溝通方式，若您有確定想要加入的專案，請洽詢該專案協調者。
-
-## 介紹你是誰，知道誰是誰
-
-請在(XXX)寫上你的簡介。自介越清楚，大家越容易認識你。(XXX)同時也是當你需要知道誰有什麼專長，參與什麼專案，負責什麼事的地方。 當你決定參與專案時，(XXX)也是你可以找到該協調者通訊方式的地方。
-
-協調者通常負責引導新成員、分配代辦事項或是跨組協調。如果你問說哪裡可以找到能幫忙的地方，協調者就是你該詢問的人。
-
+* 請使用 [IRC 軟體](http://zh.wikipedia.org/wiki/IRC#.E5.AE.A2.E6.88.B6.E7.AB.AF.E8.BB.9F.E4.BB.B6)登入 freenode，進入 #g0v.tw，若不熟悉 IRC 請見[如何使用IRC](howto/irc.html)
+* 或是使用 [Web界面](http://webchat.freenode.net/?channels=g0v.tw) 登入 IRC
 
 ## 怎麼參與
 
-* 逛逛dev.g0v.tw找出感興趣的專案， 詢問專案協調者。
-* 掛在IRC上問有沒有可以幫忙的地方。
+各專案可能會有自己偏好的溝通方式，若您有確定想要加入的專案，請洽詢該專案協調者。
+
+協調者通常負責引導新成員、分配代辦事項或是跨組協調。如果你問說哪裡可以找到能幫忙的地方，協調者就是你該詢問的人。
+
+* 逛逛[所有成果](/works.html)找出感興趣的專案，詢問專案協調者。
+* 掛在 IRC 上問有沒有可以幫忙的地方。
 * 自己發起新專案，在黑客松招兵買馬。
 * 參與黑客松
 * 幫忙寫介紹文案
@@ -41,7 +42,7 @@ g0v 的成員來自四面八方，幾乎透過網路一同工作。因此主要�
 * 雖然是歡樂的，但請節制水量和注意水質。
 * 雖然是謙虛的，但也不用把自己貶抑到火星文或白字連篇的國小程度。
 * 團隊喜歡正面的建議與執行，不喜歡負面的批評。對事不對人，而且不要指責他人。
-* 友善回應新人提問，不要隨便就RTFM(Read The F* Manual)或是STFG(Searching The F* Google)
+* 友善回應新人提問，不要隨便就 RTFM(Read The F* Manual) 或是 STFG(Searching The F* Google)
 
 ## 如何與政府單位，政黨單位或其它民間單位合作
 
@@ -53,5 +54,6 @@ g0v 的成員來自四面八方，幾乎透過網路一同工作。因此主要�
 
 ## 有用的連結
 
-* 怎麼參加黑客松(tbd to final link)
-* 技術問題 FAQ (tbd to final link)
+* [如何使用 Wiki](howto/wiki.html)
+* [如何使用 Irc](howto/irc.html)
+* [如何使用 Issue tracker](howto/issue_tracker.html)
