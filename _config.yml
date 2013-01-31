@@ -1,3 +1,2 @@
 exclude: [README.md]
 markdown: rdiscount
-auto: true
