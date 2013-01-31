@@ -19,6 +19,7 @@ g0v 的成員來自四面八方，幾乎透過網路一同工作。因此主要�
 
 * 請使用 [IRC 軟體](http://zh.wikipedia.org/wiki/IRC#.E5.AE.A2.E6.88.B6.E7.AB.AF.E8.BB.9F.E4.BB.B6)登入 freenode，進入 #g0v.tw，若不熟悉 IRC 請見[如何使用IRC](howto/irc.html)
 * 或是使用 [Web界面](http://webchat.freenode.net/?channels=g0v.tw) 登入 IRC
+* 在 Facebook 上的 [g0v.tw 後勤中心](https://www.facebook.com/groups/387816094628136/members/)
 
 ## 怎麼參與
 
