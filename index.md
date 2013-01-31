@@ -8,23 +8,7 @@ id: home
 
 * [台灣零時政府第壹次公地放領黑客松](https://hackpad.com/g0v-hackath1n-|--%E5%8F%B0%E7%81%A3%E9%9B%B6%E6%99%82%E6%94%BF%E5%BA%9C%E7%AC%AC%E5%A3%B9%E6%AC%A1%E5%85%AC%E5%9C%B0%E6%94%BE%E9%A0%98%E9%BB%91%E5%AE%A2%E6%9D%BE-lIoCjaeMWzC)
 
-1. [台北場](http://registrano.com/events/g0v-hackath1n)
-
-    時間：2013/01/27（日） 09:00 - 18:00  （將提供免費午餐及下午茶）
-
-    場地：中研院資訊所 101會議室以及 107會議室
-
-1. [台中場](http://registrano.com/events/g0v-hackath1n-taichung)
-
-    時間：2013/01/27（日） 09:00 - 18:00  （將提供免費點心）
-
-    場地：默契咖啡  店址：台中市407中港路二段60-3號  電話：04-2313-4597
-
-1. [高雄場](http://registrano.com/events/g0v-hackath1n-kaohsiung)
-
-    時間：2013/01/27（日） 09:00 - 18:00
-
-    場地：高雄軟體園區B棟708會議室 高雄市前鎮區復興四路12號 B708 電話：07-9700910 分機16 
+    已經順利結束，請參考紀錄 [零時政府第一次公地放領黑客松](http://www.tkirby.org/blog/?p=2075)，也請期待 g0v 的下一個活動。
 
 # 近期成果
 
