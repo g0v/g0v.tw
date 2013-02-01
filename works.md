@@ -4,7 +4,7 @@ title: 所有成果
 id: works
 ---
 
-許多熱血公民正不斷地釋出新的成果，本網頁更新的速度還來不及涵蓋最新的變化，若您有專案要放進這裡，請發出一個新的 [Issue](https://github.com/g0v/g0v.tw/issues)
+許多熱血公民正不斷地釋出新的成果，本網頁更新的速度還來不及涵蓋最新的變化，若您有專案要放進這裡，請參考 [How to add project](https://github.com/g0v/g0v.tw/wiki/Add-project)
 
 目前掛在 g0v 底下的專案列表可以在 [g0v@github](https://github.com/g0v/) 看見，底下是部份專案的介紹
 
