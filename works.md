@@ -27,6 +27,16 @@ id: works
 * Mediator: [clkao](https://github.com/clkao)
 
 <hr />
+### 立法院公報閱讀器
+
+用網頁閱讀公報，在設計雛型中已經可以看見質詢的內容
+
+* [Github](http://github.com/g0v/ly.g0v.tw)
+* [網站](http://ly.g0v.tw.jit.su/#/sitting)
+* [設計雛型](http://twlyreader-prototype.herokuapp.com/)
+* [搜尋功能](http://open.ly.g0v.tw/)
+
+<hr />
 ### 立委投票結果產生器
 
 幫你把立委在國會表決的結果畫成一目了然的圖表！
