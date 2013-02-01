@@ -4,9 +4,9 @@ title: 所有成果
 id: works
 ---
 
-許多熱血公民正不斷地釋出新的成果，本網頁更新的速度還來不及涵蓋最新的變化，若您有專案要放進這裡，請參考 [How to add project](https://github.com/g0v/g0v.tw/wiki/Add-project)
+許多熱血公民正不斷地釋出新的成果，本網頁更新的速度還來不及涵蓋最新的變化，若您有專案要放進這裡，請參考 [How to add project](https://github.com/g0v/g0v.tw/wiki/Add-project)。秉持著開放的精神，欲參與之專案的程式碼、文件等等，必須是 [OSI-approved licenses](http://opensource.org/licenses/index.html)
 
-目前掛在 g0v 底下的專案列表可以在 [g0v@github](https://github.com/g0v/) 看見，底下是部份專案的介紹
+目前掛在 g0v 底下的專案列表可以在 [g0v@github](https://github.com/g0v/) 看見，以下是部份專案的介紹
 
 <hr />
 ### 中央政府總預算
