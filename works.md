@@ -67,5 +67,3 @@ g0v 透過 jekyll 從 markdown 文件產生靜態網頁，也就是你正在閱�
 
 * [Github](https://github.com/g0v/g0v.tw) 
 
-<hr />
-
