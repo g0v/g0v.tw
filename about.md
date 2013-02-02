@@ -4,20 +4,11 @@ title: 關於我們
 id: about
 ---
 
-政策瞎，官員混，立委貪，政府爛，總統笨.....除了生氣翻桌，到底還能做什麼？ g0v.tw 在yahoo hackday 做了中央預算視覺化贏得佳作，但這只是增加政府透明度的小小初步成果。從 2012/12/01 第一場 hackathon 開始， 有更多事情在加速進行！
+## 關於我們
 
-## 來自各方的介紹
-
-* [資訊界的社會運動](https://docs.google.com/document/pub?id=1NzTZUd2hmTn8qQ1tIqxewt2J_XEBEH_J6NmGZx1aWzI) - by 雨蒼
-* [open data是什麼？可以吃嗎？](http://ipaway.org/?p=2215) - by ipaway
-
-## 其他連結
-
-* [零時政府第零次動員戡亂黑客松活動照片](http://www.flickr.com/photos/tkirby/sets/72157632153043236/)
+[媒體資訊](http://blog.g0v.tw/media)
 
 <hr />
-
-## 中文宣言
 
 ### 我們來自四方
 g0v.tw 是一個致力於打造資訊透明化的社群。g0v.tw 的參與者來自四方，有程式開發者、設計師、社會運動工作者、教育工作者、文字工作者、公民與鄉民等來自各領域的人士。這些人聚在一起，希望資訊透明化可以更進一步的改善台灣的公民環境。只要有心想用自己的專業及能力來參與，就可以加入 g0v.tw。
@@ -41,8 +32,6 @@ g0v.tw 無黨無派、無錢倘買菜，是草根集結的公民運動，你可�
 如果你認同以上，歡迎加入 g0v.tw，來聊聊你想作些什麼，想協助什麼專案，想看到我們身處的世界有什麼改變。歡迎你成為科技改變社會的力量。
 
 <hr />
-
-## English Manifesto
 
 ### From across Taiwan
 g0v.tw is a community that advocates transparency of information, also known as open data. We are coders, designers, activists, educators, writers and citizens from across Taiwan. We hope that by working together to bring data into the open, we can build a better Taiwan for its citizens. To join g0v, all you need is to be ready and willing to use your expertise or energy for our cause.
