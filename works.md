@@ -72,6 +72,12 @@ The package provides the geojson files for administrative divisions in Taiwan. T
 * Mediator: [clkao](https://github.com/clkao)
 
 <hr />
+### 教育部電子辭典
+
+* [3du.tw「還文於民」專案頁面](http://3du.tw/)
+* [「萌典」線上版](https://moedict.tw/)
+
+<hr />
 ### g0v.tw 網頁
 
 g0v 透過 jekyll 從 markdown 文件產生靜態網頁，也就是你正在閱讀的這個網頁，所有紀錄都可以在這裡找到。
