@@ -14,6 +14,8 @@ id: home
 
     暌違兩個月，期待已久的台灣零時政府第貳次九大建設黑客松將於 2013 年 3 月 23 舉行！
 
+    報名之餘別忘了到[黑客松會前討論共筆](http://bit.ly/g0v-hackath2n)登記及參與討論喔！
+
 ### 近期成果
 
 * [台灣零時政府第壹之壹次耕者有其田黑客松 - 新竹場](http://registrano.com/events/g0v-hackath1n-hsinchu) <em class="time">2013-02-02</em>
