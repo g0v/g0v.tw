@@ -4,13 +4,13 @@ title: 零時政府 g0v.tw 首頁
 id: home
 ---
 
-# 最新消息
+## 最新消息
 
 * [台灣零時政府第壹之壹次耕者有其田黑客松 - 新竹場](http://registrano.com/events/g0v-hackath1n-hsinchu) <em class="time">2013-02-02</em>
 
     g0v hackath0n 兩個月之後，第二次的 g0v hackth1n 在台北、台中、高雄三地同步舉行，得到了意想不到的熱烈迴響。而現在，我們有了 g0v.tw hackth1n 新竹場。 期待已久的 g0v hackath1n 新竹場，現在開始報名！
 
-# 近期成果
+## 近期成果
 
 * [台灣零時政府第壹次公地放領黑客松](https://hackpad.com/lIoCjaeMWzC) <em class="time">2013-01-27</em>
 

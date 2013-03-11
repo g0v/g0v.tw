@@ -7120,13 +7120,21 @@ a.badge:hover {
     overflow: visible !important;
   }
 }
+body {
+  background: url(/imgs/tiles.png);
+  font-size: 15px;
+}
 header {
-  padding-top: 60px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(/imgs/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275DA1;
+  background: url(/imgs/bk-2.png) #8e8e8e;
+  border-bottom: 2px solid #bebebe;
+}
+header .container {
+  width: 95%;
+  margin: 0;
+  padding: 55px 0 20px 60px;
+  background: url(/imgs/bk-1.png) no-repeat;
 }
 header h1 {
   letter-spacing: -1px;
@@ -7134,6 +7142,39 @@ header h1 {
   color: white;
   line-height: 1;
   margin-bottom: 0.2em;
+}
+header img {
+  float: left;
+}
+#sitemap-panel {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  text-align: center;
+}
+#sitemap-panel a {
+  color: #222;
+}
+#sitemap-panel a:hover {
+  color: #831;
+}
+.map-caption-hot {
+  background: #a00!important;
+}
+#sitemap-panel .map-entry {
+  float: left;
+  margin-right: 50px;
+}
+.map-caption {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+  background: #333;
+  border-radius: 3px;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+}
+.map-item {
+  margin: 0 0 2px 0;
 }
 footer {
   height: 40px;
