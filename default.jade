@@ -10,14 +10,14 @@ html
     .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
         .container
-          span.brand &nbsp;
+          span.brand: img(src="/imgs/g0v-icon-invert.png")
           div
             ul.nav.nav-pills
               li#home: a(href="/") 首頁
               li#works: a(href="/works.html") 所有成果
               li#join: a(href="/join.html") 參與我們
               li#sitemap: a(href="/sitemap.html") 網站地圖
-              li#about: a(href="/about.html") 關於 g0v
+              li#about: a(href="/about.html") 關於我們
     header
       .container
         img(src="imgs/g0v-full.png")
@@ -70,9 +70,10 @@ html
            iframe.logbot(style="height:500px",src="http://logbot.owo.tw/widget/g0v.tw")
              a(href="http://logbot.owo.tw/channel/g0v.tw") #g0v.tw on Logbox
       footer
+        hr
         div
-          hr
-          small g0v.tw 2013
+          img(src="/imgs/g0v-icon.png")
+          | g0v.tw 2013
     script(type="text/javascript")
       $(document).ready(function () {
         var page = "{{ page.id }}";

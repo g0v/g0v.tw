@@ -7180,7 +7180,17 @@ footer {
   height: 40px;
   color: #999999;
 }
+footer div {
+  float: right;
+  margin: 0 20px 20px 20px;
+}
 em.time {
   color: #999999;
   font-size: 80%;
+}
+h3 {
+  margin-top: 30px;
+}
+.brand {
+  float: right!important;
 }

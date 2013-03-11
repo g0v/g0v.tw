@@ -6,7 +6,8 @@ id: about
 
 ## 關於我們
 
-[媒體資訊](http://blog.g0v.tw/media)
+<img src="/imgs/about.png" style="float:left;margin-right:15px;box-shadow:0px 1px 9px">
+自從 2012 年底舉辦第零次動員戡亂黑客松後，陸續的有不少熱心人士加入、也開始有一些平面媒體報導與我們有關的資訊。你可以在 [媒體資訊](http://blog.g0v.tw/media) 中找到目前為止與零時政府相關的報導或活動記錄，也可以參考 [零時政府部落格](http://blog.g0v.tw) ，這裡不定期會有新的文章刊出，若你有興趣，也歡迎投稿至零時政府部落格！
 
 <hr />
 

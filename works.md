@@ -4,9 +4,10 @@ title: 所有成果
 id: works
 ---
 
-許多熱血公民正不斷地釋出新的成果，本網頁更新的速度還來不及涵蓋最新的變化，若您有專案要放進這裡，請參考 [How to add project](https://github.com/g0v/g0v.tw/wiki/Add-project)。秉持著開放的精神，欲參與之專案的程式碼、文件等等，必須採用 [OSI Approved License](http://opensource.org/licenses/index.html) 或 [創用 CC 授權](http://creativecommons.tw/) 。
+<img src="/imgs/works.png" style="float:left;margin-right:15px;box-shadow:0px 1px 9px">
+有許多熱血的公民正在不斷地釋出新成果，所以本網頁更新的速度來不及涵蓋最新的變化；若您有專案要放進這裡，請參考 [How to add project](https://github.com/g0v/g0v.tw/wiki/Add-project) 。秉持著開放的精神，欲參與之專案的程式碼、文件等等，必須採用 [OSI Approved License](http://opensource.org/licenses/index.html) 或 [創用 CC 授權](http://creativecommons.tw/) 。
 
-目前掛在 g0v 底下的專案列表可以在 [g0v@github](https://github.com/g0v/) 看見，以下是部份專案的介紹
+目前掛在 g0v 底下的專案列表可以在 [g0v@github](https://github.com/g0v/) 看見，以下是部份專案的介紹：
 
 <hr />
 ### 中央政府總預算

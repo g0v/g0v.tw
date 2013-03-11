@@ -4,13 +4,19 @@ title: 零時政府 g0v.tw 首頁
 id: home
 ---
 
-## 最新消息
+政策瞎，官員混，立委貪，政府爛，總統笨……除了生氣翻桌，到底還能做什麼？讓我們來寫程式改造社會！
+
+<hr />
+
+### 最新消息
+
+* [台灣零時政府第貳次九大建設黑客松 - 台北場](http://registrano.com/events/g0v-hackath2n-taipei) <em class="time">2013-03-23</em>
+
+    暌違兩個月，期待已久的台灣零時政府第貳次九大建設黑客松將於 2013 年 3 月 23 舉行！
+
+### 近期成果
 
 * [台灣零時政府第壹之壹次耕者有其田黑客松 - 新竹場](http://registrano.com/events/g0v-hackath1n-hsinchu) <em class="time">2013-02-02</em>
-
-    g0v hackath0n 兩個月之後，第二次的 g0v hackth1n 在台北、台中、高雄三地同步舉行，得到了意想不到的熱烈迴響。而現在，我們有了 g0v.tw hackth1n 新竹場。 期待已久的 g0v hackath1n 新竹場，現在開始報名！
-
-## 近期成果
 
 * [台灣零時政府第壹次公地放領黑客松](https://hackpad.com/lIoCjaeMWzC) <em class="time">2013-01-27</em>
 
