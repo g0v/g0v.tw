@@ -7146,6 +7146,18 @@ body {
 .header img {
   float: left;
 }
+#talk {
+  float: right;
+  width: 142px;
+  height: 93px;
+  background: url(/imgs/talk.png) no-repeat 0px -10px;
+  left: -70px;
+  top: -20px;
+  position: relative;
+}
+#talk div {
+  margin-top: 35px;
+}
 #sitemap-panel {
   margin: 10px 0 0 0;
   font-size: 15px;
