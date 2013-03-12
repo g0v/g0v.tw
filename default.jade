@@ -18,7 +18,7 @@ html
               li#join: a(href="/join.html") 參與我們
               li#sitemap: a(href="/sitemap.html") 網站地圖
               li#about: a(href="/about.html") 關於我們
-    header
+    .header
       .container
         img(src="/imgs/g0v-full.png")
         #sitemap-panel(style="float:right")
@@ -69,13 +69,12 @@ html
         .span3
            iframe.logbot(style="height:500px",src="http://logbot.owo.tw/widget/g0v.tw")
              a(href="http://logbot.owo.tw/channel/g0v.tw") #g0v.tw on Logbox
-      footer
-        hr
-        div
-          img(src="/imgs/g0v-icon.png")
-          | g0v.tw 2013
-    script(type="text/javascript")
-      $(document).ready(function () {
-        var page = "{{ page.id }}";
-        $("#" + page).addClass("active");
-      });
+    div.footer
+      div
+        | g0v.tw 2013 | 
+        img(src="/imgs/g0v-icon-invert.png")
+      script(type="text/javascript")
+        $(document).ready(function () {
+          var page = "{{ page.id }}";
+          $("#" + page).addClass("active");
+        });

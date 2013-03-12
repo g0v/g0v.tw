@@ -3,21 +3,21 @@ body {
   font-size:15px;
 }
 
-header {
+.header {
   margin-bottom: 30px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background:url(/imgs/bk-2.png) #8e8e8e;
   border-bottom: 2px solid #bebebe;
 }
 
-header .container {
+.header .container {
   width: 95%;
   margin:0;
   padding: 55px 0 20px 60px;
   background:url(/imgs/bk-1.png) no-repeat;
 }
 
-header h1 {
+.header h1 {
   letter-spacing: -1px;
   font-size: 72px;
   color: white;
@@ -25,7 +25,7 @@ header h1 {
   margin-bottom: 0.2em;
 }
 
-header img {
+.header img {
   float:left;
 }
 
@@ -65,14 +65,23 @@ header img {
   margin:0 0 2px 0;
 }
 
-footer {
-  height: @navbarHeight;
-  color: @grayLight;
+.page-icon {
+  float:left;margin:0 15px 15px 0;box-shadow:0px 1px 9px;
 }
 
-footer div {
+.footer {
+  height: 20px;
+  color: @grayLight;
+  background: #000;
+  margin: 30px 0 0 0;
+  padding: 10px 20px 10px 10px;
+  box-shadow: 0px -2px 10px;
+}
+
+.footer div {
   float: right;
-  margin: 0 20px 20px 20px;
+  padding:0;margin:0;
+  line-height:16px;
 }
 
 em.time {
@@ -86,4 +95,8 @@ h3 {
 
 .brand {
   float:right!important;
+}
+
+.navbar {
+  box-shadow: 0 2px 7px;
 }
