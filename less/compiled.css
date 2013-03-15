@@ -7133,7 +7133,7 @@ body {
 .header .container {
   width: 95%;
   margin: 0;
-  padding: 55px 0 20px 60px;
+  padding: 55px 0 20px 20px;
   background: url(/imgs/bk-1.png) no-repeat;
 }
 .header h1 {
@@ -7174,7 +7174,7 @@ body {
 }
 #sitemap-panel .map-entry {
   float: left;
-  margin-right: 50px;
+  margin-right: 26px;
 }
 .map-caption {
   text-align: center;
@@ -7183,7 +7183,7 @@ body {
   background: #333;
   border-radius: 3px;
   color: #fff;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 8px 3px 8px;
 }
 .map-item {
   margin: 0 0 2px 0;
@@ -7219,4 +7219,10 @@ h3 {
 }
 .navbar {
   box-shadow: 0 2px 7px;
+}
+.logbot {
+  height: 500px;
+  float: right;
+  margin: 10px 0 20px 20px;
+  border-radius: 3px;
 }

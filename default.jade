@@ -70,11 +70,9 @@ html
             .map-item: a(href="http://g0v.tw/howto/issue_tracker.html") Issue Tracker
 
     .container
-      .row
-        .span9: {{ content }}
-        .span3
-           iframe.logbot(style="height:500px",src="http://logbot.owo.tw/widget/g0v.tw")
-             a(href="http://logbot.owo.tw/channel/g0v.tw") #g0v.tw on Logbox
+       iframe.logbot(style="height:500px",src="http://logbot.owo.tw/widget/g0v.tw")
+         a(href="http://logbot.owo.tw/channel/g0v.tw") #g0v.tw on Logbox
+       div: {{ content }}
     div.footer
       div
         | g0v.tw 2013 | 
