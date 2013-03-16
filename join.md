@@ -4,7 +4,7 @@ title: 參與我們
 id: join
 ---
 
-<div class="alert">
+<div class="alert" style="overflow:hidden">
 <i class="icon-heart icon-gray"></i> 本頁持續更新，改進的討論請參考 <a href="https://github.com/g0v/dev/issues/2">g0v.tw 首頁設計</a>。我們也在試著讓您更容易參與 g0v.tw，請參閱討論中的<a href="https://github.com/g0v/dev/wiki/g0v-newstuff">新手指南</a>
 </div>
 
