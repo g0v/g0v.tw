@@ -35,23 +35,22 @@ g0v.tw 無黨無派、無錢倘買菜，是草根集結的公民運動，你可�
 <hr />
 
 ### From across Taiwan
-g0v.tw is a community that advocates transparency of information, also known as open data. We are coders, designers, activists, educators, writers and citizens from across Taiwan. We hope that by working together to bring data into the open, we can build a better Taiwan for its citizens. To join g0v, all you need is to be ready and willing to use your expertise or energy for our cause.
+g0v.tw is a community that advocates transparency of information, also known as open data. We are passionate coders, designers, activists, educators, writers and citizens from across Taiwan. Through working together to bring data into the open, we hope to build a better Taiwan for its citizens. To join g0v, all you need is to be ready and willing to use your expertise or energy for our cause.
 
-### We stand for freedom of speech and information transparency
-Built on the spirit of the open-source community, g0v stands for freedom of speech and information transparency. We aim to use technology in the interest of the pubic good, allowing citizens easy access to vital information. Opening up and making data public gives the people of Taiwan the ability to take a closer look at politics and important issues. This gives them the tools needed to evaluate their government and exert their democratic right to decide how politicians act.
+### Freedom of Speech and Information Transparency
+Built on the spirit of the open-source community, g0v stands for freedom of speech and information transparency. We aim to use technology in the interest of the public good, allowing citizens easy access to vital information. Opening up and making data public allows the people of Taiwan to take a closer look at politics and important issues. This gives them the tools needed to evaluate their government and exert their democratic right to decide how politicians act.
 
-### Independent and transparent
-We cooperate through our website, g0v.tw, and through open platforms like IRC, hackpad and github. Our work is also done through open events such as our “hackathons”. Everything we produce -- source code, documents, formulas, analysis and processes -- is made available for anyone to view, react to, use and improve.
+### Independent and Transparent
+We cooperate through our website, g0v.tw, and through open platforms, such as IRC, hackpad and github, among others. Our work is also done through open events, such as our “hackathons”. Everything we produce -- source code, documents, formulas, analyses and processes -- is made available for anyone to view, react to, use and improve.
 
-### Sanguine about fostering change
-We at g0v love to seek out problems and explore solutions. Further, we are willing to take action to implement these solutions. Through various types of cooperation we have been able to multiply the impact and creativity of our ideas. We aim to bring about change and are not willing to resort to cynicism or apathy.
+### Sanguine on Fostering Change
+At g0v, we love to seek out problems and explore solutions. Further, we are willing to take action to implement these solutions. Through various types of cooperation, we multiply the impact and creativity of our ideas. We aim to bring about change and are not willing to resort to cynicism or apathy.
 
-### Direct democracy
-g0v doesn’t have a leader or spokesperson. Participants decide what to work on and are at the heart of our communal culture. Using Liquid Feedback, our community is able to make decisions on important issues and strategic direction.
+### Direct Democracy
+g0v doesn’t have a leader or spokesperson. We are a direct democracy. Participants decide what to work on and are at the heart of our communal culture. Using Liquid Democracy techniques, our community makes decisions on important issues and strategic direction.
 
-### If you’re interested, join now
+### If you’re interested, Join us
 Our community is grassroots: we are non-partisan, unbiased and not for sale. You can contribute to our hackathons with your skills, ideas, time or donations, or provide support for specific projects.
 
-### You’re next
-If you like what you’ve read, head to g0v.tw and share your project ideas, offer up help or let us know how you want society to change. We welcome you to join us in using technology to change society for the better.
-
+### You’re Next
+If you like what you’ve read, head to g0v.tw to share your project ideas, offer help or let us know how you want society to change. We welcome you to join us in using technology to change society for the better.
