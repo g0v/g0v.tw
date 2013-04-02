@@ -39,3 +39,6 @@ id: sitemap
 * 財政部 / [政府標案分析](http://g0v-pcc.tka.lu/)
 * 後勤組 / 負責訂炸雞、披薩、下午茶
 * 考試院 / 監察院 / 行政院 / 總統府 ... 交給你了！
+
+### 尚未分類
+* [媒體詢問共筆](https://hackpad.com/g0v.tw-media-enquiries-DQVOamxsKKR)

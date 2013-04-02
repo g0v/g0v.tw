@@ -10,13 +10,13 @@ id: home
 
 ### 最新消息
 
-* [台灣零時政府第貳次九大建設黑客松 - 台北場](http://registrano.com/events/g0v-hackath2n-taipei) <em class="time">2013-03-23</em>
-
-    暌違兩個月，期待已久的台灣零時政府第貳次九大建設黑客松將於 2013 年 3 月 23 舉行！
-
-    報名之餘別忘了到[黑客松會前討論共筆](http://bit.ly/g0v-hackath2n)登記及參與討論喔！
+* 台灣零時政府第貳次九大建設黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/)也出爐囉！
 
 ### 近期成果
+
+* [台灣零時政府第貳次九大建設黑客松 - 台北場](http://registrano.com/events/g0v-hackath2n-taipei) <em class="time">2013-03-23</em>
+
+   活動已結束，專案相關資訊可以到[黑客松會前討論共筆](http://bit.ly/g0v-hackath2n) 瀏覽。
 
 * [台灣零時政府第壹之壹次耕者有其田黑客松 - 新竹場](http://registrano.com/events/g0v-hackath1n-hsinchu) <em class="time">2013-02-02</em>
 
