@@ -10,7 +10,7 @@ id: home
 
 ### 最新消息
 
-* 台灣零時政府第貳次九大建設黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/)也出爐囉！[活動紀錄](http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.tkirby.org%2Fblog%2F%3Fp%3D2151&h=wAQFaFVBv)
+* 台灣零時政府第貳次九大建設黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/)也出爐囉！請參考紀錄 [零時政府第貳次九大建設黑客松](http://www.tkirby.org/blog/?p=2151)
 
 ### 近期成果
 
