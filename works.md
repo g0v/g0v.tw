@@ -79,6 +79,14 @@ The package provides the geojson files for administrative divisions in Taiwan. T
 * [「萌典」線上版](https://moedict.tw/)
 
 <hr />
+### 自學2.0互認地圖
+
+透過互動式的地圖，創造一個自學家庭彼此認出的平台，透過平台，可以很容易地介紹自己，並找到住所附近的自學同伴和自學支援
+
+* [網站](http://cop.alearn.org.tw)
+* Mediator: [唐宗浩(Bestian Tang)](bestian@gmail.com)
+
+<hr />
 ### g0v.tw 網頁
 
 g0v 透過 jekyll 從 markdown 文件產生靜態網頁，也就是你正在閱讀的這個網頁，所有紀錄都可以在這裡找到。
