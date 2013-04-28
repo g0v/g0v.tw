@@ -14,6 +14,8 @@ id: home
 
 ### 近期成果
 
+* [OSDC 2013 與 ICOS 2013 講題: g0v 黑客松 - 寫程式改造社會的投影片](https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) <em class="time">2013-04-20</em>
+
 * [台灣零時政府第貳次九大建設黑客松 - 台北場](http://registrano.com/events/g0v-hackath2n-taipei) <em class="time">2013-03-23</em>
 
    活動已結束，專案相關資訊可以到[黑客松會前討論共筆](http://bit.ly/g0v-hackath2n) 瀏覽。
