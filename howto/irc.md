@@ -75,5 +75,5 @@ Freenode 站有提供方便的 Web 介面，不用裝別的軟體就可以使用
 
 #### 別人在 IRC 上面聊了什麼？
 
-我們製作了一個簡單的 log 機器人，會把 IRC 上的訊息記錄下來。如果想知道今天大家聊了什麼，可以點[這邊](http://logbot.owo.tw:5000/channel/g0v.tw/today)觀看
+我們製作了一個簡單的 log 機器人，會把 IRC 上的訊息記錄下來。如果想知道今天大家聊了什麼，可以點[這邊](http://logbot.gqv.tw/channel/g0v.tw/today)觀看
 
