@@ -19,7 +19,7 @@ id: join
 
 g0v 的成員來自四面八方，幾乎透過網路一同工作。因此主要使用 [IRC](http://zh.wikipedia.org/wiki/IRC)(網路聊天室) 溝通，歡迎加入我們的聊天室
 
-我們使用的是公開聊天室，任何人皆可進入，並且發言都有程式[紀錄](http://logbot.gqv.tw/channel/g0v.tw/today)。
+我們使用的是公開聊天室，任何人皆可進入，並且發言都有程式[紀錄](http://logbot.g0v.tw/channel/g0v.tw/today)。
 
 * 請使用 [IRC 軟體](http://zh.wikipedia.org/wiki/IRC#.E5.AE.A2.E6.88.B6.E7.AB.AF.E8.BB.9F.E4.BB.B6)登入 freenode，進入 #g0v.tw，若不熟悉 IRC 請見[如何使用IRC](howto/irc.html)
 * 或是使用 [Web界面](http://webchat.freenode.net/?channels=g0v.tw) 登入 IRC
