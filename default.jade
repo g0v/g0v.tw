@@ -32,7 +32,7 @@ html
                br
                | 感謝大家！
           .map-entry
-            .map-caption: 零時政府 
+            .map-caption: 零時政府
             .map-item: a(href="/about.html") 關於我們
             .map-item: a(href="/sitemap.html") 網站地圖
             .map-item: a(href="http://www.facebook.com/g0v.tw") 臉書專頁
@@ -40,7 +40,7 @@ html
             .map-item: a(href="http://www.facebook.com/groups/design.g0v.tw/") 設計中心
             .map-item: a(href="http://data.g0v.tw/") 資料中心
           .map-entry
-            .map-caption: 專案 
+            .map-caption: 專案
             .map-item: a(href="http://github.com/g0v") 源碼集散地
             .map-item: a(href="http://dev.g0v.tw/") 開發者首頁
             .map-item: a(href="http://g0v.tw/works.html") 成果列表
@@ -48,21 +48,21 @@ html
             .map-item: a(href="http://github.com/g0v/g0v.tw/wiki/Add-project") 增加專案
             .map-item: a(href="http://3du.tw") 教育部
           .map-entry
-            .map-caption: 資訊 
+            .map-caption: 資訊
             .map-item: a(href="http://blog.g0v.tw") 部落格
             .map-item: a(href="http://blog.g0v.tw/media") 媒體報導
             .map-item: a(href="http://blog.g0v.tw/links") 相關主題
             .map-item: a(href="http://logbot.g0v.tw/channel/g0v.tw/today") 聊天室紀錄
             .map-item: a(href="https://twitter.com/search?q=%23g0v&src=hash") 推特
           .map-entry
-            .map-caption: 活動 
+            .map-caption: 活動
             .map-item: a(href="http://registrano.com/search/events?q=g0v") 報名網頁
             .map-item: a(href="http://www.flickr.com/photos/tkirby/collections/72157632969946032/") 活動照片
             .map-item: a(href="http://www.youtube.com/playlist?list=PLOmVOzQIKKkTrOqF-BdKqK0iLM6MspSGM") 活動實況
             .map-item: a(href="https://hackpad.com/ZYU6qiYaQLo") 如何參加
             .map-item: a(href="http://bit.ly/g0v-hackath2n") 活動討論
           .map-entry
-            .map-caption: 指南 
+            .map-caption: 指南
             .map-item: a(href="https://github.com/g0v/dev/wiki/g0v-newstuff") 新手指南
             .map-item: a(href="http://g0v.tw/join.html") 參與我們
             .map-item: a(href="http://g0v.tw/howto/irc.html") IRC 指南
@@ -75,10 +75,14 @@ html
        div: {{ content }}
     div.footer
       div
-        | g0v.tw 2013 | 
+        | g0v.tw 2013 |
         img(src="/imgs/g0v-icon-invert.png")
-      script(type="text/javascript")
+      script(type="text/javascript").
         $(document).ready(function () {
           var page = "{{ page.id }}";
           $("#" + page).addClass("active");
         });
+    script(type="text/javascript").
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-41326468-1', 'g0v.tw');
+      ga('send', 'pageview');
