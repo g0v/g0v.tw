@@ -6,7 +6,7 @@
 
 * jekyll
 
-    目前使用 [jekyll](https://github.com/mojombo/jekyll)，將 markdown 的檔案轉換成靜態的 html 檔。因此你需要安裝 jekyll，詳細的安裝步驟請參考 [Install jekyll](https://github.com/mojombo/jekyll/wiki/install)
+    目前使用 [jekyll](https://github.com/mojombo/jekyll)，將 markdown 的檔案轉換成靜態的 html 檔。因此你需要安裝 jekyll，詳細的安裝步驟請參考 [Install jekyll](http://jekyllrb.com/docs/installation/)
 
 * rdiscount
 
@@ -18,15 +18,15 @@
 
 直接執行指令產生靜態網頁到 _site 目錄
 
-    $ jekyll
+    $ jekyll build
 
 或是讓 jekyll 每逢檔案變動就自動產生靜態網頁到 _site 目錄
 
-    $ jekyll --auto
+    $ jekyll build --watch
 
 還能夠同時跑起一個 local http server，用 http://localhost:4000/ 存取  _site 目錄的內容
 
-    $ jekyll --auto --server
+    $ jekyll serve --watch
 
 jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration) 頁面有更詳盡的介紹
 
