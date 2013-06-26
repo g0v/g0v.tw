@@ -10,9 +10,13 @@ id: home
 
 ### 最新消息
 
-* 台灣零時政府第貳次九大建設黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/)也出爐囉！請參考紀錄 [零時政府第貳次九大建設黑客松](http://www.tkirby.org/blog/?p=2151)
+* 台灣零時政府地參次客廳工廠黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157634022248856/)、[影音紀錄](http://www.youtube.com/playlist?list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU&feature=mh_lolz)、 特別來賓瞿海源教授：
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/htzr00ecDis?list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU" frameborder="0" allowfullscreen></iframe>
 
 ### 近期成果
+
+* 台灣零時政府第貳次九大建設黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/)也出爐囉！請參考紀錄 [零時政府第貳次九大建設黑客松](http://www.tkirby.org/blog/?p=2151)
 
 * [OSDC 2013 與 ICOS 2013 講題: g0v 黑客松 - 寫程式改造社會的投影片](https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) <em class="time">2013-04-20</em>
 
