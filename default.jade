@@ -6,11 +6,21 @@ html
     title {{page.title }}
     link(rel="stylesheet",type="text/css",href="/less/compiled.css")
     script(type="text/javascript",src="/javascript/jquery.min-1.7.2.js")
+    script(type="text/javascript").
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
   body
     .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
         .container
-          span.brand: img(src="/imgs/g0v-icon-invert.png")
+          span.brand
+            .fb-like(style="padding-right: 10px",data-send="false",data-href="https://facebook.com/g0v.tw",data-width="120",data-layout="button_count",data-show-faces="false",data-font="verdana")
+            img(src="/imgs/g0v-icon-invert.png")
           div
             ul.nav.nav-pills
               li#home: a(href="/") 首頁
