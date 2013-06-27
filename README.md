@@ -35,6 +35,7 @@ jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration)
 我們用 gruntjs 來處理 less compile 到 css, 以及把 jade compile 到 html 的流程。
 
 先打
+
     $ npm install -g grunt-cli
 
 安裝 grunt。
