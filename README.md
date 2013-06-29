@@ -12,7 +12,9 @@
 
     _config.yml 中已經把 markdown engine 換成了 rdiscount，因此還需要安裝 rdiscount
 
+    ```
     $ sudo gem install rdiscount
+    ```
 
 # Usage
 
