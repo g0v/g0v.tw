@@ -62,6 +62,42 @@ jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration)
 
 每當你做一次 `less` 資料夾的更動他就會把全部去跑 `grunt` 的指令也就是會去 concat less, compile less, compress css。 
 
+# Usage
+
+現在有兩個 branch 一個是 `source` 一個是 `gh-pages`
+
+分成兩個 branch 的主要原因是因為讓 jekyll 支援 plugin 在 gh-pages。
+
+所以請 developers 要更動任何檔案請在 `source` ，不要再 `gh-pages` 做任何更動。
+
+當更動完 `source` 的時候打
+
+```
+make pre_deploy
+```
+
+來讓 jekyll build 然後也會讓 git add 所有的檔案。
+
+再來寫 git commit
+
+```
+git commit -m <your commit>
+```
+
+之後要 deploy 到 repo 的時候就打
+
+``` 
+make deploy
+```
+
+即可，這個動作會讓 git 去刪掉現有的 `gh-pages` 然後去複製一個新的 `gh-pages` 從 `source` 那個 branch 過來，再 filter 出 `_site` 裡面的資料。
+
+再把兩個 branch 同時 push 到 remote 上。
+
+切記！不要改 `gh-pages` 上的檔案，請改 `source` 上的檔案。然後再用 `make deploy` 來上傳到 remote repo 上。
+
+這裡有個我寫好的 plugin 測試，再 g0v.tw 首頁的 [youtube 影片](https://github.com/chilijung/g0v.tw/blob/source/index.md)即是用 plugin 完成的！
+
 
 # Writing page
 
