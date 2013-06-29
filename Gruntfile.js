@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       },
       dist: {
         src: ['less/*.less'],
-        dest: 'deploy/deploy.less'
+        dest: 'deploy_tmp/deploy.less'
       }
       
     },
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           paths: ["less/"]
         },
         files: {
-          "deploy/deploy.css": "deploy/deploy.less"
+          "deploy_tmp/deploy.css": "deploy_tmp/deploy.less"
         }
       }
     },
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
         files: [
            {
               expand: true,     // Enable dynamic expansion.
-              cwd: 'deploy/',      // Src matches are relative to this path.
+              cwd: 'deploy_tmp/',      // Src matches are relative to this path.
               src: ['deploy.css'], // Actual pattern(s) to match.
               dest: 'build/',   // Destination path prefix.
               ext: '.min.css'   // Dest filepaths will have this extension.
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 
     clean: {
       build: {
-        src: ["deploy"]
+        src: ["deploy_tmp"]
       }
     },
 
