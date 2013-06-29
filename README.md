@@ -98,6 +98,13 @@ make deploy
 
 這裡有個我寫好的 plugin 測試，再 g0v.tw 首頁的 [youtube 影片](https://github.com/chilijung/g0v.tw/blob/source/index.md)即是用 plugin 完成的！
 
+最後再把所有的 branch push 到 g0v 上
+
+```
+git push --all <your remote branch to g0v>
+
+```
+
 
 # Writing page
 
