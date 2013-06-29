@@ -11,7 +11,6 @@ deploy:
 	git checkout -b gh-pages
 	git filter-branch --subdirectory-filter _site/ -f
 	git checkout source
-	git push --all origin 
 
 
 prod: 
