@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 所有成果
-id: works
+id: archives
 ---
 
 <img src="/imgs/works.png" class="page-icon">

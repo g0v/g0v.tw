@@ -1,10 +1,11 @@
 ---
 layout: default
 title: 零時政府 g0v.tw 首頁
-id: home
+id: index
 ---
 
 政策瞎，官員混，立委貪，政府爛，總統笨……除了生氣翻桌，到底還能做什麼？讓我們來寫程式改造社會！
+
 
 <hr />
 
@@ -13,6 +14,7 @@ id: home
 * 台灣零時政府地參次客廳工廠黑客松已圓滿結束，[活動照片](http://www.flickr.com/photos/tkirby/sets/72157634022248856/)、[影音紀錄](http://www.youtube.com/playlist?list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU&feature=mh_lolz)、 特別來賓瞿海源教授：
 
 {% youtube htzr00ecDis %}
+
 
 ### 近期成果
 

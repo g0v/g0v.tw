@@ -87,8 +87,29 @@ module.exports = function(grunt) {
 
       less: {
         files: 'less/*.less',
-        tasks: ['concat', 'less', 'cssmin', 'clean']
+        tasks: 'lessCopy'
+      },
+
+      jekyllSources: {
+        files: [
+          // capture all except css - add your own
+          '*.md', '*.yml', '_layouts/**', '_plugins/**', 'communique/**', 'howto/**', 'imgs/**', 'javascript/**'
+
+          ],
+        tasks: 'shell:jekyll'
+      },
+
+      buildJade: {
+        files: 'default.jade',
+        tasks: ['jade']
       }
+    },
+
+    shell: {
+        jekyll: {
+            command: 'rm -rf _site/*; jekyll build',
+            stdout: true
+        }
     }
 
 
@@ -102,9 +123,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'less', 'cssmin', 'clean']);
-  grunt.registerTask('build_jade', ['jade'])
+  grunt.registerTask('lessCopy', ['concat', 'less', 'cssmin', 'clean']);
+  grunt.registerTask('default', 'watch')
+
 
 };
