@@ -77,6 +77,24 @@ module.exports = function(grunt) {
         files: {
           "_layouts/default.html": ["default.jade"]
         }
+      },
+
+      pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+           {
+              expand: true,     // Enable dynamic expansion.
+              cwd: 'jade/',      // Src matches are relative to this path.
+              src: ['*.jade'], // Actual pattern(s) to match.
+              dest: './',   // Destination path prefix.
+              ext: '.html'   // Dest filepaths will have this extension.
+           }
+        ]
       }
     },
 
@@ -100,8 +118,8 @@ module.exports = function(grunt) {
       },
 
       buildJade: {
-        files: 'default.jade',
-        tasks: ['jade']
+        files: 'jade/*.jade',
+        tasks: ['jade:pages']
       }
     },
 
@@ -127,7 +145,7 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('lessCopy', ['concat', 'less', 'cssmin', 'clean']);
-  grunt.registerTask('default', 'watch')
+  grunt.registerTask('default', 'watch');
 
 
 };
