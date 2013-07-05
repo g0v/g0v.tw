@@ -20,11 +20,7 @@
 
 直接執行指令產生靜態網頁到 _site 目錄
 
-    $ jekyll build
-
-或是讓 jekyll 每逢檔案變動就自動產生靜態網頁到 _site 目錄
-
-    $ jekyll build --watch
+    $ grunt
 
 還能夠同時跑起一個 local http server，用 http://localhost:4000/ 存取  _site 目錄的內容
 
@@ -46,21 +42,14 @@ jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration)
 
 他會自行去安裝所有需要的 grunt modules。
 
-安裝完之後打
+安裝完之後打你更改任何一個檔案 grunt 會幫你重新 compile
 
     $ grunt 
 
-這個指令會去 concat 所有的 less 變成一個檔案，然後再把那個檔案從 less compile 成 css，然後再把它壓縮變成 min。
+如果要同時去更新 jekyll server 的話
 
-    $ grunt build_jade
+    $ jekyll server --watch
 
-會把 `default.jade` compile 成 `_layouts/default.html`
-
-如果你覺得每次更改 less 都要跑一次 grunt 很麻煩。沒關係你就打
-
-    $ grunt watch 
-
-每當你做一次 `less` 資料夾的更動他就會把全部去跑 `grunt` 的指令也就是會去 concat less, compile less, compress css。 
 
 # Usage
 
@@ -70,7 +59,7 @@ jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration)
 
 deploy 到 g0v.tw
 
-    ./deploy
+    ./deploy <your remote>
 
 
 # Writing page
