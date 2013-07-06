@@ -1,0 +1,40 @@
+extend layout
+
+block script
+    script(type="text/javascript").
+        $(document).ready(function () {
+            var page = "join";
+            $("#nav_" + page).addClass("active");
+        }); 
+
+block title 
+    參與我們
+
+block content
+    #join_left
+        #join_nav
+            .join_nav_tab
+                | 如何參與
+            .join_nav_tab
+                | 專案入口
+            .join_nav_tab
+                | 成員介紹
+            .join_nav_tab
+                | 活動記錄
+            .join_nav_tab
+                | 動民主
+        #join_content
+
+    #join_right
+        .join_right_inner
+            .join_right_header
+                | 近期招募
+            .join_right_content
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                | tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                | consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                | cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                | proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    #join_float_clear

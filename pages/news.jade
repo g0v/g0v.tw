@@ -1,0 +1,29 @@
+extend layout
+
+block script
+    script(type="text/javascript").
+        $(document).ready(function () {
+            var page = "news";
+            $("#nav_" + page).addClass("active");
+        }); 
+
+block title 
+    最新消息
+
+block content
+    #news_left
+        #news_nav
+            .news_nav_tab
+                | 媒體報導
+            .news_nav_tab
+                | 活動記錄
+            .news_nav_tab
+                | 活動資訊
+            .news_nav_tab
+                | 媒體專區
+
+        #news_content
+
+    #news_right
+
+    #news_float_clear

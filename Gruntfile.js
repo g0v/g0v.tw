@@ -8,13 +8,11 @@ module.exports = function(grunt) {
 
     concat: {
       options: {
-        
       },
       dist: {
         src: ['less/*.less'],
         dest: 'deploy_tmp/deploy.less'
       }
-      
     },
 
     // compile less to css
@@ -89,11 +87,30 @@ module.exports = function(grunt) {
         files: [
            {
               expand: true,     // Enable dynamic expansion.
-              cwd: 'jade/',      // Src matches are relative to this path.
+              cwd: 'pages/',      // Src matches are relative to this path.
               src: ['*.jade'], // Actual pattern(s) to match.
               dest: './',   // Destination path prefix.
               ext: '.html'   // Dest filepaths will have this extension.
            }
+        ]
+      },
+
+      archives_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'archives_pages/',
+            src: ['*.jade'],
+            dest: './archives',
+            ext: '.html'
+          }
+
         ]
       }
     },
@@ -118,8 +135,8 @@ module.exports = function(grunt) {
       },
 
       buildJade: {
-        files: 'jade/*.jade',
-        tasks: ['jade:pages']
+        files: [ 'pages/*.jade', 'archives_pages/*.jade' ],
+        tasks: ['jade:pages', 'jade:archives_pages']
       }
     },
 
