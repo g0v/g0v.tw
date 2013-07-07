@@ -135,7 +135,7 @@ module.exports = function(grunt) {
       },
 
       buildJade: {
-        files: [ 'pages/*.jade', 'archives_pages/*.jade' ],
+        files: [ 'pages/*.jade', 'archives_pages/*.jade', 'md/**' ],
         tasks: ['jade:pages', 'jade:archives_pages']
       }
     },
