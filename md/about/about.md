@@ -1,8 +1,7 @@
 ### g0v 介紹
 
 -----
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ab delectus aut hic dolor error blanditiis? Ipsum, ex earum sapiente eaque necessitatibus beatae dolore explicabo odit perspiciatis maiores! Molestiae, quibusdam!
+g0v支持言論自由、資訊開放g0v.tw 以開放原始碼的精神為基底，關心言論自由、資訊開放，希望可以最新的科技，提供讓公民更容易使用的資訊服務。資訊的透明化可以幫助公民更確實了解政府運作，更快速了解議題，更有效監督政府，確保政府不脫離民有、民治、民享的本質。
 
 <br/>
 
@@ -10,7 +9,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ab delectus 
 
 -----
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nostrum, inventore, illum, exercitationem cumque assumenda vero incidunt quis unde recusandae rem repellat ratione dolores tenetur asperiores fuga et ullam aspernatur.
+g0v.tw 是一個致力於打造資訊透明化的社群。g0v.tw 的參與者來自四方，有程式開發者、設計師、社會運動工作者、教育工作者、文字工作者、公民與鄉民等來自各領域的人士。這些人聚在一起，希望資訊透明化可以更進一步的改善台灣的公民環境。只要有心想用自己的專業及能力來參與，就可以加入 g0v.tw。
+
 
 <br/>
 
@@ -19,7 +19,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nostrum, inve
 
 -----
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, explicabo, quis, at ipsa repellat perspiciatis optio ad atque incidunt impedit quisquam expedita accusantium sit aperiam ratione dignissimos modi corrupti nostrum.
+g0v活動以兩個月一次的黑客松為主軸，在一天內開啟各項專案。黑客松是自主參加的公作坊，八小時的時間內由提案、分組、工作、成果報告都自發加入，許多提案在活動前展開線上討論，當天實體活動迅速整合，能在短時間衝刺出初步成果。
+
+
 
 <br/>
 
@@ -27,7 +29,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, explicabo,
 
 -----
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, necessitatibus, amet magnam perspiciatis accusantium a exercitationem in distinctio voluptas consequuntur excepturi explicabo incidunt aperiam. Placeat natus odit ipsum tenetur quam.
+[宣言全文](manifesto.html)<br/>
+FAQ
 
 <br/>
 
@@ -35,4 +38,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, necessitatibus, 
 
 -----
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, placeat, ad commodi ea nisi obcaecati pariatur tempora eveniet a dignissimos totam quod? Minus, earum voluptate sunt nam tempora blanditiis harum.
+論壇：https://groups.google.com/forum/?fromgroups#!forum/g0v-general<br/>
+採訪/邀約：g0v-talks@googlegroups.com
