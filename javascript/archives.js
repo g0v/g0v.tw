@@ -2,7 +2,7 @@ function get_archives_all () {
     var content_id = $("#archives_content");
     var tab_id = $("#archives_all");
     var tabs = $(".archives_nav_tab");
-    $.get("../archives/archives_all.html",function(data){
+    $.get("./archives/archives_all.html",function(data){
         content_id.html('');
         content_id.append(data);
     });
@@ -16,7 +16,7 @@ function get_archives_component () {
     var content_id = $("#archives_content");
     var tab_id = $("#archives_component");
     var tabs = $(".archives_nav_tab");
-    $.get("../archives/archives_component.html",function(data){
+    $.get("./archives/archives_component.html",function(data){
         content_id.html('');
         content_id.append(data);
     });
