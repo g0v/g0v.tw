@@ -29,7 +29,7 @@ block content
                 h2 Events
                 ul
                     li(ng-repeat="event in events | orderBy:'$index':true")
-                        a(ng-href="{{event['atom:link']['@'].href") {{event.title}}
+                        a(ng-href="{{event['atom:link']['@'].href}}") {{event.title}}
 
             .videos
                 h2 Videos
