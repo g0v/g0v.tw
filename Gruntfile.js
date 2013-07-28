@@ -87,7 +87,7 @@ module.exports = function(grunt) {
         files: [
            {
               expand: true,     // Enable dynamic expansion.
-              cwd: 'pages/',      // Src matches are relative to this path.
+              cwd: 'jade-pages/',      // Src matches are relative to this path.
               src: ['*.jade'], // Actual pattern(s) to match.
               dest: './',   // Destination path prefix.
               ext: '.html'   // Dest filepaths will have this extension.
@@ -105,9 +105,47 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'archives_pages/',
+            cwd: 'archives_jade/',
             src: ['*.jade'],
             dest: './archives',
+            ext: '.html'
+          }
+
+        ]
+      },
+
+      join_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'join_jade/',
+            src: ['*.jade'],
+            dest: './join',
+            ext: '.html'
+          }
+
+        ]
+      },
+
+      news_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'news_jade/',
+            src: ['*.jade'],
+            dest: './news',
             ext: '.html'
           }
 
@@ -135,8 +173,8 @@ module.exports = function(grunt) {
       },
 
       buildJade: {
-        files: [ 'pages/*.jade', 'archives_pages/*.jade', 'md/**' ],
-        tasks: ['jade:pages', 'jade:archives_pages']
+        files: [ 'jade-pages/*.jade', 'archives_jade/*.jade', 'join_jade/*.jade', 'news_jade/*.jade', 'md/**' ],
+        tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages']
       }
     },
 

@@ -6,17 +6,17 @@ block script
             var page = "archives";
             $("#nav_" + page).addClass("active");
         }); 
-    script(type="text/javascript", src="./javascript/archives.js")
+    
 block title 
     | 所有成果
     
 block content
     #archives_left
         #archives_nav
-            .archives_nav_tab#archives_all
+            .archives_nav_tab#archives_all(tab-url="./archives/archives_all.html")
                 | 開發成果
 
-            .archives_nav_tab#archives_component
+            .archives_nav_tab#archives_component(tab-url="./archives/archives_component.html")
                 | 開發元件成果
         #archives_content
         
@@ -46,3 +46,13 @@ block content
             include ../md/archives_right/right.md
 
     #archives_float_clear
+
+    script(type="text/javascript", src="./javascript/switchTab.js")
+    script(type="text/javascript").
+        var newSwitchTab = new switchTab({
+            tabClass: 'archives_nav_tab',
+            contentId: 'archives_content',
+            activeClass: 'archives_active',
+            tabId: ['archives_all', 'archives_component'],
+            showFirst: 'archives_all'
+        });
