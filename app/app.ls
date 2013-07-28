@@ -1,5 +1,5 @@
 angular.module "g0v.tw" <[firebase]>
-.controller EventCtrl: <[$scope angularFire]> ++ ($scope, angularFire) ->
+.controller EventCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   root = new Firebase(url)
-  angularFire root.child("feed/events/articles"), $scope, 'events', {}
+  $scope.events = angularFireCollection root.child("feed/events/articles").limit(2)
