@@ -2,13 +2,6 @@
 
 [g0v.tw](http://g0v.tw) 的網頁內容由此專案產生
 
-# Usage
-
-直接執行指令產生靜態網頁到 _site 目錄
-
-    $ grunt
-
-
 # Developer
 
 我們用 gruntjs 來處理 less compile 到 css, 以及把 jade compile 到 html 的流程。
