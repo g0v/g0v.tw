@@ -168,7 +168,7 @@ module.exports = function(grunt) {
           // capture all except css - add your own
           'app/*.ls'
           ],
-        task: 'shell:livescript'
+        tasks: 'shell:livescript'
       },
       jekyllSources: {
         files: [
