@@ -1,0 +1,33 @@
+extend layout
+
+block script
+    script(type="text/javascript").
+        $(document).ready(function () {
+            var page = "index";
+            $("#nav_" + page).addClass("active");
+        }); 
+
+block title
+    零時政府 g0v.tw 首頁
+
+block content
+    #index_left_container
+        .index_inner_container
+
+            include  ../md/index_header/header.md
+        
+
+        .index_inner_container
+
+            include ../md/index_news/main.md
+
+    #index_right_container
+        
+        .right_inner_container
+        
+            include ../md/index_right/right.md
+
+    #index_float_clear
+    
+
+
