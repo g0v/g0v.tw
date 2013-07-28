@@ -17,9 +17,11 @@ block content
             include  ../md/index_header/header.md
 
 
-        .index_inner_container
-
-            include ../md/index_news/main.md
+        .index_inner_container(ng-controller="BlogCtrl")
+            h2 新聞稿
+            article(ng-repeat="article in articles | orderBy:'$index':true")
+                h3: a(ng-href="{{article.link}}") {{article.title}}
+                p(ng-bind="article.description")
 
     #index_right_container
 
@@ -29,7 +31,7 @@ block content
                 h2 Events
                 ul
                     li(ng-repeat="event in events | orderBy:'$index':true")
-                        a(ng-href="{{event['atom:link']['@'].href}}") {{event.title}}
+                        a(ng-href="{{event.link}}") {{event.title}}
 
             .videos
                 h2 Videos
