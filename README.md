@@ -16,6 +16,17 @@
 
 他會自行去安裝所有需要的 grunt modules。
 
+    $ grunt jade 
+
+讓你在一開始的時，直接先去產生出 html 從 jade files。
+
 安裝完之後打你更改任何一個檔案 grunt 會幫你重新 compile
 
     $ grunt 
+
+
+# Deploy
+
+請打
+
+    ./deploy <git remote>
