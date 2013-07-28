@@ -11,29 +11,23 @@ block title
     零時政府 g0v.tw 首頁
 
 block content
-    #index_first_container
+    #index_left_container
         .index_inner_container
 
-            include  ../md/index_header/header1.md
-
-        .index_inner_container
-                
-            include ../md/index_header/header2.md
+            include  ../md/index_header/header.md
+        
 
         .index_inner_container
 
-            include ../md/index_header/header3.md
+            include ../md/index_news/main.md
 
-    #index_second_container
-        #index_second_left
+    #index_right_container
+        
+        .right_inner_container
+        
+            include ../md/index_right/right.md
+
+    #index_float_clear
+    
 
 
-            .left_inner_container
-                
-                include ../md/index_main/main.md
-
-        #index_second_right
-            .right_inner_container
-                
-                include ../md/index_right/right.md
-        #index_float_clear
