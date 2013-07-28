@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "g0v official website",
   "main": "Gruntfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "marked": "~0.2.9"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-cssmin": "~0.6.1",

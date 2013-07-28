@@ -1,12 +1,12 @@
 body {
-  background:url(/imgs/tiles.png);
+  background:url(./../imgs/tiles.png);
   font-size:15px;
 }
 
 #header {
   margin-bottom: 30px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background:url(/imgs/bk-2.png)  #aeaeae;
+  background-color: #EBEBEB;
   border-bottom: 2px solid #bebebe;
 }
 
@@ -16,39 +16,57 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 20px 0 20px 20px;
+  height: 150px;
+
+  #logo {
+    width: 400px;
+    float: left;
+  }
+
+  #social_block {
+    width: 400px;
+    height: 50px;
+    float: right;
+  }
+
+  
 }
 
-#nav_bar{
-  width: 600px;
-  float: right;
+
+#nav_bar {
+  width: 800px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  #nav_main {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .active {
+    color: #FFF;
+    background-color: #333;
+    font-weight: 900;
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+  }
+
+  .nav_tab {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #848484;
+    color: #FFF;
+    font-weight: 500;
+    float: left;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 20px;
+  }
 }
 
-#nav_main {
-  width: 500px;
-  float: left;
-}
-
-.active {
-  color: #FFF;
-  background-color: #333;
-  font-weight: 900;
-  font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
-  border-radius: 10px;
-  -moz-border-radius:10px;
-}
-
-.nav_tab {
-  width: 100px;
-  display: inline;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-#nav_login {
-  width: 100px;
-  float: right;
-}
+  
 
 .header h1 {
   letter-spacing: -1px;
@@ -72,7 +90,7 @@ body {
   float: right;
   width: 142px;
   height: 93px;
-  background: url(/imgs/talk.png) no-repeat 0px -10px;
+  background: url(./../imgs/talk.png) no-repeat 0px -10px;
   left: -70px;
   top: -20px;
   position: relative;

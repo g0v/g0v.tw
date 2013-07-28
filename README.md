@@ -2,32 +2,6 @@
 
 [g0v.tw](http://g0v.tw) 的網頁內容由此專案產生
 
-# Requirements
-
-* jekyll
-
-    目前使用 [jekyll](https://github.com/mojombo/jekyll)，將 markdown 的檔案轉換成靜態的 html 檔。因此你需要安裝 jekyll，詳細的安裝步驟請參考 [Install jekyll](http://jekyllrb.com/docs/installation/)
-
-* rdiscount
-
-    _config.yml 中已經把 markdown engine 換成了 rdiscount，因此還需要安裝 rdiscount
-
-    ```
-    $ sudo gem install rdiscount
-    ```
-
-# Usage
-
-直接執行指令產生靜態網頁到 _site 目錄
-
-    $ grunt
-
-還能夠同時跑起一個 local http server，用 http://localhost:4000/ 存取  _site 目錄的內容
-
-    $ jekyll serve --watch
-
-jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration) 頁面有更詳盡的介紹
-
 # Developer
 
 我們用 gruntjs 來處理 less compile 到 css, 以及把 jade compile 到 html 的流程。
@@ -45,32 +19,3 @@ jekyll 的 [Configuration](https://github.com/mojombo/jekyll/wiki/Configuration)
 安裝完之後打你更改任何一個檔案 grunt 會幫你重新 compile
 
     $ grunt 
-
-如果要同時去更新 jekyll server 的話
-
-    $ jekyll server --watch
-
-
-# Usage
-
-現在有兩個 branch 一個是 `master` 一個是 `gh-pages`
-
-分成兩個 branch 的主要原因是因為讓 jekyll 支援 plugin 在 gh-pages。
-
-deploy 到 g0v.tw
-
-    ./deploy <your remote>
-
-
-# Writing page
-
-直接產生一個檔案，好比是 foo.md，jekyll 就會解析該檔案並且產生 foo.html 網頁。檔案的語法使用 [Markdown](http://markdown.tw/)，而且最上方的標頭要指定使用的 layout，以下範例使用的 layout 為 default
-
-    ---
-    layout: default
-    title: the page title you want
-    ---
-
-    then, write your content here
-
-
