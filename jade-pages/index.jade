@@ -15,19 +15,31 @@ block content
         .index_inner_container
 
             include  ../md/index_header/header.md
-        
+
 
         .index_inner_container
 
             include ../md/index_news/main.md
 
     #index_right_container
-        
+
         .right_inner_container
-        
-            include ../md/index_right/right.md
+
+            .events(ng-controller="EventCtrl")
+                h2 Events
+                ul
+                    li(ng-repeat="event in events | orderBy:'$index':true")
+                        a(ng-href="{{event['atom:link']['@'].href") {{event.title}}
+
+            .videos
+                h2 Videos
+                iframe(width="240",height="240",src="//www.youtube.com/embed/htzr00ecDis?list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU",frameborder="0",allowfullscreen)
+
+            .logbot
+                h2: a(href="http://hack.g0v.tw/irc") IRC
+                iframe(width="240",height="480",src="http://logbot.g0v.tw/channel/g0v.tw/today",frameborder="0",allowfullscreen)
 
     #index_float_clear
-    
+
 
 
