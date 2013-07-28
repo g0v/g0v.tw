@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    // concat all 
+    // concat all
 
     concat: {
       options: {
@@ -163,6 +163,13 @@ module.exports = function(grunt) {
         tasks: 'lessCopy'
       },
 
+      livescript: {
+        files: [
+          // capture all except css - add your own
+          'app/*.ls'
+          ],
+        task: 'shell:livescript'
+      },
       jekyllSources: {
         files: [
           // capture all except css - add your own
@@ -181,6 +188,10 @@ module.exports = function(grunt) {
     shell: {
         jekyll: {
             command: 'rm -rf _site/*; jekyll build',
+            stdout: true
+        },
+        livescript: {
+            command: 'lsc -bco javascript app',
             stdout: true
         }
     }
