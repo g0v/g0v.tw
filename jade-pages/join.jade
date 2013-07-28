@@ -14,6 +14,8 @@ block content
         #join_nav
             .join_nav_tab#join_how(tab-url="./join/how_to.html")
                 | 如何參與
+            .join_nav_tab#join_tools(tab-url="./join/tools.html")
+                | 常用工具
             .join_nav_tab#join_project(tab-url="./join/project.html")
                 | 專案入口
             .join_nav_tab#join_member(tab-url="./join/members.html")
@@ -37,6 +39,6 @@ block content
             tabClass: 'join_nav_tab',
             contentId: 'join_content',
             activeClass: 'join_active',
-            tabId: ['join_how', 'join_project', 'join_member', 'join_act', 'join_vote'],
+            tabId: ['join_how', 'join_tools', 'join_project', 'join_member', 'join_act', 'join_vote'],
             showFirst: 'join_how'
         });
