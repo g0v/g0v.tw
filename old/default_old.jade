@@ -14,6 +14,8 @@ html
           js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
           fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
+      
+    {{ css }}
   body
     .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
@@ -34,13 +36,15 @@ html
         #sitemap-panel(style="float:right")
           .map-entry(style="width:140px")
             .map-caption.map-caption-hot: 客廳工廠黑客松
-            .map-item: a(href="http://registrano.com/events/g0v-hackath3n-taipei") 台北場報名網址
-            .map-item: a(href="http://bit.ly/g0v-hackath3n") 黑客松共筆
+            .map-item: a(href="http://registrano.com/events/g0v-hackath4n-taipei", style="color: red;") 第肆次國民大會台北場報名網址
             #talk
              div
-               | 圓滿結束
+               | 8/10 黑客松
                br
-               | 感謝大家！
+               | 報名網址！
+            .map-item: a(href="http://registrano.com/events/g0v-hackath3n-taipei") 台北場報名網址
+            .map-item: a(href="http://bit.ly/g0v-hackath3n") 黑客松共筆
+            
           .map-entry
             .map-caption: 零時政府
             .map-item: a(href="/about.html") 關於我們
