@@ -2,19 +2,26 @@
 
 [g0v.tw](http://g0v.tw) 的網頁內容由此專案產生
 
+# Required
+
+- Install nodejs
+- Install npm 
+
 # Developer
+
+[gruntjs official site](http://gruntjs.com/)
 
 我們用 gruntjs 來處理 less compile 到 css, 以及把 jade compile 到 html 的流程。
 
 先打
 
-    $ npm install -g grunt-cli
+    $ sudo npm install -g grunt-cli
 
 安裝 grunt。
 
     $ npm install
 
-他會自行去安裝所有需要的 grunt modules。
+他會自行去安裝所有需要的 grunt modules。安裝完上述步驟時先打：
 
     $ grunt jade 
 
