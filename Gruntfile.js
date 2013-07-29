@@ -66,17 +66,6 @@ module.exports = function(grunt) {
     // compile jade to html
 
     jade: {
-      compile: {
-        options: {
-          data: {
-            debug: false
-          }
-        },
-        files: {
-          "_layouts/default.html": ["default.jade"]
-        }
-      },
-
       pages: {
         options: {
           data: {
