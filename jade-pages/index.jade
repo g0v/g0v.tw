@@ -12,10 +12,14 @@ block title
 
 block content
     #index_left_container
-        .index_inner_container
-
-            include  ../md/index_header/header.md
-
+        .index_inner_container(ng-controller="FeaturedCtrl")
+            h2 最新成果
+            // XXX make this carousel or something neat
+            article(ng-repeat="project in featured")
+                h3: a(ng-href="{{project.homepage}}") {{project.name_zh || projcet.name}}
+                a(ng-href='{{project.homepage}}')
+                  img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}')'
+                p {{ project.description_zh || project.description }}
 
         .index_inner_container(ng-controller="BlogCtrl")
             h2 新聞稿
