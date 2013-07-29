@@ -1,12 +1,11 @@
 #news_left {
-	width: 480px;
 	float: left;
+	margin-top: @margin;
+	width: @width - @sidebar_width - @margin;
 	#news_nav {
-		width: 480px;
-		height: 50px;
-		line-height: 50px;
-		margin-right: auto;
-		margin-left: auto;
+		line-height: 2em;
+		margin-top: @margin;
+		width: @width - @sidebar_width - @margin;
 
 		.news_nav_tab {
 			width: 110px;
@@ -14,7 +13,6 @@
 			float: left;
 			background-color: #CCC;
 			cursor: pointer;
-
 		}
 		.news_active {
 			background-color: #FFF;
@@ -46,3 +44,5 @@
 	width: 100%;
 	clear: both;
 }
+
+// vi:nowrap:sw=2:ts=2
