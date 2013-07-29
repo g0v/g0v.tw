@@ -10,4 +10,4 @@ jekyll build
 cd _site
 git add -A . && git commit -a -m 'regen' && git push origin gh-pages
 cd ..
-git push $upstream gh-pages
+git push -f $upstream gh-pages
