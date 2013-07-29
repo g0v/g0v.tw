@@ -1,25 +1,25 @@
+@margin: 20px;
+@pad: 20px;
+@sidebar_width: 240px;
+@width: 800px;
+
 body {
-  background:url(./../imgs/tiles.png);
-  font-size:15px;
+  background:url(../imgs/tiles.png);
 }
 
 #header {
-  margin-bottom: 30px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background-color: #EBEBEB;
   border-bottom: 2px solid #bebebe;
+  margin-bottom: 30px;
 }
 
-
 #header_inner_container {
-  width: 900px;
+  width: 820px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 0 20px 20px;
-  height: 150px;
+  padding: 20px 0;
 
   #logo {
-    width: 400px;
     float: left;
   }
 
@@ -28,49 +28,33 @@ body {
     height: 50px;
     float: right;
   }
-
-
 }
-
 
 #nav_bar {
-  width: 800px;
-  height: 30px;
-  margin-right: auto;
-  margin-left: auto;
-
-  #nav_main {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .active {
-    color: #FFF;
-    background-color: #333;
-    font-weight: 900;
-    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
-  }
+  @tab_width: @width / 5;
+  margin: 0 auto -1.5em;
+  width: @width;
 
   .nav_tab {
-    width: 150px;
-    height: 40px;
-    line-height: 40px;
     background-color: #848484;
+    border-left: 1px solid white;
     color: #FFF;
-    font-weight: 500;
-    float: left;
-    margin: 1px;
     cursor: pointer;
-    font-size: 20px;
+    float: left;
+    font-size: 1.2em;
+		letter-spacing: 2px;
+    line-height: 2em;
+		padding-top: 4px;
+    text-align: center;
+    width: @tab_width - 1px;
+    &:first-child { border-left: 0; width: @tab_width; }
+    &.active, &:hover { color: #FFF; background-color: #333; }
     a {
-      color: #FFF;
-      text-decoration: none;
-    }
+		  color: #FFF;
+			text-decoration: none;
+		}
   }
 }
-
-
 
 .header h1 {
   letter-spacing: -1px;
@@ -179,3 +163,5 @@ h3 {
   margin: 10px 0 20px 20px;
   border-radius: 3px;
 }
+
+// vi:nowrap:sw=2:ts=2

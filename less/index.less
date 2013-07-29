@@ -1,23 +1,25 @@
 #index_left_container {
 
 	float: left;
-	width: 480px;
+	width: @width - @sidebar_width - @margin;
 
 	.index_inner_container {
 		
 		background-color: #FFF;
-		margin-bottom: 30px;
+		border: 1px solid #aaa;
+		border-radius: 2px;
+		margin: @margin 0;
 
-		.index_inner_content {
-			padding: 10px;
-			
+		article, .index_inner_content {
+			border-top: 1px solid #d3d3d3;
+			padding: 0 @pad @pad;
+			text-align: justify;
 		}
 
 		h2 {
-			background-color: #b1b1b1;
-			color: #FFF;
-			font-size: 15px;
-			padding-left: 10px;
+			background-color: #ddd;
+			margin: 0;
+			padding: 5px @pad 0;
 		}
 	}
 }
@@ -25,7 +27,7 @@
 #index_right_container {
 
 	float: right;
-	width: 240px;
+	width: @sidebar_width;
 
 	.right_inner_container {
 		background-color: #FFF;
@@ -44,3 +46,5 @@
 	width: 100%;
 	clear: both;
 }
+
+// vi:nowrap:sw=2:ts=2
