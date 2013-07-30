@@ -16,7 +16,7 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 
 1. 先到【[hub](http://hack.g0v.tw/people)】寫上你的簡介，以關鍵字介紹自己的專長、關心議題、進行/想做的專案，並留下聯繫方式。有初步想法請到【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】瀏覽填寫，或到【[專案列表](http://hack.g0v.tw/project)】查看運作中的專案，尋找有興趣的主題。
 
-2. 加入 g0v【[聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團，請不要害羞主動出擊。
+2. 加入 g0v【[聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團，請不要害羞，大膽主動出擊。
 
 3. 實際參與【[黑客松活動](http://registrano.com/group/g0v-tw)】。平均兩個月舉辦一次，通常選在週六 0900-1800 進行。平日不定期會舉辦迷你黑客松，常在週四、週五晚間舉行。
 
@@ -35,6 +35,20 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 使用【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始<del>打怪</del>動工。
 
 這裡有些 g0v 社群[常用的工具介紹](/join/tools.html)，請參考。
+
+### 專案的續航力
+
+零時政府是一個孵育專案的平台，也希望成果能持續開發維護，以下有幾種方式可增進續航力：
+
+專案以開放原碼模式進行（目前為大宗），選用適合的。到這裡了解更多[開放原碼](/join/license.html)及授權資訊。
+
+* 社群維護：
+* 與NGO/NPO合作：決定好授權方式，開發後交付社團組織維護。
+* 希望募資、聘僱、商業化、或成立法人/組織/公司、創業，....
+
+如果決定非 Open Source，請在開專案初始與有意願加入的工作夥伴取得共識。
+
+
 
 <br/>
 
