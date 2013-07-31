@@ -20,6 +20,8 @@ block content
                 | 專案入口
             .join_nav_tab#join_member(tab-url="./join/members.html")
                 | 成員介紹
+            .join_nav_tab#join_license(tab-url="./join/license.html")
+                | 開放原碼    
            
         #join_content
             
@@ -36,6 +38,6 @@ block content
             tabClass: 'join_nav_tab',
             contentId: 'join_content',
             activeClass: 'join_active',
-            tabId: ['join_how', 'join_tools', 'join_project', 'join_member'],
+            tabId: ['join_how', 'join_tools', 'join_project', 'join_member', 'join_license'],
             showFirst: 'join_how'
         });

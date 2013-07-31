@@ -13,8 +13,6 @@ block title
 block content
     #news_left
         #news_nav
-            .news_nav_tab#news_media_report(tab-url="./news/media_report.html")
-                | 媒體報導
             .news_nav_tab#news_act(tab-url="./news/act_record.html")
                 | 活動記錄
             .news_nav_tab#news_act_info(tab-url="./news/act_info.html")
@@ -22,6 +20,9 @@ block content
             .news_nav_tab#news_media(tab-url="./news/talk.html")
                 | 演講資訊
             div.clearfix
+             .news_nav_tab#news_media_report(tab-url="./news/media_report.html")
+                | 媒體報導
+
 
         #news_content
 
@@ -36,5 +37,5 @@ block content
             contentId: 'news_content',
             activeClass: 'news_active',
             tabId: ['news_media_report', 'news_act', 'news_act_info', 'news_media', 'join_vote'],
-            showFirst: 'news_media_report'
+            showFirst: 'news_act'
         });
