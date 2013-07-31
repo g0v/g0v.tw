@@ -22,7 +22,9 @@ block content
                 | 成員介紹
             .join_nav_tab#join_license(tab-url="./join/license.html")
                 | 開放原碼    
-           
+            .join_nav_tab#join_links(tab-url="./join/links.html")
+                | 相關連結 
+
         #join_content
             
     #join_right
@@ -38,6 +40,6 @@ block content
             tabClass: 'join_nav_tab',
             contentId: 'join_content',
             activeClass: 'join_active',
-            tabId: ['join_how', 'join_tools', 'join_project', 'join_member', 'join_license'],
+            tabId: ['join_how', 'join_tools', 'join_project', 'join_member', 'join_license', 'join_links'],
             showFirst: 'join_how'
         });
