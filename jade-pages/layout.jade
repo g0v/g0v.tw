@@ -11,15 +11,24 @@ html(ng-app="g0v.tw",ng-cloak)
         script(src='//cdn.firebase.com/v0/firebase.js')
         script(src='/javascript/angularFire.js')
         script(src='/javascript/app.js')
+        script(type="text/javascript").
+          (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
         block script
 
     body
         #header
             #header_inner_container
                 #logo
-                    a(href="/index.html"): img(src="./imgs/g0v-full.png", width= "200px")
+                    a(href="/index.html"): img(src="./imgs/g0v-240-invert.png")
 
                 #social_block
+                  .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
                 div.clearfix
 
             #nav_bar
