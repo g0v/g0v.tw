@@ -2,16 +2,26 @@
 	margin-top: @margin;
 	.index_inner_container, .logbot {
 		background-color: #FFF;
-		border: 1px solid #aaa;
-		border-radius: 2px;
-		border-top: 0;
+		border: 1px solid rgba(128,128,128,0.3);
+		border-radius: 5px;
+                box-shadow: 0 0 25px rgba(0,0,0,0.1);
+                overflow: hidden;
 		margin: @margin 0;
 		h2 {
+                        color: #333;
 			background-color: #ddd;
-			border-top: 1px solid #aaa;
 			margin: 0;
+                        padding: 8px 20px; 
+                    a {
+                        font-size: 36px;
+                        line-height: 36px;
+                        cursor: pointer;
+                    }
 		}
 	}
+        .logbot {
+            border-radius: 0;
+        }
 	.logbot iframe {
 		font-size: 10px;
 	}
