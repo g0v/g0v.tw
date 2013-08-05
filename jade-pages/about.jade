@@ -5,14 +5,15 @@ block script
         $(document).ready(function () {
             var page = "about";
             $("#nav_" + page).addClass("active");
-        }); 
+        });
 
-block title 
+block title
     | 關於我們
 
 block content
 
-    include ../md/about/about.md
+    #about-content
+        include ../md/about/about.md
 
 
-    
+
