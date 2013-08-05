@@ -1,0 +1,53 @@
+extend layout
+
+block script
+    script(type="text/javascript").
+        $(document).ready(function () {
+            var page = "index";
+            $("#nav_" + page).addClass("active");
+        });
+
+block title
+    零時政府 g0v.tw 首頁
+
+block content
+    #index_left_container
+        .index_inner_container(ng-controller="FeaturedCtrl")
+            h2
+                | 最新成果
+                a.pull-right(ng-click="nextProject()") &#xbb;
+            .featured-projects
+                h3: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
+                a(ng-href='{{project.homepage}}')
+                  img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}')'
+                p.description {{ project.description_zh || project.description }}
+
+        .index_inner_container(ng-controller="BlogCtrl")
+            h2 新聞稿
+            article(ng-repeat="article in articles | orderBy:'$index':true")
+                h3: a(ng-href="{{article.link}}") {{article.title}}
+                p(ng-bind="article.description")
+
+    #index_right_container
+
+        .index_inner_container
+
+            .events(ng-controller="EventCtrl")
+                h2 Events
+                ul
+                    li(ng-repeat="event in events | orderBy:'$index':true")
+                        a(ng-href="{{event.link}}") {{event.title}}
+
+            .videos
+                h2 Videos
+                iframe(width="240",height="240",src="//www.youtube.com/embed/htzr00ecDis?list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU",frameborder="0",allowfullscreen)
+
+            .logbot
+                h2 即時聊天
+                h4: a(href="http://hack.g0v.tw/irc") 進入
+                iframe(width="240",height="480",src="http://logbot.g0v.tw/widget/g0v.tw",frameborder="0",allowfullscreen)
+
+    #index_float_clear
+
+
+

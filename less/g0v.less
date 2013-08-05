@@ -1,20 +1,83 @@
+@margin: 20px;
+@pad: 20px;
+@sidebar_width: 241px;
+@small_pad: 10px;
+@width: 1000px;
+
 body {
-  background:url(/imgs/tiles.png);
-  font-size:15px;
+  background:url(../imgs/tiles.png);
 }
 
-.header {
-  margin-bottom: 30px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background:url(/imgs/bk-2.png) #aeaeae;
-  border-bottom: 2px solid #bebebe;
+#header {
+  background: url(imgs/binding_dark.png) #171717;
+  border-bottom: 2px solid rgba(0,0,0,0);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+  height: 200px;
 }
 
-.header .container {
-  width: 95%;
-  margin:0;
-  padding: 55px 0 20px 20px;
-  background:url(/imgs/bk-1.png) no-repeat;
+#header_inner_container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  width: @width + 20px;
+
+  #logo {
+    float: left;
+  }
+
+  #social_block {
+    display: table-cell;
+    vertical-align: center;
+    width: 400px;
+    height: 144px;
+    float: right;
+    div {
+      -webkit-transform: translate(30px,40px) scale(1.5);
+      float: right;
+      margin-right: 100px;
+    }
+  }
+}
+
+#nav_bar {
+  @tab_width: @width / 5;
+  margin: -25px auto 0;
+  width: @width;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  overflow: hidden;
+
+  .nav_tab {
+    background-color: #848484;
+    color: #fff;
+    text-shadow: -1px -1px 1px #666;
+    cursor: pointer;
+    float: left;
+    font-size: 1.2em;
+		letter-spacing: 2px;
+    line-height: 2em;
+		padding-top: 4px;
+    text-align: center;
+    width: @tab_width;
+    height: 50px;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    a {
+        color: #ddd;
+        text-decoration: none;
+    }
+    &:first-child { border-left: 0; width: @tab_width; }
+    &.active, &:hover { 
+        background-color: #333;
+        box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        text-shadow: none;
+        z-index: 10;
+        a {
+          color: #fff;
+        }
+    }
+  }
 }
 
 .header h1 {
@@ -29,11 +92,17 @@ body {
   float:left;
 }
 
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  width: @width;
+}
+
 #talk {
   float: right;
   width: 142px;
   height: 93px;
-  background: url(/imgs/talk.png) no-repeat 0px -10px;
+  background: url(./../imgs/talk.png) no-repeat 0px -10px;
   left: -70px;
   top: -20px;
   position: relative;
@@ -44,13 +113,16 @@ body {
 }
 
 #sitemap-panel {
-  margin:10px 0 0 0;
   font-size: 15px;
   text-align: center;
+  margin-top:20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
 }
 
 #sitemap-panel a {
-  color:#222;
+  color:#FFF;
 }
 #sitemap-panel a:hover {
   color:#831;
@@ -60,7 +132,7 @@ body {
   background:#a00!important;
 }
 
-#sitemap-panel .map-entry {
+.map-entry {
   float:left;
   margin-right: 26px;
 }
@@ -69,7 +141,7 @@ body {
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
-  background:#333;
+  background:#555;
   border-radius: 3px;
   color: #fff;
   padding:3px 8px 3px 8px;
@@ -83,19 +155,14 @@ body {
   float:left;margin:0 15px 15px 0;box-shadow:0px 1px 9px;
 }
 
-.footer {
-  height: 20px;
+#footer {
+  background: url(imgs/binding_dark.png) #171717;
+  box-shadow: 0px -2px 10px;
   color: @grayLight;
-  background: #000;
+  height: 200px;
+	line-height: 20px;
   margin: 30px 0 0 0;
   padding: 10px 20px 10px 10px;
-  box-shadow: 0px -2px 10px;
-}
-
-.footer div {
-  float: right;
-  padding:0;margin:0;
-  line-height:16px;
 }
 
 em.time {
@@ -121,3 +188,20 @@ h3 {
   margin: 10px 0 20px 20px;
   border-radius: 3px;
 }
+
+.featured-projects {
+  img {
+    max-height: 300px;
+  }
+  p.description {
+    margin: 10px;
+    font-size: larger;
+  }
+  padding: 0 20px;
+}
+
+#about-content {
+    padding: 20px;
+}
+
+// vi:nowrap:sw=2:ts=2

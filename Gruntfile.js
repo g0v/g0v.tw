@@ -4,17 +4,15 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    // concat all 
+    // concat all
 
     concat: {
       options: {
-        
       },
       dist: {
         src: ['less/*.less'],
         dest: 'deploy_tmp/deploy.less'
       }
-      
     },
 
     // compile less to css
@@ -68,15 +66,79 @@ module.exports = function(grunt) {
     // compile jade to html
 
     jade: {
-      compile: {
+      pages: {
         options: {
           data: {
             debug: false
           }
         },
-        files: {
-          "_layouts/default.html": ["default.jade"]
-        }
+
+        files: [
+           {
+              expand: true,     // Enable dynamic expansion.
+              cwd: 'jade-pages/',      // Src matches are relative to this path.
+              src: ['*.jade'], // Actual pattern(s) to match.
+              dest: './',   // Destination path prefix.
+              ext: '.html'   // Dest filepaths will have this extension.
+           }
+        ]
+      },
+
+      archives_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'archives_jade/',
+            src: ['*.jade'],
+            dest: './archives',
+            ext: '.html'
+          }
+
+        ]
+      },
+
+      join_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'join_jade/',
+            src: ['*.jade'],
+            dest: './join',
+            ext: '.html'
+          }
+
+        ]
+      },
+
+      news_pages: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+
+        files: [
+          {
+            expand: true,
+            cwd: 'news_jade/',
+            src: ['*.jade'],
+            dest: './news',
+            ext: '.html'
+          }
+
+        ]
       }
     },
 
@@ -87,8 +149,40 @@ module.exports = function(grunt) {
 
       less: {
         files: 'less/*.less',
-        tasks: ['concat', 'less', 'cssmin', 'clean']
+        tasks: 'lessCopy'
+      },
+
+      livescript: {
+        files: [
+          // capture all except css - add your own
+          'app/*.ls'
+          ],
+        tasks: 'shell:livescript'
+      },
+      jekyllSources: {
+        files: [
+          // capture all except css - add your own
+          '*.md', '*.yml', '_layouts/**', '_plugins/**', 'communique/**', 'howto/**', 'imgs/**', 'javascript/**'
+
+          ],
+        tasks: 'shell:jekyll'
+      },
+
+      buildJade: {
+        files: [ 'jade-pages/*.jade', 'archives_jade/*.jade', 'join_jade/*.jade', 'news_jade/*.jade', 'md/**' ],
+        tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages']
       }
+    },
+
+    shell: {
+        jekyll: {
+            command: 'rm -rf _site/*; jekyll build',
+            stdout: true
+        },
+        livescript: {
+            command: 'lsc -bco javascript app',
+            stdout: true
+        }
     }
 
 
@@ -102,9 +196,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'less', 'cssmin', 'clean']);
-  grunt.registerTask('build_jade', ['jade'])
+  grunt.registerTask('lessCopy', ['concat', 'less', 'cssmin', 'clean']);
+  grunt.registerTask('default', 'watch');
+
 
 };

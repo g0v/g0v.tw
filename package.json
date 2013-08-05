@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "g0v official website",
   "main": "Gruntfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "marked": "~0.2.9"
+  },
+  "peerDependencies": {
+    "LiveScript": "1.1.1"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-cssmin": "~0.6.1",
@@ -11,7 +16,8 @@
     "grunt-contrib-jade": "~0.7.0",
     "grunt-contrib-less": "~0.6.1",
     "grunt-contrib-watch": "~0.4.4",
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-shell": "~0.3.0"
   },
   "repository": {
     "type": "git",
