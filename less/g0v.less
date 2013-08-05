@@ -12,6 +12,7 @@ body {
   background: url(imgs/binding_dark.png) #171717;
   border-bottom: 2px solid rgba(0,0,0,0);
   box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+  height: 200px;
 }
 
 #header_inner_container {
@@ -40,13 +41,15 @@ body {
 
 #nav_bar {
   @tab_width: @width / 5;
-  margin: 0 auto -1.5em;
+  margin: -25px auto 0;
   width: @width;
+  border-radius: 5px;
+  overflow: hidden;
 
   .nav_tab {
     background-color: #848484;
-    border-left: 1px solid white;
-    color: #FFF;
+    color: #fff;
+    text-shadow: -1px -1px 1px #666;
     cursor: pointer;
     float: left;
     font-size: 1.2em;
@@ -54,13 +57,25 @@ body {
     line-height: 2em;
 		padding-top: 4px;
     text-align: center;
-    width: @tab_width - 1px;
-    &:first-child { border-left: 0; width: @tab_width; }
-    &.active, &:hover { color: #FFF; background-color: #333; }
+    width: @tab_width;
+    height: 50px;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
     a {
-		  color: #FFF;
-			text-decoration: none;
-		}
+        color: #ddd;
+        text-decoration: none;
+    }
+    &:first-child { border-left: 0; width: @tab_width; }
+    &.active, &:hover { 
+        background-color: #333;
+        box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        text-shadow: none;
+        z-index: 10;
+        a {
+          color: #fff;
+        }
+    }
   }
 }
 
