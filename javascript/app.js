@@ -17,18 +17,29 @@ angular.module("g0v.tw", ['firebase']).factory({
     var g0vhub;
     g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects");
     $scope.projects = angularFireCollection(g0vhub);
-    return $scope.$watch('projects.length', function(){
-      var p;
-      return $scope.featured = (function(){
-        var i$, ref$, len$, results$ = [];
-        for (i$ = 0, len$ = (ref$ = $scope.projects).length; i$ < len$; ++i$) {
-          p = ref$[i$];
-          if (p.thumbnail) {
-            results$.push(p);
-          }
+    $scope.nextProject = function(){
+      if ($scope.idx === void 8) {
+        return;
+      }
+      ++$scope.idx;
+      return $scope.idx %= $scope.featured.length;
+    };
+    $scope.$watch('projects.length', function(){
+      var res$, i$, ref$, len$, p;
+      res$ = [];
+      for (i$ = 0, len$ = (ref$ = $scope.projects).length; i$ < len$; ++i$) {
+        p = ref$[i$];
+        if (p.thumbnail) {
+          res$.push(p);
         }
-        return results$;
-      }());
+      }
+      $scope.featured = res$;
+      return $scope.idx = Math.floor(Math.random() * $scope.featured.length);
+    });
+    return $scope.$watch('idx', function(_, idx){
+      if (idx !== void 8) {
+        return $scope.project = $scope.featured[idx];
+      }
     });
   })
 });
