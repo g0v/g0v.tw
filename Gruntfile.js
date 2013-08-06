@@ -200,7 +200,7 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('lessCopy', ['concat', 'less', 'cssmin', 'clean']);
-  grunt.registerTask('default', 'watch');
+  grunt.registerTask('default', ['jade', 'lessCopy', 'watch']);
 
 
 };
