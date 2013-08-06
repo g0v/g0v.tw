@@ -14,9 +14,11 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 
 g0v社群人數眾多，實作議題多元，想要有效率的參與可按照以下方式找到投入的起點：
 
-1. 先到【[hub](http://hack.g0v.tw/people)】寫上你的簡介，以關鍵字介紹自己的專長、關心議題、進行/想做的專案，並留下聯繫方式。有初步想法請到【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】瀏覽填寫，或到【[專案列表](http://hack.g0v.tw/project)】查看運作中的專案，尋找有興趣的主題。
+1. 先到【[hub](http://hack.g0v.tw/people)】寫上你的簡介，以關鍵字介紹自己的專長。再到google[論壇](https://groups.google.com/forum/#!forum/g0v-general)發一封自我介紹。加入 g0v【[聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。
 
-2. 加入 g0v【[聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團。請不要害羞，大膽主動出擊。
+2. 有初步想法請到【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】瀏覽填寫，或到【[專案列表](http://hack.g0v.tw/project)】查看運作中的專案，尋找有興趣的主題。
+
+3. facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團。請不要害羞，大膽主動出擊。
 
 3. 實際參與【[黑客松工作坊](http://registrano.com/group/g0v-tw)】。平均兩個月舉辦一次，通常選在週六 0900-1800 進行。平日不定期會舉辦迷你黑客松，常在週四、週五晚間舉行。
 
