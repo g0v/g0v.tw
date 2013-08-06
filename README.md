@@ -31,12 +31,6 @@
 
 讓你在一開始的時，直接先去產生出 html 從 jade files。
 
-剛開始要先打
-
-    $ grunt lessCopy 
-    
-會把所有的 less compile 成 css。
-
 安裝完之後打你更改任何一個檔案 grunt 會幫你重新 compile
 
     $ grunt 
