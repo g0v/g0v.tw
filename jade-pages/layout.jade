@@ -33,15 +33,15 @@ html(ng-app="g0v.tw",ng-cloak)
 
         #nav_bar
             #nav_main
-                #nav_index.nav_tab
+                #nav_index.nav_tab(onclick="location.href='/'")
                     a(href="/") 首頁
-                #nav_about.nav_tab
+                #nav_about.nav_tab(onclick="location.href='/about.html'")
                     a(href="/about.html") 關於我們
-                #nav_archives.nav_tab
+                #nav_archives.nav_tab(onclick="location.href='http://hack.g0v.tw/project'")
                     a(href="http://hack.g0v.tw/project") 所有成果
-                #nav_join.nav_tab
+                #nav_join.nav_tab(onclick="location.href='/join.html'")
                     a(href="/join.html") 加入我們
-                #nav_news.nav_tab
+                #nav_news.nav_tab(onclick="location.href='/news.html'")
                     a(href="/news.html") 最新消息
                 div.clearfix
 
