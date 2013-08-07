@@ -44,19 +44,19 @@ body {
   margin: -25px auto 0;
   width: @width;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
   overflow: hidden;
+  background: url(/imgs/binding_light.png);
 
   .nav_tab {
-    background-color: #848484;
     color: #fff;
     text-shadow: -1px -1px 1px #666;
     cursor: pointer;
     float: left;
     font-size: 1.2em;
-		letter-spacing: 2px;
+    letter-spacing: 2px;
     line-height: 2em;
-		padding-top: 4px;
+    padding-top: 4px;
     text-align: center;
     width: @tab_width;
     height: 50px;
@@ -69,8 +69,8 @@ body {
     }
     &:first-child { border-left: 0; width: @tab_width; }
     &.active, &:hover { 
-        background-color: #333;
-        box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.4);
+        box-shadow: 0 0 5px rgba(0,0,0,0.9);
         text-shadow: none;
         z-index: 10;
         a {
