@@ -18,8 +18,9 @@ block content
                 a.pull-right(ng-click="nextProject()") &#xbb;
             .featured-projects
                 h3: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
-                a(ng-href='{{project.homepage}}')
-                  img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}')'
+                .imgblock(style="text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #ccc")
+                  a(ng-href='{{project.homepage}}')
+                    img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}',onload='alert("ok");')
                 p.description {{ project.description_zh || project.description }}
 
         .index_inner_container(ng-controller="BlogCtrl")
@@ -48,6 +49,3 @@ block content
                 iframe(width="240",height="480",src="http://logbot.g0v.tw/widget/g0v.tw",frameborder="0",allowfullscreen)
 
     #index_float_clear
-
-
-
