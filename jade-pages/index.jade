@@ -20,7 +20,8 @@ block content
                 h3: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
                 .imgblock(style="text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #ccc")
                   a(ng-href='{{project.homepage}}')
-                    img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}')
+                    #prj-img-div
+                      img#prj-img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}',onload="show()")
                 p.description {{ project.description_zh || project.description }}
 
         .index_inner_container(ng-controller="BlogCtrl")
