@@ -4,7 +4,8 @@
   "description": "g0v official website",
   "main": "Gruntfile.js",
   "dependencies": {
-    "marked": "~0.2.9"
+    "marked": "~0.2.9",
+    "connect": "~2.8.4"
   },
   "peerDependencies": {
     "LiveScript": "1.1.1"

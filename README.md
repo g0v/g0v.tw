@@ -29,6 +29,14 @@
 
     $ grunt 
 
+> 因為此 project 會需要用到 ajax ，目前的解決方法是啟動一個小型的 server
+
+server 的啟動方式
+
+    $ npm install connect
+    $ node server.js
+
+然後在 browser 輸入 [http://localhost:8080](http://localhost:8080)
 
 # Deploy
 
