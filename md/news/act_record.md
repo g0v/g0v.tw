@@ -1,5 +1,8 @@
 <br />
 
+### 公報：
+
+* [2013/8 公報](https://g0v.hackpad.com/20138--AcN0VK6tRgK)
 ### 照片：
 
 * [hackath2n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / tkirby
