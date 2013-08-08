@@ -1,4 +1,4 @@
-var show;
+var show,urlPath;
 angular.module("g0v.tw", ['firebase']).factory({
   fireRoot: ['angularFireCollection'].concat(function(angularFireCollection){
     var url;
@@ -45,7 +45,8 @@ angular.module("g0v.tw", ['firebase']).factory({
     });
   })
 });
-show = function(){
+
+	show = function(){
   var prjImg, h;
   prjImg = $('#prj-img');
   prjImg.animate({
@@ -56,3 +57,9 @@ show = function(){
     height: h + "px"
   }, 500);
 };
+
+/* active status control for gov.tw main navigatin */
+$(function(){
+  urlPath = location.pathname || '/'; 
+  $('#nav_main a[href="' + urlPath + '"] .nav_tab').addClass('active');
+});
