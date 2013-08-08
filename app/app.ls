@@ -14,6 +14,7 @@ angular.module "g0v.tw" <[firebase]>
   $scope.projects = angularFireCollection g0vhub
   $scope.nextProject = ->
     return if $scope.idx is void
+    $ \#prj-img .css \opacity, 0
     ++$scope.idx
     $scope.idx %= $scope.featured.length
   $scope.$watch 'projects.length' ->
@@ -22,3 +23,9 @@ angular.module "g0v.tw" <[firebase]>
 
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
+
+show = ->
+  prj-img = $ \#prj-img
+  prj-img.animate {opacity: 1}, 500
+  [h] = [40 + prj-img.height!]
+  $ \#prj-img-div .animate {height: h+"px"}, 500

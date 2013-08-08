@@ -1,3 +1,4 @@
+var show;
 angular.module("g0v.tw", ['firebase']).factory({
   fireRoot: ['angularFireCollection'].concat(function(angularFireCollection){
     var url;
@@ -21,6 +22,7 @@ angular.module("g0v.tw", ['firebase']).factory({
       if ($scope.idx === void 8) {
         return;
       }
+      $('#prj-img').css('opacity', 0);
       ++$scope.idx;
       return $scope.idx %= $scope.featured.length;
     };
@@ -43,3 +45,14 @@ angular.module("g0v.tw", ['firebase']).factory({
     });
   })
 });
+show = function(){
+  var prjImg, h;
+  prjImg = $('#prj-img');
+  prjImg.animate({
+    opacity: 1
+  }, 500);
+  h = [40 + prjImg.height()][0];
+  return $('#prj-img-div').animate({
+    height: h + "px"
+  }, 500);
+};

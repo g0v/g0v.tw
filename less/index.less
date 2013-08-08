@@ -2,9 +2,9 @@
 	margin-top: @margin;
 	.index_inner_container, .logbot {
 		background-color: #FFF;
-		border: 1px solid rgba(128,128,128,0.3);
+		border: 1px solid rgba(0,0,0,0.3);
 		border-radius: 5px;
-                box-shadow: 0 0 25px rgba(0,0,0,0.1);
+                box-shadow: 0 0 5px rgba(0,0,0,0.1);
                 overflow: hidden;
 		margin: @margin 0;
 		h2 {
@@ -12,10 +12,14 @@
 			background-color: #ddd;
 			margin: 0;
                         padding: 8px 20px; 
+                        border-bottom: 1px dashed rgba(0,0,0,0.4);
                     a {
                         font-size: 36px;
                         line-height: 36px;
                         cursor: pointer;
+                        -moz-user-select: none;
+                        -webkit-user-select: none;
+                        -ms-user-select: none;
                     }
 		}
 	}
