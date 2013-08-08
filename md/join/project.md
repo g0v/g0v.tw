@@ -1,1 +1,1 @@
-# g0v projects
+請至：http://hack.g0v.tw/project（專案陸續匯入中）
