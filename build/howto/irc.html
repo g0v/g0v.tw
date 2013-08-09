@@ -1,0 +1,102 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="SHORTCUT ICON" href="/g0v.ico"><title>如何使用 IRC</title><link rel="stylesheet" type="text/css" href="/build/deploy.min.css"><script type="text/javascript" src="/javascript/jquery.min-1.7.2.js"></script><script type="text/javascript">(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script></head><body><div class="navbar navbar-fixed-top navbar-inverse"><div class="navbar-inner"><div class="container"><span class="brand"><div style="padding-right: 10px" data-send="false" data-href="https://facebook.com/g0v.tw" data-width="120" data-layout="button_count" data-show-faces="false" data-font="verdana" class="fb-like"></div><img src="/imgs/g0v-icon-invert.png"></span><div><ul class="nav nav-pills"><li id="home"><a href="/">首頁</a></li><li id="works"><a href="/works.html">所有成果</a></li><li id="join"><a href="/join.html">參與我們</a></li><li id="sitemap"><a href="/sitemap.html">網站地圖</a></li><li id="about"><a href="/about.html">關於我們</a></li></ul></div></div></div></div><div class="header"><div class="container"><img src="/imgs/g0v-full.png"><div id="sitemap-panel" style="float:right"><div style="width:140px" class="map-entry"><div class="map-caption map-caption-hot">客廳工廠黑客松</div><div class="map-item"><a href="http://registrano.com/events/g0v-hackath4n-taipei" style="color: red;">第肆次國民大會台北場報名網址</a></div><div id="talk"><div>8/10 黑客松<br>報名網址！</div></div><div class="map-item"><a href="http://registrano.com/events/g0v-hackath3n-taipei">台北場報名網址</a></div><div class="map-item"><a href="http://bit.ly/g0v-hackath3n">黑客松共筆</a></div></div><div class="map-entry"><div class="map-caption">零時政府</div><div class="map-item"><a href="/about.html">關於我們</a></div><div class="map-item"><a href="/sitemap.html">網站地圖</a></div><div class="map-item"><a href="http://www.facebook.com/g0v.tw">臉書專頁</a></div><div class="map-item"><a href="http://www.facebook.com/groups/387816094628136/">後勤中心</a></div><div class="map-item"><a href="http://www.facebook.com/groups/design.g0v.tw/">設計中心</a></div><div class="map-item"><a href="http://data.g0v.tw/">資料中心</a></div></div><div class="map-entry"><div class="map-caption">專案</div><div class="map-item"><a href="http://github.com/g0v">源碼集散地</a></div><div class="map-item"><a href="http://dev.g0v.tw/">開發者首頁</a></div><div class="map-item"><a href="http://g0v.tw/works.html">成果列表</a></div><div class="map-item"><a href="http://g0v.tw/communique/2012-12-16.html">g0v 公報</a></div><div class="map-item"><a href="http://github.com/g0v/g0v.tw/wiki/Add-project">增加專案</a></div><div class="map-item"><a href="http://3du.tw">教育部</a></div></div><div class="map-entry"><div class="map-caption">資訊</div><div class="map-item"><a href="http://blog.g0v.tw">部落格</a></div><div class="map-item"><a href="http://blog.g0v.tw/media">媒體報導</a></div><div class="map-item"><a href="http://blog.g0v.tw/links">相關主題</a></div><div class="map-item"><a href="http://logbot.g0v.tw/channel/g0v.tw/today">聊天室紀錄</a></div><div class="map-item"><a href="https://twitter.com/search?q=%23g0v&amp;src=hash">推特</a></div></div><div class="map-entry"><div class="map-caption">活動</div><div class="map-item"><a href="http://registrano.com/search/events?q=g0v">報名網頁</a></div><div class="map-item"><a href="http://www.flickr.com/photos/tkirby/collections/72157632969946032/">活動照片</a></div><div class="map-item"><a href="http://www.youtube.com/playlist?list=PLOmVOzQIKKkTrOqF-BdKqK0iLM6MspSGM">活動實況</a></div><div class="map-item"><a href="https://hackpad.com/ZYU6qiYaQLo">如何參加</a></div><div class="map-item"><a href="http://bit.ly/g0v-hackath2n">活動討論</a></div></div><div class="map-entry"><div class="map-caption">指南</div><div class="map-item"><a href="https://github.com/g0v/dev/wiki/g0v-newstuff">新手指南</a></div><div class="map-item"><a href="http://g0v.tw/join.html">參與我們</a></div><div class="map-item"><a href="http://g0v.tw/howto/irc.html">IRC 指南</a></div><div class="map-item"><a href="http://g0v.tw/howto/wiki.html">Wiki 說明</a></div><div class="map-item"><a href="http://g0v.tw/howto/issue_tracker.html">Issue Tracker</a></div></div></div></div></div><div class="container"><!--[iframe.logbot(style="height:500px",src="http://logbot.g0v.tw/widget/g0v.tw")]><a href="http://logbot.g0v.tw/channel/g0v.tw">#g0v.tw on Logbox</a><![endif]--><div><h3>什麼是 IRC</h3>
+
+<p>IRC 是 Internet Relay Chat 的縮寫。IRC 是一種透過網路的即時聊天方式，類似M群或是聊天室這種群體聊天方式。網路上有許多的 IRC 伺服器，如 Freenode、Rizon 等。g0v.tw 選擇使用 Freenode （網址：irc.freenode.net）作為頻道所在的伺服器。我們在 Freenode 上開了一個頻道，頻道名稱是 <strong>#g0v.tw</strong>。</p>
+
+<h3>為什麼要用 IRC</h3>
+
+<p>有時候我們需要一個地方，即時且群體地討論一件事情，這時候就需要使用 IRC。有時候大家也會在上面進行即時討論，如果沒用 IRC ，就很難參與討論。</p>
+
+<h3>如何進入 IRC（web 版本）</h3>
+
+<p>Freenode 站有提供方便的 Web 介面，不用裝別的軟體就可以使用。您可以用瀏覽器登入 <a href="http://webchat.freenode.net/?channels=g0v.tw">#g0v.tw 聊天頻道</a></p>
+
+<p><img src="irc_01.jpg" alt="Web IRC" /></p>
+
+<p>但這個頁面還是有一些欄位要填：</p>
+
+<ul>
+<li><p>Nickname</p>
+
+<p>  就是你的 ID（又名暱稱）。每個登入的人都會有個英文稱呼，叫做 ID，是可以自己選的。人們說的話就會顯示成那個 ID 在說話。選一個想讓大家認識你的英文名吧。開頭要是英文的，後面可以接上數字或是底線，不可以有空白。像是 Abc123 是系統會接受，但很菜市場的名字。nicole_kidman、acbike、Ultrakid 之類會是還不難認的 ID。</p></li>
+<li><p>Channels</p>
+
+<p>  是你要進入的聊天板，可以看見已經輸入了 #g0v.tw 字樣。</p></li>
+<li><p>Auth to Service</p>
+
+<p>  如果你的帳號有認証過，那麼就請勾選「Auth to Service」，填寫相應的欄位</p></li>
+<li><p>Captcha</p>
+
+<p>  接下來有塊歪七扭八的英文字是用來防程式登入的，叫做「Captcha」，請在下面的空行中照著填入。</p></li>
+</ul>
+
+
+<p>都確認輸入無誤以後，點「Connect」按鈕就可以連上了。</p>
+
+<h3>進入 #g0v.tw 頻道之後要做什麼 (Web 版本)</h3>
+
+<ul>
+<li>顯示在右方欄的那些，是目前在這個聊天室裡的人們的 ID。有些人正在電腦前，但有些人雖然在連線狀態，但本人不一定在電腦前面，這稱為掛著。等到數分鐘，數小時，或數天之後，也許就會回神。</li>
+<li>畫面的最下方，那條長框是輸入用的，在那邊打字，再按「Enter」就會送出，大家就看得到了。</li>
+<li>左上方有「Status」與「#g0v.tw」兩個分頁。如果再加入別的頻道也會顯示出來，點它可以切換頻道。</li>
+</ul>
+
+
+<p><img src="irc_02.jpg" alt="Web IRC" />
+<img src="irc_03.jpg" alt="Web IRC" /></p>
+
+<h4>如何進入 #g0v.tw 頻道</h4>
+
+<p>如果在 Freenode 站，不小心退出了頻道，又想重新加入，請在下方的輸入條打下面的指令，然後按 Enter。最前面的斜線符號也不要漏打。</p>
+
+<pre><code>/join #g0v.tw
+</code></pre>
+
+<h4>如何更換自己的 ID</h4>
+
+<p>使用指令 nick 更換自己的 id，舉例來說，你想要的新 ID 是 abc123，便輸入</p>
+
+<pre><code>/nick abc123
+</code></pre>
+
+<h4>如何私下傳訊息給別人</h4>
+
+<p>把以下指令的 rosemary 換成你要傳的 ID，你們的交談會在左上角獨立成一個分頁。</p>
+
+<pre><code>/msg rosemary
+</code></pre>
+
+<p><img src="irc_04.jpg" alt="私下傳訊給其他人的畫面" /></p>
+
+<h4>如何表示動作</h4>
+
+<p>雖然在 IRC 上最近做的事說話，但有時會想要傳達自己的動作。例如說，我想表示我去睡了，可以打：</p>
+
+<pre><code>/me 去睡了。
+</code></pre>
+
+<p>就會顯示成：</p>
+
+<pre><code>* MindosCheng 去睡了。
+</code></pre>
+
+<h4>在 IRC 上打的文字出現亂碼怎麼辦</h4>
+
+<p>用 Web 版應該不會遇到這個問題。</p>
+
+<h4>別人在 IRC 上面聊了什麼？</h4>
+
+<p>我們製作了一個簡單的 log 機器人，會把 IRC 上的訊息記錄下來。如果想知道今天大家聊了什麼，可以點<a href="http://logbot.g0v.tw/channel/g0v.tw/today">這邊</a>觀看</p>
+</div></div><div class="footer"><div>g0v.tw 2013 |<img src="/imgs/g0v-icon-invert.png"></div><script type="text/javascript">$(document).ready(function () {
+  var page = "";
+  $("#" + page).addClass("active");
+});</script></div><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-41326468-1', 'g0v.tw');
+ga('send', 'pageview');
+</script></div></html>
