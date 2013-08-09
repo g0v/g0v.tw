@@ -41,14 +41,16 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 
 ### 如何開啟新專案、認領工作
 
-1. 使用【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始<del>打怪</del>動工。
+1. 開始撰寫企劃：
+	* 在【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始動工。
 <p></p>
-2. 找資料：
+2. g0v相關資料：
  	* 程式碼：【[github](https://github.com/g0v/)】
  	* 其他檔案：【[google drive](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)】
  	* 政府公開資料蒐集：【[data.g0v.tw](http://data.g0v.tw)】
 <p></p>
 3. 自己發起專案，或加入已經運作中的工作小組。
+4. 開始有程式碼，再將資料檔案登入【[專案入口](http://hack.g0v.tw/project)】
 <br />
 ----
 ### 成為g0v專案
