@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 收支明細
-css: <style type=text/css>h3{font-family:Lucida Grande;font-size:15pt;font-weight:700}a{font-family:Lucida Grande;font-size:10pt;font-style:italic}tr.alternate-row{background:#fff}th.column-heading-center{text-align:center;font-family:Lucida Grande;font-size:10pt}td.neg{color:red}td.number-cell,td.total-number-cell{text-align:right;white-space:nowrap}td.date-cell{white-space:nowrap}td.anchor-cell{white-space:nowrap;font-family:Lucida Grande;font-size:10pt}td.centered-label-cell{text-align:center;font-family:Lucida Grande;font-size:12pt;font-weight:700}body,p,table,tr,td,th.column-heading-left{text-align:left;font-family:Lucida Grande;font-size:10pt}th.column-heading-right,td.number-header{text-align:right;font-family:Lucida Grande;font-size:10pt}td.number-cell,td.text-cell{font-family:Lucida Grande;font-size:10pt}td.total-number-cell,td.total-label-cell{font-family:Lucida Grande;font-size:12pt;font-weight:700}
 ---
 
 <body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
