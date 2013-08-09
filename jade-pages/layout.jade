@@ -2,6 +2,7 @@
 html(ng-app="g0v.tw",ng-cloak)
     head
         meta(charset="utf-8")
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
         link(rel="SHORTCUT ICON",href="./g0v.ico")
         title
             block title
@@ -19,7 +20,6 @@ html(ng-app="g0v.tw",ng-cloak)
               js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));
-        block script
 
     body
         #header
@@ -27,29 +27,34 @@ html(ng-app="g0v.tw",ng-cloak)
                 #logo
                     a(href="/index.html"): img(src="./imgs/g0v-240-invert.png")
 
-                #social_block
+                #social_block.hidden-phone
                   .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
                 div.clearfix
 
         #nav_bar
             #nav_main
-                #nav_index.nav_tab(onclick="location.href='/'")
-                    a(href="/") 首頁
-                #nav_about.nav_tab(onclick="location.href='/about.html'")
-                    a(href="/about.html") 關於我們
-                #nav_archives.nav_tab(onclick="location.href='http://hack.g0v.tw/project'")
-                    a(href="http://hack.g0v.tw/project") 所有成果
-                #nav_join.nav_tab(onclick="location.href='/join.html'")
-                    a(href="/join.html") 加入我們
-                #nav_news.nav_tab(onclick="location.href='/news.html'")
-                    a(href="/news.html") 最新消息
+                #nav_index
+                    a(href="/") 
+                        span.nav_tab 首頁
+                #nav_about
+                    a(href="/about.html") 
+                        span.nav_tab 關於我們
+                #nav_archives
+                    a(href="http://hack.g0v.tw/project") 
+                        span.nav_tab 所有成果
+                #nav_join
+                    a(href="/join.html") 
+                        span.nav_tab 加入我們
+                #nav_news
+                    a(href="/news.html") 
+                        span.nav_tab 最新消息
                 div.clearfix
 
         #container
 
             block content
 
-    #footer
+    #footer.hidden-phone
         #sitemap-panel
             .map-entry(style="width:140px")
                 .map-caption.map-caption-hot: 國民大會黑客松
@@ -65,6 +70,7 @@ html(ng-app="g0v.tw",ng-cloak)
                 //- .map-item: a(href="/about.html") 關於我們
                 //- .map-item: a(href="/sitemap.html") 網站地圖
                 .map-item: a(href="http://www.facebook.com/g0v.tw") 臉書專頁
+                .map-item: a(href="https://plus.google.com/102893633954450772289",rel="publisher") G+ 專頁
                 .map-item: a(href="http://www.facebook.com/groups/387816094628136/") 後勤中心
                 .map-item: a(href="http://data.g0v.tw/") 資料中心
             .map-entry
