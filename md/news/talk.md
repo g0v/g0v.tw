@@ -15,4 +15,4 @@
 * [g0v 黑客松 - 寫程式改造社會](https://speakerdeck.com/clkao/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) / clkao, WebConf Taiwan 2013.1
 
 
-演講訪談邀約：來信請寄[g0v-talks@googlegroups.com](mailto:g0v-talks@googlegroups.com)
+演講訪談邀約：來信請寄[g0v-talks@googlegroups.com](mailto:g0v-talks@googlegroups.com) （黑客松不開放旁聽、採訪，想來現場請報名參與活動。）
