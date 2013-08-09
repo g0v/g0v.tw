@@ -1,7 +1,3 @@
----
-layout: default
-title: 收支明細
----
 <body link="#b22222" text="#000000" bgcolor="#ffffff"><center>
 <table border="0" cellspacing="1" cellpadding="1">
 <tr>
