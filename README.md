@@ -10,6 +10,7 @@
 
 - Install nodejs
 - Install npm 
+- jekyll version >= 1.0.3
 
 # Developer
 
@@ -30,6 +31,7 @@
     $ grunt 
 
 > 因為此 project 會需要用到 ajax ，目前的解決方法是啟動一個小型的 server
+> 請確認 jekyll 需要 1.0.2 之後的版本
 
 server 的啟動方式
 
