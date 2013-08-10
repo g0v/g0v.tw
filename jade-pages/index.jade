@@ -18,7 +18,7 @@ block content
                 p.description {{ project.description_zh || project.description }}
 
         .index_inner_container(ng-controller="BlogCtrl")
-            h2 新聞稿
+            h2 部落格
             article(ng-repeat="article in articles | orderBy:'$index':true")
                 h3: a(ng-href="{{article.link}}") {{article.title}}
                 p(ng-bind="article.description")
