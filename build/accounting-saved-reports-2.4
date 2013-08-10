@@ -1,0 +1,67 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "收支�\x8e細", based on template "2fe3b9833af044abb929a88d5a59620f"
+(let ()
+ (define (options-gen)
+  (let ((options (gnc:report-template-new-options/report-guid "2fe3b9833af044abb929a88d5a59620f" "Transaction Report")))
+
+; Section: Sorting
+
+(let ((option (gnc:lookup-option options
+                                 "Sorting"
+                                 "Primary Key")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'date))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Sorting"
+                                 "Primary Subtotal for Date Key")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'none))) option))
+
+
+; Section: General
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Start Date")))
+  ((lambda (option) (if option ((gnc:option-setter option) '(absolute 1344441600 . 0)))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Stylesheet")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'Footer))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "General"
+                                 "Report name")))
+  ((lambda (option) (if option ((gnc:option-setter option) "收支�\x8e細"))) option))
+
+
+; Section: Accounts
+
+(let ((option (gnc:lookup-option options
+                                 "Accounts"
+                                 "Accounts")))
+  ((lambda (option) (if option ((gnc:option-setter option) '("08f28e0683dca73cdb805726454abe53" "0bcdff18f6ce9cebed863a2e6689f773" "55d8fc8bd59d0947e67d8cc2e4e42291" "00bb7e771cdda6a4f17d9211d85224f7" "0ee29f42c42f63d43bd3a979bf480dae" "06b94bfbefa131f6023dbd2f58dc2755" "d10b0e5c0e1bc6af354cd19c337bbc59" "3ca92ac2aa09040b9012f744b254b469" "4a8bdbf61260c685d912d9818289642c" "06d6862f547ab5efe1cfcddd0c271b95" "15395bbc93230b14835e4f6eff7cf885" "1db194d47055ae1318ab42d27b30d320" "010296bb84fd62040e43bbfe1aa0d420" "6538a3a93b89b06aaba8ead8d90dd303" "ef42742edd70faca6c3ba360e123a8c9" "22740081a5f81265a5588168e5cff6b8" "523697fad988349279446468e685c331" "d923aa7994aabdf3960440a1ad8738d4" "5279f15620961eb2e6b107dd89520eef" "fd347909d06a01b813f6db5d517b1925" "05781e1e286b8d82bfc64c976e9aa6cb" "64448644f2a242862a8c182c2288461d" "b1b7473137ab3f5fb79f19c771c2e0eb" "9896cc948ffd1467b6a847efcbf0e45e" "83b7d42a5881c3fb1219b0e5a54f3178" "9d4ce2daacea931f584ae317878bb959" "8dfc7e9f3f4a0b89e10b565a45058151" "2fad169c921da7e98ca3f606ddf0b722" "303e0f2971b9b7420478347e915f6d72" "3e387edef47fd9d6fd816bdc5438c111" "bdf343c903beecb1931f7787373cc9e0" "1f141b5f3657afe78c272f7291eca124" "9224fb34e93abf5058beb924200d8f4a" "de96c31021eff392cb7b2002888fa943" "4c2c6403ed9329a5d3acd2266c10026b" "09451b47c3a36506f8ce82ec535d1b21" "4849b2424e9b51f5c94549ebf42cead1" "d966711518e24bc2394e0925e0e5c07c" "90d950b126065ac91260c83e58623a09" "850434e2179101afca5a674fac1736ff" "cbc52a72ae0a27ef6f5399e244ccfdf5" "df4bdfbbc80fbbb3ae4a65c3d5ee0f05" "1d75cd45680955290dcfa09837dab0e3" "20963a41f19822389af2d290912881d1" "509d37675f509a3b8268f00c5689ea0f" "9b71650a11889b6c060f2f4c7a5abdb7" "f65d7c9ef29ad21e58a5b6fd7a3ee368" "845b6c1595cff51a70ebaf0b24b7eee1" "57aacea3da00d10a877d7c8b1594f3a8" "e5516eef6bee16d299095535d438a57f" "f1e60050b3b261413a0584d6c4b03fe6" "f38d3f6a5a7fb3690243b7ab9f77dbf1" "45ce9353897086bff1df11d69d1b60e2" "db2d788513664b961ce26153ffe3bf81" "344c66a00b49daa8eca0aec3629786dc" "528c4d0bd34d2b5018890b65a93f5d21" "6571f0b06729220075bde574021f9213" "e1fa504eae09f7907aade1be800a05ea" "dde09435b7a13eee1fa2b9efe240cf1f" "760ed7ba936dda1068cf5cdb7ed7215e" "201ef0f5f93bc2e6371ec6cee76de8f4" "ef646def7c22a9b7220d1f93c58977db" "ebd62558c05277c3be73930ca7e6e4ef" "d30d31a7e485e9a9cdb7bc68342c7303" "a80c911b1d490d36933d5be1c2e4da80" "1e3bfb242ec5a97268e59aca7100dea5" "a36cbcd5007dc1f3ad2551e12847c614" "6d005620038f56a1d141d6ae2e380e9f" "f2f2a926399875726f798c3eb014ed71" "0774be277527d957cfbf30096beddb7c" "348a501d0196fa4578d031839c54c1a0" "083b7ce65e949a562a5d4ee66ddaaf2a" "ce6e88139707378a4106f3fd62c58fbe" "fdd719cf7958efc438d5328c2268f0b0" "b378738d7fafb1e0b217cb915598d269" "58f0a30b94471362ca115dbf31c52dd2" "ed4ea9315e6db593ebe2f9ef69a289f9" "471366927a68f58b291a6bc73c39ab7a" "9f8ef2722d93a9d44e1870cf0a851070" "ebe02fd59318634d8dba9b900e5d3b3d" "5e78470d388dfcd74d9e38bbd96e2dc7" "fc865e2250f87ecf32821f2dc456dfb7" "585e7081a735e4beb5c00c3cf6626f27" "de37e56e9fe07ee4deb32510cab70647" "63e95445726e359eafa29145067a76b7" "9bec89592f2bd0e315fbf406b3e39dcb" "d3ff3e3c5d8387cc83de04f746a2b863" "7580693d8fadfcae00139ece453f2fb5" "5855a0f980ad69f46732cb356b938fe2" "92c00e099af64d4824e7fca0f4bbb2d0" "491ce4e9742711233318faf542f7c428" "aa4f2d5d90f62fa0749b531e13828d98" "22435a26726474caa220cbad9cb3669e" "87825ce4a7a6bae39d97f9a42260594b" "39fdf03f4b4128aece74773813e039ae" "4a58dbd1a60c0e19c069c5edb89c22f5" "4ae5232f8050c0b8acf086f09e146919" "159b67c043964ee0c081004b9985706d")))) option))
+
+
+; Section: Display
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Account Name")))
+  ((lambda (option) (if option ((gnc:option-setter option) #t))) option))
+
+(let ((option (gnc:lookup-option options
+                                 "Display"
+                                 "Sign Reverses")))
+  ((lambda (option) (if option ((gnc:option-setter option) 'income-expense))) option))
+
+  options))
+ (gnc:define-report 
+  'version 1
+  'name "收支�\x8e細"
+  'report-guid "3b947cc1e6c399d2197a25e014e16b34"
+  'parent-type "2fe3b9833af044abb929a88d5a59620f"
+  'options-generator options-gen
+  'menu-path (list gnc:menuname-custom)
+  'renderer (gnc:report-template-renderer/report-guid "2fe3b9833af044abb929a88d5a59620f" "Transaction Report")))
+

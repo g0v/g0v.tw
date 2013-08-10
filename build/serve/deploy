@@ -1,0 +1,14 @@
+#!/bin/sh
+upstream=$1
+: ${upstream:=origin}
+npm i
+#git pull $upstream master || exit -1
+git fetch $upstream
+git branch -f gh-pages $upstream/gh-pages
+rm -rf _site
+git clone -s . -b gh-pages _site
+jekyll build
+cd _site
+git add -A . && git commit -a -m 'regen' && git push origin gh-pages
+cd ..
+git push -f $upstream gh-pages

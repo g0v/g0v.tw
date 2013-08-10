@@ -1,0 +1,51 @@
+extend layout
+
+block title 
+    | 所有成果
+    
+block content
+    #archives_left
+        #archives_nav
+            .archives_nav_tab#archives_all(tab-url="./archives/archives_all.html")
+                | 開發成果
+
+            .archives_nav_tab#archives_component(tab-url="./archives/archives_component.html")
+                | 開發元件成果
+        #archives_content
+        
+
+    #archives_right
+        .archives_right_inner
+            .archives_right_header
+                | select box
+            .archives_right_content
+                select
+                    option(value="test1")
+                        | test1
+                    option(value="test2")
+                        | test2
+                    option(value="test3")
+                        | test3
+                select
+                    option(value="test1")
+                        | test1
+                    option(value="test2")
+                        | test2
+                    option(value="test3")
+                        | test3
+                input(type="text", placeholder="關鍵字")
+        .archives_right_inner
+            
+            include ../md/archives_right/right.md
+
+    #archives_float_clear
+
+    script(type="text/javascript", src="./javascript/switchTab.js")
+    script(type="text/javascript").
+        var newSwitchTab = new switchTab({
+            tabClass: 'archives_nav_tab',
+            contentId: 'archives_content',
+            activeClass: 'archives_active',
+            tabId: ['archives_all', 'archives_component'],
+            showFirst: 'archives_all'
+        });
