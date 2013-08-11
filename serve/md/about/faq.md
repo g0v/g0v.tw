@@ -1,5 +1,0 @@
-<br />
-
-FAQ....coming soon.
-
-
