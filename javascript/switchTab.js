@@ -25,7 +25,7 @@ var switchTab = function(options) {
 		// register onclick function for all the tabs
 		for (var i = 0, len = tabIdArr.length; i < len; i++) {
 			document.getElementById(tabIdArr[i]).onclick = function(data) {
-				var tabId = data.srcElement.id;
+				var tabId = data.target.id;
 
 				// history pushState
 				var state_obj = { 'tab_state': tabId}
