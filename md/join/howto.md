@@ -21,10 +21,10 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 
 1. 簽到：
   * 先到【[hub](http://hack.g0v.tw/people)】寫上你的簡介，以關鍵字介紹自己的專長。
-  * 再到【[g0v-general論壇](https://groups.google.com/forum/#!forum/g0v-general)】發一封自我介紹。各組論壇請至：
-    * 參與立院相關專案：【[立院報你知論壇](https://groups.google.com/forum/#!forum/g0v-ly)】
-    * 參與關心你專案：【[鄉民關心你論壇](https://groups.google.com/forum/#!forum/kuansim)】
-    * 文字、設計、繪圖工作認領：【[g0v文化部論壇](https://groups.google.com/forum/#!forum/g0v-moc)】
+  * 再到【[g0v-general論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-general)】發一封自我介紹。各組論壇請至：
+    * 參與立院相關專案：【[立院報你知論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-lyv)】
+    * 參與關心你專案：【[鄉民關心你論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fkuansim)】
+    * 文字、設計、繪圖工作認領：【[g0v文化部論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-moc)】
   * 然後加入 g0v【[irc 聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。
 <p></p>
 2. 找想法：
@@ -47,7 +47,7 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 2. g0v相關資料：
  	* 程式碼：【[github](https://github.com/g0v/)】
  	* 其他檔案：【[google drive](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)】
- 	* 政府公開資料蒐集：【[data.g0v.tw](http://data.g0v.tw)】
+ 	* 政府公開資料蒐集：【[data.g0v.tw](http://hack.g0v.tw/g0vMOE/http%253A%252F%252Fdata.g0v.tw%252F)】
 <p></p>
 3. 自己發起專案，或加入已經運作中的工作小組。
 4. 開始有程式碼，再將資料檔案登入【[專案入口](http://hack.g0v.tw/project)】
