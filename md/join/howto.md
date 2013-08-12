@@ -11,7 +11,7 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 ----
 ### 不同角色如何參與
 
-打造新的公民資訊專案需要各種專業的參與，程式開發者、議題關注者（NGO, NPO, 公民記者、獨立媒體）、設計師、文字藝術工作者、鄉民可以貢獻所長加入專案，請參考《[我是xxx，如何參與黑客松](https://g0v.hackpad.com/...--ciS8hEGw7iu)》一文。
+打造新的公民資訊專案需要各種專業的參與，程式開發者、議題關注者（NGO, NPO, 公民記者、獨立媒體）、設計師、文字藝術工作者、鄉民可以貢獻所長加入專案，請參考《[我是xxx，如何參與黑客松](http://hack.g0v.tw/g0vMOE/ciS8hEGw7iu)》一文。
 
 <br />
 ----
@@ -21,14 +21,14 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 
 1. 簽到：
   * 先到【[hub](http://hack.g0v.tw/people)】寫上你的簡介，以關鍵字介紹自己的專長。
-  * 再到【[g0v-general論壇](https://groups.google.com/forum/#!forum/g0v-general)】發一封自我介紹。各組論壇請至：
-    * 參與立院相關專案：【[立院報你知論壇](https://groups.google.com/forum/#!forum/g0v-ly)】
-    * 參與關心你專案：【[鄉民關心你論壇](https://groups.google.com/forum/#!forum/kuansim)】
-    * 文字、設計、繪圖工作認領：【[g0v文化部論壇](https://groups.google.com/forum/#!forum/g0v-moc)】
+  * 再到【[g0v-general論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-general)】發一封自我介紹。各組論壇請至：
+    * 參與立院相關專案：【[立院報你知論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-ly)】
+    * 參與關心你專案：【[鄉民關心你論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fkuansim)】
+    * 文字、設計、繪圖工作認領：【[g0v文化部論壇](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fgroups.google.com%252Fforum%252Fembed%252F%253Fplace%253Dforum%252Fg0v-moc)】
   * 然後加入 g0v【[irc 聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。
 <p></p>
 2. 找想法：
-	* 初步想法到【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】瀏覽填寫。
+	* 初步想法到【[g0v idea pool](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fg0v.hackpad.com%252Fep%252Fgroup%252FyvUEJD5fNjX)】瀏覽填寫。
 	* 長期專案到【[專案列表](http://hack.g0v.tw/project)】找。
 <p></p>
 3. facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團。請不要害羞，大膽主動出擊。
@@ -42,12 +42,12 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 ### 如何開啟新專案、認領工作
 
 1. 開始撰寫企劃：
-	* 在【[g0v idea pool](https://g0v.hackpad.com/ep/group/yvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始動工。
+	* 在【[g0v idea pool](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fg0v.hackpad.com%252Fep%252Fgroup%252FyvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始動工。
 <p></p>
 2. g0v相關資料：
  	* 程式碼：【[github](https://github.com/g0v/)】
  	* 其他檔案：【[google drive](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)】
- 	* 政府公開資料蒐集：【[data.g0v.tw](http://data.g0v.tw)】
+ 	* 政府公開資料蒐集：【[data.g0v.tw](http://hack.g0v.tw/g0vMOE/http%253A%252F%252Fdata.g0v.tw%252F)】
 <p></p>
 3. 自己發起專案，或加入已經運作中的工作小組。
 4. 開始有程式碼，再將資料檔案登入【[專案入口](http://hack.g0v.tw/project)】
@@ -55,7 +55,7 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
 ----
 ### 成為g0v專案
 
-專案只要是開放原始碼，即可成為g0v專案，可列在專案列表、使用共同CIS、研討會時可申請社群議程。到這裡了解更多[開放原碼](/join.html#join_license)及授權資訊。
+專案只要是開放原始碼，即可成為g0v專案，可列在專案列表、使用共同CIS、研討會時可申請社群議程。到這裡了解更多[開放源碼](/join.html#join_license)及授權資訊。
 
 黑客松活動的專案則無授權限制，若非開源請與有意願加入的工作夥伴取得共識。
 <br />
