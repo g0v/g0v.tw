@@ -1,7 +1,23 @@
+defer-src-setters = []
+
+angular.element(document).ready ->
+  for func in defer-src-setters
+    func!
+
 angular.module "g0v.tw" <[firebase]>
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
+
+# defer iframe loading to stop blocking angular.js for loading
+.directive \deferSrc ->
+  return {
+    restrict: 'A',
+    link: (scope, iElement, iAttrs, controller) ->
+      src = iElement.attr 'defer-src'
+      defer-src-setters.push ->
+        iElement.attr 'src', src
+  }
 
 .controller EventCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.events = angularFireCollection fireRoot.child("feed/events/articles").limit(2)
