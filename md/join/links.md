@@ -7,10 +7,14 @@
  * [irc 動態分析](http://kcwu.csie.org/~kcwu/ircstat/g0v.html)：越遠越熱鬧噢。
 * [google論壇](https://groups.google.com/forum/#!forum/g0v-general)：用 email 溝通還是比較好保存搜尋。
 
+#### 新手何處去?
+* [g0v 教育部 說明教學中心](http://hack.g0v.tw/g0vMOE/ciS8hEGw7iu)：新手引導教學文集散地。
+* [g0v 新手村](http://g0v.github.io/g0village-8bit/)：新手村，來打敗高村長吧。
+* [g0v 文化部](http://hack.g0v.tw/g0vMOC/NX60cqNWwpi)：整理各專案文件的部門，只要會txt就可以來。
+
 #### 我要參加
 * [報名網址 Registrano](http://registrano.com/group/g0v-tw)：不定期有迷你黑客松，訂閱RSS可以掌握大小活動。
 * [營運中心(hub)](http://hack.g0v.tw/people)：成員列表 x 專案列表 x tag!
-
 
 #### 瀏覽專案
 * [hackfoldr](http://hack.g0v.tw)
