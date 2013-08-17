@@ -99,7 +99,7 @@ html(ng-app="g0v.tw",ng-cloak)
                 | g0v.tw 2013 |
                 img(src="./imgs/g0v-icon-invert.png")
                 .build-id(ng-controller="BuildIdCtrl")
-                  a(href="https://github.com/g0v/g0v.tw", ng-bind="buildId") git-unknown
+                  a(href="https://github.com/g0v/g0v.tw") {{buildId || "git-unknown"}}
 
 
         script(type="text/javascript").
