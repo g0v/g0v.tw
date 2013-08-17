@@ -21,9 +21,13 @@ angular.module "g0v.tw" <[firebase]>
 
 .controller EventCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.events = angularFireCollection fireRoot.child("feed/events/articles").limit(2)
+  $scope.$watch 'events.length' ->
+    $(\.event-loading).hide() if $scope.events.length
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 10
+  $scope.$watch 'articles.length' ->
+    $(\.blog-loading).hide() if $scope.articles.length
 
 .controller FeaturedCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects")
