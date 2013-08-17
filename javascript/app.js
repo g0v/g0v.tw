@@ -74,6 +74,12 @@ angular.module("g0v.tw", ['firebase']).factory({
       }
     });
   })
+}).controller({
+  BuildIdCtrl: ['$scope'].concat(function($scope){
+    return $.get("/build_id.txt").done(function(buildId){
+      return $scope.buildId = buildId;
+    });
+  })
 });
 show = function(){
   var prjImg, h;
