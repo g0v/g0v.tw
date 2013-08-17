@@ -36,6 +36,15 @@ var switchTab = function(options) {
 				options.fetchContent(options.getUrl(tabId), contentId)
 			}
 		}
+
+    window.addEventListener("popstate", function(event) {
+      var tabId = options.showFirst;
+      if (window.location.hash !== "") {
+        tabId = window.location.hash.substring(1);
+      }
+      options.activeColor(tabClass, activeClass, tabId);
+      options.fetchContent(options.getUrl(tabId), contentId);
+    }, false);
 	}
 	tabClick(this);
 }
