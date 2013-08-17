@@ -6,9 +6,11 @@ npm i
 git fetch $upstream
 git branch -f gh-pages $upstream/gh-pages
 rm -rf _site
+echo git-`git describe --always` > build_id.txt
 git clone -s . -b gh-pages _site
 jekyll build
 cd _site
 git add -A . && git commit -a -m 'regen' && git push origin gh-pages
 cd ..
+rm -f build_id.txt
 git push -f $upstream gh-pages

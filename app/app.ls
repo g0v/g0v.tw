@@ -44,6 +44,10 @@ angular.module "g0v.tw" <[firebase]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
+.controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
+  $.get("/build_id.txt").done (buildId) ->
+    $scope.buildId = buildId
+
 show = ->
   prj-img = $ \#prj-img
   prj-img.animate {opacity: 1}, 500
