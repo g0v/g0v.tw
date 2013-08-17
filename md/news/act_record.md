@@ -3,8 +3,11 @@
 ### 公報：
 
 * [2013/8 公報](https://g0v.hackpad.com/20138--AcN0VK6tRgK)
+
 ### 照片：
 
+* [hackath4n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157635071687582/) / tkirby
+* [hackath3n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157634022248856/) / tkirby
 * [hackath2n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / tkirby
 * [hackath1n 台中場活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / adaam
 * [hackath1n 台北場活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157632634102452/) / tkirby
