@@ -4,7 +4,7 @@
   "description": "g0v official website",
   "main": "Gruntfile.js",
   "scripts": {
-    "start": "./node_modules/.bin/brunch watch --server",
+    "start": "./node_modules/.bin/brunch watch --server"
   },
   "dependencies": {
     "marked": "~0.2.9",
