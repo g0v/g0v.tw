@@ -1,4 +1,7 @@
 node_modules
+_public
 _site
 .DS_Store
 /*.html
+*.swp
+*.swo
