@@ -19,7 +19,7 @@ block content
 
         .index_inner_container(ng-controller="BlogCtrl")
             h2 部落格
-            .blog-loading
+            .blog-loading(ng-show="articles.length === 0")
             article(ng-repeat="article in articles | orderBy:'$index':true")
                 h3: a(ng-href="{{article.link}}") {{article.title}}
                 p(ng-bind="article.description")
@@ -30,7 +30,7 @@ block content
 
             .events(ng-controller="EventCtrl")
                 h2 活動訊息
-                .event-loading
+                .event-loading(ng-show="events.length === 0")
                 ul
                     li(ng-repeat="event in events | orderBy:'$index':true")
                         a(ng-href="{{event.link}}") {{event.title}}

@@ -27,21 +27,11 @@ angular.module("g0v.tw", ['firebase']).factory({
   };
 }).controller({
   EventCtrl: ['$scope', 'angularFireCollection', 'fireRoot'].concat(function($scope, angularFireCollection, fireRoot){
-    $scope.events = angularFireCollection(fireRoot.child("feed/events/articles").limit(2));
-    return $scope.$watch('events.length', function(){
-      if ($scope.events.length) {
-        return $('.event-loading').hide();
-      }
-    });
+    return $scope.events = angularFireCollection(fireRoot.child("feed/events/articles").limit(2));
   })
 }).controller({
   BlogCtrl: ['$scope', 'angularFireCollection', 'fireRoot'].concat(function($scope, angularFireCollection, fireRoot){
-    $scope.articles = angularFireCollection(fireRoot.child("feed/blog/articles").limit(10));
-    return $scope.$watch('articles.length', function(){
-      if ($scope.articles.length) {
-        return $('.blog-loading').hide();
-      }
-    });
+    return $scope.articles = angularFireCollection(fireRoot.child("feed/blog/articles").limit(10));
   })
 }).controller({
   FeaturedCtrl: ['$scope', 'angularFireCollection'].concat(function($scope, angularFireCollection){
