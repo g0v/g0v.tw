@@ -2,46 +2,32 @@
 
 [g0v.tw](http://g0v.tw) 的網頁內容由此專案產生
 
-# File structure
+# Directory structure
 
-
+ * app: 網頁程式
+ * md: 網頁文章
 
 # Required
 
 - Install nodejs
 - Install npm 
-- jekyll version >= 1.0.3
 
 # Developer
 
-[gruntjs official site](http://gruntjs.com/)
-
-我們用 gruntjs 來處理 less compile 到 css, 以及把 jade compile 到 html 的流程。
-
-先打
-
-    $ sudo npm install -g grunt-cli
-
-安裝 grunt。
+第一次請先執行
 
     $ npm install
 
-安裝完之後打 grunt, 會幫你 compile jade to html 也會把 less compile to css，在更改任何一個檔案 grunt 會幫你重新 compile
+安裝完之後打以下指令跑起 local web server
 
-    $ grunt 
+    $ ./node_modules/.bin/brunch watch --server
 
-> 因為此 project 會需要用到 ajax ，目前的解決方法是啟動一個小型的 server
-> 請確認 jekyll 需要 1.0.2 之後的版本
+然後在 browser 輸入 [http://localhost:3333](http://localhost:3333)
 
-server 的啟動方式
-
-    $ npm install connect
-    $ node server.js
-
-然後在 browser 輸入 [http://localhost:8080](http://localhost:8080)
+brunch 會自動幫你 compile jade to html, less to css, 合併 javascript, css 等。在更改任何一個檔案 brunch 也會幫你重新 compile。
 
 # Deploy
 
 請打
 
-    ./deploy <git remote>
+    $ ./deploy <git remote>
