@@ -1,0 +1,156 @@
+diff --git a/less/bootstrap.less b/less/bootstrap.less
+deleted file mode 100644
+index 4e98a5f..0000000
+--- a/less/bootstrap.less
++++ /dev/null
+@@ -1,65 +0,0 @@
+-/*!
+- * Bootstrap v2.1.0
+- *
+- * Copyright 2012 Twitter, Inc
+- * Licensed under the Apache License v2.0
+- * http://www.apache.org/licenses/LICENSE-2.0
+- *
+- * Designed and built with all the love in the world @twitter by @mdo and @fat.
+- */
+-
+-// CSS Reset
+-@import "reset.less";
+-
+-// Core variables and mixins
+-@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+-@import "mixins.less";
+-
+-// Grid system and page structure
+-@import "scaffolding.less";
+-@import "grid.less";
+-@import "layouts.less";
+-
+-// Base CSS
+-@import "type.less";
+-@import "code.less";
+-@import "forms.less";
+-@import "tables.less";
+-
+-// Components: common
+-@import "sprites.less";
+-@import "dropdowns.less";
+-@import "wells.less";
+-@import "component-animations.less";
+-@import "close.less";
+-
+-// Components: Buttons & Alerts
+-@import "buttons.less";
+-@import "button-groups.less";
+-@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+-
+-// Components: Nav
+-@import "navs.less";
+-@import "navbar.less";
+-@import "breadcrumbs.less";
+-@import "pagination.less";
+-@import "pager.less";
+-
+-// Components: Popovers
+-@import "modals.less";
+-@import "tooltip.less";
+-@import "popovers.less";
+-
+-// Components: Misc
+-@import "thumbnails.less";
+-@import "labels-badges.less";
+-@import "progress-bars.less";
+-@import "accordion.less";
+-@import "carousel.less";
+-@import "hero-unit.less";
+-
+-// Utility classes
+-@import "utilities.less"; // Has to be last to override when necessary
+-
+-
+-@import "responsive.less";
+diff --git a/less/mixins.less b/less/mixins.less
+index db60f1a..5de7272 100644
+--- a/less/mixins.less
++++ b/less/mixins.less
+@@ -549,13 +549,13 @@
+   .core (@gridColumnWidth, @gridGutterWidth) {
+ 
+     .spanX (@index) when (@index > 0) {
+-      (~".span@{index}") { .span(@index); }
++      .span@{index} { .span(@index); }
+       .spanX(@index - 1);
+     }
+     .spanX (0) {}
+ 
+     .offsetX (@index) when (@index > 0) {
+-      (~".offset@{index}") { .offset(@index); }
++      .offset@{index} { .offset(@index); }
+       .offsetX(@index - 1);
+     }
+     .offsetX (0) {}
+@@ -593,14 +593,14 @@
+   .fluid (@fluidGridColumnWidth, @fluidGridGutterWidth) {
+ 
+     .spanX (@index) when (@index > 0) {
+-      (~".span@{index}") { .span(@index); }
++      .span@{index} { .span(@index); }
+       .spanX(@index - 1);
+     }
+     .spanX (0) {}
+ 
+     .offsetX (@index) when (@index > 0) {
+-      (~'.offset@{index}') { .offset(@index); }
+-      (~'.offset@{index}:first-child') { .offsetFirstChild(@index); }
++      .offset@{index} { .offset(@index); }
++      .offset@{index}:first-child { .offsetFirstChild(@index); }
+       .offsetX(@index - 1);
+     }
+     .offsetX (0) {}
+@@ -643,7 +643,7 @@
+   .input(@gridColumnWidth, @gridGutterWidth) {
+ 
+     .spanX (@index) when (@index > 0) {
+-      (~"input.span@{index}, textarea.span@{index}, .uneditable-input.span@{index}") { .span(@index); }
++      input.span@{index}, textarea.span@{index}, .uneditable-input.span@{index} { .span(@index); }
+       .spanX(@index - 1);
+     }
+     .spanX (0) {}
+diff --git a/less/type.less b/less/type.less
+index 58723f7..02d95fb 100644
+--- a/less/type.less
++++ b/less/type.less
+@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
+   }
+ }
+ h1 { font-size: 36px; line-height: 40px; }
+-h2 { font-size: 30px; line-height: 40px; }
++h2 { font-size: 24px; line-height: 40px; }
+ h3 { font-size: 24px; line-height: 40px; }
+ h4 { font-size: 18px; line-height: 20px; }
+ h5 { font-size: 14px; line-height: 20px; }
+diff --git a/less/variables.less b/less/variables.less
+index 63f87e0..424639e 100644
+--- a/less/variables.less
++++ b/less/variables.less
+@@ -44,17 +44,17 @@
+ 
+ // Typography
+ // -------------------------
+-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
++@sansFontFamily:        "Architects Daughter", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
+ @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+ @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+ 
+ @baseFontSize:          14px;
+ @baseFontFamily:        @sansFontFamily;
+-@baseLineHeight:        20px;
++@baseLineHeight:        25px;
+ @altFontFamily:         @serifFontFamily;
+ 
+ @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+-@headingsFontWeight:    bold;    // instead of browser default, bold
++@headingsFontWeight:    normal;    // instead of browser default, bold
+ @headingsColor:         inherit; // empty to use BS default, @textColor
+ 
+ 
