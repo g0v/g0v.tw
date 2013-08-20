@@ -5,22 +5,28 @@
 
 body {
   background:url(../imgs/tiles.png);
-	padding: 0 5% !important;
+    padding: 0 50px;
 }
 
 #container, #header, #nav_bar, #footer { width: 1000px; }
 #nav_bar .nav_tab { width: 200px; }
 #index_left_container { width: 739px; /* container width - index_right_container width - margin */ }
 #index_right_container { width: 241px; }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 	#container, #header, #nav_bar, #footer { width: 100%; }
-	#nav_bar .nav_tab { font-size: 80% !important; letter-spacing: 0 !important; width: 20%; }
+	#nav_bar .nav_tab { letter-spacing: 0 !important; width: 20%; }
 	#index_left_container { width: 100%; }
 	#index_right_container { width: 100%;
 		iframe { width: 100%; }
 		.videos iframe { height: 100%; }
 		.logbot { width: 100%; }
 	}
+}
+@media (max-width: 640px) {
+    body {
+        padding: 0 5%;
+    }
+    #nav_bar .nav_tab { font-size: 80% !important; }
 }
 
 #header {
