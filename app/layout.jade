@@ -3,7 +3,7 @@ html(ng-app="g0v.tw",ng-cloak)
     head
         meta(charset="utf-8")
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
-        link(rel="SHORTCUT ICON",href="./g0v.ico")
+        link(rel="SHORTCUT ICON",href="/g0v.ico")
         title
             block title
         link(rel="stylesheet", type="text/css", href="/css/app.css")
@@ -25,7 +25,7 @@ html(ng-app="g0v.tw",ng-cloak)
         #header
             #header_inner_container
                 #logo
-                    a(href="/index.html"): img(src="./imgs/g0v-240-invert.png")
+                    a(href="/index.html"): img(src="/imgs/g0v-240-invert.png")
 
                 #social_block.hidden-phone
                   .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
@@ -97,7 +97,7 @@ html(ng-app="g0v.tw",ng-cloak)
 
             div.footer-brand
                 | g0v.tw 2013 |
-                img(src="./imgs/g0v-icon-invert.png")
+                img(src="/imgs/g0v-icon-invert.png")
                 .build-id(ng-controller="BuildIdCtrl")
                   a(href="https://github.com/g0v/g0v.tw") {{buildId || "git-unknown"}}
 
