@@ -12,5 +12,5 @@ git clone -s . -b gh-pages _public
 cd _public
 git add -A . && git commit -a -m 'regen' && git push origin gh-pages
 cd ..
-git co app/assets/build_id.txt
 git push -f $upstream gh-pages
+git co app/assets/build_id.txt
