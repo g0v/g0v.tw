@@ -2,7 +2,7 @@
 
 ### 公報：
 
-* [2013/8 公報](https://g0v.hackpad.com/20138--AcN0VK6tRgK)
+* [2013 公報](https://g0v.hackpad.com/ep/group/yZ9JT9UlJf4)
 
 ### 照片：
 
