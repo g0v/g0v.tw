@@ -3,6 +3,7 @@
 ### 演講/座談資訊預告
 
 * 8/3-4 COSCUP 2013
+* 延期 [HP51 – Open Data x Open Design](http://www.hpx-party.com/hpx-events/hp51)
 * 8/18 XD Design座談會：與談人 tkirby, ETBlue
 
 
