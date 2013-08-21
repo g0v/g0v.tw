@@ -16,7 +16,7 @@
   "devDependencies": {
     "brunch": "1.5.x",
     "javascript-brunch": "1.5.x",
-    "LiveScript-brunch": "1.5.x",
+    "LiveScript-brunch": "1.6.x",
     "css-brunch": "1.5.x",
     "less-brunch": "1.5.x",
     "markdown-brunch": "1.6.x",
