@@ -8,7 +8,8 @@ git branch -f gh-pages $upstream/gh-pages
 rm -rf _public
 echo git-`git describe --always` > app/assets/build_id.txt
 git clone -s . -b gh-pages _public
-./node_modules/.bin/brunch build
+killall brunch
+./node_modules/.bin/brunch build -o
 cd _public
 git add -A . && git commit -a -m 'regen' && git push origin gh-pages
 cd ..
