@@ -21,6 +21,15 @@ html(ng-app="g0v.tw",ng-cloak)
               fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));
 
+        script(type="text/javascript").
+          window.___gcfg = {lang: 'zh-TW'};
+
+          (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/plusone.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+
     body
         #header
             #header_inner_container
@@ -28,7 +37,9 @@ html(ng-app="g0v.tw",ng-cloak)
                     a(href="/index.html"): img(src="/imgs/g0v-240-invert.png")
 
                 #social_block.hidden-phone
-                  .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
+                    .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
+                    .g-plusone(data-size="tall",data-href="http://g0v.tw")
+
                 div.clearfix
 
         #nav_bar
