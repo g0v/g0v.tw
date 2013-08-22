@@ -41,8 +41,7 @@ angular.module "g0v.tw" <[firebase]>
     $scope.project = $scope.featured[idx] unless idx is void
 
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
-  $.get("/build_id.txt").done (buildId) ->
-    $scope.buildId = buildId
+  $scope.buildId = window.global.config.BUILD
 
 show = ->
   prj-img = $ \#prj-img
