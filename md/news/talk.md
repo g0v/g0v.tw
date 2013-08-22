@@ -4,7 +4,7 @@
 
 * 9/10 網路星期二 : [網路社群改造社會之零時政府(g0v.tw)](http://nettuesday.tw/events/2013/09/438)
 * 延期 [HP51 – Open Data x Open Design](http://www.hpx-party.com/hpx-events/hp51)
-* 8/18 XD Design 座談會：與談人 tkirby, ETBlue
+* 8/18 [XD 2013 跨設計分享會 no.1 [Innovative Citizen]](http://www.xd-crossdesign.com/2013/08/xd-2013-no1-innovative-citizen.html)：與談人 tkirby, ETBlue
 * 8/3-4 COSCUP 2013
 
 
