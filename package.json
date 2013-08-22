@@ -23,7 +23,8 @@
     "jaded-brunch": "1.7.x",
     "auto-reload-brunch": "1.5.x",
     "uglify-js-brunch": "1.3.x",
-    "clean-css-brunch": "1.5.x"
+    "clean-css-brunch": "1.5.x",
+    "jsenv-brunch": "1.4.2"
   },
   "repository": {
     "type": "git",

@@ -6,12 +6,10 @@ npm i
 git fetch $upstream
 git branch -f gh-pages $upstream/gh-pages
 rm -rf _public
-echo git-`git describe --always` > app/assets/build_id.txt
 git clone -s . -b gh-pages _public
 killall brunch
-./node_modules/.bin/brunch build -o
+BUILD=git-`git describe --always` ./node_modules/.bin/brunch build -o
 cd _public
 git add -A . && git commit -a -m 'regen' && git push origin gh-pages
 cd ..
 git push -f $upstream gh-pages
-git co app/assets/build_id.txt
