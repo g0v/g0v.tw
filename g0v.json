@@ -1,0 +1,26 @@
+{
+  "status": "beta",
+  "name": "g0vsite",
+  "name_zh": "零時政府官網",
+  "description": "g0v.tw site",
+  "description_zh": "g0v 官網",
+  "document": "http://hack.g0v.tw/meta/YC0Ig73WEMJ",
+  "homepage": "http://g0v.tw/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0v/g0v.tw"
+  },
+  "licenses": [
+    {
+      "type": "CC-BY"
+    }
+  ],
+  "keywords": [
+    "community",
+    "g0v.tw",
+    "communication"
+  ],
+  "audience": [
+    "public"
+  ]
+}
