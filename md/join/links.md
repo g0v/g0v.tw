@@ -23,15 +23,21 @@
 #### 開啟專案
 * 初步構想：[idea pool]
 * 運作中專案：[專案列表]
-* 長期專案：（沒有permalink?）
+* 長期專案：
+  * [萌典](https://www.moedict.tw/)
+  * [福利請聽](http://listening.g0v.tw/)
+  * [求職小幫手](http://jobhelper.g0v.ronny.tw/)
+  * [新聞小幫手](http://newshelper.g0v.tw/)
+
+  * 
 * [google drive 共用資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)
 
 #### 資料在哪裡？
 * [g0v資料平台](http://data.g0v.tw)
-* [研考會平台]
+* [研考會平台](http://data.gov.tw/)
 
 #### 程式碼在哪裡？
-* [github]
+* [github](https://github.com/g0v)
 
 #### 其他
 * [動民主]決策平台
