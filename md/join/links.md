@@ -31,7 +31,7 @@
   * [求職小幫手](http://jobhelper.g0v.ronny.tw/)
   * [新聞小幫手](http://newshelper.g0v.tw/)
   * [政誌](http://fact.g0v.tw/)
-  * [Google瀏覽器外掛：法規亦毒氣(法規易讀器)](http://blog.g0v.tw/post/58402599490)
+  * [Google 瀏覽器外掛：法規亦毒氣(法規易讀器)](http://blog.g0v.tw/post/58402599490)
   * [互動雨量地圖](http://blog.g0v.tw/post/58926604497)
   
 * [google drive 共用資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)
