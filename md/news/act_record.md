@@ -2,7 +2,7 @@
 
 ### 最新消息：
 * [g0v blog](http://blog.g0v.tw) : g0v 官方部落格
-* [g0v 新聞中心](https://g0v.hackpad.com/ep/group/DIqWxISevBa) : 準備要發到 FB / G+ / blog 的新消息
+* [g0v 新聞中心](https://g0v.hackpad.com/w01v8lrMLTY) : 準備要發到 FB / G+ / blog 的新消息
 * [g0v 公報](https://g0v.hackpad.com/ep/group/yZ9JT9UlJf4) : 每日 IRC / 論壇 消息摘要
 * [g0v 廣播電台](https://g0v.hackpad.com/g0v-BroadCast--e8C6p3dQvzK) : 即時消息共同筆記
 * [g0v hackpad](https://g0v.hackpad.com/) : g0v 的共同筆記簿
@@ -18,6 +18,7 @@
 
 ### 心得：
 
+* [tbirby’s hackath4n 紀錄](http://www.tkirby.org/blog/?p=2395)
 * [caasi’s hackath3n心得](http://murmur.caasigd.org/post/52519795740/hackath3n) 
 * [5/23 pre-hackathon活動速記](http://blog.g0v.tw/post/51282992309) 
 * [tbirby’s hackath2n 紀錄](http://www.tkirby.org/blog/?p=2151)
