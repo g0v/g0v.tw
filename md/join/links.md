@@ -24,11 +24,13 @@
 * 初步構想：[idea pool]
 * 運作中專案：[專案列表]
 * 長期專案：
+  * [中央政府總預算](http://budget.g0v.tw/) 
   * [萌典](https://www.moedict.tw/)
   * [福利請聽](http://listening.g0v.tw/)
+  * [聾啞人士報案系統 Android App](https://github.com/cy-project/iHelp-android)
   * [求職小幫手](http://jobhelper.g0v.ronny.tw/)
   * [新聞小幫手](http://newshelper.g0v.tw/)
-
+  * [政誌](http://fact.g0v.tw/)
   * 
 * [google drive 共用資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)
 
