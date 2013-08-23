@@ -15,9 +15,9 @@ exports.config =
         """
       else
         """
-(function() {
+;\n
   #{data}
-}).call(this);\n\n
+;\n\n
         """
   paths:
     public: '_public'
