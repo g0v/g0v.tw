@@ -22,16 +22,24 @@
 
 #### 開啟專案
 * 初步構想：[idea pool]
-* 運作中專案：[專案列表]
-* 長期專案：（沒有permalink?）
+* 專案列表：[http://hack.g0v.tw/project](http://hack.g0v.tw/project)
+* 專案程式碼：[https://github.com/g0v](https://github.com/g0v)
+* 部分專案列表：
+  * [中央政府總預算](http://budget.g0v.tw/) 
+  * [萌典](https://www.moedict.tw/)
+  * [福利請聽](http://listening.g0v.tw/)
+  * [聾啞人士報案系統 Android App](https://github.com/cy-project/iHelp-android)
+  * [求職小幫手](http://jobhelper.g0v.ronny.tw/)
+  * [新聞小幫手](http://newshelper.g0v.tw/)
+  * [政誌](http://fact.g0v.tw/)
+  * [Google 瀏覽器外掛：法規亦毒氣(法規易讀器)](http://blog.g0v.tw/post/58402599490)
+  * [台灣法規 API](http://laweasyread.herokuapp.com/)
+  * [互動雨量地圖](http://blog.g0v.tw/post/58926604497)
 * [google drive 共用資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)
 
 #### 資料在哪裡？
 * [g0v資料平台](http://data.g0v.tw)
-* [研考會平台]
-
-#### 程式碼在哪裡？
-* [github]
+* [研考會平台](http://data.gov.tw/)
 
 #### 其他
 * [動民主]決策平台
