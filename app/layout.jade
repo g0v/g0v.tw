@@ -37,8 +37,11 @@ html(ng-app="g0v.tw",ng-cloak)
                     a(href="/index.html"): img(src="/imgs/g0v-240-invert.png")
 
                 #social_block.hidden-phone
-                    .fb-like(data-href="http://facebook.com/g0v.tw",data-width="500",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
-                    .g-plusone(data-size="tall",data-href="http://g0v.tw")
+                    #g_block
+                        .g-plusone(data-size="tall",data-href="http://g0v.tw")
+                    #fb_block
+                        #fb-root
+                        .fb-like(data-href="http://facebook.com/g0v.tw",data-width="60",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
 
                 div.clearfix
 
