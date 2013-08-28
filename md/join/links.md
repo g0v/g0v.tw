@@ -4,7 +4,7 @@
 * [fb後勤中心](https://www.facebook.com/groups/g0v.general/)：分享、徵人、挖坑推坑。
 * [g0v.tw irc 聊天室](http://hack.g0v.tw/irc)：有百餘人掛在線上，即時溝通請來這。
  * [irclog 聊天紀錄](http://logbot.g0v.tw/channel/g0v.tw/today)：沒有掛irc可以離線看聊天紀錄。
- * [irc 動態分析](http://kcwu.csie.org/~kcwu/ircstat/g0v.html)：越遠越熱鬧噢。
+ * [irc 動態分析](http://kcwu.csie.org/~kcwu/ircstat/g0v.html)：越晚越熱鬧噢。
 * [google論壇](https://groups.google.com/forum/#!forum/g0v-general)：用 email 溝通還是比較好保存搜尋。
 
 #### 新手何處去?
