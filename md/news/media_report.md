@@ -1,5 +1,5 @@
 ### 媒體報導
-
+* [靠政府？不如靠自己 – g0v.tw 人民力量大匯集](http://www.naipo.com/portals/1/web_tw/Knowledge_Center/Editorial/publish-102.htm) / 北美智權報 第91期
 * [鍵盤革命！ 高手寫程式監督政府](http://udn.com/NEWS/NATIONAL/NAT5/8108263.shtml) / 聯合報 ( 註:「台大資工系」「參與人數近五百人」「這不是偽裝」，詳情請見[說明](https://www.facebook.com/photo.php?fbid=10151869138785668) )
 * [您也是假新聞的受害者嗎？試試「新聞小幫手」](http://www.inside.com.tw/2013/08/20/chrome-extension-newshelper) / Inside
 * [用開放改造社會是開源人的浪漫──開源人年會](http://npost.tw/archives/1860) / NPOst 週報
