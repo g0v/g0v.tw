@@ -20,7 +20,7 @@
 
 安裝完之後打以下指令跑起 local web server
 
-    $ ./node_modules/.bin/brunch watch --server
+    $ npm start
 
 然後在 browser 輸入 [http://localhost:3333](http://localhost:3333)
 
