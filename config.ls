@@ -32,6 +32,9 @@ exports.config =
       joinTo:
         'css/app.css': /^app\/styles\/\w+\.less/
 
+  conventions:
+    ignored: /^app\/styles\/_less/
+
   plugins:
     jaded:
       staticPatterns: /^app\/(.+)\.jade$/
