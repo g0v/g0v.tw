@@ -29,7 +29,7 @@ g0v.tw 無黨無派、無錢倘買菜，是草根集結的公民運動，你可�
 如果你認同以上，歡迎加入 g0v.tw，來聊聊你想作些什麼，想協助什麼專案，想看到我們身處的世界有什麼改變。歡迎你成為科技改變社會的力量。
 
 <hr/>
-<h4 id="en">From across Taiwan</h4>
+<h4 id="en" style="border-top: 60px solid transparent">From across Taiwan</h4>
 g0v.tw is a community that advocates transparency of information, also known as open data. We are passionate coders, designers, activists, educators, writers and citizens from across Taiwan. Through working together to bring data into the open, we hope to build a better Taiwan for its citizens. To join g0v, all you need is to be ready and willing to use your expertise or energy for our cause.
 
 <br/>
