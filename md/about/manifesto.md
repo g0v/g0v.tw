@@ -1,4 +1,4 @@
-### g0v 宣言 <a href="#en">(English version)</a>
+### g0v 宣言 <a href="#en"><small>(English version)</small></a>
 
 -----
 <h4>我們來自四方</h4>
