@@ -12,7 +12,7 @@ g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社�
 
 ### g0v 的緣起
 
-2012 年 10 月「[Yahoo! Open Hack Day](http://www.bnext.com.tw/edm/2012hackday/index.html)」前夕，一組以台大資工系友為骨幹的參賽小組，在看到政府推出的「[經濟動能推升方案](http://www.youtube.com/watch?v=RAbD3AGFX6I)」廣告後，對其中不對稱、不透明的心態相當不滿，臨時決定更改題目，由原本以電子商務為主題改為中央政府總預算視覺化呈現。在短短三天內，完成了【[政府總預算視覺化](http://budget.g0v.tw/budget)】專案，是零時政府的第一項成果，也初步凝聚了科技工作者以資訊技術參與公共議題的動能。2012年12月1日，首次召開「第零次動員戡亂黑客松」，人數超乎預期，社群正式運作。
+2012 年 10 月「[Yahoo! Open Hack Day](http://www.bnext.com.tw/edm/2012hackday/index.html)」前夕，一組關懷社會議題的資訊人，在看到政府推出的「[經濟動能推升方案](http://www.youtube.com/watch?v=RAbD3AGFX6I)」廣告後，對其中不對稱、不透明的心態相當不滿，臨時決定更改題目，由原本以電子商務為主題改為中央政府總預算視覺化呈現。在短短三天內，完成了【[政府總預算視覺化](http://budget.g0v.tw/budget)】專案，是零時政府的第一項成果，也初步凝聚了科技工作者以資訊技術參與公共議題的動能。2012年12月1日，首次召開「第零次動員戡亂黑客松」，人數超乎預期，社群正式運作。
 
 
 <div class="video-container pagination-centered"><iframe width="640" height="480" src="http://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe></div>
