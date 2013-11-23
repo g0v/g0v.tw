@@ -2,13 +2,13 @@
 
 ### 活動預告
 
-* 2013/11/8 中央研究院開放資料工作坊：[從開放源碼，開放資料，到開放政府](http://odw.tw/)/ 高嘉良 (clkao)
 * 2013/12/4 東華大學數學系/ 高嘉良 (clkao)
 * 2013/12/4 政治大學資管系/ 鄭智中 (mindos)、王向榮(Ronnywang)、林旅強(Richard)
 * 2014/1/10-12 香港創不同 MaD 年會：[第五方向：從這裡，往哪裡，怎樣走](http://www.mad.asia/posts/557/MaD%20Forum/The-Fifth-Direction:-From-Here-and-Now-to-an-Envisioned-There)/ 高嘉良 (clkao)
 
 ### 演講/座談資訊
 
+* 2013/11/8 中央研究院開放資料工作坊：[從開放源碼，開放資料，到開放政府](http://odw.tw/)/ 高嘉良 (clkao)
 * 2013/10/22 中央大學資訊系：[Coke, Pizza, and Open Data](http://www.openfoundry.org/tw/activities/details/404)/ 陳柏儒 (Blue)、林旅強 (Richard)、鄭智中 (Mindos)
 * 2013/10/28 台北信義社大：[以自身專業改善社會的可能](http://www.xycc.org.tw/class/102-2-P/W06.htm)/ 黃雋(jimmyhuang)、陳信屹(hychen)
 * 2013/10/1 臺北大學：[資訊傳播、個人行為與社會運動：社會網絡觀點的啟示](http://www.ntpu.edu.tw/chinese/todayEvents_more.php?id=3522)/ 瞿筱葳 (ipa)
