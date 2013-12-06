@@ -12,7 +12,7 @@
 
 <tr>
 <td rowspan="1" colspan="1">
-<h3>從 08/09/2012 到 12/31/2013</h3>
+<h3>從 08/08/2012 到 12/31/2013</h3>
 
 <table border="0" cellspacing="1" cellpadding="1">
 <tr>
@@ -34,7 +34,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">10/30/2012</td>
+<td class="date-cell" rowspan="1" colspan="1">10/29/2012</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -56,11 +56,11 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="9">December 2012</td>
+<td rowspan="1" colspan="9">November 2012</td>
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">12/01/2012</td>
+<td class="date-cell" rowspan="1" colspan="1">11/30/2012</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -76,7 +76,7 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="8">小計 December 2012</td>
+<td class="total-label-cell" rowspan="1" colspan="8">小計 November 2012</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-19,070.00</td>
 </tr>
@@ -86,7 +86,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">01/27/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">01/26/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -102,7 +102,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">01/27/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">01/26/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -128,7 +128,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">03/16/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">03/15/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -144,7 +144,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">03/22/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -160,7 +160,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">03/22/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -186,7 +186,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">05/27/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">05/26/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -212,7 +212,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">06/07/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -228,7 +228,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">06/07/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -244,7 +244,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">06/07/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -260,7 +260,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">06/07/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -276,7 +276,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/26/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">06/25/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -302,7 +302,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">07/12/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">07/11/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -318,7 +318,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">07/22/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">07/21/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -344,7 +344,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">08/08/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -360,7 +360,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">08/08/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -376,7 +376,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">08/08/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -387,12 +387,12 @@
 <td>Expenses:Professional Fees</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=a6f1940f9aa27182a17b61150897678d#">NT$-1,216.00</a>
+<a href="gnc-register:trans-guid=a6f1940f9aa27182a17b61150897678d#">NT$-1,280.00</a>
 </td>
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -408,7 +408,7 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1"></td>
 
@@ -426,7 +426,287 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="8">小計 August 2013</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-3,386.00</td>
+<td class="total-number-cell" rowspan="1" colspan="1">NT$-3,450.00</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td rowspan="1" colspan="9">September 2013</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">09/10/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao yilan mapping</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=235f50e36500a789c01bd387432ba099#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td class="total-label-cell" rowspan="1" colspan="8">小計 September 2013</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">NT$2,000.00</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td rowspan="1" colspan="9">October 2013</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/01/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">ipa taipei university talk</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=fc867447dd8f1ea59d3217a75978c96f#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/07/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao rdec talk</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=1e1a871e2a40e3aa8dd24e220c2fe4ce#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/09/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao sme opendata legal</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=7de01e9212cc4eb6269d121f993b3987#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao hackgen judge</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=5325ccba98b66007ce17d4e49a9fbe87#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">legist hackgen judge</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=3ea629a7920471b662fdfd5e6f6e47c6#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath5n food</td>
+
+<td></td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=1b41065acd5a290fc58c8dd7a880df0e#">NT$-21,555.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath5n donation</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=6a33977395a70b31cdce0cfb00c84d90#">NT$18,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">nccu sponsorship</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=b42c0acaeb8d3f4f988ca07e2d84424a#">NT$6,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath5n registrano fee</td>
+
+<td></td>
+
+<td>Expenses:Online Services</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=bb107f4ac57233575be5cf61a2c2ef9d#">NT$-965.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath5n goscup fee</td>
+
+<td></td>
+
+<td>Expenses:Professional Fees</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=c098fc9616ab4b3b82fc6660e4cff7c4#">NT$-540.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/28/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">hychen/jimmy xinyi commuinty talk</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=bce768c089019e0fc440f4fe326c766a#">NT$2,400.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td class="total-label-cell" rowspan="1" colspan="8">小計 October 2013</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">NT$13,340.00</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td rowspan="1" colspan="9">November 2013</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">11/08/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao odw.tw talk</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=26bc2f7f7aefda9250367b9550b099cd#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">11/19/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao rdec legal</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=634ef2846234f9794b3e59272b870405#">NT$2,000.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td class="total-label-cell" rowspan="1" colspan="8">小計 November 2013</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">NT$4,000.00</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td rowspan="1" colspan="9">December 2013</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">12/04/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1"></td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao ndhu talk</td>
+
+<td></td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=2bdb69b0cb6aa9cc77a78cf0843389d0#">NT$1,600.00</a>
+</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td class="total-label-cell" rowspan="1" colspan="8">小計 December 2013</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">NT$1,600.00</td>
 </tr>
 
 <tr bgcolor="#ffff00">
@@ -437,7 +717,7 @@
 <tr bgcolor="#ffff00">
 <td class="total-label-cell" rowspan="1" colspan="8">總和</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$18,962.00</td>
+<td class="total-number-cell" rowspan="1" colspan="1">NT$39,838.00</td>
 </tr>
 </table>
 </td>
@@ -448,4 +728,3 @@
 </tr>
 </table>
 </center></body>
-</html>
