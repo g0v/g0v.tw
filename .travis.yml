@@ -13,7 +13,7 @@ branches:
 
 env:
   global:
-    - REPO = "git@github.com:g0v/g0v.tw"
+    - REPO="git@github.com:g0v/g0v.tw"
     - secure: "IbEzOuZoZT2nU0afkgpHtU9Schznsq0qNNMMncUq5PZuqePZnyXqmnLmzAuT3c2EhFc7Zy26eQnkv8kp5jlcVEmd2qBFea0Vgiqk72L1BmuawNzKLCkGYY0NkNxR4x46PB+0I5yIUlrwMxG3Q30UmNBnHBXsGFpUFsZJwMjtByg="
 
 after_success: .travis/after_success.sh 
