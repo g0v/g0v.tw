@@ -1,4 +1,5 @@
 ### 媒體報導
+* [萌典，教育部辭典糾察隊！](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=314&f_SUB_ID=5852&f_ART_ID=488985) / 聯合晚報 2013.12.7
 * [網友力量大　揪教部辭典上千錯](http://www.cdnews.com.tw/cdnews_site/docDetail.jsp?coluid=121&docid=102545719) / 中央日報
 * [g0v 要用鍵盤拆政府搞革命](http://www.new7.com.tw/NewsView.aspx?i=TXT20131113142202RPZ) / 新新聞
 * [立院影城開演 不滿質詢丟鞋抗議](http://www.ttv.com.tw/102/11/1021106/10211064937503I.htm) / 台視新聞
