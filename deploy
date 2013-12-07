@@ -1,13 +1,19 @@
 #!/bin/sh
+set -e
 upstream=$1
 : ${upstream:=origin}
-npm i
-#git pull $upstream master || exit -1
+: ${REPO:=git@github.com:g0v/g0v.tw}
 git fetch $upstream
-git branch -f gh-pages $upstream/gh-pages
+if [ `git rev-list HEAD...$upstream/master --count` -ne 0 ]; then
+  echo "not deploying"
+  exit 1
+fi
+npm i
 rm -rf _public
-git clone -s . -b gh-pages _public
-killall brunch
+# XXX: use --reference when not in shallow clone
+#git clone $REPO --reference . -b gh-pages _public
+git clone $REPO -b gh-pages _public
+
 REV=`git describe --always`
 BUILD=git-$REV ./node_modules/.bin/brunch b -o
 cd _public
@@ -15,4 +21,3 @@ git add -A .
 git commit-tree -m "regen for $REV" -p `git rev-parse HEAD` -p $REV `git write-tree` | xargs git reset --hard
 git push origin gh-pages
 cd ..
-git push -f $upstream gh-pages
