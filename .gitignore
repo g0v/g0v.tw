@@ -1,7 +1,12 @@
-node_modules
-_public
 _site
 .DS_Store
 /*.html
 *.swp
 *.swo
+
+node_modules/*
+bower_components/*
+npm-debug.log
+_public
+
+test/karma.*.js
