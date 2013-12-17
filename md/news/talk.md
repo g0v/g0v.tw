@@ -6,7 +6,7 @@
 
 ### 演講/座談資訊
 
-* 2013/12/9 【文化攻策論壇】‧ 系列參 ─[公民參與 & 網路革命](https://www.facebook.com/events/334833043324985/)/ 吳泰輝 ([投影片](https://docs.google.com/file/d/0B_UpRpAst1MYeXhnMHZFX21MTjg/edit)
+* 2013/12/9 【文化攻策論壇】‧ 系列參 ─[公民參與 & 網路革命](https://www.facebook.com/events/334833043324985/)/ 吳泰輝 ([投影片](https://docs.google.com/file/d/0B_UpRpAst1MYeXhnMHZFX21MTjg/edit))
 * 2013/12/4 東華大學數學系/ 高嘉良 (clkao)
 * 2013/12/4 政治大學資管系/ 鄭智中 (mindos)、王向榮(Ronnywang)、林旅強(Richard)
 * 2013/11/8 中央研究院開放資料工作坊：[從開放源碼，開放資料，到開放政府](http://odw.tw/)/ 高嘉良 (clkao)
@@ -18,10 +18,10 @@
 * 延期 [HP51 – Open Data x Open Design](http://www.hpx-party.com/hpx-events/hp51)/ 高嘉良 (clkao)
 * 2013/8/18 [XD 2013 跨設計分享會 no.1 [Innovative Citizen]](http://www.xd-crossdesign.com/2013/08/xd-2013-no1-innovative-citizen.html)：與談人 tkirby, ETBlue
 * 2013/8/3-4 COSCUP 2013/ g0v社群
-*  2013/7 政大道南營 [網路公民的進擊](https://speakerdeck.com/ipaaa/g0v-wang-lu-gong-min-de-jin-ji) / 瞿筱葳 (ipa), 
+*  2013/7 政大道南營 [網路公民的進擊](https://speakerdeck.com/ipaaa/g0v-wang-lu-gong-min-de-jin-ji) / 瞿筱葳 (ipa) 
 *  2013 政大開放資料與社群協力創新 [從開放源碼到開放政府](https://speakerdeck.com/clkao/cong-kai-fang-yuan-ma-dao-kai-fang-zheng-fu) / 高嘉良 (clkao) , 
-* 2013/4 OSDC Taiwan [g0v 黑客松 - 寫城市改造社會](https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) ([逐字稿與錄影](http://blog.g0v.tw/post/58752578556)) / 吳泰輝 (tkirby), 
-* 2013/4 OSDC Taiwa [PgRest Node.js in the Data / 萌典](https://speakerdeck.com/audreyt/pgrest-node-dot-js-in-the-database) / 唐鳳 (au), n 
+* 2013/4 OSDC Taiwan [g0v 黑客松 - 寫城市改造社會](https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) ([逐字稿與錄影](http://blog.g0v.tw/post/58752578556)) / 吳泰輝 (tkirby),
+* 2013/4 OSDC Taiwa [PgRest Node.js in the Data / 萌典](https://speakerdeck.com/audreyt/pgrest-node-dot-js-in-the-database) / 唐鳳 (au)
 * 2013/1 WebConf Taiwan [g0v 黑客松 - 寫程式改造社會](https://speakerdeck.com/clkao/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) / 高嘉良 (clkao), 
 
 
