@@ -8,6 +8,7 @@ dependencies:
   angular: "1.2.3"
   "angular-mocks": "1.2.3"
   "angular-scenario": "1.2.3"
+  "angular-markdown-directive": "0.1.0"
 
 overrides:
   "angular-mocks":

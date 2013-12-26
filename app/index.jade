@@ -22,7 +22,7 @@ block content
             .blog-loading(ng-show="articles.length === 0")
             article(ng-repeat="article in articles | orderBy:'$index':true")
                 h3: a(ng-href="{{article.link}}") {{article.title}}
-                p(ng-bind="article.description")
+                div(btf-markdown="article.description")
 
     #index_right_container
 
