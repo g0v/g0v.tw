@@ -13,3 +13,7 @@ dependencies:
 overrides:
   "angular-mocks":
     main: "README.md"
+
+resolutions:
+  angular: "1.2.3"
+
