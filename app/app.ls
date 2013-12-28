@@ -48,3 +48,6 @@ show = ->
   prj-img.animate {opacity: 1}, 500
   [h] = [40 + prj-img.height!]
   $ \#prj-img-div .animate {height: h+"px"}, 500
+
+<- $
+$ '.ui.dropdown' .dropdown!

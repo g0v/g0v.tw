@@ -7,7 +7,9 @@ html(ng-app="g0v.tw",ng-cloak)
         title
             block title
         link(rel="stylesheet", type="text/css", href="/css/app.css")
+        link(rel="stylesheet", type="text/css", href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.10.0/css/semantic.min.css")
         script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+        script(src='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.10.0/javascript/semantic.min.js')
         script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js')
         script(src='//cdn.firebase.com/v0/firebase.js')
         script(src='/js/vendor.js')
@@ -34,20 +36,14 @@ html(ng-app="g0v.tw",ng-cloak)
         #header
             #header_inner_container
                 #logo
-                    a(href="/index.html"): img(src="/imgs/g0v-240-invert.png")
-
-                #social_block.hidden-phone
-                    #g_block
-                        .g-plusone(data-size="tall",data-href="http://g0v.tw")
-                    #fb_block
-                        #fb-root
-                        .fb-like(data-href="http://facebook.com/g0v.tw",data-width="60",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
+                    a(href="/index.html"): img(src="https://dl.dropboxusercontent.com/u/16853724/g0v-horizontal-transparent-darkbackground-m.png")
 
                 div.clearfix
 
         include ./nav
 
         #container
+
 
             block content
 
@@ -71,7 +67,6 @@ html(ng-app="g0v.tw",ng-cloak)
                 .map-item: a(href="https://plus.google.com/102893633954450772289",rel="publisher") G+ 專頁
                 .map-item: a(href="http://www.facebook.com/groups/387816094628136/") 後勤中心
                 .map-item: a(href="http://data.g0v.tw/") 資料中心
-                .map-item: a(href="http://g0v.tw/transaction.html") 收支明細
             .map-entry
                 .map-caption: |專案
                 .map-item: a(href="http://github.com/g0v") 源碼集散地

@@ -5,12 +5,12 @@
 
 body {
   background:url(../imgs/tiles.png);
-    padding: 0 50px;
+    padding: 0 0px;
 }
 
-#container, #header, #nav_bar, #footer { width: 1000px; }
+#container, #nav_bar, #footer { width: 900px; }
 #nav_bar .nav_tab { width: 200px; }
-#index_left_container { width: 739px; /* container width - index_right_container width - margin */ }
+#index_left_container { width: 639px; /* container width - index_right_container width - margin */ }
 #index_right_container { width: 241px; }
 @media (max-width: 1100px) {
 	#container, #header, #nav_bar, #footer { width: 100%; }
@@ -21,6 +21,11 @@ body {
 		.videos iframe { height: 100%; }
 		.logbot { width: 100%; }
 	}
+
+#header {
+  width: 100%
+}  
+
 }
 @media (max-width: 640px) {
     body {
@@ -32,8 +37,8 @@ body {
 #header {
   background: url(../imgs/binding_dark.png) #171717;
   border-bottom: 2px solid rgba(0,0,0,0);
-  box-shadow: 0 0 5px rgba(0,0,0,0.6);
-  height: 175px;
+  box-shadow: 0 0 0px rgba(0,0,0,0.6);
+  height: 55px;
 	margin: 0 auto;
 }
 
@@ -68,7 +73,7 @@ body {
   margin: 0 auto;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  box-shadow: 0 0 0px rgba(0,0,0,0.6);
   background: url(../imgs/binding_light.png);
 
   .nav_tab {
@@ -92,7 +97,7 @@ body {
     &:first-child { border-left: 0; }
     &.active, &:hover {
         background-color: rgba(0,0,0,0.4);
-        box-shadow: 0 0 5px rgba(0,0,0,0.9);
+        box-shadow: 0 0 0px rgba(0,0,0,0.9);
         text-shadow: none;
         a {
           color: #fff;
@@ -116,6 +121,10 @@ body {
 #container {
   margin-right: auto;
   margin-left: auto;
+
+  .ui.menu .item {
+      padding:.83em 2.37597em;
+  } 
 }
 
 .map-entry.hackathon {
@@ -181,14 +190,15 @@ body {
 }
 
 .page-icon {
-  float:left;margin:0 15px 15px 0;box-shadow:0px 1px 9px;
+  float:left;margin:0 15px 15px 0;box-shadow:0px 0px 0px;
 }
 
 #footer {
-  background: url(../imgs/binding_dark.png) #171717;
-  box-shadow: 0px -2px 10px;
+  background-color: #000000;
+  box-shadow: 0px 0px 0px;
   color: @grayLight;
   height: 200px;
+  width: 100%;
 	line-height: 20px;
   margin: 30px auto 0;
   padding: 10px 0;
@@ -208,7 +218,7 @@ h3 {
 }
 
 .navbar {
-  box-shadow: 0 2px 7px;
+  box-shadow: 0 0px 0px;
 }
 
 .logbot {
@@ -239,7 +249,7 @@ h3 {
   img {
     max-height: 300px;
     margin: 20px;
-    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 0px rgba(0,0,0,0.3);
     border-radius: 5px;
   }
   p.description {
@@ -268,7 +278,8 @@ h3 {
 }
 
 #about-content {
-    padding: 20px;
+    padding: 0px;    
 }
+
 
 // vi:nowrap:sw=2:ts=2

@@ -36,13 +36,6 @@ g0v.tw 活動以兩個月一次的黑客松(註)工作坊為主軸，參與者�
 
 <br/>
 
-### 相關文件
-
-[宣言全文](manifesto.html)<br/>
-[FAQ](faq.html)
-
-<br/>
-
 ### 聯繫
 
 論壇：https://groups.google.com/forum/?fromgroups#!forum/g0v-general<br/>

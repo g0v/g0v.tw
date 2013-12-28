@@ -1,8 +1,10 @@
 extend layout
 
 block title 
-    | 關於我們
+    | 常見問題
 
 block content
 
-    include ../md/about/faq.md
+	#about-content
+    .ui.segment
+    	include:md ../md/about/faq.md
