@@ -7,10 +7,10 @@ block content
 
     #index_left_container
         .ui.purple.segment(ng-controller="FeaturedCtrl")
-            .ui.red.ribbon.large.label 最新成果
+            .ui.red.ribbon.large.label 零時政府最新成果
             a.pull-right(ng-click="nextProject()") &#xbb;
             .featured-projects
-                h3: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
+                h4: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
                 .imgblock(style="text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #ccc")
                   a(ng-href='{{project.homepage}}')
                     #prj-img-div
@@ -18,10 +18,10 @@ block content
                 p.description {{ project.description_zh || project.description }}
 
         .ui.green.segment(ng-controller="BlogCtrl")
-            .ui.red.ribbon.large.label 部落格
+            .ui.red.ribbon.large.label 零時政府部落格
             .blog-loading(ng-show="articles.length === 0")
             article(ng-repeat="article in articles | orderBy:'$index':true")
-                h3: a(ng-href="{{article.link}}") {{article.title}}
+                h4: a(ng-href="{{article.link}}") {{article.title}}
                 p(ng-bind="article.description")
                 .ui.divider
 
