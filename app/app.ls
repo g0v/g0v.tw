@@ -4,7 +4,7 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
-angular.module "g0v.tw" <[firebase]>
+angular.module "g0v.tw" <[firebase btford.markdown]>
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)

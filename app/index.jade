@@ -6,11 +6,11 @@ block title
 block content
 
     #index_left_container
-        
-        //.ui.three.connected.inverted.items                    
-            .item              
+
+        //.ui.three.connected.inverted.items
+            .item
                 .image
-                  a(href="/about.html") 
+                  a(href="/about.html")
                     img(src='/images/demo/highres4.jpg')
                 .content
                   .name Transparency
@@ -47,14 +47,14 @@ block content
             .blog-loading(ng-show="articles.length === 0")
             article(ng-repeat="article in articles | orderBy:'$index':true")
                 h4: a(ng-href="{{article.link}}") {{article.title}}
-                p(ng-bind="article.description")
+                div(btf-markdown="article.description")
                 .ui.horizontal.icon.divider
                     i.code.icon
 
     #index_right_container
-        
+
         .ui.orange.segment(ng-controller="EventCtrl")
-            
+
             .event-loading(ng-show="events.length === 0")
             h4 活動訊息
                 ul
@@ -80,6 +80,6 @@ block content
                 iframe(height="488",width="220", target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
 
 
-                
-       
+
+
     #index_float_clear
