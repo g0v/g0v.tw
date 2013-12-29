@@ -23,7 +23,7 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   $scope.events = angularFireCollection fireRoot.child("feed/events/articles").limit(2)
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
-  $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 10
+  $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 6
 
 .controller FeaturedCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects")
@@ -48,3 +48,6 @@ show = ->
   prj-img.animate {opacity: 1}, 500
   [h] = [40 + prj-img.height!]
   $ \#prj-img-div .animate {height: h+"px"}, 500
+
+<- $
+$ '.ui.dropdown' .dropdown!

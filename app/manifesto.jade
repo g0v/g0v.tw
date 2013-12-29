@@ -1,8 +1,11 @@
 extend layout
 
 block title 
-    | 關於我們
+    | 零時政府宣言
 
 block content
 
-    include:markdown ../md/about/manifesto.md
+    #about-content
+    .ui.teal.segment
+        .ui.label.orange.ribbon.large 零時政府宣言
+        include:md ../md/about/manifesto.md
