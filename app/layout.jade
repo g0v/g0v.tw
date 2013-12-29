@@ -7,7 +7,9 @@ html(ng-app="g0v.tw",ng-cloak)
         title
             block title
         link(rel="stylesheet", type="text/css", href="/css/app.css")
+        link(rel="stylesheet", type="text/css", href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.10.0/css/semantic.min.css")
         script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+        //script(src='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.10.0/javascript/semantic.min.js')
         script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js')
         script(src='//cdn.firebase.com/v0/firebase.js')
         script(src='/js/vendor.js')
@@ -34,20 +36,19 @@ html(ng-app="g0v.tw",ng-cloak)
         #header
             #header_inner_container
                 #logo
-                    a(href="/index.html"): img(src="/imgs/g0v-240-invert.png")
-
+                    a(href="/index.html"): img(src="https://dl.dropboxusercontent.com/u/16853724/g0v-horizontal-transparent-darkbackground-m.png")
                 #social_block.hidden-phone
                     #g_block
-                        .g-plusone(data-size="tall",data-href="http://g0v.tw")
+                        .g-plusone(data-size="medium",data-href="http://g0v.tw")
                     #fb_block
                         #fb-root
-                        .fb-like(data-href="http://facebook.com/g0v.tw",data-width="60",data-colorscheme="dark",data-layout="box_count",data-show-faces="true",data-send="true")
-
+                        .fb-like(data-href='https://www.facebook.com/g0v.tw', data-layout='button_count', data-action='like', data-show-faces='true', data-share='true')
                 div.clearfix
 
         include ./nav
 
         #container
+
 
             block content
 
@@ -68,10 +69,9 @@ html(ng-app="g0v.tw",ng-cloak)
                 //- .map-item: a(href="/about.html") 關於我們
                 //- .map-item: a(href="/sitemap.html") 網站地圖
                 .map-item: a(href="http://www.facebook.com/g0v.tw") 臉書專頁
+                .map-item: a(href="http://www.facebook.com/groups/387816094628136/") 臉書社群
                 .map-item: a(href="https://plus.google.com/102893633954450772289",rel="publisher") G+ 專頁
-                .map-item: a(href="http://www.facebook.com/groups/387816094628136/") 後勤中心
                 .map-item: a(href="http://data.g0v.tw/") 資料中心
-                .map-item: a(href="http://g0v.tw/transaction.html") 收支明細
             .map-entry
                 .map-caption: |專案
                 .map-item: a(href="http://github.com/g0v") 源碼集散地
@@ -81,14 +81,7 @@ html(ng-app="g0v.tw",ng-cloak)
                 .map-caption: |資訊
                 .map-item: a(href="http://blog.g0v.tw") 部落格
                 .map-item: a(href="https://twitter.com/search?q=%23g0v&src=hash") 推特
-            .map-entry
-                .map-caption: |活動
-                .map-item: a(href="http://www.flickr.com/photos/tkirby/collections/72157632969946032/") 活動照片
-                .map-item: a(href="http://www.youtube.com/playlist?list=PLOmVOzQIKKkTrOqF-BdKqK0iLM6MspSGM") 活動實況
-            .map-entry
-                .map-caption: |指南
-                .map-item: a(href="https://github.com/g0v/dev/wiki/g0v-newstuff") 新手指南
-                .map-item: a(href="http://g0v.tw/join.html") 參與我們
+
 
 
         #social_plugins

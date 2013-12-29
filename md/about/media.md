@@ -20,11 +20,10 @@
 * [「網路全黑日」發動 多個網站熄燈封網抗議](http://tw.news.yahoo.com/%E7%B6%B2%E8%B7%AF%E5%85%A8%E9%BB%91%E6%97%A5-%E7%99%BC%E5%8B%95-%E5%A4%9A%E5%80%8B%E7%B6%B2%E7%AB%99%E7%86%84%E7%87%88%E5%B0%81%E7%B6%B2%E6%8A%97%E8%AD%B0-174421974.html) (萌典網站加入抗議) (2013.06.04) / 新頭殼
 * [佛心求職程式 可揪血汗公司](http://www.appledaily.com.tw/appledaily/article/headline/20130414/34951484/) / 蘋果日報
 * [「揭露22K」網 揪出血汗企業](http://www.appledaily.com.tw/appledaily/article/headline/20130129/34800790/) / 蘋果日報
-* [Open Data—來自資訊界的社會運動（下）](http://www.thinkingtaiwan.com/public/articles/view/318) (2012.11.28) / 雨蒼
-* [Open Data—來自資訊界的社會運動（上）](http://www.thinkingtaiwan.com/articles/view/314) (2012.11.28) / 雨蒼
-
 
 ### 部落格文章
+* [Open Data—來自資訊界的社會運動（下）](http://www.thinkingtaiwan.com/public/articles/view/318) (2012.11.28) / 雨蒼
+* [Open Data—來自資訊界的社會運動（上）](http://www.thinkingtaiwan.com/articles/view/314) (2012.11.28) / 雨蒼
 * [網路公民的進擊](http://ipaway.org/?p=2679) (2013.06.07) / ipa
 * [迎接春天的公民資訊黑客松](http://ipaway.org/?p=2518) (2013.3.13) / ipa
 * [搶救國會資料大軍](http://ipaway.org/?p=2334) (2013.01.08) / ipa
