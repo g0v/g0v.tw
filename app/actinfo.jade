@@ -1,8 +1,11 @@
 extend layout
 
 block title 
-    | 媒體報導
+    | 黑客松報名
 
 block content
-
-    include:md ../md/news/act_info.md
+    
+    #about-content
+    .ui.teal.segment
+        .ui.label.black.ribbon.large 黑客松報名
+        include:md ../md/hackathon/act_info.md

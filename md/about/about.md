@@ -34,10 +34,4 @@ g0v.tw 活動以兩個月一次的黑客松(註)工作坊為主軸，參與者�
 
 
 
-<br/>
-
-### 聯繫
-
-論壇：https://groups.google.com/forum/?fromgroups#!forum/g0v-general<br/>
-採訪/邀約請來信至：[g0v-talks@googlegroups.com](mailto:g0v-talks@googlegroups.com)（黑客松不開放旁聽、採訪，想來現場請報名參與活動。）
 

@@ -35,7 +35,7 @@ body {
 }
 
 #header {
-  background: url(../imgs/binding_dark.png) #171717;
+  background-color: #000000;
   border-bottom: 2px solid rgba(0,0,0,0);
   box-shadow: 0 0 0px rgba(0,0,0,0.6);
   height: 55px;
@@ -52,7 +52,7 @@ body {
   #social_block {
     display: table-cell;
     float: right;
-    -webkit-transform: translate(-30px, 50px) scale(1.5);
+    -webkit-transform: translate(-30px, 20px) scale(0.95);
     -moz-transform: translate(-30px, 50px) scale(1.5);
     -ms-transform: translate(-30px, 50px) scale(1.5);
     transform: translate(-30px, 50px) scale(1.5);
@@ -123,7 +123,7 @@ body {
   margin-left: auto;
 
   .ui.menu .item {
-      padding:.83em 2.37597em;
+      padding:.83em 2.3em;
   } 
 }
 
@@ -179,7 +179,7 @@ body {
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
-  background:#555;
+  background: #00B5AD;
   border-radius: 3px;
   color: #fff;
   padding:3px 8px 3px 8px;
@@ -277,9 +277,14 @@ h3 {
   }
 }
 
-#about-content {
-    padding: 0px;    
+
+.ui.black.ribbon.label, .ui.purple.ribbon.label, .ui.red.ribbon.label, .ui.orange.ribbon.label, .ui.green.ribbon.label, .ui.teal.ribbon.label, .ui.blue.ribbon.label {
+  font-size: larger;
+  margin: -1.2em 0em 0em -1.6em;
 }
 
+.ui.green.segment, .ui.blue.segment, .ui.purple.segment, .ui.teal.segment, .ui.red.segment {
+  padding: 2em 3em 3em 3em;
+}
 
 // vi:nowrap:sw=2:ts=2

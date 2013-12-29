@@ -1,5 +1,3 @@
-<br />
-
 ### 最新消息：
 * [g0v blog](http://blog.g0v.tw) : g0v 官方部落格
 * [g0v 公報](https://g0v.hackpad.com/ep/group/yZ9JT9UlJf4) : 每日 IRC / 論壇 消息摘要
