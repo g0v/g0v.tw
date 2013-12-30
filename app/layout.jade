@@ -3,6 +3,10 @@ html(ng-app="g0v.tw",ng-cloak)
     head
         meta(charset="utf-8")
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
+        meta(property="og:title",content="零時政府 g0v.tw")
+        meta(property="og:url",content="http://g0v.tw")
+        meta(property="og:type",content="website")
+        meta(property="og:image",content="https://raw.github.com/g0v/style-guide/master/logo/png/double-line/g0v-2line-white-s.png")
         link(rel="SHORTCUT ICON",href="/g0v.ico")
         title
             block title
@@ -36,7 +40,7 @@ html(ng-app="g0v.tw",ng-cloak)
         #header
             #header_inner_container
                 #logo
-                    a(href="/index.html"): img(src="https://dl.dropboxusercontent.com/u/16853724/g0v-horizontal-transparent-darkbackground-m.png")
+                    a(href="/"): img(src="/imgs/g0v-horizontal-transparent-darkbackground-m.png")
                 #social_block.hidden-phone
                     #g_block
                         .g-follow(data-annotation='none', data-height='20', data-href='https://plus.google.com/102893633954450772289', data-rel='publisher')
@@ -89,7 +93,7 @@ html(ng-app="g0v.tw",ng-cloak)
 
             div.footer-brand
                 | g0v.tw 2013 |
-                img(src="/imgs/g0v-icon-invert.png")
+                img(src="/imgs/g0v-horizontal-transparent-darkbackground-m.png")
                 .build-id(ng-controller="BuildIdCtrl")
                   a(href="https://github.com/g0v/g0v.tw") {{buildId}}
 

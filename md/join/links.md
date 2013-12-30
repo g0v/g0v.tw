@@ -13,11 +13,11 @@
 
 #### 我要參加
 * [報名網址 Registrano](http://registrano.com/group/g0v-tw)：不定期有迷你黑客松，訂閱RSS可以掌握大小活動。
-* [營運中心(hub)](http://hack.g0v.tw/people)：成員列表 x 專案列表 x tag!
+* [營運中心(hub)](http://hack.g0v.tw/people)：成員列表 &times; 專案列表 &times; Tag!
 
 #### 瀏覽專案
 * [hackfoldr](http://hack.g0v.tw)
-* [hackpad g0v]：follow 一下，更新會通知。
+* [g0v hackpad](https://g0v.hackpad.com/)：Follow 一下，更新會通知。
 
 #### 開啟專案
 * 初步構想：[idea pool]
