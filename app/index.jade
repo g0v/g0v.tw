@@ -8,21 +8,21 @@ block content
     #index_left_container
 
         .ui.three.connected.items
-            .item
+            a.item(target="_blank",href="/manifesto.html")
                 .image
                   img(src='/imgs/transparency.jpg')
                 .content
                   .name Transparency
                   p.description
                     | 致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。 
-            .item
+            a.item(target="_blank",href="/actrecord.html")
                 .image
                   img(src='/imgs/action.png')
                 .content
                   .name Action
                   p.description
                     | 每兩個月舉行一次黑客松工作坊，以實際行動參與社會，尋找公民新力量。
-            .item
+            a.item(target="_blank",href="/join.html")
                 .image
                   img(src='/imgs/community.jpg')
                 .content
@@ -68,7 +68,9 @@ block content
             .logbot
                 h4 即時聊天
                 h4: a(target="_blank",class="btn btn-info",href="http://hack.g0v.tw/irc") 來聊天！
-                iframe(height="480",target="_blank",defer-src="http://lumberjack.ultrab0t.net/widget/g0v.tw/",frameborder="0",allowfullscreen)
+                // -- Uncomment this line when it's back in operation --
+                // iframe(height="480",target="_blank",defer-src="http://lumberjack.ultrab0t.net/widget/g0v.tw/",frameborder="0",allowfullscreen)
+                iframe(height="480",target="_blank",defer-src="http://logbot.g0v.tw/widget/g0v.tw",frameborder="0",allowfullscreen)
              .ui.divider
             .g0village
                 h4 線上遊戲
