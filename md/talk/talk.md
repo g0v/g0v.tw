@@ -22,5 +22,6 @@
 * 2013/4 OSDC Taiwa [PgRest Node.js in the Data / 萌典](https://speakerdeck.com/audreyt/pgrest-node-dot-js-in-the-database) / 唐鳳 (au)
 * 2013/1 WebConf Taiwan [g0v 黑客松 - 寫程式改造社會](https://speakerdeck.com/clkao/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui) / 高嘉良 (clkao), 
 
+### 演講訪談邀約
 
-演講訪談邀約：來信請寄[g0v-talks@googlegroups.com](mailto:g0v-talks@googlegroups.com) （黑客松不開放旁聽、採訪，想來現場請報名參與活動。）
+來信請寄：g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
