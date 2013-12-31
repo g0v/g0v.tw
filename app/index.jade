@@ -55,7 +55,7 @@ block content
         .ui.orange.segment(ng-controller="EventCtrl")
 
             .event-loading(ng-show="events.length === 0")
-            h4 活動訊息
+            h4 最新活動
                 ul
                     li(ng-repeat="event in events | orderBy:'$index':true")
                         a(ng-href="{{event.link}}") {{event.title}}
@@ -76,7 +76,7 @@ block content
              .ui.divider
             .google_calendar
                 h4 行事曆
-                iframe(height="488",width="220", target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
+                iframe(height="488",target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
 
 
 
