@@ -50,4 +50,4 @@ show = ->
   $ \#prj-img-div .animate {height: h+"px"}, 500
 
 <- $
-$ '.ui.dropdown' .dropdown!
+$ '.ui.dropdown' .dropdown on: \hover, transition: \fade
