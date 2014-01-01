@@ -1,6 +1,7 @@
 ### 演講預告
 
 * 2014/1/10-12 香港創不同 MaD 年會：[第五方向：從這裡，往哪裡，怎樣走](http://www.mad.asia/posts/557/MaD%20Forum/The-Fifth-Direction:-From-Here-and-Now-to-an-Envisioned-There)/ 高嘉良 (clkao)
+* 2014/1/22 成功大學網際網路程式設計期末展/ 鄭智中 (Mindos)
 
 ### 演講/座談資訊
 
