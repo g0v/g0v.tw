@@ -1,8 +1,12 @@
 #container
+    - var nav_cls = {}
+    - nav_cls.index = nav_cls.about = nav_cls.talk = ''
+    - nav_cls.actinfo = nav_cls.join = nav_cls.contact = ''
+    block vars
     .ui.fluid.seven.item.menu
-        a.active.orange.item(href="/index.html")
+        a(class="item #{ nav_cls.index }",href="/index.html")
           | 首頁
-        .ui.pointing.dropdown.link.item
+        div(class="ui pointing dropdown link item #{ nav_cls.about }")
           | 關於
           .menu
             a.item(href="/about.html")
@@ -24,7 +28,7 @@
               | 成果列表
             a.item(href="https://g0v.hackpad.com/")
               | 開發中專案
-        .ui.pointing.dropdown.link.item
+        div(class="ui pointing dropdown link item #{ nav_cls.join }")
           | 加入行動
           .menu
             a.item(href="/join.html")
@@ -37,16 +41,16 @@
               | 成員入口
             a.item(href="/links.html")
               | 相關連結
-        a.item(href="/talk.html")
+        a(class="item #{ nav_cls.talk }",href="/talk.html")
           | 演講資訊
-        .ui.pointing.dropdown.link.item
+        div(class="ui pointing dropdown link item #{ nav_cls.actinfo }")
           | 黑客松資訊
           .menu
             a.item(href="/actinfo.html")
               | 黑客松報名
             a.item(href="/actrecord.html")
               | 黑客松紀錄
-        .ui.pointing.dropdown.link.item
+        div(class="ui pointing dropdown link item #{ nav_cls.contact }")
           | 聯繫
           .menu
             a.item(href="/contact.html")
