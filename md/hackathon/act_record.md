@@ -6,12 +6,14 @@
 
 ### 照片：
 
-* [hackath4n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157635071687582/) / tkirby
-* [hackath3n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157634022248856/) / tkirby
-* [hackath2n 活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / tkirby
-* [hackath1n 台中場活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / adaam
-* [hackath1n 台北場活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157632634102452/) / tkirby
-* [hackath0n 活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157632153043236/) / tkirby
+* [hackath6n 勞動基準黑客松活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157639076585486/) / tkirby
+* [hackath5n 美麗島黑客松活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157636741475916/) / Macpaul
+* [hackath4n 國民大會黑客松活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157635071687582/) / tkirby
+* [hackath3n 客廳工廠黑客松活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157634022248856/) / tkirby
+* [hackath2n 九大建設黑客松活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / tkirby
+* [hackath1n 公地放領黑客松台中場活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157633079209796/) / adaam
+* [hackath1n 公地放領黑客松台北場活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157632634102452/) / tkirby
+* [hackath0n 動員戡亂黑客松活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157632153043236/) / tkirby
 
 ### 心得：
 
