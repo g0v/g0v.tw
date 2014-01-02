@@ -1,5 +1,5 @@
 ### 媒體報導
-* [【溫肇東專欄】一群勇敢追夢的台灣年輕人](http://www.managertoday.com.tw/?p=36688) / 經理人月刊
+* [【溫肇東專欄】一群勇敢追夢的台灣年輕人](http://www.managertoday.com.tw/?p=36688) / 經理人月刊 2013.12
 * [投票指南網站 缺席立委、叛逆立委現形](http://video.n.yam.com/20131227014669/%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97%E7%B6%B2%E7%AB%99%20%E7%BC%BA%E5%B8%AD%E7%AB%8B%E5%A7%94%E3%80%81%E5%8F%9B%E9%80%86%E7%AB%8B%E5%A7%94%E7%8F%BE%E5%BD%A2) / TVBS 2013.12.27
 * [駭客鄉民　用程式碼「拆」政府](http://www.cw.com.tw/article/article.action?id=5054859) / 天下雜誌 538 期  2013.12.25 ( [全文備份](https://gist.github.com/pofeng/8209425) )
 * [王金平成饒舌歌手？　網友KUSO自律RAP](http://www.appledaily.com.tw/realtimenews/article/politics/20131217/310468/%E7%8E%8B%E9%87%91%E5%B9%B3%E6%88%90%E9%A5%92%E8%88%8C%E6%AD%8C%E6%89%8B%EF%BC%9F%E3%80%80%E7%B6%B2%E5%8F%8BKUSO%E8%87%AA%E5%BE%8BRAP) / 蘋果日報 2013.12.17 ( [此新聞與 g0v 的關係](http://mmdays.com/2013/12/24/%E7%95%B6%E7%8E%8B%E6%BE%A4%E9%87%91%E5%B9%B3%E8%BC%B8%E7%B5%A6mc%E7%BE%8E%E6%B1%9F%EF%BC%9A%E4%B8%80%E5%89%87%E4%BB%A5%E5%96%9C%EF%BC%8C%E4%B8%80%E5%89%87%E4%BB%A5%E6%86%82/) )
@@ -12,8 +12,9 @@
 * [Open Data 啟動產業新契機 創造人民有感未來生活 六大專家找出新應用](http://edn.udn.com/news/view.jsp?aid=670249&cid=10) / 經濟日報 2013.10.14
 * [Open Data 啟動產業新契機 創造人民有感未來生活](http://n.yam.com/greatnews/politics/20131024/20131024842076.html) / 大成報
 * [Open Data 啟動產業新契機  創造人民有感未來生活](http://mypaper.pchome.com.tw/026955/post/1325734985) / 行政院研考會 2013.10.7
+* [與零時政府對談分散協作的實力與潛力](http://blog.roodo.com/subing/archives/25782718.html) /  深音網路廣播訪談逐字稿 2013.10.13
 * [靠政府？不如靠自己 – g0v.tw 人民力量大匯集](http://www.naipo.com/portals/1/web_tw/Knowledge_Center/Editorial/publish-102.htm) / 北美智權報 第91期 2013.09.02
-* [鍵盤革命！ 高手寫程式監督政府](http://udn.com/NEWS/NATIONAL/NAT5/8108263.shtml) / 聯合報 2013.08.20( 註:「台大資工系」「參與人數近五百人」「這不是偽裝」，詳情請見[說明](https://www.facebook.com/photo.php?fbid=10151869138785668) ) 
+* [鍵盤革命！ 高手寫程式監督政府](http://udn.com/NEWS/NATIONAL/NAT5/8108263.shtml) / 聯合報 2013.08.20 ( 註:「台大資工系」「參與人數近五百人」「這不是偽裝」，詳情請見[說明](https://www.facebook.com/photo.php?fbid=10151869138785668) ) 
 * [您也是假新聞的受害者嗎？試試「新聞小幫手」](http://www.inside.com.tw/2013/08/20/chrome-extension-newshelper) / Inside 2013.08.20
 * [用開放改造社會是開源人的浪漫──開源人年會](http://npost.tw/archives/1860) / NPOst 週報 No. 45 2013.08.05
 * [工程師的鍵盤革命：拆政府，原地重建](http://www.inside.com.tw/2013/08/05/coscup-2013-coders-keyboard-revolution) / Inside 2013.08.05
