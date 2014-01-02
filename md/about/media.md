@@ -1,7 +1,8 @@
 ### 媒體報導
+* [【溫肇東專欄】一群勇敢追夢的台灣年輕人](http://www.managertoday.com.tw/?p=36688) / 經理人月刊
 * [投票指南網站 缺席立委、叛逆立委現形](http://video.n.yam.com/20131227014669/%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97%E7%B6%B2%E7%AB%99%20%E7%BC%BA%E5%B8%AD%E7%AB%8B%E5%A7%94%E3%80%81%E5%8F%9B%E9%80%86%E7%AB%8B%E5%A7%94%E7%8F%BE%E5%BD%A2) / TVBS 2013.12.27
 * [駭客鄉民　用程式碼「拆」政府](http://www.cw.com.tw/article/article.action?id=5054859) / 天下雜誌 538 期  2013.12.25 ( [全文備份](https://gist.github.com/pofeng/8209425) )
-* [王金平成饒舌歌手？　網友KUSO自律RAP](http://www.appledaily.com.tw/realtimenews/article/politics/20131217/310468/%E7%8E%8B%E9%87%91%E5%B9%B3%E6%88%90%E9%A5%92%E8%88%8C%E6%AD%8C%E6%89%8B%EF%BC%9F%E3%80%80%E7%B6%B2%E5%8F%8BKUSO%E8%87%AA%E5%BE%8BRAP) / 蘋果日報 2013.12.17 ( [此新聞與 g0v 的關係](http://mmdays.com/2013/12/24/%E7%95%B6%E7%8E%8B%E6%BE%A4%E9%87%91%E5%B9%B3%E8%BC%B8%E7%B5%A6mc%E7%BE%8E%E6%B1%9F%EF%BC%9A%E4%B8%80%E5%89%87%E4%BB%A5%E5%96%9C%EF%BC%8C%E4%B8%80%E5%89%87%E4%BB%A5%E6%86%82/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+mmdays+%28Mr.%2FMs.+Days%29&utm_content=FaceBook) )
+* [王金平成饒舌歌手？　網友KUSO自律RAP](http://www.appledaily.com.tw/realtimenews/article/politics/20131217/310468/%E7%8E%8B%E9%87%91%E5%B9%B3%E6%88%90%E9%A5%92%E8%88%8C%E6%AD%8C%E6%89%8B%EF%BC%9F%E3%80%80%E7%B6%B2%E5%8F%8BKUSO%E8%87%AA%E5%BE%8BRAP) / 蘋果日報 2013.12.17 ( [此新聞與 g0v 的關係](http://mmdays.com/2013/12/24/%E7%95%B6%E7%8E%8B%E6%BE%A4%E9%87%91%E5%B9%B3%E8%BC%B8%E7%B5%A6mc%E7%BE%8E%E6%B1%9F%EF%BC%9A%E4%B8%80%E5%89%87%E4%BB%A5%E5%96%9C%EF%BC%8C%E4%B8%80%E5%89%87%E4%BB%A5%E6%86%82/) )
 * [萌典，教育部辭典糾察隊！](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=314&f_SUB_ID=5852&f_ART_ID=488985) / 聯合晚報 2013.12.7
 * [網友力量大　揪教部辭典上千錯](http://www.cdnews.com.tw/cdnews_site/docDetail.jsp?coluid=121&docid=102545719) / 中央日報 2013.11.23
 * [g0v 要用鍵盤拆政府搞革命](http://www.new7.com.tw/NewsView.aspx?i=TXT20131113142202RPZ) / 新新聞 2013.11.19 ( [粉絲頁全文](https://www.facebook.com/photo.php?fbid=643521622366684) )
