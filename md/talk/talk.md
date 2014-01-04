@@ -10,9 +10,9 @@
 * 2013/12/04 政治大學資管系/ 鄭智中 (mindos)、王向榮(Ronnywang)、林旅強(Richard)
 * 2013/11/08 中央研究院開放資料工作坊：[從開放源碼，開放資料，到開放政府](http://odw.tw/)/ 高嘉良 (clkao)
 * 2013/10/22 中央大學資訊系：[Coke, Pizza, and Open Data](http://www.openfoundry.org/tw/activities/details/404)/ 陳柏儒 (Blue)、林旅強 (Richard)、鄭智中 (Mindos)
-* 2013/10/28 台北信義社大：[以自身專業改善社會的可能](http://www.xycc.org.tw/class/102-2-P/W06.htm)/ 黃雋(jimmyhuang)、陳信屹(hychen)
+* 2013/10/28 台北信義社大：[以自身專業改善社會的可能](http://www.xycc.org.tw/class/102-2-P/W06.htm) / 黃雋(jimmyhuang)、陳信屹(hychen)
 * 2013/10/01 臺北大學：[資訊傳播、個人行為與社會運動：社會網絡觀點的啟示](http://www.ntpu.edu.tw/chinese/todayEvents_more.php?id=3522)/ 瞿筱葳 (ipa)
-* 2013/09/28 TEDxTaipei：新世紀啟程/ 吳泰輝 (kirby)
+* 2013/09/28 TEDxTaipei 新世紀啟程：[資訊的力量](http://tedxtaipei.com/talks/2013-kirby-wu/) / 吳泰輝 (kirby)
 * 2013/09/10 網路星期二 : [網路社群改造社會之零時政府(g0v.tw)](http://nettuesday.tw/events/2013/09/438)/ 高嘉良 (clkao)
 * 延期 [HP51 – Open Data x Open Design](http://www.hpx-party.com/hpx-events/hp51)/ 高嘉良 (clkao)
 * 2013/08/18 [XD 2013 跨設計分享會 no.1 [Innovative Citizen]](http://www.xd-crossdesign.com/2013/08/xd-2013-no1-innovative-citizen.html)：與談人 tkirby, ETBlue
