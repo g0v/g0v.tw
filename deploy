@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+set -e -x
 upstream=$1
 : ${upstream:=origin}
 : ${REPO:=git@github.com:g0v/g0v.tw}
