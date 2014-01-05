@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e -x
+git --version
 upstream=$1
 : ${upstream:=origin}
 : ${REPO:=git@github.com:g0v/g0v.tw}
@@ -18,6 +19,6 @@ REV=`git describe --always`
 BUILD=git-$REV ./node_modules/.bin/brunch b -o
 cd _public
 git add -A .
-git commit-tree -m "regen for $REV" -p `git rev-parse HEAD` -p $REV `git write-tree` | xargs git reset --hard
+echo "regen for $REV" | git commit-tree `git write-tree` -p `git rev-parse HEAD` -p $REV | xargs git reset --hard
 git push origin gh-pages
 cd ..
