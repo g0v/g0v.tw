@@ -1,5 +1,5 @@
 doctype html
-html(ng-app="g0v.tw",ng-cloak)
+html(ng-app="g0v.tw",ng-cloak,lang="zh-Hant")
     head
         meta(charset="utf-8")
         meta(name="viewport",content="width=device-width, initial-scale=1.0")
@@ -12,12 +12,14 @@ html(ng-app="g0v.tw",ng-cloak)
             block title
         link(rel="stylesheet", type="text/css", href="/css/app.css")
         link(rel="stylesheet", type="text/css", href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.11.0/css/semantic.min.css")
+        link(rel="stylesheet", type="text/css", href="//cdnjs.cloudflare.com/ajax/libs/Han/2.2.3/han.css")
         script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js')
         script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js')
         script(src='//cdn.firebase.com/v0/firebase.js')
         script(src='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.11.0/javascript/semantic.min.js')
         script(src='/js/vendor.js')
         script(src='/js/app.js')
+        script(src='//cdnjs.cloudflare.com/ajax/libs/Han/2.2.3/js/han.js')
         script(type="text/javascript").
           (function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
@@ -67,7 +69,7 @@ html(ng-app="g0v.tw",ng-cloak)
                    | 報名網址
 
             .map-entry
-                .map-caption: | 社群網站 
+                .map-caption: | 社群網站
                 //- .map-item: a(href="/about.html") 關於我們
                 //- .map-item: a(href="/sitemap.html") 網站地圖
                 .map-item: a(href="http://www.facebook.com/g0v.tw") 臉書專頁
