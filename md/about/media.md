@@ -1,4 +1,5 @@
 ### 媒體報導 
+* [台語輸入法APP 法籍學生研發](http://www.libertytimes.com.tw/2014/new/jan/12/today-life2.htm) / 自由時報 2014.01.12
 * [平民英雄百人榜〉透過鍵盤改變社會「g0v.tw」](http://www.gvm.com.tw/Boardcontent_24516.html)/ 遠見雜誌 2013.12 (330 期)
 * [【溫肇東專欄】一群勇敢追夢的台灣年輕人](http://www.managertoday.com.tw/?p=36688) / 經理人月刊 2013.12
 * [投票指南網站 缺席立委、叛逆立委現形](http://video.n.yam.com/20131227014669/%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97%E7%B6%B2%E7%AB%99%20%E7%BC%BA%E5%B8%AD%E7%AB%8B%E5%A7%94%E3%80%81%E5%8F%9B%E9%80%86%E7%AB%8B%E5%A7%94%E7%8F%BE%E5%BD%A2) / TVBS 2013.12.27
