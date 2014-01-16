@@ -1,11 +1,13 @@
 ### 演講預告
 
+* 2014/01/21 立法院資訊處專題演講/ 駱勁成(Johnny)、高嘉良 (clkao) 
+* 2014/01/22 成功大學網際網路程式設計期末展/ 鄭智中 (Mindos)
+* 2014/01/23 庶人之亂青年行動者培力交流營/ 瞿筱葳 (ipa)
+
+### 演講/座談資訊、投影片
+
 * 2014/01/14 交通部公路總局 - [零時政府，可以吃嗎?](https://docs.google.com/presentation/d/1hpzKM_14LsWd9n30th1ZUxeN-bMY7ihLpLHY5rmivic/edit?usp=sharing)/ 王向榮(Ronny Wang)
 * 2014/01/10-12 香港創不同 MaD 年會：[第五方向：從這裡，往哪裡，怎樣走](http://www.mad.asia/posts/557/MaD%20Forum/The-Fifth-Direction:-From-Here-and-Now-to-an-Envisioned-There)/ 高嘉良 (clkao)
-* 2014/01/22 成功大學網際網路程式設計期末展/ 鄭智中 (Mindos)
-
-### 演講/座談資訊
-
 * 2013/12/09【文化攻策論壇】‧ 系列參 ─[公民參與 & 網路革命](https://www.facebook.com/events/334833043324985/)/ 吳泰輝 ([投影片](https://docs.google.com/file/d/0B_UpRpAst1MYeXhnMHZFX21MTjg/edit))
 * 2013/12/04 東華大學數學系/ 高嘉良 (clkao)
 * 2013/12/04 政治大學資管系/ 鄭智中 (mindos)、王向榮(Ronnywang)、林旅強(Richard)
