@@ -6,7 +6,6 @@ node_js:
 before_install:
   - gem install sass compass
   - sass --version
-  - npm config set registry http://registry.nodejitsu.com/
 
 branches:
   except:
