@@ -1,4 +1,5 @@
 ### 媒體報導 
+* g0v 與「國會無雙」([【自由之星】公民一九八五 網路鄉民串聯 25萬民眾自發上街](http://www.libertytimes.com.tw/2014/new/feb/3/today-specialreport1.htm)) / 自由時報 2014.02.03
 * [急需補助 「福利請聽」免費查](http://udn.com/NEWS/NATIONAL/NAT5/8459202.shtml) / 聯合報 2014.01.30 ([全文備份](https://gist.github.com/pofeng/8712093))
 * [網路新勢力 顛覆全世界](http://www.pubu.com.tw/news/%E7%B6%B2%E8%B7%AF%E6%96%B0%E5%8B%A2%E5%8A%9B-%E9%A1%9B%E8%A6%86%E5%85%A8%E4%B8%96%E7%95%8C-1093) / 財訊雙週刊 2014.01.28
 * [他們正在做！900鄉民用鍵盤捍衛正義](http://www.businessweekly.com.tw/KArticle.aspx?id=53258) / 商業周刊 1367 期 2014.01.22 ([全文備份](http://i.imgur.com/YXK7jp5.png))
