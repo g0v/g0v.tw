@@ -22,15 +22,18 @@ block vars
         a.item(href="/transaction.html")
           | 收支明細
     .ui.pointing.dropdown.link.item
-      | 專案列表
+      | 專案
       .menu
-        a.item(href="http://hack.g0v.tw/project/")
+        a.item(target="blank", href="http://g0v.github.io/g0vis/")
           | 成果列表
           i.external.url.icon
-        a.item(href="https://g0v.hackpad.com/")
+        a.item(target="blank",href="http://hack.g0v.tw/project")
           | 開發中專案
           i.external.url.icon
-        a.item(href="http://data.g0v.tw")
+        a.item(target="blank",href="https://g0v.hackpad.com/")
+          | 開發共筆
+          i.external.url.icon
+        a.item(target="blank",href="http://data.g0v.tw")
           | g0v資料開放平臺
           i.external.url.icon
     div(class="ui pointing dropdown link item #{ nav_cls.join }")
