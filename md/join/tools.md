@@ -42,6 +42,11 @@
 * http://blog.xuite.net/yh96301/blog/36409663-Dropbox%E5%85%8D%E8%B2%BB%E7%A9%BA%E9%96%93
 * http://edumeme.blogspot.com/2011/03/dropbox.html
 
+#### 逐字稿雲端服務：oTranscribe
+* 網址：http://otranscribe.com/
+* 說明：打逐字稿友善雲端服務，打逐字稿不需要在文件、錄音播放視窗間切換，打完後可輸出 .txt 或 .md 檔。
+* 相關介紹：
+* http://www.freegroup.org/2014/01/otranscribe/
 
 #### 文件共享：google drive
 
