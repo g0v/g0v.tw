@@ -1,11 +1,12 @@
 ### 演講預告
 
-* 2014/2/24 內政部 Open Data 演講/ 王向榮 (Ronny Wang)、高嘉良 (clkao)
-* 2014/3/14 WoFoss好自由（台灣女子自由軟體工作小組）/ 瞿筱葳 (ipa)
+* 2014/02/24 內政部 Open Data 演講/ 王向榮 (Ronny Wang)、高嘉良 (clkao)
+* 2014/03/14 WoFoss好自由（台灣女子自由軟體工作小組）/ 瞿筱葳 (ipa)
 * 2014/03/29 Hong Kong Open Source Converence - [Open Source Beyond Developers: g0v.tw](http://opensource.hk/en/2014/open-source-beyond-developers-g0v.tw)/ 高嘉良 (clkao)
 
 ### 演講/座談資訊、投影片
 
+* 2014/02/21 Open Data 創意研習營/ 吳泰輝 (Kirby) 
 * 2014/01/25 綠人談壇/ 簡信昌 (hcchien)
 * 2014/01/23 庶人之亂青年行動者培力交流營/ 瞿筱葳 (ipa)
 * 2014/01/22 成功大學網際網路程式設計期末展/ 鄭智中 (Mindos)
