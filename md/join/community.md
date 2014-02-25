@@ -17,7 +17,7 @@ g0v社群分散作業，鮮少有需要共同決策的事項，但如果需要�
 * 雖然是歡樂的，但請節制水量和注意水質。
 * 雖然是謙虛的，但也不用把自己貶抑到火星文或白字連篇的國小程度。
 * 團隊喜歡正面的建議與執行，不喜歡負面的批評。對事不對人，而且不要指責他人。
-* 友善回應新人提問，不要隨便就RTFM(Read The F* Manual)或是STFG(Searching The F* Google)
+* 友善回應新人提問，不要隨便就 RTFM (Read The Fxxx Manual) 或是 STFG (Searching The Fxxx Google)。
 
 
 <div class="ui horizontal icon divider">
