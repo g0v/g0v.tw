@@ -4,7 +4,15 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
+# angular.config ['$httpProvider' ($httpProvider) ->
+#   $httpProvider.defaults.useXDomain = true
+#   delete $httpProvider.defaults.headers.common['X-Requested-With']]
+
 angular.module "g0v.tw" <[firebase btford.markdown]>
+.config ['$httpProvider' ($httpProvider) ->
+  $httpProvider.defaults.useXDomain = true
+  delete $httpProvider.defaults.headers.common['X-Requested-With']]
+
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
@@ -40,8 +48,33 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
+.controller CommuniqueCtrl: <[$scope $http]> ++ ($scope, $http) ->
+  $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?start=2014/02'
+  .success (data, status, headers, config)->
+    $scope.idx = Math.floor Math.random! * data.length
+    $scope.nextCommunique = ->
+      return if $scope.idx is void
+      ++$scope.idx
+      $scope.idx %= data.length
+
+    $scope.$watch 'idx' (_, idx) ->
+      $scope.communique = data[idx] unless idx is void
+
+  .error (data, status, headers, config) ->
+    $scope.message = status
+
+  # $scope.idx = Math.floor Math.random! * $scope.communiques.length
+  # $scope.nextCommunique = ->
+  #   return if $scope.idx is void
+  #   ++$scope.idx
+  #   $scope.idx %= $scope.communiques.length
+
+  # $scope.$watch 'idx' (_, idx) ->
+  #   $scope.communique = $scope.communiques[idx] unless idx is void
+
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
   $scope.buildId = window.global.config.BUILD
+
 
 show = ->
   prj-img = $ \#prj-img
