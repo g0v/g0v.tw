@@ -51,11 +51,26 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
 .controller CommuniqueCtrl: <[$scope $http]> ++ ($scope, $http) ->
   $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?start=2014/02'
   .success (data, status, headers, config)->
-    $scope.communique = data[0]
+    $scope.idx = Math.floor Math.random! * data.length
+    $scope.nextCommunique = ->
+      return if $scope.idx is void
+      ++$scope.idx
+      $scope.idx %= data.length
+
+    $scope.$watch 'idx' (_, idx) ->
+      $scope.communique = data[idx] unless idx is void
+
   .error (data, status, headers, config) ->
     $scope.message = status
 
-  $scope.nextCommunique = ->
+  # $scope.idx = Math.floor Math.random! * $scope.communiques.length
+  # $scope.nextCommunique = ->
+  #   return if $scope.idx is void
+  #   ++$scope.idx
+  #   $scope.idx %= $scope.communiques.length
+
+  # $scope.$watch 'idx' (_, idx) ->
+  #   $scope.communique = $scope.communiques[idx] unless idx is void
 
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
   $scope.buildId = window.global.config.BUILD

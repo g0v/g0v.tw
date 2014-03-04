@@ -37,10 +37,9 @@ block content
             .ui.red.ribbon.label.label 社群動態
             a.pull-right(ng-click="nextCommunique()") &#xbb;
             .featured-communiques
-                h4 02/14
+                h4 {{ communique.date }}
                 p.description {{ communique.content }}
-                p.description {{ message }}
-                a(ng-href="{{communique.homepage}}") Edite Site
+                a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") Edite Site
                 //- h5:  a(ng-href="{{communique.homepage}}") Edite Site
 
         .ui.purple.segment(ng-controller="FeaturedCtrl")
