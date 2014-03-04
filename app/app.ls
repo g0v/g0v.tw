@@ -4,7 +4,15 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
+# angular.config ['$httpProvider' ($httpProvider) ->
+#   $httpProvider.defaults.useXDomain = true
+#   delete $httpProvider.defaults.headers.common['X-Requested-With']]
+
 angular.module "g0v.tw" <[firebase btford.markdown]>
+.config ['$httpProvider' ($httpProvider) ->
+  $httpProvider.defaults.useXDomain = true
+  delete $httpProvider.defaults.headers.common['X-Requested-With']]
+
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
@@ -40,8 +48,18 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
+.controller CommuniqueCtrl: <[$scope $http]> ++ ($scope, $http) ->
+  $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?start=2014/02'
+  .success (data, status, headers, config)->
+    $scope.communique = data[0]
+  .error (data, status, headers, config) ->
+    $scope.message = status
+
+  $scope.nextCommunique = ->
+
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
   $scope.buildId = window.global.config.BUILD
+
 
 show = ->
   prj-img = $ \#prj-img

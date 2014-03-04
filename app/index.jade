@@ -33,6 +33,16 @@ block content
                   p.description
                     | 參與者來自四方各領域，以開放原始碼的精神為基底共同協作。互相刺激，一起成長。
 
+        .ui.red.segment(ng-controller="CommuniqueCtrl")
+            .ui.red.ribbon.label.label 社群動態
+            a.pull-right(ng-click="nextCommunique()") &#xbb;
+            .featured-communiques
+                h4 02/14
+                p.description {{ communique.content }}
+                p.description {{ message }}
+                a(ng-href="{{communique.homepage}}") Edite Site
+                //- h5:  a(ng-href="{{communique.homepage}}") Edite Site
+
         .ui.purple.segment(ng-controller="FeaturedCtrl")
             .ui.red.ribbon.large.label 零時政府最新成果
             a.pull-right(ng-click="nextProject()") &#xbb;
@@ -67,6 +77,7 @@ block content
             .videos
                 h4 相關影片
                 iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
+
             .ui.divider
             .logbot
                 h4
