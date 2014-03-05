@@ -37,10 +37,8 @@ block content
             .ui.red.ribbon.label.label 社群動態
             a.pull-right(ng-click="nextCommunique()") &#xbb;
             .featured-communiques
-                h4 {{ communique.date }}
+                h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
                 p.description {{ communique.content }}
-                a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") Edite Site
-                //- h5:  a(ng-href="{{communique.homepage}}") Edite Site
 
         .ui.purple.segment(ng-controller="FeaturedCtrl")
             .ui.red.ribbon.large.label 零時政府最新成果
