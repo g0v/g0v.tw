@@ -4,11 +4,9 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
-# angular.config ['$httpProvider' ($httpProvider) ->
-#   $httpProvider.defaults.useXDomain = true
-#   delete $httpProvider.defaults.headers.common['X-Requested-With']]
-
 angular.module "g0v.tw" <[firebase btford.markdown]>
+
+# Set CORS Config
 .config ['$httpProvider' ($httpProvider) ->
   $httpProvider.defaults.useXDomain = true
   delete $httpProvider.defaults.headers.common['X-Requested-With']]
@@ -48,10 +46,13 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
-.controller CommuniqueCtrl: <[$scope $http]> ++ ($scope, $http) ->
-  $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?start=2014/02'
+# Communique scrolling text function. Get the 50 newest communiques entry from g0v.hackpad
+.controller CommuniqueCtrl: <[$scope $http $element]> ++ ($scope, $http, $element) ->
+  # Use Http get the Json from communiqueAPI
+  $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?limit=50'
   .success (data, status, headers, config)->
-    $scope.idx = Math.floor Math.random! * data.length
+    # $scope.idx = Math.floor Math.random! * data.length
+    $scope.idx = 0
     $scope.nextCommunique = ->
       return if $scope.idx is void
       ++$scope.idx
@@ -59,18 +60,14 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
 
     $scope.$watch 'idx' (_, idx) ->
       $scope.communique = data[idx] unless idx is void
+      # for url in $scope.communique.urls
+        # $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
+      # $scope.html = $scope.communique.content
+      # communique-content = $ \#communique-content
+      # communique-content.html = 123
 
   .error (data, status, headers, config) ->
     $scope.message = status
-
-  # $scope.idx = Math.floor Math.random! * $scope.communiques.length
-  # $scope.nextCommunique = ->
-  #   return if $scope.idx is void
-  #   ++$scope.idx
-  #   $scope.idx %= $scope.communiques.length
-
-  # $scope.$watch 'idx' (_, idx) ->
-  #   $scope.communique = $scope.communiques[idx] unless idx is void
 
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
   $scope.buildId = window.global.config.BUILD

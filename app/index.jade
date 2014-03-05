@@ -36,8 +36,10 @@ block content
         .ui.red.segment(ng-controller="CommuniqueCtrl")
             .ui.red.ribbon.label.label 社群動態
             a.pull-right(ng-click="nextCommunique()") &#xbb;
+            //- a.pull-center(ng-click="lastCommunique()") &#xab;
             .featured-communiques
                 h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
+                //- #communique-content
                 p.description {{ communique.content }}
 
         .ui.purple.segment(ng-controller="FeaturedCtrl")
@@ -70,7 +72,7 @@ block content
                     li(ng-repeat="event in events | orderBy:'$index':true")
                         a(ng-href="{{event.link}}") {{event.title}}
 
-             .ui.divider
+            .ui.divider
             .videos
                 h4 相關影片
                 iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
