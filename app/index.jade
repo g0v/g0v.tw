@@ -38,7 +38,7 @@ block content
             a.pull-right(ng-click="nextCommunique()") &#xbb;
             .featured-communiques
                 h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
-                p.description {{ communique.content }}
+                p.description
 
         .ui.purple.segment(ng-controller="FeaturedCtrl")
             .ui.red.ribbon.large.label 零時政府最新成果
@@ -70,7 +70,7 @@ block content
                     li(ng-repeat="event in events | orderBy:'$index':true")
                         a(ng-href="{{event.link}}") {{event.title}}
 
-             .ui.divider
+            .ui.divider
             .videos
                 h4 相關影片
                 iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
