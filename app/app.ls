@@ -51,7 +51,7 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   # Use Http get the Json from communiqueAPI
   $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?limit=50'
   .success (data, status, headers, config)->
-    # $scope.idx = Math.floor Math.random! * data.length
+    # $scope.idx = Math.floor Math.random! * data.length   # set random Communique entries display
     $scope.idx = 0
     $scope.nextCommunique = ->
       return if $scope.idx is void
