@@ -60,11 +60,10 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
 
     $scope.$watch 'idx' (_, idx) ->
       $scope.communique = data[idx] unless idx is void
-      # for url in $scope.communique.urls
-        # $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
-      # $scope.html = $scope.communique.content
-      # communique-content = $ \#communique-content
-      # communique-content.html = 123
+      # add url in the communique text
+      for url in $scope.communique.urls
+        $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
+      $element.find('.description').html $scope.communique.content
 
   .error (data, status, headers, config) ->
     $scope.message = status
