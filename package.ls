@@ -16,7 +16,7 @@ scripts:
     node ./node_modules/LiveScript/bin/lsc -c test/*.js.ls
   """
   build: 'brunch b'
-  test: 'npm run build && bower i && karma start --browsers PhantomJS --single-run true test/karma.conf.js'
+  test: 'npm run build && bower i && ./node_modules/karma/bin/karma start --browsers PhantomJS --single-run true test/karma.conf.js'
   start: './node_modules/.bin/brunch watch --server'
 dependencies:
   marked: '~0.2.9'
