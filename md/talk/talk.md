@@ -1,13 +1,15 @@
 ### 演講預告
 
-* 2014/03/11 [網路星期二 - 如何拍出好照片？](http://nettuesday.tw/events/2014/03/456)/ 吳泰輝 (kirby)
-* 2014/03/14 WoFoss好自由（台灣女子自由軟體工作小組）- 「我的超展開 g0v 之旅」/ 瞿筱葳 (ipa)
+* 2014/03/14 [WoFoss好自由（台灣女子自由軟體工作小組）](http://wofoss.kktix.cc/events/wofoss043-201403)- 「我的超展開 g0v 之旅」/ 瞿筱葳 (ipa)
+* 2014/03/24 內政部 Open Data 演講/ 高嘉良 (clkao)
 * 2014/03/26 [台大 SHS 科學人文跨科際計畫](http://shs.ntu.edu.tw/shs/?p=26223)/ 瞿筱葳 (ipa)  
 * 2014/03/29 Hong Kong Open Source Converence - [Open Source Beyond Developers: g0v.tw](http://opensource.hk/en/2014/open-source-beyond-developers-g0v.tw)/ 高嘉良 (clkao)
-* 2014/04    新竹高中土地社/ 朱立傑 (walkingice)
+* 2014/04/06 廣州社會創新日/ 李慕約
+* 2014/04/15 新竹高中土地社/ 朱立傑 (walkingice)
 
 ### 過往演講/座談資訊、投影片
 
+* 2014/03/11 [網路星期二 - 如何拍出好照片？](http://nettuesday.tw/events/2014/03/456)/ 吳泰輝 (kirby)
 * 2014/02/24 內政部 Open Data 演講/ 王向榮 (Ronny Wang)、高嘉良 (clkao)
 * 2014/02/21 Open Data 創意研習營/ 吳泰輝 (Kirby) 
 * 2014/01/25 綠人談壇/ 簡信昌 (hcchien)

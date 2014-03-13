@@ -1,4 +1,5 @@
 ### 媒體報導 
+* [共同抵制假新聞　拒當「謠言」受害者](http://www.peopo.org/news/234245) / PeoPO 公民新聞 2014.03.11
 * [福利請聽 福利資訊的入口網站](http://www.vita.tw/2014/03/blog-post_6321.html) / 生命力新聞 2014.03.09
 * g0v 與「國會無雙」([公民一九八五 網路鄉民串聯 25萬民眾自發上街](http://www.libertytimes.com.tw/2014/new/feb/3/today-specialreport1.htm)) / 自由時報 2014.02.03
 * [急需補助 「福利請聽」免費查](http://udn.com/NEWS/NATIONAL/NAT5/8459202.shtml) / 聯合報 2014.01.30 ([全文備份](https://gist.github.com/pofeng/8712093))
