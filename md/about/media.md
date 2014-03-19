@@ -1,4 +1,5 @@
 ### 媒體報導 
+* [零時政府 用鍵盤革命改造社會](http://www.businesstoday.com.tw/article-content-92748-106543) / 今周刊 2014.03.20
 * [政治獻金往哪跑？ 投票指南當參考](http://mag.udn.com/mag/digital/storypage.jsp?f_ART_ID=503902) / 聯合新聞網 2014.03.15
 * [共同抵制假新聞　拒當「謠言」受害者](http://www.peopo.org/news/234245) / PeoPO 公民新聞 2014.03.11
 * [福利請聽 福利資訊的入口網站](http://www.vita.tw/2014/03/blog-post_6321.html) / 生命力新聞 2014.03.09
