@@ -1,4 +1,5 @@
 ### 媒體報導 
+* [激情抗爭！佔領立法院背後的科技支援運用](http://technews.tw/2014/03/20/the-technogloyy-behind-the-occupied-taiwan-parliament-protest/) / TechNews 科技新報 2014.03.20
 * [零時政府 用鍵盤革命改造社會](http://www.businesstoday.com.tw/article-content-92748-106543) / 今周刊 2014.03.20
 * [政治獻金往哪跑？ 投票指南當參考](http://mag.udn.com/mag/digital/storypage.jsp?f_ART_ID=503902) / 聯合新聞網 2014.03.15
 * [共同抵制假新聞　拒當「謠言」受害者](http://www.peopo.org/news/234245) / PeoPO 公民新聞 2014.03.11
