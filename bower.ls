@@ -4,7 +4,7 @@ version: "0.0.1"
 main: "_public/js/app.js"
 ignore: ["**/.*", "node_modules", "components"]
 dependencies:
-  jquery: "~1.8.2"
+  jquery: "=1.8.2"
   angular: "1.2.3"
   "angular-mocks": "1.2.3"
   "angular-scenario": "1.2.3"
