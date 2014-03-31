@@ -1,5 +1,5 @@
 require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path]>
-require! <[gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify]>
+require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify]>
 
 gutil = gulp-util
 
@@ -7,6 +7,7 @@ app = express!
 lr = tiny-lr!
 
 build_path = '_public'
+production = true if gutil.env.env is \production
 
 gulp.task 'html', ->
   gulp.src 'app/**/*.jade'
@@ -18,11 +19,11 @@ gulp.task 'html', ->
 gulp.task 'js:vendor', ->
   vendor = gulp.src 'vendor/scripts/*.js'
 
-  s = streamqueue { +objectMode }
+  streamqueue { +objectMode }
     .done vendor
     .pipe gulp-concat 'vendor.js'
-  s .= pipe gulp-uglify! if gutil.env.env is \production
-  s.pipe gulp.dest "#{build_path}/js"
+    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp.dest "#{build_path}/js"
 
 gulp.task 'js:app', ->
   env = gulp.src 'app/**/*.jsenv'
@@ -36,15 +37,15 @@ gulp.task 'js:app', ->
   app = gulp.src 'app/**/*.ls'
     .pipe gulp-livescript({+bare}).on 'error', gutil.log
 
-  s = streamqueue { +objectMode }
+  streamqueue { +objectMode }
     .done env, app
     .pipe gulp-concat 'app.js'
-  s .= pipe gulp-uglify! if gutil.env.env is \production
-  s.pipe gulp.dest "#{build_path}/js"
-   .pipe gulp-livereload lr  
+    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp.dest "#{build_path}/js"
+    .pipe gulp-livereload lr
 
 gulp.task 'css', ->
-  compress = true if gutil.env.env is \production 
+  compress = production
   gulp.src 'app/styles/app.less'
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
