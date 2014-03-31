@@ -47,7 +47,7 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
     $scope.project = $scope.featured[idx] unless idx is void
 
 # Communique scrolling text function. Get the 50 newest communiques entry from g0v.hackpad
-.controller CommuniqueCtrl: <[$scope $http $element]> ++ ($scope, $http, $element) ->
+.controller CommuniqueCtrl: <[$scope $http $element $timeout]> ++ ($scope, $http, $element, $timeout) ->
   # Use Http get the Json from communiqueAPI
   $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?limit=50'
   .success (data, status, headers, config)->
@@ -70,6 +70,11 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
       for url in $scope.communique.urls
         $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
       $element.find('.description').html $scope.communique.content
+
+    $scope.onTimeout = ->
+      $scope.nextCommunique!
+      $timeout $scope.onTimeout, 1000 * 10
+    $timeout $scope.onTimeout, 1000 * 15
 
   .error (data, status, headers, config) ->
     $scope.message = status
