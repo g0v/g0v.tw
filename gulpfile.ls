@@ -65,10 +65,10 @@ gulp.task 'server', ->
 gulp.task 'watch', ->
   lr.listen 35729, ->
     return gulp-util.log it if it
-  gulp.watch 'src/**/*.jade', <[html]>
-  gulp.watch 'src/**/*.png', <[assets]>
-  gulp.watch 'src/**/*.sass', <[css]>
-  gulp.watch 'src/**/*.ls', <[js]>
+  gulp.watch 'app/**/*.jade', <[html]>
+  gulp.watch 'app/assets/**/*', <[assets]>
+  gulp.watch 'app/**/*.less', <[css]>
+  gulp.watch 'app/**/*.ls', <[js]>
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
 gulp.task 'dev', <[build server watch]>
