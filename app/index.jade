@@ -35,7 +35,8 @@ block content
 
         .ui.red.segment(ng-controller="CommuniqueCtrl")
             .ui.red.ribbon.label.label 社群動態
-            a.pull-right(ng-click="nextCommunique()") &#xbb;
+            a.ui.blue.tiny.button.pull-right(ng-click="nextCommunique()")
+                i.right.arrow.icon
             .featured-communiques
                 h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
                 p.description
