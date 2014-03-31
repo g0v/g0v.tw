@@ -69,7 +69,8 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
     $scope.message = status
 
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
-  $scope.buildId = window.global.config.BUILD
+  require!<[config.jsenv]>
+  $scope.buildId = config.BUILD
 
 
 show = ->

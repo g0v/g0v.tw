@@ -1,4 +1,7 @@
-require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path gulp-livescript gulp-less]>
+require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path]>
+require! <[gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify]>
+
+gutil = gulp-util
 
 app = express!
 lr = tiny-lr!
@@ -11,21 +14,45 @@ gulp.task 'html', ->
     .pipe gulp.dest "#build_path"
     .pipe gulp-livereload lr
 
-gulp.task 'js', ->
-  gulp.src 'app/**/*.ls'
-    .pipe gulp-livescript!
-    .pipe gulp.dest "#build_path"
-    .pipe gulp-livereload lr
+
+gulp.task 'js:vendor', ->
+  vendor = gulp.src 'vendor/scripts/*.js'
+
+  s = streamqueue { +objectMode }
+    .done vendor
+    .pipe gulp-concat 'vendor.js'
+  s .= pipe gulp-uglify! if gutil.env.env is \production
+  s.pipe gulp.dest "#{build_path}/js"
+
+gulp.task 'js:app', ->
+  env = gulp.src 'app/**/*.jsenv'
+    .pipe gulp-json-editor (json) ->
+      for key of json when process.env[key]?
+        json[key] = that
+      json
+    .pipe gulp-insert.prepend 'module.exports = '
+    .pipe gulp-commonjs!
+
+  app = gulp.src 'app/**/*.ls'
+    .pipe gulp-livescript({+bare}).on 'error', gutil.log
+
+  s = streamqueue { +objectMode }
+    .done env, app
+    .pipe gulp-concat 'app.js'
+  s .= pipe gulp-uglify! if gutil.env.env is \production
+  s.pipe gulp.dest "#{build_path}/js"
+   .pipe gulp-livereload lr  
 
 gulp.task 'css', ->
-  gulp.src 'app/less_proxy.less'
-    .pipe gulp-less!
-    .pipe gulp.dest "#build_path"
+  compress = true if gutil.env.env is \production 
+  gulp.src 'app/styles/app.less'
+    .pipe gulp-less compress: compress
+    .pipe gulp.dest "#{build_path}/css"
     .pipe gulp-livereload lr
 
 gulp.task 'assets', ->
-  gulp.src 'app/assets'
-    .pipe gulp.dest "#build_path"
+  gulp.src 'app/assets/**/*'
+    .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
 gulp.task 'server', ->
@@ -42,6 +69,6 @@ gulp.task 'watch', ->
   gulp.watch 'src/**/*.sass', <[css]>
   gulp.watch 'src/**/*.ls', <[js]>
 
-gulp.task 'build', <[html js assets css]>
+gulp.task 'build', <[html js:vendor js:app assets css]>
 gulp.task 'dev', <[build server watch]>
 gulp.task 'default', <[build]>
