@@ -43,7 +43,8 @@ block content
 
         .ui.purple.segment(ng-controller="FeaturedCtrl")
             .ui.red.ribbon.large.label 零時政府最新成果
-            a.pull-right(ng-click="nextProject()") &#xbb;
+            a.ui.blue.tiny.button.pull-right(ng-click="nextProject()")
+                i.right.arrow.icon
             .featured-projects
                 h4: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
                 .imgblock(style="text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #ccc")
