@@ -47,3 +47,4 @@ devDependencies:
   'gulp-json-editor': '~2.0.2'
   'streamqueue': '0.0.6'
   'gulp-uglify': '~0.2.1'
+  'gulp-if': '~0.0.5'
