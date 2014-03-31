@@ -17,6 +17,8 @@ git clone $REPO --depth 1 -b gh-pages _public
 
 REV=`git describe --always`
 BUILD=git-$REV ./node_modules/.bin/brunch b -o
+# XXX build twice for jade changes to be effective. remove when we migrate to gulp
+BUILD=git-$REV ./node_modules/.bin/brunch b -o
 cd _public
 git fetch --depth 1 origin master:master
 git add -A .
