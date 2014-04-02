@@ -1,4 +1,5 @@
 ### 媒體報導
+* [你被服貿了嗎？ 秒查各行業怎麼被影響](http://udn.com/NEWS/BREAKINGNEWS/BREAKINGNEWS1/8586658.shtml) / 聯合報 2014.04.02 
 * [「零時政府」資訊網避壟斷](http://www.appledaily.com.tw/appledaily/article/headline/20140331/35736590) / 頻果日報 2014.03.31 
 * [文宣戰／紐時廣告兩天 架英文版網站](http://udn.com/NEWS/NATIONAL/NAT4/8580445.shtml) / 聯合報 2014.03.30 ([全文備份](https://gist.github.com/pofeng/5fe9ff159e313b9017b9))
 * [新的開始：反服貿（自由貿易協定），青年運動與下個世代的媒體](http://pots.tw/node/12419) / 破週報 2014.3.27
