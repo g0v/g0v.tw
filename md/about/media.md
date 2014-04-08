@@ -5,6 +5,7 @@
 * [從學運IT應用看數位匯流發展](http://udn.com/NEWS/OPINION/OPI1/8598406.shtml) / 經濟日報╱社論 2014.04.08 
 * [網路大串連，全面引爆服貿話題](http://www.bnext.com.tw/article/view/id/31696) / 數位時代 2014.04.07 
 * [林佳龍：學運成功運用雲端網路 值得借鏡](http://www.idn.com.tw/news/news_content.php?catid=1&catsid=2&catdid=0&artid=20140403abcd022) / 自立晚報 2014.04.03 
+* [史上最大學運推手：免費網路工具](http://www.businessweekly.com.tw/KWebArticle.aspx?ID=54104&path=f) / 商業周刊 2014.04.02 
 * [你被服貿了嗎？ 秒查各行業怎麼被影響](http://udn.com/NEWS/BREAKINGNEWS/BREAKINGNEWS1/8586658.shtml) / 聯合報 2014.04.02 
 * [「零時政府」資訊網避壟斷](http://www.appledaily.com.tw/appledaily/article/headline/20140331/35736590) / 蘋果日報 2014.03.31 
 * [挺學運，IT人站出來](http://www.ithome.com.tw/voice/86263) / iThome電腦報周刊 2014.03.31 
