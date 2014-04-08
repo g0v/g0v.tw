@@ -1,4 +1,5 @@
 ### 媒體報導
+* [學運背後的IT推手：g0v零時政府](http://www.ithome.com.tw/tech/86462) / iThome 2014.04.08
 * [從學運IT應用看數位匯流發展](http://udn.com/NEWS/OPINION/OPI1/8598406.shtml) / 經濟日報╱社論 2014.04.08 
 * [網路大串連，全面引爆服貿話題](http://www.bnext.com.tw/article/view/id/31696) / 數位時代 2014.04.07 
 * [林佳龍：學運成功運用雲端網路 值得借鏡](http://www.idn.com.tw/news/news_content.php?catid=1&catsid=2&catdid=0&artid=20140403abcd022) / 自立晚報 2014.04.03 
