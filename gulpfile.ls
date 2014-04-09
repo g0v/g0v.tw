@@ -29,7 +29,7 @@ gulp.task 'js:vendor' <[bower]> ->
   s = streamqueue { +objectMode }
     .done bower, vendor
     .pipe gulp-concat 'vendor.js'
-    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
 
 gulp.task 'js:app', ->
@@ -47,12 +47,9 @@ gulp.task 'js:app', ->
   streamqueue { +objectMode }
     .done env, app
     .pipe gulp-concat 'app.js'
-    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
-    .pipe gulp-livereload lr
-    #.pipe gulp-if production gulp-uglify! if gutil.env.env is \production
-    .pipe gulp.dest "#{build_path}/js"
-    .pipe gulp-livereload lr  
+    .pipe gulp-livereload lr 
 
 gulp.task 'css', ->
   compress = production
@@ -69,13 +66,18 @@ gulp.task 'assets', ->
 gulp.task 'server', ->
   app.use connect-livereload!
   app.use express.static path.resolve "#build_path"
+  app.all '/**', (req, res, next) ->
+    res.sendfile __dirname + '/_public'
   app.listen 3000
   gulp-util.log 'Listening on port 3000'
 
 gulp.task 'watch', ->
   lr.listen 35729, ->
     return gulp-util.log it if it
-  gulp.watch 'app/**/*.jade', <[html]>
+  gulp.watch [
+    'app/**/*.jade',
+    'md/**/*.md'
+  ], <[html]>
   gulp.watch 'app/**/*.less', <[css]>
   gulp.watch 'app/**/*.ls', <[js:app]>
 
