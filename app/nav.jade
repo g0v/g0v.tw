@@ -1,11 +1,7 @@
-- var nav_cls = {}
-- nav_cls.index = nav_cls.about = nav_cls.talk = ''
-- nav_cls.actinfo = nav_cls.join = nav_cls.contact = ''
-block vars
 .ui.fluid.seven.item.menu
-    a(class="item #{ nav_cls.index }",href="/index.html", translate="MENU_HOME")
+    a.item(href="/index.html", translate="MENU_HOME")
       | 首頁
-    div(class="ui pointing dropdown link item #{ nav_cls.about }", translate="MENU_ABOUT")
+    .ui.pointing.dropdown.link.item(translate="MENU_ABOUT")
       | 關於
       .menu
         a.item(href="/about.html")
@@ -36,7 +32,7 @@ block vars
         a.item(target="blank",href="http://data.g0v.tw")
           | g0v資料開放平臺
           i.external.url.icon
-    div(class="ui pointing dropdown link item #{ nav_cls.join }",translate="MENU_JOIN")
+    div(class="ui pointing dropdown link item",translate="MENU_JOIN")
       | 加入行動
       .menu
         a.item(href="/join.html")
@@ -50,15 +46,15 @@ block vars
           i.external.url.icon
         a.item(href="/links.html")
           | 相關連結
-    a(class="item #{ nav_cls.talk }",href="/talk.html", translate="MENU_TALKS")
+    a.item(href="/talk.html", translate="MENU_TALKS")
       | 演講資訊
-    div(class="ui pointing dropdown link item #{ nav_cls.actinfo }", translate="MENU_ACT")
+    div(class="ui pointing dropdown link item", translate="MENU_ACT")
       | 活動資訊
       .menu
         a.item(href="/actinfo.html")
           | 黑客松報名
         a.item(href="/actrecord.html")
           | 活動紀錄
-    a(class="item #{ nav_cls.contact }",href="/contact.html", translate="MENU_CONTACT")
+    a(class="item",href="/contact.html", translate="MENU_CONTACT")
       | 聯繫
 

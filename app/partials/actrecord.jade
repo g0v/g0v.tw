@@ -1,14 +1,7 @@
-//- extend layout
-
-//- block title 
-//-     | 黑客松紀錄
-
-//- block vars
-//-     - nav_cls.actinfo = 'highlight'
-
-//- block content
-    
-#about-content
 .ui.red.segment
-    .ui.label.teal.ribbon.large 黑客松紀錄
-    include:md ../../md/zh-tw/hackathon/act_record.md
+  .ui.label.teal.ribbon.large 黑客松紀錄
+  div(ng-switch='locale')
+    div(ng-switch-when="en-us")
+      include:md ../../md/en-us/hackathon/act_record.md
+    div(ng-switch-when="zh-tw")
+      include:md ../../md/zh-tw/hackathon/act_record.md

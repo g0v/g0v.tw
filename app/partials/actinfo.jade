@@ -1,14 +1,7 @@
-//- extend layout
-
-//- block title 
-//-     | 黑客松報名
-
-//- block vars
-//-     - nav_cls.actinfo = 'highlight'
-
-//- block content
-    
-#about-content
 .ui.teal.segment
-    .ui.label.black.ribbon.large 黑客松報名
-    include:md ../../md/zh-tw/hackathon/act_info.md
+  .ui.label.black.ribbon.large 黑客松報名
+  div(ng-switch='locale')
+    div(ng-switch-when="en-us")
+      include:md ../../md/en-us/hackathon/act_info.md
+    div(ng-switch-when="zh-tw")    
+      include:md ../../md/zh-tw/hackathon/act_info.md

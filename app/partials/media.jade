@@ -1,14 +1,7 @@
-//- extend layout
-
-//- block title 
-//-     | 媒體報導
-
-//- block vars
-//-     - nav_cls.about = 'highlight'
-
-//- block content
-    
-#about-content
 .ui.green.segment
-    .ui.label.black.ribbon.large 媒體報導
-    include:md ../../md/zh-tw/about/media.md
+  .ui.label.black.ribbon.large 媒體報導
+  div(ng-switch='locale')
+    div(ng-switch-when="en-us")
+      include:md ../../md/en-us/about/media.md
+    div(ng-switch-when="zh-tw")
+      include:md ../../md/zh-tw/about/media.md
