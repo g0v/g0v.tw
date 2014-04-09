@@ -1,9 +1,5 @@
 defer-src-setters = []
 
-angular.element(document).ready ->
-  for func in defer-src-setters
-    func!
-
 angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
 
 # Set CORS Config
@@ -13,17 +9,73 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
 
   $stateProvider
     .state 'home' do
-      url: '/'
+      url: '/index.html'
       templateUrl: 'partials/home.html'
+    .state 'about' do
+      url: '/about.html'
+      templateUrl: 'partials/about.html'
+    .state 'manifesto' do
+      url: '/manifesto.html'
+      templateUrl: 'partials/manifesto.html'
+    .state 'media' do
+      url: '/media.html'
+      templateUrl: 'partials/media.html'
+    .state 'faq' do
+      url: '/faq.html'
+      templateUrl: 'partials/faq.html'
+    .state 'transaction' do
+      url: '/transaction.html'
+      templateUrl: 'partials/transaction.html'
+    .state 'join' do
+      url: '/join.html'
+      templateUrl: 'partials/join.html'
+    .state 'tools' do
+      url: '/tools.html'
+      templateUrl: 'partials/tools.html'
+    .state 'community' do
+      url: '/community.html'
+      templateUrl: 'partials/community.html'
+    .state 'links' do
+      url: '/links.html'
+      templateUrl: 'partials/links.html'
+    .state 'talk' do
+      url: '/talk.html'
+      templateUrl: 'partials/talk.html'
+    .state 'actinfo' do
+      url: '/actinfo.html'
+      templateUrl: 'partials/actinfo.html'
+    .state 'actrecord' do
+      url: '/actrecord.html'
+      templateUrl: 'partials/actrecord.html'
+    .state 'contact' do
+      url: '/contact.html'
+      templateUrl: 'partials/contact.html'      
+    .state '404' do
+      url: '/404.html'
+      templateUrl: '404.html'
+    #.
     # Catch all
   $urlRouterProvider
-    .otherwise('/')
+    .when '/', '/index.html'
+    .otherwise('/404.html')
 
   $locationProvider.html5Mode true
 .run <[$rootScope $state $stateParams $location $window $anchorScroll]> ++ ($rootScope, $state, $stateParams, $location, $window, $anchorScroll) ->
   $rootScope.$state = $state
   $rootScope.$stateParam = $stateParams
+  $rootScope.locale = 'zh-tw'
+  $rootScope.$on '$localeChangeSuccess', (e, locale) ->
+    $rootScope.locale = locale
+  $rootScope.$on '$viewContentLoaded', ->
+    if $state.current.name is 'home' or $state.current.name is 'join'
+      for func in defer-src-setters
+        func!
 
+# $scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
+#     if ( angular.isDefined( toState.data.pageTitle ) ) {
+#       $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
+#     }
+#   });
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
@@ -63,7 +115,7 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 4
 
-.controller FeaturedCtrl: <[$scope angularFireCollection $timeout]> ++ ($scope, angularFireCollection, $timeout) ->
+.controller FeaturedCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects")
   $scope.projects = angularFireCollection g0vhub
   $scope.nextProject = ->
@@ -78,40 +130,24 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
-  $scope.onTimeout = ->
-    $scope.nextProject!
-    $timeout $scope.onTimeout, 1000 * 10
-  $timeout $scope.onTimeout, 1000 * 15
-
 # Communique scrolling text function. Get the 50 newest communiques entry from g0v.hackpad
-.controller CommuniqueCtrl: <[$scope $http $element $timeout]> ++ ($scope, $http, $element, $timeout) ->
+.controller CommuniqueCtrl: <[$scope $http $element]> ++ ($scope, $http, $element) ->
   # Use Http get the Json from communiqueAPI
   $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?limit=50'
   .success (data, status, headers, config)->
-    $scope.communiques = data
-    $scope.check = 0
+    # $scope.idx = Math.floor Math.random! * data.length   # set random Communique entries display
     $scope.idx = 0
     $scope.nextCommunique = ->
       return if $scope.idx is void
       ++$scope.idx
-      $scope.idx %= $scope.communiques.length
+      $scope.idx %= data.length
 
     $scope.$watch 'idx' (_, idx) ->
-      if $scope.check is 0
-        $scope.check = 1
-      else
-        idx++
-      idx %= $scope.communiques.length
-      $scope.communique = $scope.communiques[idx] unless idx is void
+      $scope.communique = data[idx] unless idx is void
       # add url in the communique text
       for url in $scope.communique.urls
         $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
       $element.find('.description').html $scope.communique.content
-
-    $scope.onTimeout = ->
-      $scope.nextCommunique!
-      $timeout $scope.onTimeout, 1000 * 10
-    $timeout $scope.onTimeout, 1000 * 15
 
   .error (data, status, headers, config) ->
     $scope.message = status
@@ -120,9 +156,10 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
 
-.controller langCtrl: <[$scope $translate]> ++ ($scope, $translate) ->
+.controller langCtrl: <[$scope $translate $rootScope]> ++ ($scope, $translate, $rootScope) ->
   $scope.changeLang = (key) ->
     $translate.use key
+    $rootScope.$broadcast '$localeChangeSuccess', key
 
 show = ->
   prj-img = $ \#prj-img
@@ -130,5 +167,5 @@ show = ->
   [h] = [40 + prj-img.height!]
   $ \#prj-img-div .animate {height: h+"px"}, 500
 
-# <- $
-# $ '.ui.dropdown' .dropdown on: \hover, transition: \fade
+<- $
+$ '.ui.dropdown' .dropdown on: \hover, transition: \fade

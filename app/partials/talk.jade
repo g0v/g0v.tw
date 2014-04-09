@@ -1,14 +1,7 @@
-//- extend layout
-
-//- block title 
-//-     | 演講資訊
-
-//- block vars
-//-     - nav_cls.talk = 'highlight'
-
-//- block content
-
-#about-content
 .ui.teal.segment
-    .ui.ribbon.red.label.large 演講資訊
-    include:md ../../md/zh-tw/talk/talk.md
+  .ui.ribbon.red.label.large 演講資訊
+  div(ng-switch='locale')
+    div(ng-switch-when="en-us")
+      include:md ../../md/en-us/talk/talk.md
+    div(ng-switch-when="zh-tw")    
+      include:md ../../md/zh-tw/talk/talk.md

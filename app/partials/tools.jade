@@ -1,14 +1,7 @@
-//- extend layout
-
-//- block title 
-//-     | 常用工具
-
-//- block vars
-//-     - nav_cls.join = 'highlight'
-
-//- block content
-
-#about-content
 .ui.purple.segment
-    .ui.label.blue.ribbon.large 常用工具
-    include:md ../../md/zh-tw/join/tools.md
+  .ui.label.blue.ribbon.large 常用工具
+  div(ng-switch='locale')
+    div(ng-switch-when="en-us")
+      include:md ../../md/en-us/join/tools.md
+    div(ng-switch-when="zh-tw")    
+      include:md ../../md/zh-tw/join/tools.md
