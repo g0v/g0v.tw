@@ -15,12 +15,19 @@ gulp.task 'html', ->
     .pipe gulp.dest "#build_path"
     .pipe gulp-livereload lr
 
+require! <[gulp-bower gulp-bower-files gulp-filter]>
 
-gulp.task 'js:vendor', ->
+gulp.task 'bower' ->
+  gulp-bower!
+
+gulp.task 'js:vendor' <[bower]> ->
+  bower = gulp-bower-files!
+    .pipe gulp-filter -> it.path is /\.js$/
+
   vendor = gulp.src 'vendor/scripts/*.js'
 
-  streamqueue { +objectMode }
-    .done vendor
+  s = streamqueue { +objectMode }
+    .done bower, vendor
     .pipe gulp-concat 'vendor.js'
     .pipe gulp-if production, gulp-uglify()
     .pipe gulp.dest "#{build_path}/js"
@@ -43,6 +50,9 @@ gulp.task 'js:app', ->
     .pipe gulp-if production, gulp-uglify()
     .pipe gulp.dest "#{build_path}/js"
     .pipe gulp-livereload lr
+    #.pipe gulp-if production gulp-uglify! if gutil.env.env is \production
+    .pipe gulp.dest "#{build_path}/js"
+    .pipe gulp-livereload lr  
 
 gulp.task 'css', ->
   compress = production
@@ -66,9 +76,8 @@ gulp.task 'watch', ->
   lr.listen 35729, ->
     return gulp-util.log it if it
   gulp.watch 'app/**/*.jade', <[html]>
-  gulp.watch 'app/assets/**/*', <[assets]>
   gulp.watch 'app/**/*.less', <[css]>
-  gulp.watch 'app/**/*.ls', <[js]>
+  gulp.watch 'app/**/*.ls', <[js:app]>
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
 gulp.task 'dev', <[build server watch]>

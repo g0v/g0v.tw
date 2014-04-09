@@ -4,12 +4,25 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
-angular.module "g0v.tw" <[firebase btford.markdown]>
+angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
 
 # Set CORS Config
-.config ['$httpProvider' ($httpProvider) ->
+.config <[$httpProvider $stateProvider $urlRouterProvider $locationProvider]> ++ ($httpProvider, $stateProvider, $urlRouterProvider, $locationProvider) ->
   $httpProvider.defaults.useXDomain = true
-  delete $httpProvider.defaults.headers.common['X-Requested-With']]
+  delete $httpProvider.defaults.headers.common['X-Requested-With']
+
+  $stateProvider
+    .state 'home' do
+      url: '/'
+      templateUrl: 'partials/home.html'
+    # Catch all
+  $urlRouterProvider
+    .otherwise('/')
+
+  $locationProvider.html5Mode true
+.run <[$rootScope $state $stateParams $location $window $anchorScroll]> ++ ($rootScope, $state, $stateParams, $location, $window, $anchorScroll) ->
+  $rootScope.$state = $state
+  $rootScope.$stateParam = $stateParams
 
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
@@ -88,6 +101,9 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
 
+.controller langCtrl: <[$scope $translate]> ++ ($scope, $translate) ->
+  $scope.changeLang = (key) ->
+    $translate.use key
 
 show = ->
   prj-img = $ \#prj-img
@@ -95,5 +111,5 @@ show = ->
   [h] = [40 + prj-img.height!]
   $ \#prj-img-div .animate {height: h+"px"}, 500
 
-<- $
-$ '.ui.dropdown' .dropdown on: \hover, transition: \fade
+# <- $
+# $ '.ui.dropdown' .dropdown on: \hover, transition: \fade
