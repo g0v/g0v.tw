@@ -67,7 +67,7 @@ gulp.task 'server', ->
   app.use connect-livereload!
   app.use express.static path.resolve "#build_path"
   app.all '/**', (req, res, next) ->
-    res.sendfile __dirname + '/_public'
+    res.sendfile __dirname + "/#{build_path}/index.html"
   app.listen 3000
   gulp-util.log 'Listening on port 3000'
 
