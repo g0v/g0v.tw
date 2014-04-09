@@ -1,5 +1,6 @@
 ### 媒體報導
 
+* [零時政府4/19辦黑客松聚會　公民議題不退場](http://www.appledaily.com.tw/realtimenews/article/politics/20140410/376241/) / 蘋果日報 2014.04.10 
 * [人民渴求的不是評論 而是見證](http://www.new7.com.tw/NewsView.aspx?i=TXT20140402141407S2D) / 新新聞 2014.04.08 ([全文備份](https://gist.github.com/pofeng/10172453))
 * [學運背後的IT推手：g0v零時政府](http://www.ithome.com.tw/tech/86462) / iThome 2014.04.08
 * [從學運IT應用看數位匯流發展](http://udn.com/NEWS/OPINION/OPI1/8598406.shtml) / 經濟日報╱社論 2014.04.08 
