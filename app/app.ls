@@ -13,13 +13,13 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
       templateUrl: 'partials/home.html'
     .state 'about' do
       url: '/about.html'
-      templateUrl: 'partials/about.html'
+      templateUrl: 'partials/about.html'   
     .state 'manifesto' do
       url: '/manifesto.html'
-      templateUrl: 'partials/manifesto.html'
+      templateUrl: 'partials/manifesto.html'     
     .state 'media' do
       url: '/media.html'
-      templateUrl: 'partials/media.html'
+      templateUrl: 'partials/media.html'     
     .state 'faq' do
       url: '/faq.html'
       templateUrl: 'partials/faq.html'
@@ -67,10 +67,15 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
   $rootScope.$on '$localeChangeSuccess', (e, locale) ->
     $rootScope.locale = locale
   $rootScope.$on '$viewContentLoaded', ->
+    switch $state.current.name
+    | 'manifesto', 'media', 'faq', 'transaction' => $rootScope.activeTab = 'about'
+    | 'tools', 'community', 'links' => $rootScope.activeTab = 'join'
+    | 'actinfo', 'actrecord' => $rootScope.activeTab = 'act'
+    | otherwise   => $rootScope.activeTab = $state.current.name
+    
     if $state.current.name is 'home' or $state.current.name is 'join'
       for func in defer-src-setters
         func!
-
 # $scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
 #     if ( angular.isDefined( toState.data.pageTitle ) ) {
 #       $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
@@ -137,10 +142,10 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
 
-.controller langCtrl: <[$scope $translate $rootScope]> ++ ($scope, $translate, $rootScope) ->
+.controller langCtrl: <[$scope $translate]> ++ ($scope, $translate) ->
   $scope.changeLang = (key) ->
     $translate.use key
-    $rootScope.$broadcast '$localeChangeSuccess', key
+    $scope.$emit '$localeChangeSuccess', key
 
 show = ->
   prj-img = $ \#prj-img
