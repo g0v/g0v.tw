@@ -16,6 +16,8 @@ dependencies:
 overrides:
   "angular-mocks":
     main: "README.md"
+  "angular-scenario":
+    main: "README.md"
 
 resolutions:
   angular: "1.2.3"
