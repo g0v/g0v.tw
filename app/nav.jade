@@ -1,60 +1,60 @@
 .ui.fluid.seven.item.menu
-    a.item(href="/index.html", translate="MENU_HOME")
+    a.item(href="/index.html", translate="MENU_HOME", ng-class="{highlight:activeTab == 'home'}")
       | 首頁
-    .ui.pointing.dropdown.link.item
+    .ui.pointing.dropdown.link.item(ng-class="{highlight:activeTab == 'about'}")
       span(translate="MENU_ABOUT") 關於
       .menu
-        a.item(href="/about.html")
+        a.item(href="/about.html", translate="MENU_ABOUTG0V")
           | 關於 g0v
-        a.item(href="/manifesto.html")
+        a.item(href="/manifesto.html", translate="MENU_MANIFESTO")
           | 零時政府宣言
-        a.item(href="/media.html")
+        a.item(href="/media.html", translate="MENU_MEDIA")
           | 媒體報導
-        a.item(href="http://blog.g0v.tw")
+        a.item(href="http://blog.g0v.tw", translate="MENU_BLOG")
           | 部落格
           i.external.url.icon
-        a.item(href="/faq.html")
+        a.item(href="/faq.html", translate="MENU_FAQ")
           | 常見問題
-        a.item(href="/transaction.html")
+        a.item(href="/transaction.html", translate="MENU_TRANSACTION")
           | 收支明細
     .ui.pointing.dropdown.link.item
       span(translate="MENU_PROJECT") 專案
       .menu
-        a.item(target="blank", href="http://g0v.github.io/g0vis/")
+        a.item(target="blank", href="http://g0v.github.io/g0vis/", translate="MENU_LIST")
           | 成果列表
           i.external.url.icon
-        a.item(target="blank",href="http://hack.g0v.tw/project")
+        a.item(target="blank",href="http://hack.g0v.tw/project", translate="MENU_PROGRESS")
           | 開發中專案
           i.external.url.icon
-        a.item(target="blank",href="https://g0v.hackpad.com/")
+        a.item(target="blank",href="https://g0v.hackpad.com/", translate="MENU_HACKPAD")
           | 開發共筆
           i.external.url.icon
-        a.item(target="blank",href="http://data.g0v.tw")
+        a.item(target="blank",href="http://data.g0v.tw", translate="MENU_OPENDATA")
           | g0v資料開放平臺
           i.external.url.icon
-    .ui.pointing.dropdown.link.item
+    .ui.pointing.dropdown.link.item(ng-class="{highlight:activeTab == 'join'}")
       span(translate="MENU_JOIN") 加入行動
       .menu
-        a.item(href="/join.html")
+        a.item(href="/join.html", translate="MENU_HOWTO")
           | 如何參與
-        a.item(href="/tools.html")
+        a.item(href="/tools.html", translate="MENU_TOOLS")
           | 常用工具
-        a.item(href="/community.html")
+        a.item(href="/community.html", translate="MENU_COMMUNITY")
           | 社群文化
-        a.item(href="http://hack.g0v.tw/people")
+        a.item(href="http://hack.g0v.tw/people", translate="MENU_MEMBER")
           | 成員入口
           i.external.url.icon
-        a.item(href="/links.html")
+        a.item(href="/links.html", translate="MENU_LINKS")
           | 相關連結
-    a.item(href="/talk.html", translate="MENU_TALKS")
+    a.item(href="/talk.html", translate="MENU_TALKS", ng-class="{highlight:activeTab == 'talk'}")
       | 演講資訊
-    .ui.pointing.dropdown.link.item
+    .ui.pointing.dropdown.link.item(ng-class="{highlight:activeTab == 'act'}")
       span( translate="MENU_ACT") 活動資訊
       .menu
-        a.item(href="/actinfo.html")
+        a.item(href="/actinfo.html", translate="MENU_ACTINFO")
           | 黑客松報名
-        a.item(href="/actrecord.html")
+        a.item(href="/actrecord.html", translate="MENU_ACTRECORD")
           | 活動紀錄
-    a(class="item",href="/contact.html", translate="MENU_CONTACT")
+    a(class="item",href="/contact.html", translate="MENU_CONTACT", ng-class="{highlight:activeTab == 'contact'}")
       | 聯繫
 
