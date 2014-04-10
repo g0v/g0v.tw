@@ -1,9 +1,9 @@
 defer-src-setters = []
 
-angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
+angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.translate]>
 
 # Set CORS Config
-.config <[$httpProvider $stateProvider $urlRouterProvider $locationProvider]> ++ ($httpProvider, $stateProvider, $urlRouterProvider, $locationProvider) ->
+.config <[$httpProvider $stateProvider $urlRouterProvider $locationProvider $translateProvider]> ++ ($httpProvider, $stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) ->
   $httpProvider.defaults.useXDomain = true
   delete $httpProvider.defaults.headers.common['X-Requested-With']
 
@@ -60,6 +60,12 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
     .otherwise('/404.html')
 
   $locationProvider.html5Mode true
+
+  $translateProvider.useStaticFilesLoader do
+    prefix: 'translations/'
+    suffix: '.json'
+  $translateProvider.preferredLanguage 'zh-tw'
+  
 .run <[$rootScope $state $stateParams $location $window $anchorScroll]> ++ ($rootScope, $state, $stateParams, $location, $window, $anchorScroll) ->
   $rootScope.$state = $state
   $rootScope.$stateParam = $stateParams
@@ -72,7 +78,7 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router g0v.tw.i18n]>
     | 'tools', 'community', 'links' => $rootScope.activeTab = 'join'
     | 'actinfo', 'actrecord' => $rootScope.activeTab = 'act'
     | otherwise   => $rootScope.activeTab = $state.current.name
-    
+
     if $state.current.name is 'home' or $state.current.name is 'join'
       for func in defer-src-setters
         func!
