@@ -13,13 +13,13 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.transl
       templateUrl: 'partials/home.html'
     .state 'about' do
       url: '/about.html'
-      templateUrl: 'partials/about.html'   
+      templateUrl: 'partials/about.html'
     .state 'manifesto' do
       url: '/manifesto.html'
-      templateUrl: 'partials/manifesto.html'     
+      templateUrl: 'partials/manifesto.html'
     .state 'media' do
       url: '/media.html'
-      templateUrl: 'partials/media.html'     
+      templateUrl: 'partials/media.html'
     .state 'faq' do
       url: '/faq.html'
       templateUrl: 'partials/faq.html'
@@ -49,7 +49,7 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.transl
       templateUrl: 'partials/actrecord.html'
     .state 'contact' do
       url: '/contact.html'
-      templateUrl: 'partials/contact.html'      
+      templateUrl: 'partials/contact.html'
     .state '404' do
       url: '/404.html'
       templateUrl: '404.html'
@@ -65,7 +65,7 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.transl
     prefix: 'translations/'
     suffix: '.json'
   $translateProvider.preferredLanguage 'zh-tw'
-  
+
 .run <[$rootScope $state $stateParams $location $window $anchorScroll]> ++ ($rootScope, $state, $stateParams, $location, $window, $anchorScroll) ->
   $rootScope.$state = $state
   $rootScope.$stateParam = $stateParams
