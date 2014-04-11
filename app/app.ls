@@ -7,7 +7,7 @@ angular.element(document).ready ->
 angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
 
 # Set CORS Config
-.config <[$httpProvider $translateProvider]> ++ ($httpProvider, $translateProvider) ->
+.config <[$httpProvider $translateProvider ]> ++ ($httpProvider, $translateProvider) ->
   $httpProvider.defaults.useXDomain = true
   delete $httpProvider.defaults.headers.common['X-Requested-With']
 
@@ -100,6 +100,10 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
 
+.controller langCtrl: <[$scope $window]> ++ ($scope, $window) ->
+  $scope.changeLang = (lang) ->
+    page = $window.location.pathname.split('/').2
+    $window.location.href = '/' + lang + '/' + page
 show = ->
   prj-img = $ \#prj-img
   prj-img.animate {opacity: 1}, 500
