@@ -1,10 +1,10 @@
-### g0v 介紹 
+### g0v 介紹
 
 g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。2012 年底開始成形，截至2014年初已有 26 場工作坊、受邀演講 30+ 場、媒體報導 20+ 次、500+ 遍佈三大洲的貢獻者，成果皆以自由軟體模式釋出。
 
 將 gov 以「零」替代成為 g0v，從零重新思考政府的角色，也是代表數位原生世代從 0 與 1 世界的視野。g0v.tw 以開放原始碼的精神為基底，關心言論自由、資訊開放，寫程式提供公民容易使用的資訊服務。資訊的透明化能幫助公民更確實了解政府運作、更快速了解議題，不被媒體壟斷，也才可有效監督政府，化為參與行動最終深化民主體質。
 <div class="pagination-centered">
-	<img src="imgs/g0v-about.png" alt="g0v about" style="width: 60%;" />
+	<img src="/imgs/g0v-about.png" alt="g0v about" style="width: 60%;" />
 </div>
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
