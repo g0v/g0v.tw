@@ -3,7 +3,7 @@ head
   meta(charset="utf8")
   script(type="text/javascript").
     (function(){
-      var lang = window.navigator.language;
+      var lang = window.navigator.userLanguage || window.navigator.language;
       if(lang === 'zh-TW')
         location.href = '/zh-TW';
       else
