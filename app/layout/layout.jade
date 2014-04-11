@@ -48,9 +48,9 @@ html(ng-app="g0v.tw",ng-cloak,lang="zh-Hant")
                     #fb_block
                         #fb-root
                         .fb-like(data-href='https://www.facebook.com/g0v.tw', data-layout='button_count', data-action='like', data-show-faces='true', data-share='true')
-                .translator
-                    a.ui.small.purple.button(translate='BUTTON_LANG_TW', href='/zh-TW') 中文
-                    a.ui.small.red.button(translate='BUTTON_LANG_EN', href='/en-US') 英文
+                .translator(ng-controller="langCtrl")
+                    .ui.small.purple.button(translate='BUTTON_LANG_TW', ng-click="changeLang('zh-TW')") 中文
+                    .ui.small.red.button(translate='BUTTON_LANG_EN', ng-click="changeLang('en-US')") English
                 div.clearfix
         #container
             include ./nav
