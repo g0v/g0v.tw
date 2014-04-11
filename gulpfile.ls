@@ -15,11 +15,13 @@ gulp.task 'translations' ->
 
   fs.readdir './md', (,langs)->
     for lang in langs
+      real-lang = lang.replace /(\w+-)(\w+)/, (,$1,$2) -> $1+$2.toUpperCase!
+
       gulp.src 'app/partials/*.jade'
         .pipe gulp-jade do
           locals:
-            lang: lang
-        .pipe gulp.dest "#{build_path}/#{lang}"
+            lang: real-lang
+        .pipe gulp.dest "#{build_path}/#{real-lang}"
 
 gulp.task 'html', <[translations]>, ->
   gulp.src 'app/*.jade'
