@@ -1,7 +1,17 @@
-.ui.purple.segment
-  .ui.label.green.ribbon.large 聯繫社群
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/about/contact.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/about/contact.md
+extend ../layout/layout
+
+block title
+    | 聯繫社群
+
+block vars
+    - nav_cls.contact = 'highlight'
+
+block content
+
+  .ui.purple.segment
+    .ui.label.green.ribbon.large 聯繫社群
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/about/contact.md
+      default
+        include:md ../../md/zh-TW/about/contact.md

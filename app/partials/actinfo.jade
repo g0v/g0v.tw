@@ -1,7 +1,16 @@
-.ui.teal.segment
-  .ui.label.black.ribbon.large 黑客松報名
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/hackathon/act_info.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/hackathon/act_info.md
+extend ../layout/layout
+
+block title
+    | 黑客松報名
+
+block vars
+    - nav_cls.actinfo = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.label.black.ribbon.large 黑客松報名
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/hackathon/act_info.md
+      default
+        include:md ../../md/zh-TW/hackathon/act_info.md

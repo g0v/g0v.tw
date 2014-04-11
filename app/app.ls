@@ -1,92 +1,25 @@
 defer-src-setters = []
 
-angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.translate]>
+angular.element(document).ready ->
+  for func in defer-src-setters
+    func!
+
+angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
 
 # Set CORS Config
-.config <[$httpProvider $stateProvider $urlRouterProvider $locationProvider $translateProvider]> ++ ($httpProvider, $stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) ->
+.config <[$httpProvider $translateProvider]> ++ ($httpProvider, $translateProvider) ->
   $httpProvider.defaults.useXDomain = true
   delete $httpProvider.defaults.headers.common['X-Requested-With']
 
-  $stateProvider
-    .state 'home' do
-      url: '/index.html'
-      templateUrl: 'partials/home.html'
-    .state 'about' do
-      url: '/about.html'
-      templateUrl: 'partials/about.html'
-    .state 'manifesto' do
-      url: '/manifesto.html'
-      templateUrl: 'partials/manifesto.html'
-    .state 'media' do
-      url: '/media.html'
-      templateUrl: 'partials/media.html'
-    .state 'faq' do
-      url: '/faq.html'
-      templateUrl: 'partials/faq.html'
-    .state 'transaction' do
-      url: '/transaction.html'
-      templateUrl: 'partials/transaction.html'
-    .state 'join' do
-      url: '/join.html'
-      templateUrl: 'partials/join.html'
-    .state 'tools' do
-      url: '/tools.html'
-      templateUrl: 'partials/tools.html'
-    .state 'community' do
-      url: '/community.html'
-      templateUrl: 'partials/community.html'
-    .state 'links' do
-      url: '/links.html'
-      templateUrl: 'partials/links.html'
-    .state 'talk' do
-      url: '/talk.html'
-      templateUrl: 'partials/talk.html'
-    .state 'actinfo' do
-      url: '/actinfo.html'
-      templateUrl: 'partials/actinfo.html'
-    .state 'actrecord' do
-      url: '/actrecord.html'
-      templateUrl: 'partials/actrecord.html'
-    .state 'contact' do
-      url: '/contact.html'
-      templateUrl: 'partials/contact.html'
-    .state '404' do
-      url: '/404.html'
-      templateUrl: '404.html'
-    #.
-    # Catch all
-  $urlRouterProvider
-    .when '/', '/index.html'
-    .otherwise('/404.html')
-
-  $locationProvider.html5Mode true
-
   $translateProvider.useStaticFilesLoader do
-    prefix: 'translations/'
+    prefix: '/translations/'
     suffix: '.json'
-  $translateProvider.preferredLanguage 'zh-tw'
 
-.run <[$rootScope $state $stateParams $location $window $anchorScroll]> ++ ($rootScope, $state, $stateParams, $location, $window, $anchorScroll) ->
-  $rootScope.$state = $state
-  $rootScope.$stateParam = $stateParams
-  $rootScope.locale = 'zh-tw'
-  $rootScope.$on '$localeChangeSuccess', (e, locale) ->
-    $rootScope.locale = locale
-  $rootScope.$on '$viewContentLoaded', ->
-    switch $state.current.name
-    | 'manifesto', 'media', 'faq', 'transaction' => $rootScope.activeTab = 'about'
-    | 'tools', 'community', 'links' => $rootScope.activeTab = 'join'
-    | 'actinfo', 'actrecord' => $rootScope.activeTab = 'act'
-    | otherwise   => $rootScope.activeTab = $state.current.name
+  lang = window.location.pathname.split('/').1
+  lang = window.navigator.language if lang.match 'html'
+  if lang is 'zh-TW' or lang is 'en-US'
+    $translateProvider.preferredLanguage lang
 
-    if $state.current.name is 'home' or $state.current.name is 'join'
-      for func in defer-src-setters
-        func!
-# $scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
-#     if ( angular.isDefined( toState.data.pageTitle ) ) {
-#       $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
-#     }
-#   });
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
@@ -147,11 +80,6 @@ angular.module "g0v.tw" <[firebase btford.markdown ui.router pascalprecht.transl
 .controller BuildIdCtrl: <[$scope]> ++ ($scope) ->
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
-
-.controller langCtrl: <[$scope $translate]> ++ ($scope, $translate) ->
-  $scope.changeLang = (key) ->
-    $translate.use key
-    $scope.$emit '$localeChangeSuccess', key
 
 show = ->
   prj-img = $ \#prj-img

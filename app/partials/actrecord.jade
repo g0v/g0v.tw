@@ -1,7 +1,16 @@
-.ui.red.segment
-  .ui.label.teal.ribbon.large 黑客松紀錄
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/hackathon/act_record.md
-    div(ng-switch-when="zh-tw")
-      include:md ../../md/zh-tw/hackathon/act_record.md
+extend ../layout/layout
+
+block title
+    | 黑客松紀錄
+
+block vars
+    - nav_cls.actinfo = 'highlight'
+
+block content
+  .ui.red.segment
+    .ui.label.teal.ribbon.large 黑客松紀錄
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/hackathon/act_record.md
+      default
+        include:md ../../md/zh-TW/hackathon/act_record.md

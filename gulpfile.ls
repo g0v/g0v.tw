@@ -9,10 +9,22 @@ lr = tiny-lr!
 build_path = '_public'
 production = true if gutil.env.env is \production
 
-gulp.task 'html', ->
-  gulp.src 'app/**/*.jade'
+
+gulp.task 'translations' ->
+  require! <[fs]>
+
+  fs.readdir './md', (,langs)->
+    for lang in langs
+      gulp.src 'app/partials/*.jade'
+        .pipe gulp-jade do
+          locals:
+            lang: lang
+        .pipe gulp.dest "#{build_path}/#{lang}"
+
+gulp.task 'html', <[translations]>, ->
+  gulp.src 'app/*.jade'
     .pipe gulp-jade!
-    .pipe gulp.dest "#build_path"
+    .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
 require! <[gulp-bower gulp-bower-files gulp-filter]>
@@ -49,7 +61,7 @@ gulp.task 'js:app', ->
     .pipe gulp-concat 'app.js'
     .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
-    .pipe gulp-livereload lr 
+    .pipe gulp-livereload lr
 
 gulp.task 'css', ->
   compress = production

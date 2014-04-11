@@ -1,7 +1,16 @@
-.ui.teal.segment
-  .ui.orange.ribbon.label 零時政府相關連結
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/join/links.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/join/links.md
+extend ../layout/layout
+
+block title
+    | 相關連結
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.orange.ribbon.label 零時政府相關連結
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/join/links.md
+      default
+        include:md ../../md/zh-TW/join/links.md

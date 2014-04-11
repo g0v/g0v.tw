@@ -1,7 +1,16 @@
-.ui.teal.segment
-  .ui.label.orange.ribbon.large 零時政府宣言
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/about/manifesto.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/about/manifesto.md
+extend ../layout/layout
+
+block title
+    | 零時政府宣言
+
+block vars
+    - nav_cls.about = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.label.orange.ribbon.large 零時政府宣言
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/about/manifesto.md
+      default
+        include:md ../../md/zh-TW/about/manifesto.md
