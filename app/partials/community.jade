@@ -1,7 +1,17 @@
-.ui.red.segment
-  .ui.teal.ribbon.label 社群文化
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/join/community.md
-    div(ng-switch-when="zh-tw")
-      include:md ../../md/zh-tw/join/community.md
+extend ../layout/layout
+
+block title
+    | 社群文化
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+
+  .ui.red.segment
+    .ui.teal.ribbon.label 社群文化
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/join/community.md
+      default
+        include:md ../../md/zh-TW/join/community.md

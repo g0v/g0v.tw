@@ -9,7 +9,6 @@ dependencies:
   "angular-mocks": "1.2.3"
   "angular-scenario": "1.2.3"
   "angular-markdown-directive": "0.1.0"
-  "angular-ui-router": "0.2.10"
   "angular-translate": "2.1.0"
   "angular-translate-loader-static-files": "2.1.0"
 

@@ -1,7 +1,17 @@
-.ui.teal.segment
-  .ui.ribbon.red.label.large 演講資訊
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/talk/talk.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/talk/talk.md
+extend ../layout/layout
+
+block title
+    | 演講資訊
+
+block vars
+    - nav_cls.talk = 'highlight'
+
+block content
+
+  .ui.teal.segment
+    .ui.ribbon.red.label.large 演講資訊
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/talk/talk.md
+      default
+        include:md ../../md/zh-TW/talk/talk.md

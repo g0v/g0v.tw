@@ -1,7 +1,16 @@
-.ui.purple.segment
-  .ui.label.blue.ribbon.large 常用工具
-  div(ng-switch='locale')
-    div(ng-switch-when="en-us")
-      include:md ../../md/en-us/join/tools.md
-    div(ng-switch-when="zh-tw")    
-      include:md ../../md/zh-tw/join/tools.md
+extend ../layout/layout
+
+block title
+    | 常用工具
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+  .ui.purple.segment
+    .ui.label.blue.ribbon.large 常用工具
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/join/tools.md
+      default
+        include:md ../../md/zh-TW/join/tools.md
