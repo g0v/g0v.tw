@@ -49,9 +49,9 @@
 * [「揭露22K」網 揪出血汗企業](http://www.appledaily.com.tw/appledaily/article/headline/20130129/34800790/) / 蘋果日報 2013.01.29
 
 ### 部落格文章
+* [g0v 是塊大草坪](http://walkingice.blogspot.tw/2014/04/g0v.html) / Walkingice 2014.04.12
+* [迎接春天的公民資訊黑客松](http://ipaway.org/?p=2518) / ipa 2013.3.13
+* [網路公民的進擊](http://ipaway.org/?p=2679) / ipa 2013.06.07
+* [搶救國會資料大軍](http://ipaway.org/?p=2334) / ipa 2013.01.08
 * [Open Data—來自資訊界的社會運動（下）](http://www.thinkingtaiwan.com/public/articles/view/318) / 雨蒼 2012.11.28
 * [Open Data—來自資訊界的社會運動（上）](http://www.thinkingtaiwan.com/articles/view/314) / 雨蒼 2012.11.28
-* [網路公民的進擊](http://ipaway.org/?p=2679) / ipa 2013.06.07
-* [迎接春天的公民資訊黑客松](http://ipaway.org/?p=2518) / ipa 2013.3.13
-* [搶救國會資料大軍](http://ipaway.org/?p=2334) / ipa 2013.01.08
-
