@@ -9,5 +9,8 @@ block vars
 block content
   .ui.teal.segment
     .ui.orange.ribbon.label(translate="JOIN") 如何參與
-    iframe(defer-src="http://g0v.github.io/leve1up/embed/",frameborder="0",allowfullscreen,width="115%", height="4000px", style="margin-left:-100px")
-      //include:md ../md/join/howto.md
+    case lang
+      when 'en-US'
+        include:md ../../md/en-US/join/howto.md
+      default
+        iframe(defer-src="http://g0v.github.io/leve1up/embed/",frameborder="0",allowfullscreen,width="115%", height="4000px", style="margin-left:-100px")

@@ -1,9 +1,6 @@
+### Community Decision Mechanism: Liquid Feedback
 
-
-### 社群決策機制：動民主
-
-g0v社群分散作業，鮮少有需要共同決策的事項，但如果需要討論則採用【動民主】(liquid feedback)系統，進行討論審議投票。成為g0v 貢獻者即有審議/投票權。（參與專案、並由專案發起人推薦即可成為貢獻者。）由此登入【[動民主](http://lqfb-test.g0v.tw/pf/)】。
-
+g0v embraces distributed processing, which makes things rarely necessary to be decided jointly. If discussion is needed, Liquid Feedback will be used to discuss, examine, and vote on such matters. Every g0v contributor has the right to examine and vote. (Participate any project, and be recommended by the project initiator will become a contributor.) Sign in with [Liquid Feedback](http://lqfb-test.g0v.tw/pf/).
 
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>

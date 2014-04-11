@@ -1,22 +1,12 @@
-<div class="ui stacked segment">
-<h4>
-g0v 社群自由且去中心化，工作都自主提案參與，分工協作，所有活動沒有強制性，專案皆由社群成員各自發起串連。g0v 的座右銘是：
+### Culture of g0v
 
-<p />
+The community of g0v is full of freedom and decentralized. Projects are started and ran by self-motivated community members. Works are proposed, participated, and cooperated voluntarily. All the activities are not mandatory.
+"Ask not why nobody is doing this. You are 'nobody'." is the motto of g0v. Because "nobody" is omnipotent.
+Many of g0v members came from open source community. We encourage Open Source/Creative Common License, therefore knowledge sharing could enhance more contribution. What are the greatest momentum of the community? Look into social issue with the kind of spirit, analyze the problem, then come up with a revolution-by-information proposal. Welcome to join this dynamite.
 
-<blockquote style="color: crimson">「不要問為何沒有人做這個，先承認你就是『_沒有人_』」。<br />
-因為，「_沒有人_」是萬能的。</blockquote>
+### Participate as different character
 
-
-<p />
-g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open Source或Creative Commons授權），讓知識流通刺激更多貢獻。用這樣的精神關心社會議題，分析問題並提出可以資訊推動改變的方案，進而實際執行，是社群的最大能量。歡迎加入這股動能。
-
-</h4>
-</div>
-
-### 不同角色如何參與
-
-打造新的公民資訊專案需要各種專業的參與，程式開發者、議題關注者（NGO, NPO, 公民記者、獨立媒體）、設計師、文字藝術工作者、鄉民可以貢獻所長加入專案，請參考《[我是xxx，如何參與黑客松](http://hack.g0v.tw/g0vMOE/ciS8hEGw7iu)》一文。
+Perspectives from various profession is necessary to build a new citizen information project. Programmers, issue followers(i.g. NGO, NPO, citizen reporters, independent media), designers, writers, artists, and PTTers are able to contribute their strength to projects. Please refer to [My role in hackathon](http://hack.g0v.tw/g0vMOE/ciS8hEGw7iu)
 
 ### 必要學會的協作工具
 
@@ -59,41 +49,35 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
   <i class="code icon"></i>
 </div>
 
-### 如何開啟新專案、認領工作
+### How to start a new project, or take a job
 
-1. 開始撰寫企劃：
-	* 在【[g0v idea pool](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fg0v.hackpad.com%252Fep%252Fgroup%252FyvUEJD5fNjX)】撰寫專案想法共筆，每期黑客松會有一個線上資料夾 【[hackfoldr](http://hack.g0v.tw)】收集各發展中專案共筆。大家會在共筆上交換意見，目標一致可直接各自組隊開始動工。
-<p></p>
-2. g0v相關資料：
- 	* 程式碼：【[github](https://github.com/g0v/)】
- 	* 其他檔案：【[google drive](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)】
- 	* 政府公開資料蒐集：【[data.g0v.tw](http://hack.g0v.tw/g0vMOE/http%253A%252F%252Fdata.g0v.tw%252F)】
-<p></p>
-3. 自己發起專案，或加入已經運作中的工作小組。
-4. 開始有程式碼，再將資料檔案登入【[專案入口](http://hack.g0v.tw/project)】
+1. Start a new project:
+
+2. g0v refrence data:
+  * Source code：【[github](https://github.com/g0v/)】
+  * Misc file：【[google drive](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZN19uV1p6YWd6TXc/edit)】
+  * Government open data：【[data.g0v.tw](http://hack.g0v.tw/g0vMOE/http%253A%252F%252Fdata.g0v.tw%252F)】
+3. Start a project, or join the work team.
+4. Start some code, and add to【Project Entrance】
 
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
 
-### 成為g0v專案
+### Become g0v project
 
-專案只要是開放原始碼，即可成為g0v專案，可列在專案列表、使用共同CIS、研討會時可申請社群議程。到這裡了解更多[開放源碼](/join.html#join_license)及授權資訊。
-
-黑客松活動的專案則無授權限制，若非開源請與有意願加入的工作夥伴取得共識。
+Project which is open source, can be g0v project, can list on project list, use g0v CIS, can apply for conference schedules。Here to know more about Open source and License information.
 
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
 
-### 專案的續航力
+### Project Life Cycle
 
-零時政府是一個孵育專案的平台，也希望成果能持續開發維護，以下有幾種方式可增進續航力：
-
-* 社群維護：在社群持續合作開發。
-* 與NGO/NPO合作：決定好授權方式，開發後交付社團組織維護。
-* 募資、聘僱、商業化、或成立法人/組織/公司、創業皆可自由發揮。
-
+g0v is a project incubation platform, which also hopes to constantly develop and maintain the works, and the following ways are to extend the life cycle:
+* Community maintenance: ongoing collaboration within developer community.
+* NGO / NPO collaboration: development after licensing, and then delivered to the organizations for maintenance.
+* Feel free to fundraise, hire, commercialize, or start a corporation, organization, company, or startup.
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
