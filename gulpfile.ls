@@ -72,6 +72,7 @@ gulp.task 'css', ->
 
 gulp.task 'assets', ->
   gulp.src 'app/assets/**/*'
+    .pipe gulp-filter -> it.path isnt /\.ls$/
     .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
