@@ -6,24 +6,23 @@ g0v embraces distributed processing, which makes things rarely necessary to be d
   <i class="code icon"></i>
 </div>
 
-### 討論事情的習慣
-(參考自COSCUP新成員手冊)
+### The Tendencies in Discussion
+(adapted from COSCUP rookie guide)
 
-* 夥伴是謙虛的、團隊是歡樂的、做事是熱血的，請維持這樣的氣氛。
-* 雖然是熱血的，但也是專業的，發言前最好先作好功課，言之有據。
-* 雖然是歡樂的，但請節制水量和注意水質。
-* 雖然是謙虛的，但也不用把自己貶抑到火星文或白字連篇的國小程度。
-* 團隊喜歡正面的建議與執行，不喜歡負面的批評。對事不對人，而且不要指責他人。
-* 友善回應新人提問，不要隨便就 RTFM (Read The Fxxx Manual) 或是 STFG (Searching The Fxxx Google)。
-
+* Buddies are humble, the team is joyful, and things are done passionately, so please maintain the spirit.
+* Even though passionate, but also professional, please prepare yourself upfront and speak on good grounds.
+* Even though joyful, please be moderated on stream chat.
+* Even though humble, you don't have to lower yourself to be a 12 grade kid for textspeak or full of wrong words.
+* The team prefer constructive feedbacks and execution over negative criticism. Be focused on relevant issues, and not criticize people.
+* Be friendly to newbies, don't just tell them to RTFM ("Read The Fucking Manual") or STFG ("Search The Fucking Google").
 
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
 
-### 如何與政府單位或其它民間單位合作
-* 注意智慧財產權，能得到相關單位授權資料使用最好
-* 不要帶抗拒的心態或是任何負面的預設立場與政府單位，政黨單位或其它民間單位接觸。
-* 任何人/組織做事方式都源自某種特定的原因，在了解背後的原因前，不要輕易下結論。
-* 任何人/組織都有特定立場，即使不喜歡但也要尊重。
-* 嘗試站在對方立場思考，找出雙贏的結果。
+### How we cooperate with the government or private sector
+* Be aware of intellectual property rights, it's preferable to get authorized data from respective entities.
+* Don't be resistant or negative when contacting the government, political parties, or private sector.
+* Every individual or organization does things in their way for some reason, so don't make a judgement before you know the story behind them.
+* Every individual or organization has a specific stance, which shall be respected even if you don't like it.
+* Try to think in other people's shoes and find the win-win solution.
