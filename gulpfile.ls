@@ -68,7 +68,7 @@ gulp.task 'watch', ->
   gulp.watch 'app/**/*.jade', <[html]>
   gulp.watch 'app/assets/**/*', <[assets]>
   gulp.watch 'app/**/*.less', <[css]>
-  gulp.watch 'app/**/*.ls', <[js]>
+  gulp.watch 'app/**/*.ls', <[js:app]>
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
 gulp.task 'dev', <[build server watch]>
