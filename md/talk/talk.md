@@ -1,11 +1,10 @@
 ### 演講預告
 
-* 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
-* 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
-* 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
-* 2014/05/07 交大迪霸閣演講/ 鄭智中 (mindos)
 * 2014/04/25 創立方[【虛擬世界。需你世界】鍵盤救台灣，創造新世代公民運動](http://vevent.flyingv.cc/event/12)/瞿筱葳(ipa)
-
+* 2014/05/07 交大迪霸閣演講/ 鄭智中 (mindos)
+* 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
+* 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
+* 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
 
 ### 過往演講/座談資訊、投影片
 
