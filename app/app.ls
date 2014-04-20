@@ -15,6 +15,22 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   url = "https://g0vsite.firebaseio.com"
   new Firebase(url)
 
+.factory eventsPromise: <[$http]> ++ ($http) ->
+  api-endpoint = 'http://www.kimonolabs.com/api/dzdrrgx6'
+  config = {
+    params: {
+      apikey: 'c626b7443a0cbcb5525f492411d10567',
+      callback: 'JSON_CALLBACK'
+    }
+  }
+  $http.jsonp api-endpoint, config .then (response) ->
+    results = response.data.results
+    transform-fn =  (obj) ->
+      { link: obj.event.href, title: obj.event.text }
+    recent  = results.recent.map transform-fn
+    past    = results.past.map   transform-fn
+    return { recent: recent, past: past }
+
 # defer iframe loading to stop blocking angular.js for loading
 .directive \deferSrc ->
   return {
@@ -25,8 +41,10 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
         iElement.attr 'src', src
   }
 
-.controller EventCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
-  $scope.events = angularFireCollection fireRoot.child("feed/events/articles").limit(2)
+.controller EventCtrl: <[$scope eventsPromise]> ++ ($scope, eventsPromise) ->
+  eventsPromise.then (events) ->
+    $scope.events = (events.recent ++ events.past) .slice 0 2
+    console.log $scope.events
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 4
