@@ -1,4 +1,5 @@
 ### 媒體報導
+* [How Technology Revolutionized Taiwan’s Sunflower Movement](http://thediplomat.com/2014/04/how-technology-revolutionized-taiwans-sunflower-movement/2/) /  The Diplomat 2014.04.15 
 * [學運文字現場轉播 與聽障關聯密切](http://news.pts.org.tw/detail.php?NEENO=266408) / 公視新聞網 2014.04.10
 * [零時政府4/19辦黑客松聚會　公民議題不退場](http://www.appledaily.com.tw/realtimenews/article/politics/20140410/376241/) / 蘋果日報 2014.04.10 
 * [人民渴求的不是評論 而是見證](http://www.new7.com.tw/NewsView.aspx?i=TXT20140402141407S2D) / 新新聞 2014.04.08 ([全文備份](https://gist.github.com/pofeng/10172453))
