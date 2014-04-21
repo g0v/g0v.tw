@@ -43,8 +43,9 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
 
 .controller EventCtrl: <[$scope eventsPromise]> ++ ($scope, eventsPromise) ->
   eventsPromise.then (events) ->
-    $scope.events = (events.recent ++ events.past) .slice 0 2
-    console.log $scope.events
+    recent = events.recent.map (it) -> it.finished = false; it
+    past = events.past.map (it) -> it.finished = true; it
+    $scope.events = (recent ++ past)
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 4
