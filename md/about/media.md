@@ -1,4 +1,5 @@
 ### 媒體報導
+* [我們不需要酸民，也不需要超級英雄——「科技創造新世代公民運動」座談紀實](http://www.inside.com.tw/2014/04/28/57379) / Inside 2014.04.28
 * [追政治獻金 十萬鄉民十萬軍](https://tw.news.yahoo.com/%E8%BF%BD%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91-%E5%8D%81%E8%90%AC%E9%84%89%E6%B0%91%E5%8D%81%E8%90%AC%E8%BB%8D-103434978.html) / Yahoo奇摩（新聞）2014.04.23 
 * [How Technology Revolutionized Taiwan’s Sunflower Movement](http://thediplomat.com/2014/04/how-technology-revolutionized-taiwans-sunflower-movement/2/) / The Diplomat 2014.04.15 
 * [學運文字現場轉播 與聽障關聯密切](http://news.pts.org.tw/detail.php?NEENO=266408) / 公視新聞網 2014.04.10
@@ -53,7 +54,10 @@
 * [「揭露22K」網 揪出血汗企業](http://www.appledaily.com.tw/appledaily/article/headline/20130129/34800790/) / 蘋果日報 2013.01.29
 
 ### 部落格文章
+* [First Year of g0v: March 2014 [Transcript]](https://www.facebook.com/notes/%E5%94%90%E9%B3%B3/first-year-of-g0v-march-2014-transcript/808828052479750) / au 2014.04.14
+* [第零次向日葵數位體驗營 [逐字稿]](https://www.facebook.com/notes/%E5%94%90%E9%B3%B3/%E7%AC%AC%E9%9B%B6%E6%AC%A1%E5%90%91%E6%97%A5%E8%91%B5%E6%95%B8%E4%BD%8D%E9%AB%94%E9%A9%97%E7%87%9F-%E9%80%90%E5%AD%97%E7%A8%BF/808273105868578) / au 2014.04.13
 * [g0v 是塊大草坪](http://walkingice.blogspot.tw/2014/04/g0v.html) / Walkingice 2014.04.12
+* [遊行場邊記： 街頭．網路．群眾不斷線](http://ipa.logdown.com/posts/184187-protest-internet-crowd) / ipa 2014.03.09
 * [迎接春天的公民資訊黑客松](http://ipaway.org/?p=2518) / ipa 2013.3.13
 * [網路公民的進擊](http://ipaway.org/?p=2679) / ipa 2013.06.07
 * [搶救國會資料大軍](http://ipaway.org/?p=2334) / ipa 2013.01.08
