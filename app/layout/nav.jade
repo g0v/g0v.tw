@@ -61,4 +61,17 @@ block vars
           | 活動紀錄
     a(class="item",href="/#{lang}/contact.html", translate="MENU_CONTACT", class="#{nav_cls.contact}")
       | 聯繫
-
+script.
+  (function(){
+    var links,lang;
+    if(document.title === '找不到頁面'){
+      lang = window.navigator.userLanguage || window.navigator.language;
+      links = document.querySelectorAll('.ui.fluid.seven.item.menu a');
+      for(var key in links){
+        if(links[key].href){
+          url = links[key].href.toString();
+          links[key].href = url.replace('undefined', lang);
+        }
+      }
+    }
+  }());

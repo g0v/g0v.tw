@@ -16,7 +16,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
     suffix: '.json'
 
   lang = window.location.pathname.split('/').1
-  lang = window.navigator.language if lang.match 'html' or document.title.match '找不到'
+  lang = window.navigator.userLanguage or window.navigator.language if lang.match 'html' or document.title.match '找不到'
   if lang is 'zh-TW' or lang is 'en-US'
     $translateProvider.preferredLanguage lang
 
