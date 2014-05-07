@@ -3,10 +3,16 @@ head
   meta(charset="utf8")
   script(type="text/javascript").
     (function(){
-      var lang = window.navigator.userLanguage || window.navigator.language;
-      if(lang === 'zh-TW')
-        location.href = '/zh-TW';
-      else
+      var source
+        , lang = window.navigator.userLanguage || window.navigator.language;
+      if(lang === 'zh-TW') {
+        if(source = window.location.pathname.match(/^\/(\w+\.html)$/)) {
+          location.href = '/zh-TW/' + source[1];
+        } else {
+          location.href = '/zh-TW';
+        }
+      } else {
         location.href = '/en-US';
+      }
     }())
 body
