@@ -4,9 +4,8 @@ block title
   title 找不到頁面
 block script
   script(type="text/javascript").
-    var source;
-    if(source = window.location.pathname.match(/^\/(\w+\.html)$/) && window.location.pathname !== '/404.html' ) {
-      location.href = '/zh-TW/' + source[1];
+    if(window.location.pathname.match(/^\/(\w+\.html)$/) && window.location.pathname !== '/404.html' ) {
+      location.href = '/zh-TW' + window.location.pathname;
     }
 
 block content

@@ -4,11 +4,10 @@ html
     meta(charset="utf8")
     script(type="text/javascript").
       (function(){
-        var source
-          , lang = window.navigator.userLanguage || window.navigator.language;
+        var lang = window.navigator.userLanguage || window.navigator.language;
         if(lang === 'zh-TW') {
-          if(source = window.location.pathname.match(/^\/(\w+\.html)$/)) {
-            location.href = '/zh-TW/' + source[1];
+          if(window.location.pathname.match(/^\/(\w+\.html)$/)) {
+            location.href = '/zh-TW' + window.location.pathname;
           } else {
             location.href = '/zh-TW/index.html';
           }
