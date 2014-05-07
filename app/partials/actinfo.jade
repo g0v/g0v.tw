@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="ACTINFO_TITLE") 黑客松報名
+
+block vars
+    - nav_cls.actinfo = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.label.black.ribbon.large(translate="ACTINFO") 黑客松報名
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/hackathon/act_info.md
+      default
+        include:md ../../md/zh-tw/hackathon/act_info.md

@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="ABOUT_TITLE") 關於我們
+
+block vars
+    - nav_cls.about = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.label.black.ribbon.large(translate="ABOUT_G0V") 關於零時政府
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/about.md
+      default
+        include:md ../../md/zh-tw/about/about.md

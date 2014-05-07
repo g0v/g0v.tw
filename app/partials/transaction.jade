@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="TRANSACTION_TITLE") 收支明細
+
+block vars
+    - nav_cls.about = 'highlight'
+block content
+
+  .ui.red.segment
+    .ui.teal.ribbon.label(translate="TRANSACTION") 收支明細
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/transactions.md
+      default
+        include:md ../../md/zh-tw/about/transactions.md

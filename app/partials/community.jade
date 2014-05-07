@@ -1,0 +1,17 @@
+extend ../layout/layout
+
+block title
+    title(translate="COMMUNITY_TITLE") 社群文化
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+
+  .ui.red.segment
+    .ui.teal.ribbon.label(translate="COMMUNITY") 社群文化
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/join/community.md
+      default
+        include:md ../../md/zh-tw/join/community.md

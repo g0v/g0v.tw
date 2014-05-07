@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="TOOLS_TITLE") 常用工具
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+  .ui.purple.segment
+    .ui.label.blue.ribbon.large(translate="TOOLS") 常用工具
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/join/tools.md
+      default
+        include:md ../../md/zh-tw/join/tools.md

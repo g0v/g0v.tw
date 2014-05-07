@@ -9,20 +9,41 @@ lr = tiny-lr!
 build_path = '_public'
 production = true if gutil.env.env is \production
 
-gulp.task 'html', ->
-  gulp.src 'app/**/*.jade'
+
+gulp.task 'translations' ->
+  require! <[fs]>
+
+  fs.readdir './md', (,langs)->
+    for lang in langs
+      real-lang = lang.replace /(\w+-)(\w+)/, (,$1,$2) -> $1+$2.toUpperCase!
+
+      gulp.src 'app/partials/*.jade'
+        .pipe gulp-jade do
+          locals:
+            lang: real-lang
+        .pipe gulp.dest "#{build_path}/#{real-lang}"
+
+gulp.task 'html', <[translations]>, ->
+  gulp.src 'app/*.jade'
     .pipe gulp-jade!
-    .pipe gulp.dest "#build_path"
+    .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
+require! <[gulp-bower gulp-bower-files gulp-filter]>
 
-gulp.task 'js:vendor', ->
+gulp.task 'bower' ->
+  gulp-bower!
+
+gulp.task 'js:vendor' <[bower]> ->
+  bower = gulp-bower-files!
+    .pipe gulp-filter -> it.path is /\.js$/
+
   vendor = gulp.src 'vendor/scripts/*.js'
 
-  streamqueue { +objectMode }
-    .done vendor
+  s = streamqueue { +objectMode }
+    .done bower, vendor
     .pipe gulp-concat 'vendor.js'
-    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
 
 gulp.task 'js:app', ->
@@ -40,7 +61,7 @@ gulp.task 'js:app', ->
   streamqueue { +objectMode }
     .done env, app
     .pipe gulp-concat 'app.js'
-    .pipe gulp-if production, gulp-uglify()
+    .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
     .pipe gulp-livereload lr
 
@@ -53,20 +74,25 @@ gulp.task 'css', ->
 
 gulp.task 'assets', ->
   gulp.src 'app/assets/**/*'
+    .pipe gulp-filter -> it.path isnt /\.ls$/
     .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
 gulp.task 'server', ->
   app.use connect-livereload!
   app.use express.static path.resolve "#build_path"
+  app.all '/**', (req, res, next) ->
+    res.sendfile __dirname + "/#{build_path}/index.html"
   app.listen 3000
   gulp-util.log 'Listening on port 3000'
 
 gulp.task 'watch', ->
   lr.listen 35729, ->
     return gulp-util.log it if it
-  gulp.watch 'app/**/*.jade', <[html]>
-  gulp.watch 'app/assets/**/*', <[assets]>
+  gulp.watch [
+    'app/**/*.jade',
+    'md/**/*.md'
+  ], <[html]>
   gulp.watch 'app/**/*.less', <[css]>
   gulp.watch 'app/**/*.ls', <[js:app]>
 

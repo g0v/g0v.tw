@@ -1,0 +1,15 @@
+extend ../layout/layout
+
+block title
+    title(translate="MEDIA_TITLE") 媒體報導
+
+block vars
+    - nav_cls.about = 'highlight'
+block content
+  .ui.green.segment
+    .ui.label.black.ribbon.large(translate="MEDIA") 媒體報導
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/media.md
+      default
+        include:md ../../md/zh-tw/about/media.md

@@ -1,0 +1,103 @@
+extend ../layout/layout
+
+block title
+  title(translate="HOME_TITLE") 零時政府 g0v.tw 首頁
+block vars
+  - nav_cls.index = 'highlight'
+
+block content
+  #index_left_container
+
+      .ui.three.connected.items
+          a.item(target="_blank",href="/manifesto.html")
+              .image
+                img(src='/imgs/transparency.jpg')
+              .content
+                .name Transparency
+                p.description
+                  | 致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。
+          a.item(target="_blank",href="http://g0v.today")
+              .image
+                img(src='/imgs/sunflower.png')
+              .content
+                .name g0v.today
+                p.description
+                  | 318 太陽花運動資訊彙整，包含即時影音直播、反黑箱服貿行動聲明、現場需求及相關資訊。
+          a.item(target="_blank",href="/join.html")
+              .image
+                img(src='/imgs/community.jpg')
+              .content
+                .name Community
+                p.description
+                  | 參與者來自四方各領域，以開放原始碼的精神為基底共同協作。互相刺激，一起成長。
+
+      .ui.red.segment(ng-controller="CommuniqueCtrl")
+          .ui.red.ribbon.label.label(translate="HOME_COMMUNITY") 社群動態
+          a.ui.blue.tiny.button.pull-right(ng-click="nextCommunique()")
+              i.right.arrow.icon
+          .featured-communiques
+              h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
+              p.description
+
+      .ui.purple.segment(ng-controller="FeaturedCtrl")
+          .ui.red.ribbon.large.label(translate="HOME_ACHIEVEMENT") 零時政府最新成果
+          a.ui.blue.tiny.button.pull-right(ng-click="nextProject()")
+              i.right.arrow.icon
+          .featured-projects
+              h4: a(ng-href="{{project.homepage}}") {{project.name_zh || project.name}}
+              .imgblock(style="text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #ccc")
+                a(ng-href='{{project.homepage}}')
+                  #prj-img-div
+                    img#prj-img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}',onload="show()")
+              p.description {{ project.description_zh || project.description }}
+
+      .ui.green.segment(ng-controller="BlogCtrl")
+          .ui.red.ribbon.large.label(translate="HOME_BLOG") 零時政府部落格
+          .blog-loading(ng-show="articles.length === 0")
+          article(ng-repeat="article in articles | orderBy:'$index':true")
+              h4: a(ng-href="{{article.link}}") {{article.title}}
+              div(btf-markdown="article.description")
+              .ui.horizontal.icon.divider
+                  i.code.icon
+
+  #index_right_container
+
+      .ui.orange.segment(ng-controller="EventCtrl")
+
+          .event-loading(ng-show="events.length === 0")
+          h4 最新活動
+              .ui.list
+                  .item(ng-repeat="event in events | limitTo:2")
+                      i(ng-class="{checked:event.finished, empty:!event.finished}").checkbox.icon
+                      .content
+                          a(ng-href="{{event.link}}") {{event.title}}
+
+          .ui.divider
+          .videos
+              h4(translate="HOME_VIDEOS") 相關影片
+              iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
+
+          .ui.divider
+          .logbot
+              h4
+                span(translate="HOME_CHATROOM") 即時聊天
+                a(target="_blank",href="http://logbot.g0v.tw/") (紀錄)
+              h4
+                  a(target="_blank",class="ui blue small button",href="http://hack.g0v.tw/irc") 來聊天！
+              // iframe(height="480",target="_blank",defer-src="http://lumberjack.ultrab0t.net/widget/g0v.tw/",frameborder="0",allowfullscreen)
+              iframe(height="480",target="_blank",defer-src="http://logbot.g0v.tw/widget/g0v.tw",frameborder="0",allowfullscreen)
+          .ui.divider
+          .g0village
+              h4(translate="HOME_ONLINE_GAME") 線上遊戲
+              h4: a(target="_blank",class="ui blue small button",href="http://8bit.g0v.tw/") 8-bit 新手村
+          .ui.divider
+          .google_calendar
+              h4(translate="HOME_FACEBOOK_PAGE") fb專頁
+          .fb-like-box(data-href='http://www.facebook.com/g0vtw', data-width='240', data-colorscheme='light', data-show-faces='false', data-header='true', data-stream='true', data-show-border='true')
+          .ui.divider
+          .google_calendar
+              h4(translate="HOME_SCHEDULE") 行事曆
+              iframe(height="488",target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
+
+
+  #index_float_clear

@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="LINKS_TITLE") 相關連結
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.orange.ribbon.label(translate="LINKS") 零時政府相關連結
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/join/links.md
+      default
+        include:md ../../md/zh-tw/join/links.md

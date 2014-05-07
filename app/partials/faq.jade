@@ -1,0 +1,15 @@
+extend ../layout/layout
+
+block title
+    title(translate="FAQ_TITLE") 常見問題
+
+block vars
+    - nav_cls.about = 'highlight'
+block content
+  .ui.blue.segment
+    .ui.ribbon.purple.label.large(translate="FAQ") 常見問題
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/faq.md
+      default
+        include:md ../../md/zh-tw/about/faq.md

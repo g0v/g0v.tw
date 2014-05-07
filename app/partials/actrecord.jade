@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="ACTRECORD_TITLE") 黑客松紀錄
+
+block vars
+    - nav_cls.actinfo = 'highlight'
+
+block content
+  .ui.red.segment
+    .ui.label.teal.ribbon.large(translate="ACTRECORD") 黑客松紀錄
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/hackathon/act_record.md
+      default
+        include:md ../../md/zh-tw/hackathon/act_record.md

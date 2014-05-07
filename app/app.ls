@@ -4,12 +4,21 @@ angular.element(document).ready ->
   for func in defer-src-setters
     func!
 
-angular.module "g0v.tw" <[firebase btford.markdown]>
+angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
 
 # Set CORS Config
-.config ['$httpProvider' ($httpProvider) ->
+.config <[$httpProvider $translateProvider ]> ++ ($httpProvider, $translateProvider) ->
   $httpProvider.defaults.useXDomain = true
-  delete $httpProvider.defaults.headers.common['X-Requested-With']]
+  delete $httpProvider.defaults.headers.common['X-Requested-With']
+
+  $translateProvider.useStaticFilesLoader do
+    prefix: '/translations/'
+    suffix: '.json'
+
+  lang = window.location.pathname.split('/').1
+  lang = window.navigator.language if lang.match 'html'
+  if lang is 'zh-TW' or lang is 'en-US'
+    $translateProvider.preferredLanguage lang
 
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
   url = "https://g0vsite.firebaseio.com"
@@ -50,7 +59,7 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 4
 
-.controller FeaturedCtrl: <[$scope angularFireCollection $timeout]> ++ ($scope, angularFireCollection, $timeout) ->
+.controller FeaturedCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects")
   $scope.projects = angularFireCollection g0vhub
   $scope.nextProject = ->
@@ -65,40 +74,24 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   $scope.$watch 'idx' (_, idx) ->
     $scope.project = $scope.featured[idx] unless idx is void
 
-  $scope.onTimeout = ->
-    $scope.nextProject!
-    $timeout $scope.onTimeout, 1000 * 10
-  $timeout $scope.onTimeout, 1000 * 15
-
 # Communique scrolling text function. Get the 50 newest communiques entry from g0v.hackpad
-.controller CommuniqueCtrl: <[$scope $http $element $timeout]> ++ ($scope, $http, $element, $timeout) ->
+.controller CommuniqueCtrl: <[$scope $http $element]> ++ ($scope, $http, $element) ->
   # Use Http get the Json from communiqueAPI
   $http.get 'http://g0v-communique-api.herokuapp.com/api/1.0/entry/all?limit=50'
   .success (data, status, headers, config)->
-    $scope.communiques = data
-    $scope.check = 0
+    # $scope.idx = Math.floor Math.random! * data.length   # set random Communique entries display
     $scope.idx = 0
     $scope.nextCommunique = ->
       return if $scope.idx is void
       ++$scope.idx
-      $scope.idx %= $scope.communiques.length
+      $scope.idx %= data.length
 
     $scope.$watch 'idx' (_, idx) ->
-      if $scope.check is 0
-        $scope.check = 1
-      else
-        idx++
-      idx %= $scope.communiques.length
-      $scope.communique = $scope.communiques[idx] unless idx is void
+      $scope.communique = data[idx] unless idx is void
       # add url in the communique text
       for url in $scope.communique.urls
         $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
       $element.find('.description').html $scope.communique.content
-
-    $scope.onTimeout = ->
-      $scope.nextCommunique!
-      $timeout $scope.onTimeout, 1000 * 10
-    $timeout $scope.onTimeout, 1000 * 15
 
   .error (data, status, headers, config) ->
     $scope.message = status
@@ -107,7 +100,10 @@ angular.module "g0v.tw" <[firebase btford.markdown]>
   require!<[config.jsenv]>
   $scope.buildId = config.BUILD
 
-
+.controller langCtrl: <[$scope $window]> ++ ($scope, $window) ->
+  $scope.changeLang = (lang) ->
+    page = $window.location.pathname.split('/').2
+    $window.location.href = '/' + lang + '/' + page
 show = ->
   prj-img = $ \#prj-img
   prj-img.animate {opacity: 1}, 500

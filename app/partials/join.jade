@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="JOIN_TITLE") 如何參與
+
+block vars
+    - nav_cls.join = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.orange.ribbon.label(translate="JOIN") 如何參與
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/join/howto.md
+      default
+        iframe(defer-src="http://g0v.github.io/leve1up/embed/",frameborder="0",allowfullscreen,width="115%", height="4000px", style="margin-left:-100px")

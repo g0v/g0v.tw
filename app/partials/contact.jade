@@ -1,0 +1,17 @@
+extend ../layout/layout
+
+block title
+    title(translate="CONTACT_TITLE") 聯繫社群
+
+block vars
+    - nav_cls.contact = 'highlight'
+
+block content
+
+  .ui.purple.segment
+    .ui.label.green.ribbon.large(translate="CONTACT_US") 聯繫社群
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/contact.md
+      default
+        include:md ../../md/zh-tw/about/contact.md

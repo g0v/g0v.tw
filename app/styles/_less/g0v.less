@@ -21,7 +21,10 @@ i.icon {
 }
 
 #container, #nav_bar, #footer { width: 960px; }
-#header { width: 100%; }  
+#header { 
+  width: 100%; 
+  position: inherit;
+}  
 #nav_bar .nav_tab { width: 200px; }
 #index_left_container { width: 669px; /* container width - index_right_container width - margin */ }
 #index_right_container { width: 271px; }
@@ -56,7 +59,14 @@ i.icon {
   #logo {
     float: left;
   }
-
+  
+  .translator {
+    padding-top: 10px;
+    .ui.button {
+      margin-right: 5px;
+    }
+  }
+  
   #social_block {
     display: table-cell;
     float: right;

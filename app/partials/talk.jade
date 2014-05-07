@@ -1,0 +1,17 @@
+extend ../layout/layout
+
+block title
+    title(translate="TALK_TITLE") 演講資訊
+
+block vars
+    - nav_cls.talk = 'highlight'
+
+block content
+
+  .ui.teal.segment
+    .ui.ribbon.red.label.large(translate="TALK") 演講資訊
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/talk/talk.md
+      default
+        include:md ../../md/zh-tw/talk/talk.md

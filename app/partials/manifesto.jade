@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="MANIFESTO_TITLE") 零時政府宣言
+
+block vars
+    - nav_cls.about = 'highlight'
+
+block content
+  .ui.teal.segment
+    .ui.label.orange.ribbon.large(translate="MANIFESTO") 零時政府宣言
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/manifesto.md
+      default
+        include:md ../../md/zh-tw/about/manifesto.md
