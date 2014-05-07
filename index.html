@@ -1,9 +1,9 @@
 <!DOCTYPE html><html><head><meta charset="utf8"><script type="text/javascript">(function(){
-  var source
+  var pathname = window.location.pathname
     , lang = window.navigator.userLanguage || window.navigator.language;
   if(lang === 'zh-TW') {
-    if(source = window.location.pathname.match(/^\/(\w+\.html)$/)) {
-      location.href = '/zh-TW/' + source[1];
+    if(pathname.match(/^\/([a-z]+\.html)$/)) {
+      location.href = '/zh-TW' + pathname;
     } else {
       location.href = '/zh-TW/index.html';
     }
