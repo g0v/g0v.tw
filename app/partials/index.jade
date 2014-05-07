@@ -66,9 +66,11 @@ block content
 
           .event-loading(ng-show="events.length === 0")
           h4 最新活動
-              ul
-                  li(ng-repeat="event in events | orderBy:'$index':true")
-                      a(ng-href="{{event.link}}") {{event.title}}
+              .ui.list
+                  .item(ng-repeat="event in events | limitTo:2")
+                      i(ng-class="{checked:event.finished, empty:!event.finished}").checkbox.icon
+                      .content
+                          a(ng-href="{{event.link}}") {{event.title}}
 
           .ui.divider
           .videos
@@ -77,9 +79,9 @@ block content
 
           .ui.divider
           .logbot
-              h4(translate="HOME_CHATROOM")
-                  | 即時聊天
-                  a(target="_blank",href="http://logbot.g0v.tw/") (紀錄)
+              h4
+                span(translate="HOME_CHATROOM") 即時聊天
+                a(target="_blank",href="http://logbot.g0v.tw/") (紀錄)
               h4
                   a(target="_blank",class="ui blue small button",href="http://hack.g0v.tw/irc") 來聊天！
               // iframe(height="480",target="_blank",defer-src="http://lumberjack.ultrab0t.net/widget/g0v.tw/",frameborder="0",allowfullscreen)
