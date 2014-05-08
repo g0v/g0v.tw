@@ -2,7 +2,7 @@
 
 g0v.tw is an online community that pushes information transparency, focusing on developing information platform and tools for the citizens to participate in society. Substituting the “o” with “0″ in gov, the new “g0v” not only stands for rethinking the role that the government plays from the bottom up, but also represents the world view of 0 and 1 in the digital natives generation. Based on the spirit of open source, g0v cares about freedom of speech and open data, writing code to provide citizens the easy-to-use information service. The transparency of information can help citizens to have a better understanding on how the government works, to understand the issues faster and to avoid media monopoly, so they can monitor the government more efficiently, and become involved in actions and finally deepen the quality of democracy.
 <div class="pagination-centered">
-	<img src="/imgs/g0v-about.png" alt="g0v about" style="width: 60%;" />
+	<img src="/imgs/g0v-about-en.png" alt="g0v about" style="width: 60%;" />
 </div>
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
