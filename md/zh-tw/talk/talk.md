@@ -1,14 +1,14 @@
 ### 演講預告
 
-* 2014/04/25 創立方[【虛擬世界。需你世界】鍵盤救台灣，創造新世代公民運動](http://vevent.flyingv.cc/event/12)/瞿筱葳(ipa)
-* 2014/05/07 交大迪霸閣演講/ 鄭智中 (mindos)
-* 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
-* 2014/05/14 交大資工論文研討-多媒體與生醫工程(英)：Hacking Your Goverment with Keyboards/ 王向榮(ronnywang)、駱勁成(johnny)
 * 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
 * 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
 
 ### 過往演講/座談資訊、投影片
 
+* 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
+* 2014/05/14 交大資工論文研討-多媒體與生醫工程(英)：Hacking Your Goverment with Keyboards/ 王向榮(ronnywang)、駱勁成(johnny)
+* 2014/05/07 交大迪霸閣演講/ 鄭智中 (mindos)
+* 2014/04/25 創立方[【虛擬世界。需你世界】鍵盤救台灣，創造新世代公民運動](http://vevent.flyingv.cc/event/12)/瞿筱葳(ipa)
 * 2014/03/14 [WoFoss好自由（台灣女子自由軟體工作小組）](http://wofoss.kktix.cc/events/wofoss043-201403)- 「我的超展開 g0v 之旅」/ 瞿筱葳 (ipa)
 * 2014/03/24 內政部 Open Data 演講/ 高嘉良 (clkao)
 * 2014/03/26 [台大 SHS 科學人文跨科際計畫](http://shs.ntu.edu.tw/shs/?p=26223)/ 瞿筱葳 (ipa)
