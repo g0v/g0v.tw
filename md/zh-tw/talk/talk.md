@@ -5,6 +5,7 @@
 
 ### 過往演講/座談資訊、投影片
 
+* 2014/05/20 臺大新聞所：[看見太陽花運動中的新媒體](http://ntujournal.blogspot.tw/2014/05/g0ve.html)/ 趙偉伶(venev)
 * 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
 * 2014/05/14 交大資工論文研討-多媒體與生醫工程(英)：Hacking Your Goverment with Keyboards/ 王向榮(ronnywang)、駱勁成(johnny)
 * 2014/05/07 交大迪霸閣演講/ 鄭智中 (mindos)
