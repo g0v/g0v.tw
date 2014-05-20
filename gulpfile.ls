@@ -83,8 +83,8 @@ gulp.task 'server', ->
   app.use express.static path.resolve "#build_path"
   app.all '/**', (req, res, next) ->
     res.sendfile __dirname + "/#{build_path}/404.html"
-  app.listen 3000
-  gulp-util.log 'Listening on port 3000'
+  app.listen 3333
+  gulp-util.log 'Listening on port 3333'
 
 gulp.task 'watch', ->
   lr.listen 35729, ->
