@@ -1,4 +1,5 @@
 ### 媒體報導
+* [太陽花運動：數位時代的新社會運動](http://techsoup-taiwan.blogspot.com/2014/05/blog-post.html) / 科技濃湯 2014.05.23
 * [Diseñando las protestas taiwanesas de #CongressOccupied](http://es.globalvoicesonline.org/2014/05/10/disenando-las-protestas-taiwanesas-de-congressoccupied/) / Global Voices 2014.05.10
 * [「自己的媒體自己架」　網路瘋傳直播教學](http://mag.udn.com/mag/digital/storypage.jsp?f_ART_ID=510634) / 蘋果日報 2014.05.06
 * [希望幫更多人　羅佩琪設「病後人生」網教申請醫療補助](http://www.ettoday.net/news/20140505/353528.htm) / ETtoday 2014.05.05
