@@ -52,3 +52,4 @@ devDependencies:
   'gulp-bower-files': '>= 0.1.8'
   'gulp-filter': '~0.2.1'
   'gulp-open': '^0.2.8'
+  'gulp-plumber': '^0.6.2'

@@ -1,5 +1,5 @@
 require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path]>
-require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open]>
+require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber]>
 
 gutil = gulp-util
 
@@ -25,6 +25,7 @@ gulp.task 'translations' ->
 
 gulp.task 'html', <[translations]>, ->
   gulp.src 'app/*.jade'
+    .pipe gulp-plumber!
     .pipe gulp-jade!
     .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
@@ -56,6 +57,7 @@ gulp.task 'js:app', ->
     .pipe gulp-commonjs!
 
   app = gulp.src 'app/**/*.ls'
+    .pipe gulp-plumber!
     .pipe gulp-livescript({+bare}).on 'error', gutil.log
 
   streamqueue { +objectMode }
@@ -68,6 +70,7 @@ gulp.task 'js:app', ->
 gulp.task 'css', ->
   compress = production
   gulp.src 'app/styles/app.less'
+    .pipe gulp-plumber!
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
     .pipe gulp-livereload lr
