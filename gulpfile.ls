@@ -87,10 +87,16 @@ gulp.task 'server', ->
   gulp-util.log gulp-util.colors.bold.inverse 'Listening on port 3333'
 
 gulp.task 'open' <[build server]> ->
+  require! 'os'
+  switch os.platform!
+  | 'win32' => app = 'Chrome'
+  | 'darwin' => app = 'Google Chrome'
+  | otherwise => app = 'Google Chrome' # TODO: findout other os
+
   gulp.src "#{build_path}/index.html"
     .pipe gulp-open '', do
       url: 'http://localhost:3333'
-      app: 'Google Chrome'
+      app: app
 
 gulp.task 'watch', ->
   lr.listen 35729, ->
