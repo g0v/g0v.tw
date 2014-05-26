@@ -91,10 +91,11 @@ gulp.task 'server', ->
 
 gulp.task 'open' <[build server]> ->
   require! 'os'
-  switch os.platform!
-  | 'win32' => app = 'Chrome'
-  | 'darwin' => app = 'Google Chrome'
-  | otherwise => app = 'Google Chrome' # TODO: findout other os
+  app = switch os.platform!
+  | 'linux' => 'google-chrome'
+  | 'win32' => 'Chrome'
+  | 'darwin' => 'Google Chrome'
+  | otherwise => 'Google Chrome' # TODO: findout other os
 
   gulp.src "#{build_path}/index.html"
     .pipe gulp-open '', do
