@@ -1,5 +1,5 @@
 require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path]>
-require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify]>
+require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber]>
 
 gutil = gulp-util
 
@@ -25,6 +25,7 @@ gulp.task 'translations' ->
 
 gulp.task 'html', <[translations]>, ->
   gulp.src 'app/*.jade'
+    .pipe gulp-plumber!
     .pipe gulp-jade!
     .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
@@ -56,6 +57,7 @@ gulp.task 'js:app', ->
     .pipe gulp-commonjs!
 
   app = gulp.src 'app/**/*.ls'
+    .pipe gulp-plumber!
     .pipe gulp-livescript({+bare}).on 'error', gutil.log
 
   streamqueue { +objectMode }
@@ -68,6 +70,7 @@ gulp.task 'js:app', ->
 gulp.task 'css', ->
   compress = production
   gulp.src 'app/styles/app.less'
+    .pipe gulp-plumber!
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
     .pipe gulp-livereload lr
@@ -84,7 +87,19 @@ gulp.task 'server', ->
   app.all '/**', (req, res, next) ->
     res.sendfile __dirname + "/#{build_path}/404.html"
   app.listen 3333
-  gulp-util.log 'Listening on port 3333'
+  gulp-util.log gulp-util.colors.bold.inverse 'Listening on port 3333'
+
+gulp.task 'open' <[build server]> ->
+  require! 'os'
+  switch os.platform!
+  | 'win32' => app = 'Chrome'
+  | 'darwin' => app = 'Google Chrome'
+  | otherwise => app = 'Google Chrome' # TODO: findout other os
+
+  gulp.src "#{build_path}/index.html"
+    .pipe gulp-open '', do
+      url: 'http://localhost:3333'
+      app: app
 
 gulp.task 'watch', ->
   lr.listen 35729, ->
@@ -97,5 +112,5 @@ gulp.task 'watch', ->
   gulp.watch 'app/**/*.ls', <[js:app]>
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
-gulp.task 'dev', <[build server watch]>
+gulp.task 'dev', <[open watch]>
 gulp.task 'default', <[build]>
