@@ -1,4 +1,5 @@
 ### 媒體報導
+* [觀察／恐龍般的國民兩黨網路政策想像](http://www.nownews.com/n/2014/06/10/1270440) / NOWnews 2014.06.10
 * [「零時」時代的「小額參與」：新時代NGO面臨的公民力量](http://www.ncafroc.org.tw/mag/news1_show.asp?id=150&tp=nextp) / 國家文化藝術基金會線上誌 2014.06
 * [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
 * [太陽花運動：數位時代的新社會運動](http://techsoup-taiwan.blogspot.com/2014/05/blog-post.html) / 科技濃湯 2014.05.23
