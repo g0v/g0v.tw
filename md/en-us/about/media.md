@@ -1,4 +1,14 @@
 ### Media Coverage
+* [全球最活躍的開放政府組織在台灣！](http://www.appledaily.com.tw/realtimenews/article/politics/20140613/415694/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E5%85%A8%E7%90%83%E6%9C%80%E6%B4%BB%E8%BA%8D%E7%9A%84%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E5%9C%A8%E5%8F%B0%E7%81%A3%EF%BC%81) / 蘋果日報 2014.06.13
+* [張善政：市場調節 4G會降價](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=323&f_SUB_ID=2952&f_ART_ID=519404) / 聯合報 2014.06.13
+* [觀察／恐龍般的國民兩黨網路政策想像](http://www.nownews.com/n/2014/06/10/1270440) / NOWnews 2014.06.10
+* [「零時」時代的「小額參與」：新時代NGO面臨的公民力量](http://www.ncafroc.org.tw/mag/news1_show.asp?id=150&tp=nextp) / 國家文化藝術基金會線上誌 2014.06
+* [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
+* [太陽花運動：數位時代的新社會運動](http://techsoup-taiwan.blogspot.com/2014/05/blog-post.html) / 科技濃湯 2014.05.23
+* [Diseñando las protestas taiwanesas de #CongressOccupied](http://es.globalvoicesonline.org/2014/05/10/disenando-las-protestas-taiwanesas-de-congressoccupied/) / Global Voices 2014.05.10
+* [選後數百筆小額支出 朱立倫駁走路工](https://www.youtube.com/watch?v=-UruElk0X5o) / 年代新聞 2014.05.09
+* [「自己的媒體自己架」　網路瘋傳直播教學](http://mag.udn.com/mag/digital/storypage.jsp?f_ART_ID=510634) / 蘋果日報 2014.05.06
+* [希望幫更多人　羅佩琪設「病後人生」網教申請醫療補助](http://www.ettoday.net/news/20140505/353528.htm) / ETtoday 2014.05.05
 * [我們不需要酸民，也不需要超級英雄——「科技創造新世代公民運動」座談紀實](http://www.inside.com.tw/2014/04/28/57379) / Inside 2014.04.28
 * [網友認領建檔 政治獻金全透明](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=314&f_SUB_ID=5852&f_ART_ID=510634) / 聯合新聞網 2014.04.26
 * [追政治獻金 十萬鄉民十萬軍](https://tw.news.yahoo.com/%E8%BF%BD%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91-%E5%8D%81%E8%90%AC%E9%84%89%E6%B0%91%E5%8D%81%E8%90%AC%E8%BB%8D-103434978.html) / Yahoo奇摩（新聞）2014.04.23
