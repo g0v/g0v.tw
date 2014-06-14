@@ -1,4 +1,5 @@
 ### 媒體報導
+* [全球最活躍的開放政府組織在台灣！](http://www.appledaily.com.tw/realtimenews/article/politics/20140613/415694/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E5%85%A8%E7%90%83%E6%9C%80%E6%B4%BB%E8%BA%8D%E7%9A%84%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E5%9C%A8%E5%8F%B0%E7%81%A3%EF%BC%81) / 蘋果日報 2014.06.13
 * [觀察／恐龍般的國民兩黨網路政策想像](http://www.nownews.com/n/2014/06/10/1270440) / NOWnews 2014.06.10
 * [「零時」時代的「小額參與」：新時代NGO面臨的公民力量](http://www.ncafroc.org.tw/mag/news1_show.asp?id=150&tp=nextp) / 國家文化藝術基金會線上誌 2014.06
 * [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
