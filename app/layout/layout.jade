@@ -42,19 +42,30 @@ html(ng-app="g0v.tw",ng-cloak,lang="zh-Hant")
                 #logo
                     a(href="/"): img(src="/imgs/g0v-horizontal-transparent-darkbackground-m.png")
                 #social_block.hidden-phone
-                    #g_block
+                    //i.facebook.sign.large.icon
+                    //i.github.sign.large.icon
+                    a(href='http://github.com/g0v')
+                      i.inverted.large.github.sign.icon
+                    a(href='http://facebook.com/g0v.tw')
+                      i.inverted.large.facebook.icon
+                    a(href='http://google.com/+g0vTW')
+                      i.inverted.large.google.plus.icon
+                    a(href='http://twitter.com/g0vtw')
+                      i.inverted.large.twitter.icon
+                    //#g_block
                         .g-follow(data-annotation='none', data-height='20', data-href='https://plus.google.com/102893633954450772289', data-rel='publisher')
                         //.g-plusone(data-size="medium",data-href="http://g0v.tw")
-                    #fb_block
+                    //#fb_block
                         #fb-root
                         .fb-like(data-href='https://www.facebook.com/g0v.tw', data-layout='button_count', data-action='like', data-show-faces='true', data-share='true')
-                .translator(ng-controller="langCtrl")
-                    .ui.small.purple.button(translate='BUTTON_LANG_TW', ng-click="changeLang('zh-TW')") 中文
-                    .ui.small.red.button(translate='BUTTON_LANG_EN', ng-click="changeLang('en-US')") English
+
+                  .translator(ng-controller="langCtrl")
+                    .ui.mini.purple.button(translate='BUTTON_LANG_TW', ng-click="changeLang('zh-TW')") 中文
+                    .ui.mini.red.button(translate='BUTTON_LANG_EN', ng-click="changeLang('en-US')") English
                 div.clearfix
         #container
-            include ./nav
 
+            include ./nav
             block content
 
     #footer.hidden-phone
