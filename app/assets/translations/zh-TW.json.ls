@@ -23,6 +23,8 @@ MENU_ACT: '活動資訊'
 MENU_ACTINFO: '黑客松報名'
 MENU_ACTRECORD: '活動紀錄'
 MENU_CONTACT: '聯繫'
+MENU_NEWS: '新聞'
+MENU_LOGBOT: 'IRC紀錄'
 # home page
 HOME_TITLE: '零時政府 g0v.tw'
 HOME_TOPIC_LEFT: '致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。'
