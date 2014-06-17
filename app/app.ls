@@ -57,7 +57,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
     $scope.events = (recent ++ past)
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
-  $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 4
+  $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 2
 
 .controller FeaturedCtrl: <[$scope angularFireCollection]> ++ ($scope, angularFireCollection) ->
   g0vhub = new Firebase("https://g0vhub.firebaseio.com/projects")
