@@ -63,8 +63,16 @@ html(ng-app="g0v.tw",ng-cloak,lang="zh-Hant")
                     .ui.mini.purple.button(translate='BUTTON_LANG_TW', ng-click="changeLang('zh-TW')") 中文
                     .ui.mini.red.button(translate='BUTTON_LANG_EN', ng-click="changeLang('en-US')") English
                 div.clearfix
-        #container
+        #bar
+          h1.ui.header First header
+           .ui.text.shape
+             .sides
+               .active.ui.header.side Did you know? This side starts visible.
+               .ui.header.side Help, its another side!
+               .ui.header.side This is the last side
 
+
+        #container
             include ./nav
             block content
 

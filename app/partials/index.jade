@@ -4,7 +4,6 @@ block title
   title(translate="HOME_TITLE") 零時政府 g0v.tw 首頁
 block vars
   - nav_cls.index = 'highlight'
-
 block content
   #index_left_container
 
@@ -23,7 +22,7 @@ block content
                 .name g0v.today
                 p.description
                   | 318 太陽花運動資訊彙整，包含即時影音直播、反黑箱服貿行動聲明、現場需求及相關資訊。
-          a.item(target="_blank",href="/join.html")
+          a.item
               .image
                 img(src='/imgs/community.jpg')
               .content
@@ -31,7 +30,83 @@ block content
                 p.description
                   | 參與者來自四方各領域，以開放原始碼的精神為基底共同協作。互相刺激，一起成長。
 
-      .ui.red.segment(ng-controller="CommuniqueCtrl")
+      //.ui.four.connected.items
+          .row
+              .item
+                .content
+                  .name 常見問題
+                  p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+              .item
+                .content
+                  .name 好用工具
+                  p.description
+                    | Sometimes its more important to have a dog you know you can trust. But not every dog is trustworthy, you can tell by looking at its smile.
+              .item
+                .content
+                  .name 如何參與
+                  p.description
+                    | Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.
+              .item
+                .content
+                  .name 媒體報導
+                  p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+
+
+
+      .ui.four.column.divided.grid
+          .row
+              .column
+                center
+                  i.chat.green.icon.huge
+                  h3 常見問題
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+               .column
+                center
+                  i.wrench.icon.huge
+                  h3 好用工具
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+              .column
+                center
+                  i.users.purple.icon.huge
+                  h3 如何參與
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+               .column
+                center
+                  i.quote.right.icon.teal.huge
+                  h3 媒體報導
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+
+      .ui.horizontal.icon.divider
+          i.code.icon
+      .ui.three.column.divided.grid
+          .row
+              .column
+                center
+                  i.thumbs.up.outline.icon.huge
+                  h3 支持社群
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+               .column
+                center
+                  i.checked.checkbox.red.icon.huge
+                  h3 活動報名
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+              .column
+                center
+                  i.globe.blue.icon.huge
+                  h3 工作專區
+                p.description
+                    | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
+
+
+      .ui.right.red.segment(ng-controller="CommuniqueCtrl")
           .ui.red.ribbon.label.label(translate="HOME_COMMUNITY") 社群動態
           a.ui.blue.tiny.button.pull-right(ng-click="nextCommunique()")
               i.right.arrow.icon
@@ -51,7 +126,7 @@ block content
                     img#prj-img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}',onload="show()")
               p.description {{ project.description_zh || project.description }}
 
-      .ui.green.segment(ng-controller="BlogCtrl")
+      //.ui.green.segment(ng-controller="BlogCtrl")
           .ui.red.ribbon.large.label(translate="HOME_BLOG") 零時政府部落格
           .blog-loading(ng-show="articles.length === 0")
           article(ng-repeat="article in articles | orderBy:'$index':true")
@@ -60,7 +135,12 @@ block content
               .ui.horizontal.icon.divider
                   i.code.icon
 
-  #index_right_container
+
+
+
+
+
+  //#index_right_container
 
       .ui.orange.segment(ng-controller="EventCtrl")
 
