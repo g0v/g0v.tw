@@ -106,7 +106,7 @@ block content
                     | This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
 
 
-      .ui.right.red.segment(ng-controller="CommuniqueCtrl")
+      //.ui.right.red.segment(ng-controller="CommuniqueCtrl")
           .ui.red.ribbon.label.label(translate="HOME_COMMUNITY") 社群動態
           a.ui.blue.tiny.button.pull-right(ng-click="nextCommunique()")
               i.right.arrow.icon
@@ -114,7 +114,7 @@ block content
               h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
               p.description
 
-      .ui.purple.segment(ng-controller="FeaturedCtrl")
+      //.ui.purple.segment(ng-controller="FeaturedCtrl")
           .ui.red.ribbon.large.label(translate="HOME_ACHIEVEMENT") 零時政府最新成果
           a.ui.blue.tiny.button.pull-right(ng-click="nextProject()")
               i.right.arrow.icon
