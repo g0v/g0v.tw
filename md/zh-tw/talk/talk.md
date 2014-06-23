@@ -1,10 +1,13 @@
 ### 演講預告
 
-* 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
-* 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
+* 2014/07/02 第三屆國際領航員營隊/瞿筱葳(ipa)
+* 2014/07/14 SITCON open source 推廣夏令營/黃雋(jimmy)、吳泰輝(kirby)
 
 ### 過往演講/座談資訊、投影片
 
+* 2014/06/07 [獨立發聲，反抗有理： 網路時代下的新媒體與新聞自由 公民論壇](https://www.facebook.com/events/1414694238809642/?ref=25&source=1)/ 瞿筱葳 (ipa)
+* 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
+* 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
 * 2014/05/20 臺大新聞所：[看見太陽花運動中的新媒體](http://ntujournal.blogspot.tw/2014/05/g0ve.html)/ 趙偉伶(venev)
 * 2014/05/14 政治大學學生會：[網路世代的民主](http://moltke.cc.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X08095)/ 黃雋(jimmy)、瞿筱葳(ipa)
 * 2014/05/14 交大資工論文研討-多媒體與生醫工程(英)：Hacking Your Goverment with Keyboards/ 王向榮(ronnywang)、駱勁成(johnny)
