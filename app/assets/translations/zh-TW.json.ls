@@ -4,6 +4,7 @@ MENU_ABOUT: '關於'
 MENU_ABOUTG0V: '關於g0v'
 MENU_MANIFESTO: '零時政府宣言'
 MENU_MEDIA: '媒體報導'
+MENU_COMMUNIQUE: 'g0v 公報'
 MENU_BLOG: '部落格'
 MENU_FAQ: '常見問題'
 MENU_TRANSACTION: '收支明細'
@@ -54,6 +55,9 @@ FAQ: '常見問題'
 # transaction page
 TRANSACTION_TITLE: '收支明細'
 TRANSACTION: '收支明細'
+# communique page
+COMMUNIQUE_TITLE: 'g0v 公報'
+COMMUNIQUE: '公報'
 # join page
 JOIN_TITLE: '如何參與'
 JOIN: '如何參與'

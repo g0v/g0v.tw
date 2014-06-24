@@ -3,6 +3,7 @@ MENU_ABOUT: '情報'
 MENU_ABOUTG0V: 'g0vについで'
 MENU_MANIFESTO: 'g0v宣言'
 MENU_MEDIA: 'メディア'
+MENU_COMMUNIQUE: 'g0v 公報'
 MENU_BLOG: 'ブログ'
 MENU_FAQ: 'よくあるご質問'
 MENU_TRANSACTION: '収支計算書'　
@@ -51,6 +52,9 @@ FAQ: 'よくあるご質問'
 # transaction page
 TRANSACTION_TITLE: '収支計算書'　
 TRANSACTION: '収支計算書'　
+# communique page
+COMMUNIQUE_TITLE: 'g0v 公報'
+COMMUNIQUE: '公報'
 # join page
 JOIN_TITLE: '参加し方'　
 JOIN: '参加し方'　

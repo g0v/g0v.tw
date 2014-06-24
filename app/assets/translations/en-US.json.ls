@@ -5,6 +5,7 @@ MENU_ABOUT: 'About'
 MENU_ABOUTG0V: 'About g0v'
 MENU_MANIFESTO: '零時政府宣言'
 MENU_MEDIA: 'g0v on Media'
+MENU_COMMUNIQUE: 'g0v Communiques'
 MENU_BLOG: 'Blog'
 MENU_FAQ: 'FAQ'
 MENU_TRANSACTION: '收支明細'
@@ -55,6 +56,9 @@ FAQ: 'FAQ'
 # transaction page
 TRANSACTION_TITLE: '收支明細'
 TRANSACTION: '收支明細'
+# communique page
+COMMUNIQUE_TITLE: 'g0v communiques'
+COMMUNIQUE: 'Communiques'
 # join page
 JOIN_TITLE: 'How To Participate'
 JOIN: 'How To Participate'

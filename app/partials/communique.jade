@@ -1,0 +1,16 @@
+extend ../layout/layout
+
+block title
+    title(translate="COMMUNIQUE_TITLE") 公報
+
+block vars
+    - nav_cls.news = 'highlight'
+
+block content
+  .ui.purple.segment
+    .ui.teal.ribbon.label(translate="COMMUNIQUE") 公報
+    case lang
+      when 'en-US'
+        iframe(defer-src="https://g0v.hackpad.com/ep/pad/static/vPFIHwngObt",frameborder="0",allowfullscreen,width="105%", height="800px", style="margin-left:-20px")
+      default
+        iframe(defer-src="http://g0v.github.io/g0vTxT/views/communique.html",frameborder="0",allowfullscreen,width="115%", height="800px", style="margin-left:-60px")
