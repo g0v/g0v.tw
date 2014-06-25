@@ -7,6 +7,8 @@
 
 ### 過往演講/座談資訊、投影片
 
+#### 2014 年
+
 * 2014/06/07 [獨立發聲，反抗有理： 網路時代下的新媒體與新聞自由 公民論壇](https://www.facebook.com/events/1414694238809642/?ref=25&source=1)/ 瞿筱葳 (ipa)
 * 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
 * 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
@@ -30,6 +32,9 @@
 * 2014/01/21 立法院資訊處專題演講/ 駱勁成(Johnny)、高嘉良 (clkao)
 * 2014/01/14 交通部公路總局 - [零時政府，可以吃嗎?](https://docs.google.com/presentation/d/1hpzKM_14LsWd9n30th1ZUxeN-bMY7ihLpLHY5rmivic/edit?usp=sharing)/ 王向榮(Ronny Wang)
 * 2014/01/10-12 香港創不同 MaD 年會：[第五方向：從這裡，往哪裡，怎樣走](http://www.mad.asia/posts/557/MaD%20Forum/The-Fifth-Direction:-From-Here-and-Now-to-an-Envisioned-There)/ 高嘉良 (clkao)
+
+#### 2013 年
+
 * 2013/12/09【文化攻策論壇】‧ 系列參 ─[公民參與 & 網路革命](https://www.facebook.com/events/334833043324985/)/ 吳泰輝 ([投影片](https://docs.google.com/file/d/0B_UpRpAst1MYeXhnMHZFX21MTjg/edit))
 * 2013/12/04 東華大學數學系/ 高嘉良 (clkao)
 * 2013/12/04 政治大學資管系/ 鄭智中 (mindos)、王向榮(Ronnywang)、林旅強(Richard)
