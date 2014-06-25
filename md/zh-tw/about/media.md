@@ -1,6 +1,7 @@
 ### 媒體報導
 #### 2014 第二季
-* [台灣/台南：「沒有人」獲得台南黑客松大獎](http://punnode.com/archives/17650) /PunNode 2014.06.24
+* [【沃草】政治獻金法成收賄解套法 民團籲修法](http://www.appledaily.com.tw/realtimenews/article/new/20140624/421819/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91%E6%B3%95%E6%88%90%E6%94%B6%E8%B3%84%E8%A7%A3%E5%A5%97%E6%B3%95%E6%B0%91%E5%9C%98%E7%B1%B2%E4%BF%AE%E6%B3%95) / 蘋果日報 2014.06.25
+* [台灣/台南：「沒有人」獲得台南黑客松大獎](http://punnode.com/archives/17650) / PunNode 2014.06.24
 * [全球最活躍的開放政府組織在台灣！](http://www.appledaily.com.tw/realtimenews/article/politics/20140613/415694/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E5%85%A8%E7%90%83%E6%9C%80%E6%B4%BB%E8%BA%8D%E7%9A%84%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E5%9C%A8%E5%8F%B0%E7%81%A3%EF%BC%81) / 蘋果日報 2014.06.13
 * [張善政：市場調節 4G會降價](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=323&f_SUB_ID=2952&f_ART_ID=519404) / 聯合報 2014.06.13
 * [觀察／恐龍般的國民兩黨網路政策想像](http://www.nownews.com/n/2014/06/10/1270440) / NOWnews 2014.06.10
