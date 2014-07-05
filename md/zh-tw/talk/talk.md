@@ -1,12 +1,15 @@
 ### 演講預告
 
-* 2014/07/02 第三屆國際領航員營隊/瞿筱葳(ipa)
 * 2014/07/14 SITCON open source 推廣夏令營/黃雋(jimmy)、吳泰輝(kirby)
+* 2014/07/15 臺大全球集思論壇: "Internet Era: How the Internet Revolutionizes Political Participation"/ 高嘉良(clkao)
+* 2014/08/02 ㄅㄠˋㄇㄧㄣˊ須知-2014全國高中生行動者培力營/黃雋(jimmy)
 
 ### 過往演講/座談資訊、投影片
 
 #### 2014 年
 
+* 2014/07/04 台大社科院全國高中職創意政策設計競賽/高嘉良、瞿筱葳
+* 2014/07/02 第三屆國際領航員營隊/瞿筱葳(ipa)
 * 2014/06/07 [獨立發聲，反抗有理： 網路時代下的新媒體與新聞自由 公民論壇](https://www.facebook.com/events/1414694238809642/?ref=25&source=1)/ 瞿筱葳 (ipa)
 * 2014/05/24 科技與社會研究」工作坊/ 鄭智中 (mindos)
 * 2014/05/21 [交點DOIT](https://taiwan-doit.com/)/ 簡信昌(hcchien)
