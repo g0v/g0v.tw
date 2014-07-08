@@ -18,4 +18,4 @@
 
 ### 如何報名？
 
-每兩個月舉行一次大型黑客松（70-110人），活動前兩週會開放線上報名。期間各組、個別成員也會不定期發起小型黑客松（15-30人），可密切注意 g0v.tw 各社群網絡（[fb後勤中心](https://www.facebook.com/groups/g0v.general/), [g+](https://plus.google.com/+g0vTW/posts), [twitter](https://twitter.com/g0vtw), [irc](http://hack.g0v.tw/irc)），以及報名網址（如下）。
+每兩個月舉行一次大型黑客松（70-110人），活動前兩週會開放線上報名。期間各組、個別成員也會不定期發起小型黑客松（15-30人），可密切注意 g0v.tw 各社群網絡（[fb後勤中心](https://www.facebook.com/groups/g0v.general/), [g+](https://plus.google.com/+g0vTW/posts), [twitter](https://twitter.com/g0vtw), [irc](http://hack.g0v.tw/irc)），以及報名網址。
