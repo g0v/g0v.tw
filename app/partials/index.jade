@@ -38,7 +38,7 @@ block content
               i.right.arrow.icon
           .featured-communiques
               h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
-              p.description
+              p(ng-bind-html="communique.content")
 
       .ui.purple.segment(ng-controller="FeaturedCtrl")
           .ui.red.ribbon.large.label(translate="HOME_ACHIEVEMENT") 零時政府最新成果
