@@ -30,13 +30,13 @@ gulp.task 'html', <[translations]>, ->
     .pipe gulp.dest "#{build_path}"
     .pipe gulp-livereload lr
 
-require! <[gulp-bower gulp-bower-files gulp-filter]>
+require! <[gulp-bower main-bower-files gulp-filter]>
 
 gulp.task 'bower' ->
   gulp-bower!
 
 gulp.task 'js:vendor' <[bower]> ->
-  bower = gulp-bower-files!
+  bower = gulp.src main-bower-files!
     .pipe gulp-filter -> it.path is /\.js$/
 
   vendor = gulp.src 'vendor/scripts/*.js'
