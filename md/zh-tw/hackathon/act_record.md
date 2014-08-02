@@ -5,7 +5,10 @@
 * [g0v hackpad](https://g0v.hackpad.com/) : g0v 的共同筆記簿
 
 ### 照片：
-
+* [g0v 活動紀錄照片彙整：g0v.photos](http://g0v.photos) / g0vers
+* [hackath9n 還我土地黑客松活動紀錄照片](https://www.flickr.com/photos/tkirby/sets/72157645476391652/) / tkirby
+* [hackath8n 解除戒嚴黑客松活動紀錄照片](https://www.flickr.com/photos/tkirby/sets/72157644113318491/) / tkirby
+* [hackath7n 自由時代黑客松活動紀錄照片](https://www.flickr.com/photos/tkirby/sets/72157641461698974/) / tkirby
 * [hackath6n 勞動基準黑客松活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157639076585486/) / tkirby
 * [hackath5n 美麗島黑客松活動紀錄照片](http://www.flickr.com/photos/tkirby/sets/72157636741475916/) / Macpaul
 * [hackath4n 國民大會黑客松活動記錄照片](http://www.flickr.com/photos/tkirby/sets/72157635071687582/) / tkirby
