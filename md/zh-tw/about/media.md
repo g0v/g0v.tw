@@ -1,6 +1,9 @@
 ### 媒體報導
 #### 2014 第三季
+* [網路社群 即時指點生路](http://money.udn.com/storypage.php?sub_id=5958&art_id=198951) / 聯合報 2014.08.02
+* [高雄氣爆災情網路資源大匯整(持續更新)](http://www.ithome.com.tw/news/89808) / iThome 2014.08.01
 * [【數位觀點】讓力量相乘吧!](http://www.bnext.com.tw/article/view/id/33212) / 數位時代 2014.07.29
+* [【沃草】工程師COSCUP大會師！開放原始碼精神改變社會](http://www.appledaily.com.tw/realtimenews/article/new/20140721/437114/) / 蘋果日報 2014.07.21
 * [【沃草】台灣輸出公民運動網路技術！g0v零時政府助陣香港七一佔中](http://www.appledaily.com.tw/realtimenews/article/new/20140702/426671/) / 蘋果日報 2014.07.02
 
 

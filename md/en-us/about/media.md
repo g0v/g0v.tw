@@ -1,4 +1,12 @@
 ### Media Coverage
+#### 2014 第三季
+
+* [網路社群 即時指點生路](http://money.udn.com/storypage.php?sub_id=5958&art_id=198951) / 聯合報 2014.08.02
+* [高雄氣爆災情網路資源大匯整(持續更新)](http://www.ithome.com.tw/news/89808) / iThome 2014.08.01
+* [【數位觀點】讓力量相乘吧!](http://www.bnext.com.tw/article/view/id/33212) / 數位時代 2014.07.29
+* [【沃草】工程師COSCUP大會師！開放原始碼精神改變社會](http://www.appledaily.com.tw/realtimenews/article/new/20140721/437114/) / 蘋果日報 2014.07.21
+* [【沃草】台灣輸出公民運動網路技術！g0v零時政府助陣香港七一佔中](http://www.appledaily.com.tw/realtimenews/article/new/20140702/426671/) / 蘋果日報 2014.07.02
+
 #### 2014 第二季
 * [【沃草】政治獻金法成收賄解套法 民團籲修法](http://www.appledaily.com.tw/realtimenews/article/new/20140624/421819/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91%E6%B3%95%E6%88%90%E6%94%B6%E8%B3%84%E8%A7%A3%E5%A5%97%E6%B3%95%E6%B0%91%E5%9C%98%E7%B1%B2%E4%BF%AE%E6%B3%95) / 蘋果日報 2014.06.25
 * [台灣/台南：「沒有人」獲得台南黑客松大獎](http://punnode.com/archives/17650) /PunNode 2014.06.24
