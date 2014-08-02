@@ -41,6 +41,16 @@ block content
               h4: a(target="_blank" ng-href="http://g0v.hackpad.com/{{communique.padID}}") {{ communique.date }}
               p(ng-bind-html="communique.content")
 
+
+      .ui.green.segment(ng-controller="BlogCtrl")
+          .ui.red.ribbon.large.label(translate="HOME_BLOG") 零時政府部落格
+          .blog-loading(ng-show="articles.length === 0")
+          article(ng-repeat="article in articles | orderBy:'$index':true")
+              h4: a(ng-href="{{article.link}}") {{article.title}}
+              div(btf-markdown="article.description")
+              .ui.horizontal.icon.divider
+                  i.code.icon
+
       .ui.purple.segment(ng-controller="FeaturedCtrl")
           .ui.red.ribbon.large.label(translate="HOME_ACHIEVEMENT") 零時政府最新成果
           a.ui.blue.tiny.button.pull-right(ng-click="nextProject()")
@@ -53,14 +63,6 @@ block content
                     img#prj-img(ng-src='{{project.thumbnail.reduce ? project.thumbnail.0 : project.thumbnail}}',onload="show()")
               p.description {{ project.description_zh || project.description }}
 
-      .ui.green.segment(ng-controller="BlogCtrl")
-          .ui.red.ribbon.large.label(translate="HOME_BLOG") 零時政府部落格
-          .blog-loading(ng-show="articles.length === 0")
-          article(ng-repeat="article in articles | orderBy:'$index':true")
-              h4: a(ng-href="{{article.link}}") {{article.title}}
-              div(btf-markdown="article.description")
-              .ui.horizontal.icon.divider
-                  i.code.icon
 
   #index_right_container
 
