@@ -21,7 +21,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
     $translateProvider.preferredLanguage lang
 
 .factory fireRoot: <[angularFireCollection]> ++ (angularFireCollection) ->
-  url = "https://g0vsite.firebaseio.com"
+  url = "https://g0vfeedthefire.firebaseio.com"
   new Firebase(url)
 
 .factory eventsPromise: <[$http]> ++ ($http) ->
