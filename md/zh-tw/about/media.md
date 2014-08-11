@@ -1,5 +1,7 @@
 ### 媒體報導
 #### 2014 第三季
+* [【沃草】g0v推全台急診即時看板，各大醫院急診實況一目了然！](http://www.appledaily.com.tw/realtimenews/article/politics/20140811/449892/) / 蘋果日報 2014.08.11
+* [等不及官方　網友自製「高雄地下管線圖」](http://www.appledaily.com.tw/realtimenews/article/local/20140806/447139/) 蘋果日報 2014.08.06
 * [網路社群 即時指點生路](http://money.udn.com/storypage.php?sub_id=5958&art_id=198951) / 聯合報 2014.08.02
 * [高雄石化物質氣爆，g0v快速集結「高雄氣爆訊息統整」共筆，展現群體智慧](http://www.bnext.com.tw/article/view/id/33255) / 數位時代 2014.08.01
 * [高雄氣爆災情網路資源大匯整(持續更新)](http://www.ithome.com.tw/news/89808) / iThome 2014.08.01
