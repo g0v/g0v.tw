@@ -1,5 +1,12 @@
 ### 媒體報導
 #### 2014 第三季
+* [病床數不用現場看 網友統整公開便民](http://video.n.yam.com/20140812484402/%E7%97%85%E5%BA%8A%E6%95%B8%E4%B8%8D%E7%94%A8%E7%8F%BE%E5%A0%B4%E7%9C%8B%20%E7%B6%B2%E5%8F%8B%E7%B5%B1%E6%95%B4%E5%85%AC%E9%96%8B%E4%BE%BF%E6%B0%91) / TVBS 2014.08.12
+* [g0v打造急診室即時資訊平臺，告訴你傷患往哪送不用等？](http://www.ithome.com.tw/news/90038) / IThome 2014.08.12
+* [緩解急診塞車 g0v推全台急診即時看板](http://newtalk.tw/news/2014/08/11/50244.html) / 新頭殼 2014.08.12
+* [政府要汗顏了…　g0v推全國「急診」即時看板](http://www.ettoday.net/news/20140811/388527.htm) / ETToday 2014.08.12
+* [急診塞不塞 「即時看板」全都露](http://mag.udn.com/mag/life/storypage.jsp?f_MAIN_ID=207&f_SUB_ID=449&f_ART_ID=529180) / 聯合報 2014.08.12
+ * 相關報導： [急診非先來後到 衛福部：將建更便利平台](http://mag.udn.com/mag/life/storypage.jsp?f_ART_ID=529177&kdid=AR10&r=3) / 聯合報 2014.08.12
+* [急診有多忙？ 公民自製全國急診即時看版](http://news.ltn.com.tw/news/life/breakingnews/1078470) / 自由時報 2014.08.11
 * [【沃草】g0v推全台急診即時看板，各大醫院急診實況一目了然！](http://www.appledaily.com.tw/realtimenews/article/politics/20140811/449892/) / 蘋果日報 2014.08.11
 * [等不及官方　網友自製「高雄地下管線圖」](http://www.appledaily.com.tw/realtimenews/article/local/20140806/447139/) / 蘋果日報 2014.08.06
 * [網路社群 即時指點生路](http://money.udn.com/storypage.php?sub_id=5958&art_id=198951) / 聯合報 2014.08.02
@@ -52,7 +59,7 @@
 * g0v 與「國會無雙」([公民一九八五 網路鄉民串聯 25萬民眾自發上街](http://www.libertytimes.com.tw/2014/new/feb/3/today-specialreport1.htm)) / 自由時報 2014.02.03
 * [急需補助 「福利請聽」免費查](http://udn.com/NEWS/NATIONAL/NAT5/8459202.shtml) / 聯合報 2014.01.30 ([全文備份](https://gist.github.com/pofeng/8712093))
 * [網路新勢力 顛覆全世界](http://www.pubu.com.tw/news/%E7%B6%B2%E8%B7%AF%E6%96%B0%E5%8B%A2%E5%8A%9B-%E9%A1%9B%E8%A6%86%E5%85%A8%E4%B8%96%E7%95%8C-1093) / 財訊雙週刊 2014.01.28
-* [他們正在做！900鄉民用鍵盤捍衛正義](http://www.businessweekly.com.tw/KArticle.aspx?id=53258) / 商業周刊 1367 期 2014.01.22 ([全文備份](http://i.imgur.com/YXK7jp5.png))
+* 他們[他們正在做！900鄉民用鍵盤捍衛正義](http://www.businessweekly.com.tw/KArticle.aspx?id=53258) / 商業周刊 1367 期 2014.01.22 ([全文備份](http://i.imgur.com/YXK7jp5.png))
  *  商業周刊  [1367 期專題報導](http://www.businessweekly.com.tw/EMagMainPage.aspx?id=2069)  :談希臘、德國、芬蘭、與 g0v
  *  延伸閱讀: [民怨商品化？從德國國會觀察網站談起](https://g0v.hackpad.com/CGIWfeyAG5r)
 * [台語輸入法APP 法籍學生研發](http://www.libertytimes.com.tw/2014/new/jan/12/today-life2.htm) / 自由時報 2014.01.12
