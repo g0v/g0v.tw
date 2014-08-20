@@ -1,17 +1,20 @@
 extend ../layout/layout
 
 block title
-    title(translate="FAQ_TITLE") 專案
-
+    title(translate="MENU_LIST")
 block vars
-    - nav_cls.about = 'highlight'
+    - nav_cls.project = 'highlight'
 block content
-  h2.ui.header
+
+  h1.ui.huge.header.center.aligned
+    .content
+      | 零時政府促成了哪些專案？
+      .sub.header 多項專案持續彙整中......
+  h3.ui.header
     i.dashboard.icon
     .content
-      | 開放政府
-      .sub.header 陽光正好暖和，但我們，這不取費的最珍貴的補劑便永遠
-
+      | 開放政府 Open Government
+      .sub.header 草根力量打造開放透明資訊平台，促進公民參與及雙向溝通
   .ui.stackable.three.items
       .item
           .content
@@ -20,15 +23,13 @@ block content
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/budget.png')
             p
             p.description
-              | 運用鳥瞰圖、變化圖、國債鐘等互動圖表，依比例呈現中央政府各部門的預算，開放網友評論。
+              | g0v 社群的第一個專案。
+            p.description
+              | 將大量難以閱讀的預算資料運用鳥瞰圖、變化圖、國債鐘等互動圖表，依比例呈現中央政府各部門的預算，開放網友評論。
             p
             .name2 專案網址
             p.description
-              | http://budget.g0v.tw
-            p
-            .name2 意見回饋
-            p.description
-              | http://blah.blah
+              a(href="http://budget.g0v.tw" target="_blank") budget.g0v.tw
         .item
           .content
             .name 國會大代誌
@@ -36,15 +37,70 @@ block content
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/ly.png')
             p
             p.description
-              | 即時顯示國會行程、修法進度，還推播到 Twitter 供人訂閱。除了文字之外還整合了國會影像，標示每一位委員的發言時間供搜尋。
-            p
-            .name2 網址
+              | 持續開發的開放國會長期計畫。
             p.description
-              | http://ly.g0v.tw
+              | 可即時顯示國會行程、修法進度、法條版本比較，還推播到 Twitter 供人訂閱。除了文字之外還整合了國會影像，標示每一位委員的發言時間供搜尋。
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://ly.g0v.tw" target="_blank") ly.g0v.tw
             p
             .name2 意見回饋
             p.description
-              | http://ly.g0v.tw
+              a(href="https://groups.google.com/forum/#!forum/g0v-ly" target="_blank") 立院專案討論區
+        .item
+          .content
+            .name 立院影城
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/ivod.jpg')
+            p
+            p.description
+              | 開放國會計畫的一部分。
+            p.description
+              | 即時播放立法院議事影音直播 ivod，突破立法院原網站 IE only 限制，可跨平台收看並有互動功能。
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://ivod.ly.g0v.tw" target="_blank") ivod.ly.g0v.tw
+            p
+            .name2 意見回饋
+            p.description
+              a(href="https://groups.google.com/forum/#!forum/g0v-ly" target="_blank") 立院專案討論區
+        .item
+          .content
+            .name 立院 IVOD youtube 備份
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | 持續開發的開放國會長期計畫。
+            p.description
+              | 可即時顯示國會行程、修法進度、法條版本比較，還推播到 Twitter 供人訂閱。除了文字之外還整合了國會影像，標示每一位委員的發言時間供搜尋。
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://ivod.ly.g0v.tw" target="_blank") ivod.ly.g0v.tw
+            p
+            .name2 意見回饋
+            p.description
+              a(href="https://groups.google.com/forum/#!forum/g0v-ly" target="_blank") 立院專案討論區
+        .item
+          .content
+            .name 開放政治獻金
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/donation.png')
+            p
+            p.description
+              | 在監察院不提供數位資料的情況下，號召群眾印出文件，以鄉民OCR方式將政治獻金資料數位化。用鍵盤和選票，落實陽光法案，照亮政商關係。
+            p
+            .name2 專案網址
+            p.description
+              a(href="https://www.facebook.com/cy.sunshine" target="_blank") facebook專頁、
+              a(href="http://campaign-finance.g0v.ctiml.tw/" target="_blank") 政治獻金數位化
+            p
+            .name2 加入行動
+            p.description
+              a(href="http://hack.g0v.tw/g0v-cy" target="_blank") 行動本部共筆
         .item
           .content
             .name 立委投票指南
@@ -53,70 +109,57 @@ block content
             p
             p.description 替立委排名，依數據列出缺席、不投票、脫黨跑票、修正法案數、臨時提案數等的立委排行。也提供表決視覺化名單，表決、法案、臨時提案的關鍵字搜尋。
             p
-            .name2 網址
+            .name2 專案網址
             p.description
-              | http://ly.g0v.tw
+              a(href="http://vote.ly.g0v.tw" target="_blank") vote.ly.g0v.tw
             p
             .name2 意見回饋
             p.description
+              a(href="https://g0v.hackpad.com/--dMc3UYvwTjT" target="_blank") 意見回饋共筆、
+              a(href="https://groups.google.com/forum/#!forum/g0v-ly" target="_blank") 立院專案討論區
+
         .item
           .content
             .name 議員投票指南
             .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/budget.png')
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/councils.png')
             p
             p.description
               | 運用鳥瞰圖、變化圖、國債鐘等互動圖表，依比例呈現中央政府各部門的預算，開放網友評論。
             p
             .name2 專案網址
             p.description
-              | http://budget.g0v.tw
+              a(href="http://councils.g0v.tw" target="_blank") councils.g0v.tw
             p
             .name2 意見回饋
             p.description
-              | http://blah.blah
-        .item
-          .content
-            .name 開放政治獻金
-            .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/money.png')
-            p
-            p.description
-              | 即時顯示國會行程、修法進度，還推播到 Twitter 供人訂閱。除了文字之外還整合了國會影像，標示每一位委員的發言時間供搜尋。
-            p
-            .name2 網址
-            p.description
-              | http://ly.g0v.tw
-            p
-            .name2 意見回饋
-            p.description
-              | http://ly.g0v.tw
+              a(href="https://g0v.hackpad.com/--5PNuk4XGGrj" target="_blank") 意見回饋共筆
+
         .item
           .content
             .name 公務人員出國考察追蹤網
             .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/money.png')
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
             p
             p.description
               | 即時顯示國會行程、修法進度，還推播到 Twitter 供人訂閱。除了文字之外還整合了國會影像，標示每一位委員的發言時間供搜尋。
             p
-            .name2 網址
+            .name2 專案網址
             p.description
-              | http://ly.g0v.tw
+              a(href="http://vote.ly.g0v.tw" target="_blank") vote.ly.g0v.tw
             p
             .name2 意見回饋
             p.description
-              | http://ly.g0v.tw
+              a(href="http://vote.ly.g0v.tw" target="_blank") vote.ly.g0v.tw
 
+  .ui.horizontal.divider
+    i.circular.code.icon
 
-
-
-
-  h2.ui.header
+  h3.ui.header
     i.open.folder.outline.icon
     .content
-      | 開放資料
-      .sub.header 陽光正好暖和，但我們，這不取費的最珍貴的補劑便永遠
+      | 開放資料 Open Data
+      .sub.header 創新應用將資料
 
   .ui.stackable.three.items
       .item
@@ -126,14 +169,25 @@ block content
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/data.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | description coming soon
             p
-            .name2 網址
+            .name2 專案網址
             p.description
-              | http://ly.g0v.tw
+              a(href="http://data.g0v.tw" target="_blank") data.g0v.tw
+      .item
+          .content
+            .ui.right.corner.label.red
+              .text NEW
+            .name 地方的資料需要普查
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/data.png')
             p
-            .name2 意見回饋
             p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://local.data.g0v.tw" target="_blank") local.data.g0v.tw
       .item
           .content
             .name 萌典
@@ -141,41 +195,122 @@ block content
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/moedict.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | 教育部國語、臺語、客語辭典民間版，提供筆順動畫、真人發音、英/法/德文對照、兩岸詞彙對照等功能。網站目前每月提供數百萬人次的服務，行動裝置 App 用戶逾十萬人。
             p
-            .name2 網址
+            .name2 專案網址
             p.description
-              | http://ly.g0v.tw
+              a(href="http://moedict.tw" target="_blank") moedict.tw
             p
-            .name2 意見回饋
+            .name2 專案資訊彙整
             p.description
-              | http://ly.g0v.tw
+              a(href="http://3du.tw" target="_blank") 3du.tw
       .item
           .content
-            .name 急診即時看板
+            //.ui.bottom.attached.right.label
+              .text test
+            .ui.right.corner.label.red
+              .text NEW
+            .name 全國重度級急診即時看板
             .ui.divider
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/er.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | 目前資料僅包含衛福部要求公開的重度級急救責任醫院共 31 所（其他一般及中度級 160 所急救責任醫院，目前尚無公開資料），可依照類型或醫院顯示等待住院、加護病房與推床人數，也呈現滿床通報資訊。各醫院更新資料速度不同，本站每 20 分鐘抓取一次，使用者端也可自訂更新頻率，還可依縣市個別顯示。
+
             p
             .name2 專案網址
             p.description
-              | http://er.mohw.g0v.tw
+              a(href="http://er.mohw.g0v.tw" target="_blank") er.mohw.g0v.tw
             p
             .name2 意見回饋
             p.description
-              | http://blah.blah
+              a(href="https://g0v.hackpad.com/vtLwiUfYgcc" target="_blank") 開發共筆
+
+      .item
+          .content
+            .name 台灣公司登記資料
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/company.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://company.g0v.ronny.tw/" target="_blank") company.g0v.ronny.tw
+
+      .item
+          .content
+            .name 台灣公司關係圖
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/companygraph.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://company-graph.g0v.ronny.tw/" target="_blank") company-graph.g0v.ronny.tw
+
+      .item
+          .content
+            .name 法規亦毒器（法規易讀器）
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/law.png')
+            p
+            p.description
+              | 將網頁中的法規與條號都轉變成連結，讓您快速查閱指定條文。偵測網頁中提到的法規與法條，滑鼠移於其上時即可看該法規或該條文的內容，點選時即連向[全國法規資料庫]關於該法規或條文的頁面。亦支援大法官解釋的連結與預覽。
+            p
+            .name2 專案網址
+            p.description
+              a(href="https://chrome.google.com/webstore/detail/%E6%B3%95%E8%A6%8F%E4%BA%A6%E6%AF%92%E6%B0%A3/iedodmlnmhobigohbkalkkjlbmdkjalj?hl=zh-TW" target="_blank") Chrome Plug-in
+      .item
+          .content
+            .name 環境儀表板（空污/雨量）
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/air.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://env.g0v.tw/" target="_blank") env.g0v.tw
+
+      .item
+          .content
+            .name 你被服貿了嗎
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/tisa.png')
+            p
+            p.description
+              | 【你被服貿了嗎？】是行業對照小幫手，找到營業項目、翻譯承諾項目通通不用自己來。只要打幾個字、點幾下滑鼠，快速查詢受影響範圍，也對結果表態。
+            p
+            .name2 專案網址
+            p.description
+              a(href="https://tisa.g0v.tw" target="_blank") tisa.g0v.tw
+      .item
+          .content
+            .name 自經區正反意見比較表
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | 將自經區正反意見條列
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://fepztw.github.io/" target="_blank") fepztw.github.io
 
 
+  .ui.horizontal.divider
+    i.circular.code.icon
 
-
-
-  h2.ui.header
+  h3.ui.header
       i.retweet.icon
       .content
-        | 社會參與
-        .sub.header 陽光正好暖和，但我們，這不取費的最珍貴的補劑便永遠
+        | 社會參與 Social Engagement
+        .sub.header 從 Web 2.0 群眾號召，走向開源型態的群眾協作
   .ui.stackable.three.items
       .item
           .content
@@ -184,72 +319,294 @@ block content
             img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/hackfoldr.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
-            p
-            .name2 網址
-            p.description
-              | http://ly.g0v.tw
-            p
-            .name2 意見回饋
-            p.description
-      .item
-          .content
-            .name 123.打道掛
-            .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/er.png')
-            p
-            p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | description coming soon
             p
             .name2 專案網址
             p.description
-              | http://er.mohw.g0v.tw
-            p
-            .name2 意見回饋
-            p.description
-              | http://blah.blah
+              a(href="http://hackfoldr.org/" target="_blank") hackfoldr.org
 
       .item
           .content
-            .name 啄木鳥
+            .name 123 打道掛
             .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/moedict.png')
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/123.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | description coming soon
             p
-            .name2 網址
+            .name2 專案網址
             p.description
-              | http://ly.g0v.tw
+              a(href="http://123.g0v.today" target="_blank") 123.g0v.today
+
+      .item
+          .content
+            //.ui.bottom.attached.right.label
+              .text 活動結束
+            .name 啄木鳥挑錯字活動
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
             p
-            .name2 意見回饋
             p.description
-              | http://ly.g0v.tw
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="https://www.moedict.tw/dodo/" target="_blank") moedict.tw/dodo
+
+      .item
+          .content
+            .name 公民記者證產生器
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/reporter.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://g0v.github.io/reporter/" target="_blank") g0v.github.io/reporter/
+
       .item
           .content
             .name petneedme
             .ui.divider
-            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/er.png')
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/pet.png')
             p
             p.description
-              | 「以樂其心志，又因接近街的繁榮日，包圍住這人世間，還是孱弱的可憐，市街上罩著薄薄的寒煙，但是在他們發達未完成的肉體上，盡攝伏在死一般的寂滅裡，因一邊還都屬孩子，愈著急愈覺得金錢的寶貴，把她清冷冷的光輝，一個年輕的稀奇地問。」
+              | description coming soon
             p
             .name2 專案網址
             p.description
-              | http://er.mohw.g0v.tw
+              a(href="http://petneed.me/" target="_blank") petneed.me
+
+  .ui.horizontal.divider
+    i.circular.code.icon
+
+  h3.ui.header
+      i.fast.forward.icon
+      .content
+        | 新媒體應用 New Media
+        .sub.header 新工具．新媒介．新內容的新型態實驗場
+  .ui.stackable.three.items
+      .item
+          .content
+            .name 新聞小幫手
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/newshelper.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://newshelper.g0v.tw/" target="_blank") newshelper.g0v.tw、
+              a(href="https://www.facebook.com/newshelper" target="_blank") facebook 專頁
+
+      .item
+          .content
+            .name 政誌
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://fact.g0v.tw" target="_blank") fact.g0v.tw
+
+      .item
+          .content
+            .name 歷史四大報（腿新聞）
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
             p
             .name2 意見回饋
             p.description
-              | http://blah.blah
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
+      .item
+          .content
+            .ui.right.corner.label.red
+              .text NEW
+            .name inLiveTW
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://inlivetw.github.io/enter/" target="_blank") inLiveTW 平台
+
+      .item
+          .content
+            .ui.right.corner.label.red
+              .text NEW
+            .name 時間地圖
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://timemap.kuansim.com/" target="_blank") timemap.kuansim.com
+            p
+            .name2 意見回饋
+            p.description
+              a(href="https://groups.google.com/forum/#!forum/kuansim" target="_blank") 專案討論區
+
+  .ui.horizontal.divider
+    i.circular.code.icon
+
+  h3.ui.header
+      i.copy.icon
+      .content
+        | 政策共筆 Policy Feedback
+        .sub.header 新工具帶來新媒介，新媒介產生新型態內容
+  .ui.stackable.three.items
+      .item
+          .content
+            .name 研考會開放資料授權條款共筆
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
+            p
+            .name2 意見回饋
+            p.description
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
+      .item
+          .content
+            .name 開放資料政策社群意見
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
+            p
+            .name2 意見回饋
+            p.description
+              a(href="http://data.g0v.tw" target="_blank") data.ly.g0v.tw
 
 
+  .ui.horizontal.divider
+    i.circular.code.icon
 
-
-
-  h2.ui.header
+  h3.ui.header
       i.settings.icon
       .content
-        | 新媒體
-        .sub.header 陽光正好暖和，但我們，這不取費的最珍貴的補劑便永遠
+        | g0v 社群基礎建設 Community Collaboration
+        .sub.header 新工具帶來新媒介，新媒介產生新型態內容
+  .ui.stackable.three.items
+      .item
+          .content
+            .name g0v 授權中心
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://g0v.github.io/moc-license-center/" target="_blank") g0v.github.io/moc-license-center
+
+      .item
+          .content
+            .name g0v 新手村
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://8bit.g0v.tw/" target="_blank") 8bit.g0v.tw
+
+      .item
+          .content
+            .name 斧頭幫大挑戰
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://axe.g0v.tw/" target="_blank") axe.g0v.tw
+
+      .item
+          .content
+            .name g0v 公報
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://g0v.github.io/g0vTxT/#/communiqueViewer" target="_blank") g0v 公報
+      .item
+          .content
+            .name g0v 共筆貢獻視覺化
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://g0v.github.io/g0vTxT/#/visualize" target="_blank") g0v 共筆
+
+      .item
+          .content
+            .name g0v 社群動態視覺化
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | description coming soon
+            p
+            .name2 專案網址
+            p.description
+              a(href="http://g0v.github.io/g0vis/" target="_blank") g0v.github.io/g0vis
+
+      .item
+          .content
+            .name 演講．課程
+            .ui.divider
+            img.ui.image(src='https://dl.dropboxusercontent.com/u/16853724/image.png')
+            p
+            p.description
+              | 二十多位社群講者一年多進行近六十場各地演講，分享開源、開放的社會參與經驗，邀請單位包括台灣中央及地方公部門、各級學校、研究單位、NGO團體，以及國際開放政府團體，演講地跨亞歐與南北美。
+            p
+            .name2 演講資訊
+            p.description
+              a(href="http://g0v.tw/talk.html" target="_blank") g0v.tw/talk
+
+
 
 
