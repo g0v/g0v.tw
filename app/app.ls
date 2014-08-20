@@ -113,3 +113,25 @@ show = ->
 
 <- $
 $ '.ui.dropdown' .dropdown on: \hover, transition: \fade
+
+<- $
+$ '.navbar-wrapper' .stickUp {
+  parts: {
+    0: 'openGov',
+    1: 'openData',
+    2: 'socEngage',
+    3: 'newMedia',
+    4: 'policyFeedback',
+    5: 'comCollaboration'
+    },
+  itemClass: 'menuItem',
+  itemHover: 'active',
+  topMargin: 'auto'
+}
+
+<- $
+$ 'a[href^="#"]' .bind 'click.smoothscroll', (e)->
+  e.preventDefault();
+  target = this.hash
+  $ 'html, body' .stop!.animate {'scrollTop': $ target .offset!.top}, 900, 'swing', ->
+    window.location.hash = target;
