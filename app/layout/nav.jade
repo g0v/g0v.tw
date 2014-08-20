@@ -17,10 +17,10 @@ block vars
           | 常見問題
         a.item(href="/#{lang}/transaction.html", translate="MENU_TRANSACTION")
           | 收支明細
-    .ui.pointing.dropdown.link.item
+    .ui.pointing.dropdown.link.item(class="#{nav_cls.project}")
       span(translate="MENU_PROJECT") 專案
       .menu
-        a.item(target="blank", href="http://g0v.github.io/g0vis/")
+        a.item(href="/#{lang}/projects.html", translate="MENU_LIST")
           span(translate="MENU_LIST") 成果列表
           i.external.url.right.icon
         a.item(target="blank",href="http://hack.g0v.tw/project")
@@ -28,6 +28,9 @@ block vars
           i.external.url.right.icon
         a.item(target="blank",href="https://g0v.hackpad.com/", )
           span(translate="MENU_HACKPAD") 開發共筆
+          i.external.url.right.icon
+        a.item(target="blank",href="http://g0v.github.io/g0vis/")
+          span(translate="MENU_VISUAL") g0v社群動態視覺化
           i.external.url.right.icon
         a.item(target="blank",href="http://data.g0v.tw")
           span(translate="MENU_OPENDATA") g0v資料開放平臺
