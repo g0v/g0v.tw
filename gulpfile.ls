@@ -1,10 +1,9 @@
-require! <[gulp gulp-util express connect-livereload gulp-jade tiny-lr gulp-livereload path]>
+require! <[gulp gulp-util express connect-livereload gulp-jade gulp-livereload path]>
 require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber]>
 
 gutil = gulp-util
 
 app = express!
-lr = tiny-lr!
 
 build_path = '_public'
 production = true if gutil.env.env is \production
@@ -28,7 +27,7 @@ gulp.task 'html', <[translations]>, ->
     .pipe gulp-plumber!
     .pipe gulp-jade!
     .pipe gulp.dest "#{build_path}"
-    .pipe gulp-livereload lr
+    .pipe gulp-livereload!
 
 require! <[gulp-bower main-bower-files gulp-filter]>
 
@@ -65,7 +64,7 @@ gulp.task 'js:app', ->
     .pipe gulp-concat 'app.js'
     .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
-    .pipe gulp-livereload lr
+    .pipe gulp-livereload!
 
 gulp.task 'css', ->
   compress = production
@@ -73,19 +72,19 @@ gulp.task 'css', ->
     .pipe gulp-plumber!
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
-    .pipe gulp-livereload lr
+    .pipe gulp-livereload!
 
 gulp.task 'assets', ->
   gulp.src 'app/assets/**/*'
     .pipe gulp-filter -> it.path isnt /\.ls$/
     .pipe gulp.dest "#{build_path}"
-    .pipe gulp-livereload lr
+    .pipe gulp-livereload!
 
-gulp.task 'server', ->
+gulp.task 'server', <[ build ]> ->
   app.use connect-livereload!
   app.use express.static path.resolve "#build_path"
   app.all '/**', (req, res, next) ->
-    res.sendfile __dirname + "/#{build_path}/404.html"
+    res.sendFile __dirname + "/#{build_path}/404.html"
   app.listen 3333
   gulp-util.log gulp-util.colors.bold.inverse 'Listening on port 3333'
 
@@ -102,16 +101,15 @@ gulp.task 'open' <[build server]> ->
       url: 'http://localhost:3333'
       app: app
 
-gulp.task 'watch', ->
-  lr.listen 35729, ->
-    return gulp-util.log it if it
+gulp.task 'watch', <[ build server ]> ->
+  gulp-livereload.listen silent: true
   gulp.watch [
     'app/**/*.jade',
     'md/**/*.md'
-  ], <[html]>
-  gulp.watch 'app/**/*.less', <[css]>
-  gulp.watch 'app/**/*.ls', <[js:app]>
+  ], <[ html ]>
+  gulp.watch 'app/**/*.less', <[ css ]>
+  gulp.watch 'app/**/*.ls', <[ js:app ]>
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
-gulp.task 'dev', <[open watch]>
+gulp.task 'dev', <[ open watch ]>
 gulp.task 'default', <[build]>
