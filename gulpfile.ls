@@ -27,7 +27,6 @@ gulp.task 'html', <[translations]>, ->
     .pipe gulp-plumber!
     .pipe gulp-jade!
     .pipe gulp.dest "#{build_path}"
-    .pipe gulp-livereload!
 
 require! <[gulp-bower main-bower-files gulp-filter]>
 
@@ -64,7 +63,6 @@ gulp.task 'js:app', ->
     .pipe gulp-concat 'app.js'
     .pipe gulp-if production, gulp-uglify!
     .pipe gulp.dest "#{build_path}/js"
-    .pipe gulp-livereload!
 
 gulp.task 'css', ->
   compress = production
@@ -72,13 +70,11 @@ gulp.task 'css', ->
     .pipe gulp-plumber!
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
-    .pipe gulp-livereload!
 
 gulp.task 'assets', ->
   gulp.src 'app/assets/**/*'
     .pipe gulp-filter -> it.path isnt /\.ls$/
     .pipe gulp.dest "#{build_path}"
-    .pipe gulp-livereload!
 
 gulp.task 'server', <[ build ]> ->
   app.use connect-livereload!
@@ -106,9 +102,9 @@ gulp.task 'watch', <[ build server ]> ->
   gulp.watch [
     'app/**/*.jade',
     'md/**/*.md'
-  ], <[ html ]>
-  gulp.watch 'app/**/*.less', <[ css ]>
-  gulp.watch 'app/**/*.ls', <[ js:app ]>
+  ], <[ html ]> .on \change, gulp-livereload.changed
+  gulp.watch 'app/**/*.less', <[ css ]> .on \change, gulp-livereload.changed
+  gulp.watch 'app/**/*.ls', <[ js:app ]> .on \change, gulp-livereload.changed
 
 gulp.task 'build', <[html js:vendor js:app assets css]>
 gulp.task 'dev', <[ open watch ]>
