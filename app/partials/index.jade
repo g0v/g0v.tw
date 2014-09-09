@@ -9,28 +9,29 @@ block content
   #index_left_container
 
       .ui.three.connected.items
-          a.item(target="_blank",href="/manifesto.html")
+          a.item(target="_blank",href="http://summit.g0v.tw")
               .image
-                img(src='/imgs/transparency.jpg')
+                img(src='/imgs/summit.png')
               .content
-                .name Transparency
+                .name g0v年會
                 p.description
-                  | 致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。
+                  | 11/8即將登場，邀請來自六國的講者以及國內NGO、政府、學界跨界交流。
+                  i.external.url.right.icon
           a.item(target="_blank",href="http://ocf.tw")
               .image
                 img(src='/imgs/sunflower.png')
               .content
-                .name Open Culture
+                .name 開放文化
                 p.description
                   | g0v 與多個開源社群共同成立開放文化基金會，致力推廣各類開放文化活動。
                   i.external.url.right.icon
-          a.item(target="_blank",href="/join.html")
+          a.item(target="_blank",href="/#{lang}/talk.html")
               .image
-                img(src='/imgs/community.jpg')
+                img(src='/imgs/speech.png')
               .content
-                .name Community
+                .name 近期演講
                 p.description
-                  | 參與者來自四方各領域，以開放原始碼精神為基底共同協作。互相刺激，一起成長。
+                  | g0v 二十多位講者分享開放協作與開源模式的零時政府的社群成果與經驗。
 
       .ui.red.segment(ng-controller="CommuniqueCtrl")
           .ui.red.ribbon.label.label(translate="HOME_COMMUNITY") 社群動態
