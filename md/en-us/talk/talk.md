@@ -1,12 +1,17 @@
 ### 演講預告
 
-* 2014/09/14 [UDN 講堂](http://udntalks.udn.com/2014/info.php)：「資料、社群、大協作 - 零時政府的數位革命」 / 高嘉良
-* 2014/09/27 哈佛台灣學生會 / 高嘉良
+
+* 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
+* 2014/11/07 資策會科法所：2014 科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
 * 2014/11    交大巨量資料分析實務課程 / 駱勁成
+
 
 ### 過往演講/座談資訊、投影片
 
 #### 2014 年
+* 2014/09/22 中正大學圖書館[【面對夢想行動家2 - 用鍵盤敲出正義】](http://ccuweb.ccu.edu.tw/calendar/view-details.php?id=436) / 瞿筱葳
+* 2014/09/14 CNEX影展《不服從行動守則Everday Rebellion》[映後座談：《素人革命Z＞B》](http://tw.cnexfest.org/?page_id=677) / 瞿筱葳
+* 2014/09/14 [UDN 講堂](http://udntalks.udn.com/2014/info.php)：「資料、社群、大協作 - 零時政府的數位革命」 / 高嘉良
 * 2014/08/30 串門子創媒營：「g0v: 網路公民的日常」 / 鄭遠祥 (LY) 【[活動紀錄](https://www.facebook.com/chainthemedia/posts/807172442668048)】
 * 2014/08/30 [台灣資料科學愛好者年會](http://twconf.data-sci.org/agenda/speech/)：「資料、社群、大協作－零時政府的數位革命」/ 高嘉良 【[投影片](http://www.slideshare.net/tw_dsconf/g0v-dsconf)】
 * 2014/08/02 ㄅㄠˋㄇㄧㄣˊ須知-2014全國高中生行動者培力營 / 黃雋 (jimmy)
