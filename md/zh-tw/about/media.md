@@ -1,10 +1,11 @@
 ### 媒體報導
 
 #### 2014 第四季
-* [IT人支援香港占中運動大作戰，臺灣g0v也技術支援](http://www.ithome.com.tw/news/91209) / iThome 2014.09.30
-* [結合Google地圖 巢運推「天龍特公地」](http://newtalk.tw/news/2014/09/25/51807.html) / 新頭殼 2014.09.25
+* [佔中和平抗命 g0v零時政府隔海助威](http://news.ltn.com.tw/news/world/breakingnews/1120109) / 自由時報 2014.10.01
 
 #### 2014 第三季
+* [IT人支援香港占中運動大作戰，臺灣g0v也技術支援](http://www.ithome.com.tw/news/91209) / iThome 2014.09.30
+* [結合Google地圖 巢運推「天龍特公地」](http://newtalk.tw/news/2014/09/25/51807.html) / 新頭殼 2014.09.25
 * [病床數不用現場看 網友統整公開便民](http://video.n.yam.com/20140812484402/%E7%97%85%E5%BA%8A%E6%95%B8%E4%B8%8D%E7%94%A8%E7%8F%BE%E5%A0%B4%E7%9C%8B%20%E7%B6%B2%E5%8F%8B%E7%B5%B1%E6%95%B4%E5%85%AC%E9%96%8B%E4%BE%BF%E6%B0%91) / TVBS 2014.08.12
 * [g0v打造急診室即時資訊平臺，告訴你傷患往哪送不用等？](http://www.ithome.com.tw/news/90038) / IThome 2014.08.12
 * [緩解急診塞車 g0v推全台急診即時看板](http://newtalk.tw/news/2014/08/11/50244.html) / 新頭殼 2014.08.12
