@@ -1,3 +1,9 @@
+### 演講預告
+
+* 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
+* 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
+* 2014/11    交大巨量資料分析實務課程 / 駱勁成
+
 ### 演講影音
 
 <div class="ui three stackable items">
@@ -65,13 +71,6 @@
   </div>
 
 </div>
-
-
-### 演講預告
-
-* 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
-* 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
-* 2014/11    交大巨量資料分析實務課程 / 駱勁成
 
 
 ### 過往演講/座談資訊、投影片
