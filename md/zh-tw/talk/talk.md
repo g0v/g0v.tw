@@ -1,8 +1,8 @@
 ### 演講預告
 
-* 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
 * 2014/11    交大巨量資料分析實務課程 / 駱勁成
+* 2014/11/8-9 g0v Summit 2014 零時政府年會
 
 ### 演講影音
 
@@ -79,6 +79,38 @@
   </div>
   <div class="item">
     <div class="content">
+      <div class="meta">COSCUP．2013/8/3</div>
+      <div class="name3">求職小幫手開發心路</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/1QhNm7aqMcc" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：王向榮</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">COSCUP．2013/8/3</div>
+      <div class="name3">Listening me! 福利請聽</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/bPK2NxzUMGs?list=UUU8s-nDqbsKnitUNaVJ2Xvg" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：陳柏儒</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">COSCUP 閃電秀．2013/8/3</div>
+      <div class="name3">鄉民關心你</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/fBiPe_9i724?list=UUU8s-nDqbsKnitUNaVJ2Xvg" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：林雨蒼</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">COSCUP．2013/8/3</div>
+      <div class="name3">Open Data 面面觀座談</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/X2797zh9x74" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">主持人：葉平，與談者：張善政、翟本喬、莊庭瑞、高嘉良</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
       <div class="meta">OSDC．2013/4/20</div>
       <div class="name3">g0v 黑客松 - 寫程式改造社會</div>
       <iframe width="288" height="216" src="http://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe>
@@ -86,13 +118,13 @@
       <p class="name2">☞ <a href="https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui">投影片</a></p>
     </div>
   </div>
-
 </div>
 
 
 ### 過往演講/座談資訊、投影片
 
 #### 2014 年
+* 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/09/22 中正大學圖書館[【面對夢想行動家2 - 用鍵盤敲出正義】](http://ccuweb.ccu.edu.tw/calendar/view-details.php?id=436) / 瞿筱葳
 * 2014/09/14 CNEX影展《不服從行動守則Everday Rebellion》[映後座談：《素人革命Z＞B》](http://tw.cnexfest.org/?page_id=677) / 瞿筱葳
 * 2014/09/14 [UDN 講堂](http://udntalks.udn.com/2014/info.php)：「資料、社群、大協作 - 零時政府的數位革命」 / 高嘉良
