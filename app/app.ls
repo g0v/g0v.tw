@@ -135,3 +135,20 @@ $ 'a[href^="#"]' .bind 'click.smoothscroll', (e)->
   target = this.hash
   $ 'html, body' .stop!.animate {'scrollTop': $ target .offset!.top}, 900, 'swing', ->
     window.location.hash = target;
+
+
+
+<- $
+$ '.navbar-wrapper' .stickUp {
+  parts: {
+    0: 'newtalks',
+    1: 'talkvideo',
+    2: 'alltalks',
+    3: 'invitetalks'
+    },
+  itemClass: 'menuItem',
+  itemHover: 'active',
+  topMargin: 'auto'
+}
+
+
