@@ -1,5 +1,73 @@
-### 演講預告
+### 演講影音
 
+<div class="ui three stackable items">
+  <div class="item">
+    <div class="content">
+      <div class="meta">UDN talk 聯合大講堂．2014/9/16</div>
+      <div class="name3">資料、社群、大協作 - 零時政府的數位革命</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/diEXolZicsw" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：高嘉良</p>
+      <p class="name2">☞ <a href="https://speakerdeck.com/clkao/zi-liao-she-qun-da-xie-zuo-ling-shi-zheng-fu-de-shu-wei-ge-ming">投影片</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">COSCUP．2014/7/20</div>
+      <div class="name3">從沒有人到超多人：g0v社群經驗</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/ep1VLMvcXZY" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：瞿筱葳</p>
+      <p class="name2">☞ <a href="http://www.slideshare.net/ipachiu/g0v2014-coscup">投影片</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">clkao 環球分享會．2014/6/12</div>
+      <div class="name3">Open Data x Open Gov x g0v</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/MMLTaq-Ycw4" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：高嘉良</p>
+      <p class="name2">☞ <a href="https://speakerdeck.com/clkao/clkao-around-the-world-2014">投影片</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">交大資工．2014/5/14</div>
+      <div class="name3">Hacking Your Goverment with Keyboards</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/oUyXN1B-ogQ" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：王向榮、駱勁成</p>
+      <p class="name2">☞ <a href="https://g0v.hackpad.com/2014-05-14-eTkaDo45YVL">共筆、投影片</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">OSDC．2014/4/12</div>
+      <div class="name">零時政府的第一年</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/GwIMe3MNQ_Q" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：唐鳳</p>
+       <p class="name2">☞ <a href="http://www.slideshare.net/autang/0th-sunflower-digital-camp">投影片</a>、<a href="http://ccc.logdown.com/posts/2014/04/13/osdc2014-audrey">逐字稿</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">不要核四、五六運動．2013/12/27</div>
+      <div class="name">『公民論壇』g0v零時政府</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/IB5H-RzcbDk" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：楊孝先</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">OSDC．2013/4/20</div>
+      <div class="name">g0v 黑客松 - 寫程式改造社會</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：吳泰輝</p>
+      <p class="name2">☞ <a href="https://speakerdeck.com/tkirby/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui">投影片</a></p>
+    </div>
+  </div>
+
+</div>
+
+
+### 演講預告
 
 * 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
@@ -66,3 +134,5 @@
 ### 演講訪談邀約
 
 來信請寄：g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
+
+
