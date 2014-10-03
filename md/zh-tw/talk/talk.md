@@ -54,10 +54,27 @@
   </div>
   <div class="item">
     <div class="content">
+      <div class="meta">HK MaD.asia．2014/1/12</div>
+      <div class="name">The Fifth Direction: Open</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/-BYb5wFAxOA" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：高嘉良</p>
+       <p class="name2">☞ <a href="https://speakerdeck.com/clkao/g0v-at-mad-dot-asia-2014">投影片</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
       <div class="meta">不要核四、五六運動．2013/12/27</div>
       <div class="name">『公民論壇』g0v零時政府</div>
       <iframe width="288" height="216" src="http://www.youtube.com/embed/IB5H-RzcbDk" frameborder="0" allowfullscreen></iframe>
       <p class="name2">講者：楊孝先</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <div class="meta">TEDxTaipei．2013/9/29</div>
+      <div class="name">資訊的力量</div>
+      <iframe width="288" height="216" src="http://www.youtube.com/embed/7DOF0jLOut4" frameborder="0" allowfullscreen></iframe>
+      <p class="name2">講者：吳泰輝</p>
     </div>
   </div>
   <div class="item">
