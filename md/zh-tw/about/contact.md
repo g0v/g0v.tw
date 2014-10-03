@@ -7,4 +7,5 @@
 
 #### 採訪/邀約請來信至：
 * g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
+* 社群採訪多採共筆形式，可參考過往[媒體採訪共筆](https://g0v.hackpad.com/ep/group/FCfDxuRKD2m)。
 
