@@ -4,7 +4,7 @@ block title
     title(translate="TALK_TITLE") 演講資訊
 
 block vars
-    - nav_cls.actinfo = 'highlight'
+    - nav_cls.about = 'highlight'
 
 block content
 
@@ -28,9 +28,9 @@ block content
         | 演講預告
       case lang
         when 'en-US'
-          include:md ../../md/en-us/talk/newtalk.md
+          include:md ../../md/en-us/about/newtalk.md
         default
-          include:md ../../md/zh-tw/talk/newtalk.md
+          include:md ../../md/zh-tw/about/newtalk.md
     div#talkvideo
     h2.header
       .content
@@ -170,7 +170,7 @@ block content
     div#alltalks
     case lang
       when 'en-US'
-        include:md ../../md/en-us/talk/talk.md
+        include:md ../../md/en-us/about/talk.md
       default
-        include:md ../../md/zh-tw/talk/talk.md
+        include:md ../../md/zh-tw/about/talk.md
     div#invitetalks
