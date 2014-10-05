@@ -11,6 +11,7 @@ dependencies:
   "angular-markdown-directive": "0.1.0"
   "angular-translate": "2.1.0"
   "angular-translate-loader-static-files": "2.1.0"
+  moment: \>=2.8.3
 
 overrides:
   "angular-mocks":
