@@ -32,6 +32,7 @@ devDependencies:
   'bower': '^1.3.4'
   'mocha': '^1.19.0'
   'chai': '~1.9.1'
+  'gulp-ext-replace': \>=0.1.0
   'gulp-livereload': '^2.0.0'
   'connect-livereload': '^0.4.0'
   'gulp-livescript': '^0.3.0'

@@ -1,4 +1,4 @@
-require! <[gulp gulp-util express connect-livereload gulp-jade gulp-livereload path]>
+require! <[gulp gulp-util express connect-livereload gulp-ext-replace gulp-jade gulp-livereload path]>
 require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber]>
 
 gutil = gulp-util
@@ -8,10 +8,8 @@ app = express!
 build_path = '_public'
 production = true if gutil.env.env is \production
 
-
 gulp.task 'translations' ->
   require! <[fs]>
-
   fs.readdir './md', (,langs)->
     for lang in langs
       real-lang = lang.replace /(\w+-)(\w+)/, (,$1,$2) -> $1+$2.toUpperCase!
@@ -21,6 +19,10 @@ gulp.task 'translations' ->
           locals:
             lang: real-lang
         .pipe gulp.dest "#{build_path}/#{real-lang}"
+  gulp.src \app/assets/translations/*.json.ls
+    .pipe gulp-livescript {+bare,+json}
+    .pipe gulp-ext-replace ''
+    .pipe gulp.dest "#{build_path}/translations"
 
 gulp.task 'html', <[translations]>, ->
   gulp.src 'app/*.jade'
