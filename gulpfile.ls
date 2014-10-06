@@ -69,7 +69,7 @@ gulp.task 'js:app', ->
 gulp.task 'css', ->
   compress = production
   gulp.src 'app/styles/app.less'
-    .pipe gulp-plumber!
+    .pipe gulp-if !production, gulp-plumber!
     .pipe gulp-less compress: compress
     .pipe gulp.dest "#{build_path}/css"
 
