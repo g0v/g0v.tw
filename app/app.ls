@@ -151,4 +151,9 @@ $ '.navbar-wrapper' .stickUp {
   topMargin: 'auto'
 }
 
-
+<-! $
+$ '.item .meta' .each ->
+  $_ = $ @
+  if $_.text! is /\d{4}\/\d{1,2}\/\d{1,2}$/
+    return if 30 < moment!diff moment(that.0), \days
+    $_.closest \.item .add-class \recent-talk

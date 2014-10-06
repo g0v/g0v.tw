@@ -378,20 +378,21 @@ line-height: 1.5em;
 text-align: left;
 }
 
+<<<<<<< HEAD
 .ui.stackable.three.items {
   margin-right:-4%;
 }
 
 .ui.stackable.three.items .item>.content> {
   padding: 0.2em 0.2em;
-}
-
-.ui.three.stackable.items .item>.content>.name {
+=======
 .ui.two.stackable.items {
   min-height: 300px;
   margin-bottom:0.8em;
+>>>>>>> FETCH_HEAD
 }
-.ui.three.stackable.items .item>.content>.name3 {
+
+.ui.three.stackable.items .item>.content>.name {
 display: block;
 font-size: 1.25em;
 font-weight: 700;
