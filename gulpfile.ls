@@ -1,5 +1,5 @@
-require! <[gulp gulp-util express connect-livereload gulp-ext-replace gulp-jade gulp-livereload path]>
-require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber]>
+require! <[gulp gulp-util express connect-livereload gulp-jade gulp-livereload path]>
+require! <[gulp-if gulp-livescript gulp-less gulp-concat gulp-json-editor gulp-commonjs gulp-insert streamqueue gulp-uglify gulp-open gulp-plumber gulp-rename]>
 
 gutil = gulp-util
 
@@ -21,7 +21,7 @@ gulp.task 'translations' ->
         .pipe gulp.dest "#{build_path}/#{real-lang}"
   gulp.src \app/assets/translations/*.json.ls
     .pipe gulp-livescript {+bare,+json}
-    .pipe gulp-ext-replace ''
+    .pipe gulp-rename extname: ''
     .pipe gulp.dest "#{build_path}/translations"
 
 gulp.task 'html', <[translations]>, ->
