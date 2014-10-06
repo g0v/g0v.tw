@@ -16,7 +16,7 @@ rm -rf _public
 git clone $REPO --depth 1 -b gh-pages _public
 
 REV=`git describe --always`
-BUILD=git-$REV ./node_modules/.bin/gulp --require LiveScript --env production
+BUILD=git-$REV ./node_modules/.bin/gulp --env production
 cd _public
 git fetch --depth 1 origin master:master
 git add -A .
