@@ -26,7 +26,7 @@ gulp.task 'translations' ->
 
 gulp.task 'html', <[translations]>, ->
   gulp.src 'app/*.jade'
-    .pipe gulp-plumber!
+    .pipe gulp-if !production, gulp-plumber!
     .pipe gulp-jade!
     .pipe gulp.dest "#{build_path}"
 
@@ -57,8 +57,9 @@ gulp.task 'js:app', ->
     .pipe gulp-commonjs!
 
   app = gulp.src 'app/**/*.ls'
-    .pipe gulp-plumber!
-    .pipe gulp-livescript({+bare}).on 'error', gutil.log
+    .pipe gulp-if !production, gulp-plumber errorHandler: (error) ->
+      gutil.log gutil.colors.red error.message
+    .pipe gulp-livescript({+bare})
 
   streamqueue { +objectMode }
     .done env, app
