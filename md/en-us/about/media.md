@@ -1,4 +1,9 @@
 ### Media Coverage
+
+#### 2014 第四季
+* [【沃草】寫程式監督國會！揪出神隱立委、白賊政客](http://www.appledaily.com.tw/realtimenews/article/politics/20141008/484195/?utm_content=buffer54366&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) / 蘋果日報 2014.10.08
+* [佔中和平抗命 g0v零時政府隔海助威](http://news.ltn.com.tw/news/world/breakingnews/1120109) / 自由時報 2014.10.01
+
 #### 2014 第三季
 * [病床數不用現場看 網友統整公開便民](http://video.n.yam.com/20140812484402/%E7%97%85%E5%BA%8A%E6%95%B8%E4%B8%8D%E7%94%A8%E7%8F%BE%E5%A0%B4%E7%9C%8B%20%E7%B6%B2%E5%8F%8B%E7%B5%B1%E6%95%B4%E5%85%AC%E9%96%8B%E4%BE%BF%E6%B0%91) / TVBS 2014.08.12
 * [g0v打造急診室即時資訊平臺，告訴你傷患往哪送不用等？](http://www.ithome.com.tw/news/90038) / IThome 2014.08.12
