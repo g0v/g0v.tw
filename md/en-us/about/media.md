@@ -1,6 +1,7 @@
 ### Media Coverage
 
 #### 2014 第四季
+* [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
 * [【沃草】寫程式監督國會！揪出神隱立委、白賊政客](http://www.appledaily.com.tw/realtimenews/article/politics/20141008/484195/?utm_content=buffer54366&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) / 蘋果日報 2014.10.08
 * [佔中和平抗命 g0v零時政府隔海助威](http://news.ltn.com.tw/news/world/breakingnews/1120109) / 自由時報 2014.10.01
 
