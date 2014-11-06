@@ -1,6 +1,7 @@
 ### 媒體報導
 
 #### 2014 第四季
+* [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05 
 * [黑客、草根民主与乌托邦—台湾零时政府g0v](https://pao-pao.net/article/209) / 泡泡网报道 2014.11.04
 * [【沃草】黑心油無所遁形！g0v優化政府油品進出口資訊介面](http://www.appledaily.com.tw/realtimenews/article/politics/20141026/494646/) / 蘋果日報 2014.10.26
 * [【沃草】寫程式監督國會！揪出神隱立委、白賊政客](http://www.appledaily.com.tw/realtimenews/article/politics/20141008/484195/) / 蘋果日報 2014.10.08
