@@ -1,6 +1,7 @@
 ### 媒體報導
 
 #### 2014 第四季
+* [來自不同國家，擁抱相同的開源精神——g0v 零時政府 2014 年會精彩落幕](http://www.inside.com.tw/2014/11/11/g0v-summit-2014) / Inside 2014.11.11
 * [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05 
 * [黑客、草根民主与乌托邦—台湾零时政府g0v](https://pao-pao.net/article/209) / 泡泡网报道 2014.11.04
 * [【沃草】黑心油無所遁形！g0v優化政府油品進出口資訊介面](http://www.appledaily.com.tw/realtimenews/article/politics/20141026/494646/) / 蘋果日報 2014.10.26
