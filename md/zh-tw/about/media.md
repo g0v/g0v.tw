@@ -1,6 +1,9 @@
 ### 媒體報導
 
 #### 2014 第四季
+* [減少盲目投票！「議員投票指南」公開議員績效](http://election.ltn.com.tw/2014/news.php?rno=1&type=breakingnews&no=1161454) 自由時報 2014.11.19
+* [網友架平台 公開議員績效](http://www.chinatimes.com/newspapers/20141111000516-260107) 中時電子報 2014.11.11 
+* [Taiwan's g0v: Using Open-Source Code And Communities To Engage Citizens And Make Government More Open](https://www.techdirt.com/articles/20141107/10025529078/taiwans-g0v-using-open-source-code-communities-to-engage-citizens-make-government-more-open.shtml) techdirt 2014.11.11
 * [來自不同國家，擁抱相同的開源精神——g0v 零時政府 2014 年會精彩落幕](http://www.inside.com.tw/2014/11/11/g0v-summit-2014) / Inside 2014.11.11
 * [接軌國際 台零時政府年會精彩落幕](http://www.chinatimes.com/realtimenews/20141110005589-260412) / 中國電子報 2014.11.10 
 * [接軌國際、跨界交流 g0v.tw 台灣零時政府年會精彩落幕](http://technews.tw/2014/11/10/g0v-tw-summit/) /  TechNews 2014.11.10
