@@ -1,6 +1,7 @@
 ### 媒體報導
 
 #### 2014 第四季
+* [「議員投票指南」 讓你輕鬆了解投票人選](http://www.appledaily.com.tw/realtimenews/article/recommend/20141125/512760) / 蘋果日報 2014.11.25
 * [九合一選舉怎麼投？網路分析工具、政見指南整理](http://punnode.com/archives/25939) / PunNode 2014.11.24
 * [減少盲目投票！「議員投票指南」公開議員績效](http://election.ltn.com.tw/2014/news.php?rno=1&type=breakingnews&no=1161454) / 自由時報 2014.11.19
 * [網友架平台 公開議員績效](http://www.chinatimes.com/newspapers/20141111000516-260107) / 中時電子報 2014.11.11 
