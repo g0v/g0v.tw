@@ -1,6 +1,7 @@
 ### 媒體報導
 
 #### 2014 第四季
+* [九合一選舉怎麼投？網路分析工具、政見指南整理](http://punnode.com/archives/25939) / PunNode 2014.11.24
 * [減少盲目投票！「議員投票指南」公開議員績效](http://election.ltn.com.tw/2014/news.php?rno=1&type=breakingnews&no=1161454) / 自由時報 2014.11.19
 * [網友架平台 公開議員績效](http://www.chinatimes.com/newspapers/20141111000516-260107) / 中時電子報 2014.11.11 
 * [Taiwan's g0v: Using Open-Source Code And Communities To Engage Citizens And Make Government More Open](https://www.techdirt.com/articles/20141107/10025529078/taiwans-g0v-using-open-source-code-communities-to-engage-citizens-make-government-more-open.shtml) / techdirt 2014.11.11
@@ -47,6 +48,7 @@
 * [選後數百筆小額支出 朱立倫駁走路工](https://www.youtube.com/watch?v=-UruElk0X5o) / 年代新聞 2014.05.09
 * [「自己的媒體自己架」　網路瘋傳直播教學](http://mag.udn.com/mag/digital/storypage.jsp?f_ART_ID=510634) / 蘋果日報 2014.05.06
 * [希望幫更多人　羅佩琪設「病後人生」網教申請醫療補助](http://www.ettoday.net/news/20140505/353528.htm) / ETtoday 2014.05.05
+* [台灣：不要浪費g0v](http://punnode.com/archives/14548) / PunNode 2014.04.30
 * [我們不需要酸民，也不需要超級英雄——「科技創造新世代公民運動」座談紀實](http://www.inside.com.tw/2014/04/28/57379) / Inside 2014.04.28
 * [網友認領建檔 政治獻金全透明](http://mag.udn.com/mag/digital/storypage.jsp?f_MAIN_ID=314&f_SUB_ID=5852&f_ART_ID=510634) / 聯合新聞網 2014.04.26
 * [追政治獻金 十萬鄉民十萬軍](https://tw.news.yahoo.com/%E8%BF%BD%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91-%E5%8D%81%E8%90%AC%E9%84%89%E6%B0%91%E5%8D%81%E8%90%AC%E8%BB%8D-103434978.html) / Yahoo奇摩（新聞）2014.04.23
