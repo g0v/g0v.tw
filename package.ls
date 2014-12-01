@@ -22,7 +22,7 @@ dependencies:
   marked: '^0.2.10'
   connect: '^2.8.8'
 devDependencies:
-  'LiveScript': '^1.2.0'
+  'LiveScript': '^1.3.0'
   'bower': '^1.3.4'
   'chai': '~1.9.1'
   'connect': '^2.19.1'
