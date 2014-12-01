@@ -19,9 +19,11 @@ gulp.task 'translations' ->
           locals:
             lang: real-lang
         .pipe gulp.dest "#{build_path}/#{real-lang}"
+
   gulp.src \app/assets/translations/*.json.ls
-    .pipe gulp-livescript {+bare,+json}
-    .pipe gulp-rename extname: ''
+    .pipe gulp-if !production, gulp-plumber errorHandler: (error) ->
+      gutil.log gutil.colors.red error.message
+    .pipe gulp-livescript {+bare}
     .pipe gulp.dest "#{build_path}/translations"
 
 gulp.task 'html', <[translations]>, ->
@@ -56,7 +58,10 @@ gulp.task 'js:app', ->
     .pipe gulp-insert.prepend 'module.exports = '
     .pipe gulp-commonjs!
 
-  app = gulp.src 'app/**/*.ls'
+  app = gulp.src [
+    'app/**/*.ls'
+    '!app/**/*.json.ls'
+    ]
     .pipe gulp-if !production, gulp-plumber errorHandler: (error) ->
       gutil.log gutil.colors.red error.message
     .pipe gulp-livescript({+bare})
