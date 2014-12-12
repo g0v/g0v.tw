@@ -1,6 +1,14 @@
 ### 過往演講/座談資訊、投影片
 
 #### 2014 年
+
+* 2014/11/29 藥學聯合 iNGO 事務培訓營 / 楊孝先
+* 2014/11/21 交大巨量資料分析實務課程 / 駱勁成、王向榮
+* 2014/11/8-9 [g0v Summit 2014 零時政府年會](http://summit.g0v.tw)
+* 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
+* 2014/10/29 資策會資訊服務處 / 王向榮
+* 2014/10/25 台中女中 / 瞿筱葳
+* 2014/10/16 政大資管博士班 seminar 課程 / 黃雋、楊孝先
 * 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/09/22 中正大學圖書館[【面對夢想行動家2 - 用鍵盤敲出正義】](http://ccuweb.ccu.edu.tw/calendar/view-details.php?id=436) / 瞿筱葳
 * 2014/09/14 CNEX影展《不服從行動守則Everday Rebellion》[映後座談：《素人革命Z＞B》](http://tw.cnexfest.org/?page_id=677) / 瞿筱葳
