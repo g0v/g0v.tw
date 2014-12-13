@@ -37,7 +37,7 @@
     "gulp-json-editor": "~2.0.2",
     "gulp-less": "~1.2.3",
     "gulp-livereload": "^2.0.0",
-    "gulp-livescript": ">=1.1.0",
+    "gulp-livescript": "^2.3.0",
     "gulp-open": "^0.2.8",
     "gulp-plumber": "^0.6.2",
     "gulp-rename": ">=1.2.0",
