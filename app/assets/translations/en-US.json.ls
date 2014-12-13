@@ -52,6 +52,7 @@ MANIFESTO: 'g0v Manifesto'
 # media page
 MEDIA_TITLE: 'g0v on Media'
 MEDIA: 'g0v on Media'
+BLOGPOST: 'g0v on Blogs'
 # faq page
 MEDIA_FAQ: 'FAQ'
 FAQ: 'FAQ'

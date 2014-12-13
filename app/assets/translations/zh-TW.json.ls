@@ -51,6 +51,7 @@ MANIFESTO: '零時政府宣言'
 # media page
 MEDIA_TITLE: '媒體報導'
 MEDIA: '媒體報導'
+BLOGPOST: '社群分享文'
 # faq page
 MEDIA_FAQ: '常見問題'
 FAQ: '常見問題'

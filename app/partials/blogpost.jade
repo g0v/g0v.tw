@@ -1,0 +1,15 @@
+extend ../layout/layout
+
+block title
+    title(translate="BLOGPOST") 媒體報導
+
+block vars
+    - nav_cls.news = 'highlight'
+block content
+  .ui.green.segment
+    .ui.label.black.ribbon.large(translate="BLOGPOST") 媒體報導
+    case lang
+      when 'en-US'
+        include:md ../../md/en-us/about/blogpost.md
+      default
+        include:md ../../md/zh-tw/about/blogpost.md
