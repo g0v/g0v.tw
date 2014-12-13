@@ -4,13 +4,13 @@
 * [「議員投票指南」 讓你輕鬆了解投票人選](http://www.appledaily.com.tw/realtimenews/article/recommend/20141125/512760) / 蘋果日報 2014.11.25
 * [九合一選舉怎麼投？網路分析工具、政見指南整理](http://punnode.com/archives/25939) / PunNode 2014.11.24
 * [減少盲目投票！「議員投票指南」公開議員績效](http://election.ltn.com.tw/2014/news.php?rno=1&type=breakingnews&no=1161454) / 自由時報 2014.11.19
-* [網友架平台 公開議員績效](http://www.chinatimes.com/newspapers/20141111000516-260107) / 中時電子報 2014.11.11 
+* [網友架平台 公開議員績效](http://www.chinatimes.com/newspapers/20141111000516-260107) / 中時電子報 2014.11.11
 * [Taiwan's g0v: Using Open-Source Code And Communities To Engage Citizens And Make Government More Open](https://www.techdirt.com/articles/20141107/10025529078/taiwans-g0v-using-open-source-code-communities-to-engage-citizens-make-government-more-open.shtml) / techdirt 2014.11.11
 * [來自不同國家，擁抱相同的開源精神——g0v 零時政府 2014 年會精彩落幕](http://www.inside.com.tw/2014/11/11/g0v-summit-2014) / Inside 2014.11.11
-* [接軌國際 台零時政府年會精彩落幕](http://www.chinatimes.com/realtimenews/20141110005589-260412) / 中國電子報 2014.11.10 
+* [接軌國際 台零時政府年會精彩落幕](http://www.chinatimes.com/realtimenews/20141110005589-260412) / 中國電子報 2014.11.10
 * [接軌國際、跨界交流 g0v.tw 台灣零時政府年會精彩落幕](http://technews.tw/2014/11/10/g0v-tw-summit/) /  TechNews 2014.11.10
 * [g0v首度舉辦大型年會，多國開放資料社群跨界交流](http://www.ithome.com.tw/news/92174) / iThome 2014.11.09
-* [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05 
+* [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
 * [黑客、草根民主与乌托邦—台湾零时政府g0v](https://pao-pao.net/article/209) / 泡泡网报道 2014.11.04
 * [【沃草】黑心油無所遁形！g0v優化政府油品進出口資訊介面](http://www.appledaily.com.tw/realtimenews/article/politics/20141026/494646/) / 蘋果日報 2014.10.26
 * [【沃草】寫程式監督國會！揪出神隱立委、白賊政客](http://www.appledaily.com.tw/realtimenews/article/politics/20141008/484195/) / 蘋果日報 2014.10.08
@@ -115,8 +115,10 @@
 * [「揭露22K」網 揪出血汗企業](http://www.appledaily.com.tw/appledaily/article/headline/20130129/34800790/) / 蘋果日報 2013.01.29
 
 ### 部落格文章
+* [零時政府 | 子姓網友半年 summit](http://blog.yam.com/shulusama/article/81318638) / 子龍 2014.11.10
 * [Digital Hero – Fran Bennett](http://blog.delib.net/digital-hero-fran-bennett/) / delib 2014.06.13
 * [First Year of g0v: March 2014 [Transcript]](https://www.facebook.com/notes/%E5%94%90%E9%B3%B3/first-year-of-g0v-march-2014-transcript/808828052479750) / au 2014.04.14
+* [g0v, 給新手的換句話說, 以台北車站為例](http://blog.twpug.org/607) / kiang 2014.4.13
 * [第零次向日葵數位體驗營 [逐字稿]](https://www.facebook.com/notes/%E5%94%90%E9%B3%B3/%E7%AC%AC%E9%9B%B6%E6%AC%A1%E5%90%91%E6%97%A5%E8%91%B5%E6%95%B8%E4%BD%8D%E9%AB%94%E9%A9%97%E7%87%9F-%E9%80%90%E5%AD%97%E7%A8%BF/808273105868578) / au 2014.04.13
 * [g0v 是塊大草坪](http://walkingice.blogspot.tw/2014/04/g0v.html) / Walkingice 2014.04.12
 * [遊行場邊記： 街頭．網路．群眾不斷線](http://ipa.logdown.com/posts/184187-protest-internet-crowd) / ipa 2014.03.09
