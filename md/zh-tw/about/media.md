@@ -1,5 +1,9 @@
 ### 媒體報導
 
+#### 2015 第一季
+
+* [加強網路溝通 張善政盼與g0v協作](http://www.stormmediagroup.com/opencms/news/detail/6786df9e-97e3-11e4-ad2b-ef2804cba5a1/?uuid=6786df9e-97e3-11e4-ad2b-ef2804cba5a1) 風傳媒 2015.01.09
+
 #### 2014 第四季
 * [「鍵盤柯南」化繁為簡 政府資訊變透明](http://news.ltn.com.tw/news/politics/paper/841280/print) 自由時報 2014.12.23
 * [「議員投票指南」 讓你輕鬆了解投票人選](http://www.appledaily.com.tw/realtimenews/article/recommend/20141125/512760) / 蘋果日報 2014.11.25
