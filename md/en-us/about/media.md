@@ -1,11 +1,14 @@
 ### Media Coverage
 
-#### 2014 第四季
+#### 2015 Q1
+* [Transparency Web site links public with government](http://www.taipeitimes.com/News/taiwan/archives/2015/01/11/2003608980)
+
+#### 2014 Q4
 * [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
 * [【沃草】寫程式監督國會！揪出神隱立委、白賊政客](http://www.appledaily.com.tw/realtimenews/article/politics/20141008/484195/?utm_content=buffer54366&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) / 蘋果日報 2014.10.08
 * [佔中和平抗命 g0v零時政府隔海助威](http://news.ltn.com.tw/news/world/breakingnews/1120109) / 自由時報 2014.10.01
 
-#### 2014 第三季
+#### 2014 Q3
 * [病床數不用現場看 網友統整公開便民](http://video.n.yam.com/20140812484402/%E7%97%85%E5%BA%8A%E6%95%B8%E4%B8%8D%E7%94%A8%E7%8F%BE%E5%A0%B4%E7%9C%8B%20%E7%B6%B2%E5%8F%8B%E7%B5%B1%E6%95%B4%E5%85%AC%E9%96%8B%E4%BE%BF%E6%B0%91) / TVBS 2014.08.12
 * [g0v打造急診室即時資訊平臺，告訴你傷患往哪送不用等？](http://www.ithome.com.tw/news/90038) / IThome 2014.08.12
 * [緩解急診塞車 g0v推全台急診即時看板](http://newtalk.tw/news/2014/08/11/50244.html) / 新頭殼 2014.08.12
@@ -21,7 +24,7 @@
 * [【沃草】工程師COSCUP大會師！開放原始碼精神改變社會](http://www.appledaily.com.tw/realtimenews/article/new/20140721/437114/) / 蘋果日報 2014.07.21
 * [【沃草】台灣輸出公民運動網路技術！g0v零時政府助陣香港七一佔中](http://www.appledaily.com.tw/realtimenews/article/new/20140702/426671/) / 蘋果日報 2014.07.02
 
-#### 2014 第二季
+#### 2014 Q2
 * [【沃草】政治獻金法成收賄解套法 民團籲修法](http://www.appledaily.com.tw/realtimenews/article/new/20140624/421819/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91%E6%B3%95%E6%88%90%E6%94%B6%E8%B3%84%E8%A7%A3%E5%A5%97%E6%B3%95%E6%B0%91%E5%9C%98%E7%B1%B2%E4%BF%AE%E6%B3%95) / 蘋果日報 2014.06.25
 * [台灣/台南：「沒有人」獲得台南黑客松大獎](http://punnode.com/archives/17650) /PunNode 2014.06.24
 * [全球最活躍的開放政府組織在台灣！](http://www.appledaily.com.tw/realtimenews/article/politics/20140613/415694/%E3%80%90%E6%B2%83%E8%8D%89%E3%80%91%E5%85%A8%E7%90%83%E6%9C%80%E6%B4%BB%E8%BA%8D%E7%9A%84%E9%96%8B%E6%94%BE%E6%94%BF%E5%BA%9C%E7%B5%84%E7%B9%94%E5%9C%A8%E5%8F%B0%E7%81%A3%EF%BC%81) / 蘋果日報 2014.06.13
@@ -49,7 +52,7 @@
 * [史上最大學運推手：免費網路工具](http://www.businessweekly.com.tw/KWebArticle.aspx?ID=54104&path=f) / 商業周刊 2014.04.02
 * [你被服貿了嗎？ 秒查各行業怎麼被影響](http://udn.com/NEWS/BREAKINGNEWS/BREAKINGNEWS1/8586658.shtml) / 聯合報 2014.04.02
 
-#### 2014 第一季
+#### 2014 Q1
 * [「零時政府」資訊網避壟斷](http://www.appledaily.com.tw/appledaily/article/headline/20140331/35736590) / 蘋果日報 2014.03.31
 * [挺學運，IT人站出來](http://www.ithome.com.tw/voice/86263) / iThome電腦報周刊 2014.03.31
 * [文宣戰／紐時廣告兩天 架英文版網站](http://udn.com/NEWS/NATIONAL/NAT4/8580445.shtml) / 聯合報 2014.03.30 ([全文備份](https://gist.github.com/pofeng/5fe9ff159e313b9017b9))
@@ -68,7 +71,7 @@
  *  延伸閱讀: [民怨商品化？從德國國會觀察網站談起](https://g0v.hackpad.com/CGIWfeyAG5r)
 * [台語輸入法APP 法籍學生研發](http://www.libertytimes.com.tw/2014/new/jan/12/today-life2.htm) / 自由時報 2014.01.12
 
-#### 2013 第四季
+#### 2013 Q4
 * [平民英雄百人榜〉透過鍵盤改變社會「g0v.tw」](http://www.gvm.com.tw/Boardcontent_24516.html)/ 遠見雜誌 2013.12 (330 期)
 * [【溫肇東專欄】一群勇敢追夢的台灣年輕人](http://www.managertoday.com.tw/?p=36688) / 經理人月刊 2013.12
 * [投票指南網站 缺席立委、叛逆立委現形](http://video.n.yam.com/20131227014669/%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97%E7%B6%B2%E7%AB%99%20%E7%BC%BA%E5%B8%AD%E7%AB%8B%E5%A7%94%E3%80%81%E5%8F%9B%E9%80%86%E7%AB%8B%E5%A7%94%E7%8F%BE%E5%BD%A2) / TVBS 2013.12.27
@@ -85,7 +88,7 @@
 * [Open Data 啟動產業新契機  創造人民有感未來生活](http://mypaper.pchome.com.tw/026955/post/1325734985) / 行政院研考會 2013.10.7
 * [與零時政府對談分散協作的實力與潛力](http://blog.roodo.com/subing/archives/25782718.html) /  深音網路廣播訪談逐字稿 2013.10.13
 
-#### 2013 第三季
+#### 2013 Q3
 * [靠政府？不如靠自己 – g0v.tw 人民力量大匯集](http://www.naipo.com/portals/1/web_tw/Knowledge_Center/Editorial/publish-102.htm) / 北美智權報 第91期 2013.09.02
 * [鍵盤革命！ 高手寫程式監督政府](http://udn.com/NEWS/NATIONAL/NAT5/8108263.shtml) / 聯合報 2013.08.20 ( 註:「台大資工系」「參與人數近五百人」「這不是偽裝」，詳情請見[說明](https://www.facebook.com/photo.php?fbid=10151869138785668) )
 * [您也是假新聞的受害者嗎？試試「新聞小幫手」](http://www.inside.com.tw/2013/08/20/chrome-extension-newshelper) / Inside 2013.08.20
@@ -93,7 +96,7 @@
 * [工程師的鍵盤革命：拆政府，原地重建](http://www.inside.com.tw/2013/08/05/coscup-2013-coders-keyboard-revolution) / Inside 2013.08.05
 * [反黑箱服貿協議能量逐漸匯聚 洪案激起公民行動長期經營的反思](http://npost.tw/archives/1759) / NPOst 週報 No. 44 2013.07.28
 
-#### 2013 第一、二季
+#### 2013 Q1-Q2
 * [「網路全黑日」發動 多個網站熄燈封網抗議](http://tw.news.yahoo.com/%E7%B6%B2%E8%B7%AF%E5%85%A8%E9%BB%91%E6%97%A5-%E7%99%BC%E5%8B%95-%E5%A4%9A%E5%80%8B%E7%B6%B2%E7%AB%99%E7%86%84%E7%87%88%E5%B0%81%E7%B6%B2%E6%8A%97%E8%AD%B0-174421974.html) (萌典網站加入抗議) / 新頭殼 2013.06.04
 * [佛心求職程式 可揪血汗公司](http://www.appledaily.com.tw/appledaily/article/headline/20130414/34951484/) / 蘋果日報 2013.04.14
 * [「揭露22K」網 揪出血汗企業](http://www.appledaily.com.tw/appledaily/article/headline/20130129/34800790/) / 蘋果日報 2013.01.29
