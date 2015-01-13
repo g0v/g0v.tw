@@ -1,7 +1,7 @@
 ### Media Coverage
 
 #### 2015 Q1
-* [Transparency Web site links public with government](http://www.taipeitimes.com/News/taiwan/archives/2015/01/11/2003608980)
+* [Transparency Web site links public with government](http://www.taipeitimes.com/News/taiwan/archives/2015/01/11/2003608980) / Taipei Times 2015.01.11
 
 #### 2014 Q4
 * [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
