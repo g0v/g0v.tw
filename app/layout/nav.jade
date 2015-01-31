@@ -13,8 +13,9 @@ block vars
         a.item(href="/#{lang}/manifesto.html", translate="MENU_MANIFESTO")
           | 零時政府宣言
           i.external.url.right.icon
-        a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
-          | 演講資訊
+
+        a.item(href="/#{lang}/community.html", translate="MENU_COMMUNITY")
+          | 社群文化
         a.item(href="/#{lang}/faq.html", translate="MENU_FAQ")
           | 常見問題
         a.item(href="/#{lang}/transaction.html", translate="MENU_TRANSACTION")
@@ -25,13 +26,13 @@ block vars
         a.item(href="/#{lang}/projects.html", translate="MENU_LIST")
           span(translate="MENU_LIST") 成果列表
           i.external.url.right.icon
-        a.item(target="blank",href="http://hack.g0v.tw/project")
+        //a.item(target="blank",href="http://hack.g0v.tw/project")
           span(translate="MENU_PROGRESS") 開發中專案
           i.external.url.right.icon
         a.item(target="blank",href="https://g0v.hackpad.com/", )
           span(translate="MENU_HACKPAD") 開發共筆
           i.external.url.right.icon
-        a.item(target="blank",href="http://g0v.github.io/g0vis/#!/project/1")
+        //a.item(target="blank",href="http://g0v.github.io/g0vis/#!/project/1")
           span(translate="MENU_VISUAL") 專案貢獻者
           i.external.url.right.icon
         a.item(target="blank",href="http://data.g0v.tw")
@@ -42,14 +43,12 @@ block vars
       .menu
         a.item(href="/#{lang}/join.html", translate="MENU_HOWTO")
           | 如何參與
-        a.item(href="/#{lang}/tools.html", translate="MENU_TOOLS")
+        //a.item(href="/#{lang}/tools.html", translate="MENU_TOOLS")
           | 常用工具
-        a.item(href="/#{lang}/community.html", translate="MENU_COMMUNITY")
-          | 社群文化
         a.item(href="https://www.facebook.com/groups/g0v.general/", target="_blank")
           span(translate="MENU_MEMBER") fb 後勤中心
           i.external.url.right.icon
-        a.item(href="/#{lang}/links.html", translate="MENU_LINKS")
+        //a.item(href="/#{lang}/links.html", translate="MENU_LINKS")
           | 相關連結
     .ui.pointing.dropdown.link.item(class="#{nav_cls.news}")
       span( translate="MENU_NEWS") 新聞
@@ -71,7 +70,9 @@ block vars
       .menu
         a.item(href="/#{lang}/actinfo.html", translate="MENU_ACTINFO")
           | 黑客松報名
-        a.item(href="/#{lang}/actrecord.html", translate="MENU_ACTRECORD")
+        a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
+          | 演講資訊
+        //a.item(href="/#{lang}/actrecord.html", translate="MENU_ACTRECORD")
           | 黑客松紀錄
         //a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
           | 演講資訊
