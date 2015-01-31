@@ -115,19 +115,31 @@ show = ->
 $ '.ui.dropdown' .dropdown on: \hover, transition: \fade
 
 <- $
-$ '.navbar-wrapper' .stickUp {
-  parts: {
-    0: 'openGov',
-    1: 'openData',
-    2: 'socEngage',
-    3: 'newMedia',
-    4: 'policyFeedback',
-    5: 'comCollaboration'
-    },
-  itemClass: 'menuItem',
-  itemHover: 'active',
-  topMargin: 'auto'
-}
+if window.location.pathname.match /projects.html$/
+  $ '.navbar-wrapper' .stickUp do
+    parts: {
+      0: 'openGov',
+      1: 'openData',
+      2: 'socEngage',
+      3: 'newMedia',
+      4: 'policyFeedback',
+      5: 'comCollaboration'
+      },
+    itemClass: 'menuItem',
+    itemHover: 'active',
+    topMargin: 'auto'
+
+if window.location.pathname.match /talk.html$/
+  $ '.navbar-wrapper' .stickUp do
+    parts: {
+      0: 'newtalks',
+      1: 'talkvideo',
+      2: 'alltalks',
+      3: 'invitetalks'
+      },
+    itemClass: 'menuItem',
+    itemHover: 'active',
+    topMargin: 'auto'
 
 <- $
 $ 'a[href^="#"]' .bind 'click.smoothscroll', (e)->
@@ -135,21 +147,6 @@ $ 'a[href^="#"]' .bind 'click.smoothscroll', (e)->
   target = this.hash
   $ 'html, body' .stop!.animate {'scrollTop': $ target .offset!.top}, 900, 'swing', ->
     window.location.hash = target;
-
-
-
-<- $
-$ '.navbar-wrapper' .stickUp {
-  parts: {
-    0: 'newtalks',
-    1: 'talkvideo',
-    2: 'alltalks',
-    3: 'invitetalks'
-    },
-  itemClass: 'menuItem',
-  itemHover: 'active',
-  topMargin: 'auto'
-}
 
 <-! $
 $ '.item .meta' .each ->
