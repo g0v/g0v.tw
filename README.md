@@ -10,9 +10,10 @@
 # Required
 
 - Install nodejs
-- Install npm 
+- Install npm
 
 # Developer
+[![devDependency Status](https://david-dm.org/g0v/g0v.tw/dev-status.svg)](https://david-dm.org/g0v/g0v.tw#info=devDependencies)
 
 第一次請先執行
 
