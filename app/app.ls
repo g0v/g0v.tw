@@ -157,18 +157,3 @@ $ '.item .meta' .each ->
   if $_.text! is /\d{4}\/\d{1,2}\/\d{1,2}$/
     return if 30 < moment!diff moment(that.0), \days
     $_.closest \.item .add-class \recent-talk
-
-<- $
-$ '#projects_left_container' .stickUp {
-  parts: {
-    0: 'openGov',
-    1: 'openData',
-    2: 'socEngage',
-    3: 'newMedia',
-    4: 'policyFeedback',
-    5: 'comCollaboration'
-    },
-  itemClass: 'menuItem',
-  itemHover: 'active',
-  topMargin: 'auto'
-}
