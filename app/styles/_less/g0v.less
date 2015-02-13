@@ -4,6 +4,10 @@
 @sidebar_width: 241px;
 @grayLight: #999;
 
+.clearfix {
+  clear: both;
+}
+
 body {
   background:url(../imgs/tiles.png);
   padding: 0 0px;
@@ -46,13 +50,10 @@ i.icon {
 }
 
 
-
-
 #header {
   background-color: #000000;
   border-bottom: 2px solid rgba(0,0,0,0);
   box-shadow: 0 0 0px rgba(0,0,0,0.6);
-  height: 55px;
   margin: 0 auto;
 }
 
@@ -64,11 +65,11 @@ i.icon {
   }
 
   .translator {
-    padding-top: 19px;
+    padding: 19px 0;
     margin-right: 180px;
     .ui.button {
       margin-right: 5px;
-      float:right;
+      float: right;
     }
   }
 
@@ -419,4 +420,4 @@ li {
   background-color: #ffc;
 }
 
-// vi:ft=less:nowrap:sw=2:ts=2
+// vi:et:ft=less:nowrap

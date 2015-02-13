@@ -59,10 +59,10 @@ html(ng-app="g0v.tw",ng-cloak,lang="zh-Hant")
                         #fb-root
                         .fb-like(data-href='https://www.facebook.com/g0v.tw', data-layout='button_count', data-action='like', data-show-faces='true', data-share='true')
 
-                  .translator(ng-controller="langCtrl")
+                .translator(ng-controller="langCtrl")
                     .ui.mini.purple.button(translate='BUTTON_LANG_TW', ng-click="changeLang('zh-TW')") 中文
                     .ui.mini.red.button(translate='BUTTON_LANG_EN', ng-click="changeLang('en-US')") English
-                div.clearfix
+                    .clearfix
         #container
 
             include ./nav
