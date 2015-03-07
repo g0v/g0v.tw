@@ -34,7 +34,7 @@ devDependencies:
   'gulp-insert': '^0.4.0'
   'gulp-jade': '^0.11.0'
   'gulp-json-editor': '~2.2.1'
-  'gulp-less': '~2.0.1'
+  'gulp-less': '~3.0.0'
   'gulp-livereload': '^3.6.0'
   'gulp-livescript': '^2.3.0'
   'gulp-open': '^0.3.2'
