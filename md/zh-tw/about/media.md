@@ -2,6 +2,9 @@
 
 #### 2015 第一季
 
+* [教育部於14日發表2015智慧生活創新創業育成平臺計畫成果](http://news.sina.com.tw/article/20150314/13984024.html) 新浪新聞 2015.03.14
+* [別只當酸民！　行政院力邀「婉君」參與線上會議建言](http://www.nownews.com/n/2015/03/11/1628099) NOWnews 2015.03.11
+* [產官學合作催生雲端災防](http://udn.com/news/story/7240/751018-%E7%94%A2%E5%AE%98%E5%AD%B8%E5%90%88%E4%BD%9C-%E5%82%AC%E7%94%9F%E9%9B%B2%E7%AB%AF%E7%81%BD%E9%98%B2) 聯合新聞網 2015.03.08
 * [加強網路溝通 張善政盼與g0v協作](http://www.stormmediagroup.com/opencms/news/detail/6786df9e-97e3-11e4-ad2b-ef2804cba5a1/?uuid=6786df9e-97e3-11e4-ad2b-ef2804cba5a1) 風傳媒 2015.01.09
 
 #### 2014 第四季
@@ -107,6 +110,7 @@
 * [與零時政府對談分散協作的實力與潛力](http://blog.roodo.com/subing/archives/25782718.html) /  深音網路廣播訪談逐字稿 2013.10.13
 
 #### 2013 第三季
+* [TechTalk@TW 零時政府 g0v 專訪](http://www.techtalk.tw/2013/09/episode-21-g0v.html) / TechTalk@TW 2013.09.05
 * [靠政府？不如靠自己 – g0v.tw 人民力量大匯集](http://www.naipo.com/portals/1/web_tw/Knowledge_Center/Editorial/publish-102.htm) / 北美智權報 第91期 2013.09.02
 * [鍵盤革命！ 高手寫程式監督政府](http://udn.com/NEWS/NATIONAL/NAT5/8108263.shtml) / 聯合報 2013.08.20 ( 註:「台大資工系」「參與人數近五百人」「這不是偽裝」，詳情請見[說明](https://www.facebook.com/photo.php?fbid=10151869138785668) )
 * [您也是假新聞的受害者嗎？試試「新聞小幫手」](http://www.inside.com.tw/2013/08/20/chrome-extension-newshelper) / Inside 2013.08.20
