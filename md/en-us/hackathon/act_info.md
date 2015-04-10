@@ -20,14 +20,16 @@ g0v 社群實體活動與線上討論兼具，一個月會有一到兩場聚會�
 
 #### ▶ 活動資訊及報名網址
 
-* 大型工作坊報名：http://g0v-tw.kktix.cc/
-* 小型工作坊報名：http://g0v-mini.kktix.cc/
+* 揪松團（隔月大松）：http://g0v-jothon.kktix.cc/
+* 萌典松（隔月舉行）：http://moe.kktix.cc/
+* 前端/設計松： http://fr0ntend.kktix.cc/
+* 過往大松、萌典松年會（於 2015/4 停止使用）：http://g0v-tw.kktix.cc/
 * g0v 社群多核心發展，不同活動多由不同參與者發起，活動消息不一定集中在上述報名頁，可密切注意 [g0v 後勤中心 fb 社團 ](https://www.facebook.com/groups/g0v.general/)。
 
 
 ### 報名秘訣
 
-* 大黑客松：每兩個月舉行一次大型黑客松（70-110人），*活動前兩週的週一正午*會開放線上報名，活動為免費。
+* 大黑客松：每兩個月舉行一次大型黑客松（100-130人），*活動前兩週的週一正午*會開放線上報名，活動為免費。
 * 中小黑客松：各專案、個別參與者會不定期發起中小型黑客松（15-30人），通常需要分擔場地食物費用。
 * 多注意 g0v.tw 各社群網絡（[g0v 公報](http://g0v.tw/zh-TW/communique.html)、[fb後勤中心](https://www.facebook.com/groups/g0v.general/), [g+](https://plus.google.com/+g0vTW/posts), [twitter](https://twitter.com/g0vtw), [irc](http://hack.g0v.tw/irc)），以及 g0v kktix 報名頁（前述）。
 * 可參考過往[各期活動共筆](http://hack.g0v.tw)，了解實際運作方式。
