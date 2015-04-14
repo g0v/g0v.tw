@@ -23,6 +23,7 @@ g0v 社群實體活動與線上討論兼具，一個月會有一到兩場聚會�
 * 揪松團（隔月大松）：http://g0v-jothon.kktix.cc/
 * 萌典松（隔月舉行）：http://moe.kktix.cc/
 * 前端/設計松： http://fr0ntend.kktix.cc/
+* 法律松： http://g0vlawthon.kktix.cc/
 * 過往大松、萌典松年會（於 2015/4 停止使用）：http://g0v-tw.kktix.cc/
 * g0v 社群多核心發展，不同活動多由不同參與者發起，活動消息不一定集中在上述報名頁，可密切注意 [g0v 後勤中心 fb 社團 ](https://www.facebook.com/groups/g0v.general/)。
 
