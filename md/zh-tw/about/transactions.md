@@ -17,11 +17,7 @@
 <tr>
 <th>日期</th>
 
-<th>號碼</th>
-
 <th>描述</th>
-
-<th>備忘錄/筆記</th>
 
 <th>轉帳 從/到</th>
 
@@ -31,21 +27,17 @@
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q1 2015</td>
+<td rowspan="1" colspan="5">Q1 2015</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">February 2015</td>
+<td rowspan="1" colspan="5">February 2015</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/16/2015</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath12n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -59,11 +51,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/14/2015</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">walkingice donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -77,11 +65,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/07/2015</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">rex tsai donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -93,33 +77,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 February 2015</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 February 2015</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-17,200</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q1 2015</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q1 2015</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-17,200</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q4 2014</td>
+<td rowspan="1" colspan="5">Q4 2014</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">December 2014</td>
+<td rowspan="1" colspan="5">December 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/20/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath11n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -133,11 +113,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/14/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ly donation (nthu hackathon judge)</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -149,23 +125,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 December 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 December 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-24,865</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">October 2014</td>
+<td rowspan="1" colspan="5">October 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/07/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ly donation (tcfsh talk)</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -177,33 +149,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 October 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 October 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$1,800</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q4 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q4 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-23,065</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q3 2014</td>
+<td rowspan="1" colspan="5">Q3 2014</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">July 2014</td>
+<td rowspan="1" colspan="5">July 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">07/01/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao & whisky donation (ncku)</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -215,33 +183,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 July 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 July 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$4,800</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q3 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q3 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$4,800</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q2 2014</td>
+<td rowspan="1" colspan="5">Q2 2014</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">June 2014</td>
+<td rowspan="1" colspan="5">June 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/21/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">johhny & ronnywang donation (nctu talk)</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -255,11 +219,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/21/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">johnny donation (scu)</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -273,11 +233,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/21/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath9n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -289,23 +245,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 June 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 June 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-13,765</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">April 2014</td>
+<td rowspan="1" colspan="5">April 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath8n insurance</td>
-
-<td></td>
 
 <td>Expenses:Insurance</td>
 
@@ -319,11 +271,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath8n venue</td>
-
-<td></td>
 
 <td>Expenses:Rent</td>
 
@@ -337,11 +285,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackah8n equipment</td>
-
-<td></td>
 
 <td>Expenses:Equipment Rental</td>
 
@@ -355,11 +299,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath8n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -373,11 +313,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath8n transfer</td>
-
-<td></td>
 
 <td>Expenses:Bank Service Charge</td>
 
@@ -391,11 +327,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hlb & izero donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -409,11 +341,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath8n eletricity</td>
-
-<td></td>
 
 <td>Expenses:Utilities:Electric</td>
 
@@ -425,33 +353,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 April 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 April 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-25,541</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q2 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q2 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-39,306</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q1 2014</td>
+<td rowspan="1" colspan="5">Q1 2014</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">March 2014</td>
+<td rowspan="1" colspan="5">March 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">03/11/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ruslee book royalty</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -463,23 +387,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 March 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 March 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$50,000</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">February 2014</td>
+<td rowspan="1" colspan="5">February 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/25/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao moi</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -493,11 +413,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/25/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ronnywang moi</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -511,11 +427,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/22/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath7n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -527,23 +439,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 February 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 February 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-14,300</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">January 2014</td>
+<td rowspan="1" colspan="5">January 2014</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">01/14/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ronnywang thb</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -555,33 +463,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 January 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 January 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$1,600</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q1 2014</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q1 2014</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$37,300</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q4 2013</td>
+<td rowspan="1" colspan="5">Q4 2013</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">December 2013</td>
+<td rowspan="1" colspan="5">December 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">nccu sponsorship</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -595,11 +499,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">tailtooth remaining donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -613,11 +513,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath6n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -631,11 +527,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/07/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">transfer</td>
-
-<td></td>
 
 <td>Assets:Current Assets:GOSCUP</td>
 
@@ -649,11 +541,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/07/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">transfer</td>
-
-<td></td>
 
 <td>Assets:Current Assets:Cash</td>
 
@@ -667,11 +555,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/06/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">cassi/miau moedict y! donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -685,11 +569,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/04/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao ndhu talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -703,11 +583,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/04/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ronnywang/iamblue/mindos nccu</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -719,23 +595,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 December 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 December 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$26,120</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">November 2013</td>
+<td rowspan="1" colspan="5">November 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">11/19/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao rdec legal</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -749,11 +621,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">11/08/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao odw.tw talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -765,23 +633,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 November 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 November 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$4,000</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">October 2013</td>
+<td rowspan="1" colspan="5">October 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/28/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hychen/jimmy xinyi commuinty talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -795,11 +659,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath5n goscup fee</td>
-
-<td></td>
 
 <td>Expenses:Professional Fees</td>
 
@@ -813,11 +673,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath5n registrano fee</td>
-
-<td></td>
 
 <td>Expenses:Online Services</td>
 
@@ -831,11 +687,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">nccu sponsorship</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -849,11 +701,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath5n donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -867,11 +715,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath5n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -885,11 +729,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">legist hackgen judge</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -903,11 +743,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao hackgen judge</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -921,11 +757,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/09/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao sme opendata legal</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -939,11 +771,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/07/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao rdec talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -957,11 +785,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/01/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ipa taipei university talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -973,33 +797,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 October 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 October 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$13,369</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q4 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q4 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$43,489</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q3 2013</td>
+<td rowspan="1" colspan="5">Q3 2013</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">September 2013</td>
+<td rowspan="1" colspan="5">September 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">09/10/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao yilan mapping</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1011,23 +831,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 September 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 September 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$2,000</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">August 2013</td>
+<td rowspan="1" colspan="5">August 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/14/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">transfer</td>
-
-<td></td>
 
 <td>Assets:Current Assets:GOSCUP</td>
 
@@ -1041,11 +857,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/14/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">transfer</td>
-
-<td></td>
 
 <td>Assets:Current Assets:Cash</td>
 
@@ -1059,11 +871,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">nccu sponsorship</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1077,11 +885,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath4n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -1095,11 +899,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath4n goscup fee</td>
-
-<td></td>
 
 <td>Expenses:Professional Fees</td>
 
@@ -1113,11 +913,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath4n registrano fee</td>
-
-<td></td>
 
 <td>Expenses:Online Services</td>
 
@@ -1131,11 +927,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath4n donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1147,23 +939,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 August 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 August 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-3,450</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">July 2013</td>
+<td rowspan="1" colspan="5">July 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">07/22/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao itri talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1177,11 +965,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">07/12/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">ipa nccu talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1193,33 +977,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 July 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 July 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$7,880</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q3 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q3 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$6,430</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q2 2013</td>
+<td rowspan="1" colspan="5">Q2 2013</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">June 2013</td>
+<td rowspan="1" colspan="5">June 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/26/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao ncku talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1233,11 +1013,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">MJ donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1251,11 +1027,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">tkirby ICOS talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1269,11 +1041,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath3n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -1287,11 +1055,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">OSDC donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1303,23 +1067,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 June 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 June 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$1,310</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">May 2013</td>
+<td rowspan="1" colspan="5">May 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">05/27/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao nccu talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1331,33 +1091,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 May 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 May 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$3,000</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q2 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q2 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$4,310</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q1 2013</td>
+<td rowspan="1" colspan="5">Q1 2013</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">March 2013</td>
+<td rowspan="1" colspan="5">March 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath2n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -1371,11 +1127,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath2n donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1389,11 +1141,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">03/16/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">clkao gss talk</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1405,23 +1153,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 March 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 March 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$5,650</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">January 2013</td>
+<td rowspan="1" colspan="5">January 2013</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">01/27/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath1n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -1435,11 +1179,7 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">01/27/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath1n donation</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1451,33 +1191,29 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 January 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 January 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-8,321</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q1 2013</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q1 2013</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-2,671</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td rowspan="1" colspan="7">Q4 2012</td>
+<td rowspan="1" colspan="5">Q4 2012</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">December 2012</td>
+<td rowspan="1" colspan="5">December 2012</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/01/2012</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath0n food</td>
-
-<td></td>
 
 <td>Expenses:Dining</td>
 
@@ -1489,23 +1225,19 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 December 2012</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 December 2012</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$-19,070</td>
 </tr>
 
 <tr bgcolor="#fafad2">
-<td rowspan="1" colspan="7">October 2012</td>
+<td rowspan="1" colspan="5">October 2012</td>
 </tr>
 
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/30/2012</td>
 
-<td class="text-cell" rowspan="1" colspan="1"></td>
-
 <td class="text-cell" rowspan="1" colspan="1">yahoo open hackday prize</td>
-
-<td></td>
 
 <td>Income:Donation</td>
 
@@ -1517,24 +1249,24 @@
 </tr>
 
 <tr bgcolor="#fafad2">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 October 2012</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 October 2012</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$31,899</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
-<td class="total-label-cell" rowspan="1" colspan="6">小計 Q4 2012</td>
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q4 2012</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$12,829</td>
 </tr>
 
 <tr bgcolor="#ffff00">
-<td rowspan="1" colspan="7">
+<td rowspan="1" colspan="5">
 <hr /></td>
 </tr>
 
 <tr bgcolor="#ffff00">
-<td class="total-label-cell" rowspan="1" colspan="6">總和</td>
+<td class="total-label-cell" rowspan="1" colspan="4">總和</td>
 
 <td class="total-number-cell" rowspan="1" colspan="1">NT$26,916</td>
 </tr>
