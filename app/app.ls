@@ -24,22 +24,6 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
   url = "https://g0vfeedthefire.firebaseio.com"
   new Firebase(url)
 
-.factory eventsPromise: <[$http]> ++ ($http) ->
-  api-endpoint = 'http://www.kimonolabs.com/api/dzdrrgx6'
-  config = {
-    params: {
-      apikey: 'c626b7443a0cbcb5525f492411d10567',
-      callback: 'JSON_CALLBACK'
-    }
-  }
-  $http.jsonp api-endpoint, config .then (response) ->
-    results = response.data.results
-    transform-fn =  (obj) ->
-      { link: obj.event.href, title: obj.event.text }
-    recent  = results.recent.map transform-fn
-    past    = results.past.map   transform-fn
-    return { recent: recent, past: past }
-
 # defer iframe loading to stop blocking angular.js for loading
 .directive \deferSrc ->
   return {
@@ -50,11 +34,27 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
         iElement.attr 'src', src
   }
 
-.controller EventCtrl: <[$scope eventsPromise]> ++ ($scope, eventsPromise) ->
-  eventsPromise.then (events) ->
-    recent = events.recent.map (it) -> it.finished = false; it
-    past = events.past.map (it) -> it.finished = true; it
-    $scope.events = (recent ++ past)
+.controller EventCtrl: <[$q $http $scope]> ++ ($q, $http, $scope) ->
+  $scope.events = []
+
+  $scope.event-sources = <[
+    http://g0v-jothon.kktix.cc/events.json
+    http://g0v-tw.kktix.cc/events.json
+    http://moe.kktix.cc/events.json
+    http://g0vlawthon.kktix.cc/events.json
+    http://fr0ntend.kktix.cc/events.json"
+  ]>
+
+  $scope.events-of = (url) ->
+    defer = $q.defer()
+    $http.get(url, {}).success (result) ->
+      defer.resolve([event if moment(event.published).diff(moment()) > 0 for event in result.entry])
+    return defer.promise
+
+  $scope.event-sources.map (source) ->
+    $scope.events-of(source)
+      .then (events) ->
+        $scope.events = events.concat($scope.events)
 
 .controller BlogCtrl: <[$scope angularFireCollection fireRoot]> ++ ($scope, angularFireCollection, fireRoot) ->
   $scope.articles = angularFireCollection fireRoot.child("feed/blog/articles").limit 2

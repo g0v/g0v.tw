@@ -72,10 +72,9 @@ block content
           .event-loading(ng-show="events.length === 0")
           h4 最新活動
               .ui.list
-                  .item(ng-repeat="event in events | limitTo:2")
-                      i(ng-class="{checked:event.finished, empty:!event.finished}").checkbox.icon
+                  .item(ng-repeat="event in events")
                       .content
-                          a(ng-href="{{event.link}}") {{event.title}}
+                          a(ng-href="{{event.url}}") {{event.title}}
 
           .ui.divider
           .videos
