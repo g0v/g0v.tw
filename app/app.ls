@@ -91,7 +91,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
       $scope.communique = data[idx] unless idx is void
       # add url in the communique text
       for url in $scope.communique.urls
-        $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="#url.url">' + url.name + '</a>'
+        $scope.communique.content = $scope.communique.content.replace url.name, '<a target="_blank" href="' + url.url + '">' + url.name + '</a>'
       $scope.communique.content = $sce.trustAsHtml $scope.communique.content
 
   .error (data, status, headers, config) ->
