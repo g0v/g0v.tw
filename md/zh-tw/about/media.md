@@ -2,13 +2,13 @@
 
 #### 2015 第三季
 
-* [史上最強！你想知道的所有八仙訊息在這裡](http://www.appledaily.com.tw/realtimenews/article/new/20150701/639311/) 蘋果即時
-* [蘋論：主動救難的超級公民](http://www.appledaily.com.tw/appledaily/article/headline/20150701/36639766/) 蘋果日報
-* [從八仙塵爆 看Open Data應用價值](http://www.peoplenews.tw/news/ed1b9fd3-caf1-4814-b814-0e34f12aab02) 民報 蘇元和
+* [史上最強！你想知道的所有八仙訊息在這裡](http://www.appledaily.com.tw/realtimenews/article/new/20150701/639311/) 蘋果即時 2015.07.01
+* [蘋論：主動救難的超級公民](http://www.appledaily.com.tw/appledaily/article/headline/20150701/36639766/) 蘋果日報 2015.07.01
+* [從八仙塵爆 看Open Data應用價值](http://www.peoplenews.tw/news/ed1b9fd3-caf1-4814-b814-0e34f12aab02) 民報 蘇元和 2015.07.01
 
 #### 2015 第二季
 
-* [讓我們來！網友統整醫療資訊　供查詢傷者最新狀況](http://news.tvbs.com.tw/life/news-605396/) TVBS 何文君
+* [讓我們來！網友統整醫療資訊　供查詢傷者最新狀況](http://news.tvbs.com.tw/life/news-605396/) TVBS 何文君 2015.06.29
 * [三二四占領政院要角真的進駐行政院](http://www.new7.com.tw/NewsView.aspx?t=TOP&i=TXT20150513161905KLL) 新新聞 張家豪 2015.05.13
 * [不想再被當白痴：零時政府要做透明、開源的先鋒](http://www.books.com.tw/web/sys_serialtext/?item=0010673408) 邱柏鈞、鄭婷宇 2015.04.29
 
