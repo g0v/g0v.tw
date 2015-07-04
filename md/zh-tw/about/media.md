@@ -2,6 +2,7 @@
 
 #### 2015 第三季
 
+* [塵爆傷患.醫院 大數據成小幫手](https://video.udn.com/news/338251) 聯合影音 2015.07.04
 * [史上最強！你想知道的所有八仙訊息在這裡](http://www.appledaily.com.tw/realtimenews/article/new/20150701/639311/) 蘋果即時 2015.07.01
 * [蘋論：主動救難的超級公民](http://www.appledaily.com.tw/appledaily/article/headline/20150701/36639766/) 蘋果日報 2015.07.01
 * [從八仙塵爆 看Open Data應用價值](http://www.peoplenews.tw/news/ed1b9fd3-caf1-4814-b814-0e34f12aab02) 民報 蘇元和 2015.07.01
