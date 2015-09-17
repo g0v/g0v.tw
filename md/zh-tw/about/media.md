@@ -2,6 +2,7 @@
 
 #### 2015 第三季
 
+* [簡單搞懂複雜預算！北市率先推出預算視覺化](http://www.thenewslens.com/post/217538/) 關鍵評論網 阿Ken 2015.09.11
 * [讓八仙傷患系統即時上線的那群人 「Open data」集小兵立大功](http://www.wealth.com.tw/article_in.aspx?nid=5315) 財訊雙週刊 黃靖萱 2015.07.21
 * [塵爆傷患.醫院 大數據成小幫手](https://video.udn.com/news/338251) 聯合影音 2015.07.04
 * [史上最強！你想知道的所有八仙訊息在這裡](http://www.appledaily.com.tw/realtimenews/article/new/20150701/639311/) 蘋果即時 2015.07.01
