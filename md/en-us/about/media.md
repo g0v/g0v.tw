@@ -1,5 +1,9 @@
 ### Media Coverage
 
+#### 2015 Q3
+
+* [Saving the Amis language one megabyte at a time](http://www.taipeitimes.com/News/feat/archives/2015/09/28/2003628753) / Taipei Times 2015.09.28
+
 #### 2015 Q1
 * [Transparency Web site links public with government](http://www.taipeitimes.com/News/taiwan/archives/2015/01/11/2003608980) / Taipei Times 2015.01.11
 
