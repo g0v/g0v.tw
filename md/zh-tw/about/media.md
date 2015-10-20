@@ -1,5 +1,9 @@
 ### 媒體報導
 
+#### 2015 第四季
+
+* [公民網路來參政，協作平台、網頁遊戲一目瞭然](http://www.inside.com.tw/2015/10/20/president-election-policy-comparison) / INSIDE 2015.10.20
+
 #### 2015 第三季
 
 * [Saving the Amis language one megabyte at a time](http://www.taipeitimes.com/News/feat/archives/2015/09/28/2003628753) / Taipei Times 2015.09.28
