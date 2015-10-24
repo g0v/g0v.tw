@@ -2,8 +2,9 @@
 
 #### 2015 第四季
 
-* [拚合法落地，Airbnb共同創辦人來台與政府對話](http://www.bnext.com.tw/article/view/id/37756) 數位時代 李欣宜  2015.10.24
+* [拚合法落地，Airbnb共同創辦人來台與政府對話](http://www.bnext.com.tw/article/view/id/37756) / 數位時代 李欣宜  2015.10.24
 * [公民網路來參政，協作平台、網頁遊戲一目瞭然](http://www.inside.com.tw/2015/10/20/president-election-policy-comparison) / INSIDE 2015.10.20
+* [自己的國家自己救，自己的政策自己修](http://www.meetclub.tw/article/view/id/36558) / 創業小聚 James Huang2015.10.19 
 
 #### 2015 第三季
 
