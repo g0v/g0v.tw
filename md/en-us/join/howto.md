@@ -2,7 +2,7 @@
 
 The community of g0v is full of freedom and decentralized. Projects are started and ran by self-motivated community members. Works are proposed, participated, and cooperated voluntarily. All the activities are not mandatory.
 "Ask not why nobody is doing this. You are 'nobody'." is the motto of g0v. Because "nobody" is omnipotent.
-Many of g0v members came from open source community. We encourage Open Source/Creative Common License, therefore knowledge sharing could enhance more contribution. What are the greatest momentum of the community? Look into social issue with the kind of spirit, analyze the problem, then come up with a revolution-by-information proposal. Welcome to join this dynamite.
+Many of g0v members came from open source community. We encourage Open Source/Creative Commons License, therefore knowledge sharing could enhance more contribution. What are the greatest momentum of the community? Look into social issue with the kind of spirit, analyze the problem, then come up with a revolution-by-information proposal. Welcome to join this dynamite.
 
 ### Participate as different character
 
