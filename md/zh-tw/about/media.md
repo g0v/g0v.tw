@@ -1,5 +1,9 @@
 ### 媒體報導
 
+#### 2016 第一季
+
+* [2016網路社運者的挑戰](https://www.twreporter.org/a/opinion-tang) / 報導者 2016.01.04
+
 #### 2015 第四季
 
 * [拚合法落地，Airbnb共同創辦人來台與政府對話](http://www.bnext.com.tw/article/view/id/37756) / 數位時代 李欣宜  2015.10.24
