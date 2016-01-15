@@ -2,6 +2,7 @@
 
 #### 2016 第一季
 
+* [立委候選人現身「黑客松」是為...](http://news.ltn.com.tw/news/politics/breakingnews/1573359) / 自由時報 2016.01.15
 * [2016網路社運者的挑戰](https://www.twreporter.org/a/opinion-tang) / 報導者 2016.01.04
 
 #### 2015 第四季
