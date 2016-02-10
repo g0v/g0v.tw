@@ -2,6 +2,7 @@
 
 #### 2016 Q1
 
+* [Le futur de la démocratie ? Made in Taïwan !](http://rue89.nouvelobs.com/2016/02/10/futur-democratie-made-in-taiwan-263140) / _Tous les internets 2016.02.10
 * [Blooming digital democracy in Taiwan’s Sunflower movement](http://www.mobilisationlab.org/blooming-digital-democracy-taiwan-sunflower-movement/) / Mobilization Lab 2016.01.25
 
 #### 2015 Q4
