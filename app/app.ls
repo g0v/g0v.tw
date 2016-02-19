@@ -42,7 +42,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
     http://g0v-tw.kktix.cc/events.json
     http://moe.kktix.cc/events.json
     http://g0vlawthon.kktix.cc/events.json
-    http://fr0ntend.kktix.cc/events.json"
+    http://fr0ntend.kktix.cc/events.json
   ]>
 
   $scope.events-of = (url) ->
@@ -50,6 +50,23 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
     $http.get(url, {}).success (result) ->
       defer.resolve([event if moment(event.published).diff(moment()) > 0 for event in result.entry])
     return defer.promise
+
+  $scope.from-github = ->
+    defer = $q.defer!
+    result <- $http
+      .get 'https://api.github.com/repos/g0v/g0v.tw/issues/127/comments'
+      .success
+    defer.resolve result
+    return defer.promise
+
+  { data } <- $scope
+    .from-github!
+    .then
+  re = /http:\/\/(.+\.cc)\/?/
+  $scope.event-sources = $scope.event-sources.concat ( data
+    .filter -> re.test it.body
+    .map -> "http://#{it.body.match re .1}/events.json"
+  )
 
   $scope.event-sources.map (source) ->
     $scope.events-of(source)
