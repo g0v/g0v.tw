@@ -48,6 +48,7 @@ devDependencies:
   'karma-mocha': '~0.1.0'
   'karma-chai': '~0.1.0'
   'karma-ng-scenario': '0.1.0'
+  'livescript': '1.4.0'
   'main-bower-files': '^2.5.0'
   'marked': '^0.3.3'
   'mocha': '^2.1.0'
