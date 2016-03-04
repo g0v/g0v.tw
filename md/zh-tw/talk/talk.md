@@ -49,6 +49,8 @@
 * 2013/09/10 網路星期二 : [網路社群改造社會之零時政府(g0v.tw)](http://nettuesday.tw/events/2013/09/438) / 高嘉良 (clkao)
 * 延期 [HP51 – Open Data x Open Design](http://www.hpx-party.com/hpx-events/hp51 / 高嘉良 (clkao)
 * 2013/08/18 [XD 2013 跨設計分享會 no.1 [Innovative Citizen]](http://www.xd-crossdesign.com/2013/08/xd-2013-no1-innovative-citizen.html)：與談人 tkirby, ETBlue
+* 2013/08/10 [想想論壇週年網聚](https://docs.google.com/forms/d/1_9DLzyqI2uKzqZiNFalOHjrHLCkUbtFXa0m3ZtsPUTw/viewform)：The Power of Information / 雨蒼 (billy3321) 【[投影片](https://docs.google.com/presentation/d/1nX_kZNY0YX0Ilmhavp3Bkwayf6s6Kljgb1fxQTGgk9c/pub)】
+* 2013/08/04 COSCUP 2013：Hack everything, Including Society / 雨蒼 (billy3321) 【[投影片](http://goo.gl/XHNPX4)】、【[錄影](https://www.youtube.com/watch?v=W4BbHx0G5jE)】
 * 2013/08/03-04 COSCUP 2013 / g0v 社群
 * 2013/07 政大道南營：「網路公民的進擊」 / 瞿筱葳 (ipa) 【[投影片](https://speakerdeck.com/ipaaa/g0v-wang-lu-gong-min-de-jin-ji)】
 * 2013 政大開放資料與社群協力創新：「從開放源碼到開放政府」/ 高嘉良 (clkao) 【[投影片](https://speakerdeck.com/clkao/cong-kai-fang-yuan-ma-dao-kai-fang-zheng-fu)】
