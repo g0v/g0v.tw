@@ -3,6 +3,7 @@
 #### 2016 第一季
 
 * [下臺前的倒數演講，開放資料重要推手張善政將在 g0v Summit 發表主題演講](http://technews.tw/2016/03/31/premier-simon-chang-keynote-on-g0v-summit/) / 科技新報 陳瑞霖 2016.03.31
+* [災民證APP、物資捐贈地圖 今晚實際演練](http://news.ltn.com.tw/news/life/breakingnews/1644142) / 自由時報 2016.03.25  
 * [偵測PM2.5 北市國小裝空氣盒子探測](http://www.cna.com.tw/news/aloc/201603220338-1.aspx) / 中央社 2016.03.22
 * [立委候選人現身「黑客松」是為...](http://news.ltn.com.tw/news/politics/breakingnews/1573359) / 自由時報 2016.01.15
 * [2016網路社運者的挑戰](https://www.twreporter.org/a/opinion-tang) / 報導者 2016.01.04
