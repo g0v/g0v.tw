@@ -18,7 +18,7 @@
 #### 2015 第四季
 
 * [他可能是未來的總統！強大的「立委投票指南」，秒懂你家選區有誰參選、政見又如何](http://buzzorange.com/2015/12/31/the-website-to-introduce-the-candidates/) / BuzzOrage 2015.12.31
-* [開放協作服務應用：阿宅的鍵盤革命](https://www.ndc.gov.tw/cp.aspx?n=2A117ADDF16F6181&s=9064B3F41FA3A734) / 國土及公共治理季刊 陳貞樺 2015.12 
+* [開放協作服務應用：阿宅的鍵盤革命](http://www.ndc.gov.tw/cp.aspx?n=2A117ADDF16F6181&s=9064B3F41FA3A734) / 國土及公共治理季刊 陳貞樺 2015.12 
 * [拚合法落地，Airbnb共同創辦人來台與政府對話](http://www.bnext.com.tw/article/view/id/37756) / 數位時代 李欣宜  2015.10.24
 * [公民網路來參政，協作平台、網頁遊戲一目瞭然](http://www.inside.com.tw/2015/10/20/president-election-policy-comparison) / INSIDE 2015.10.20
 * [自己的國家自己救，自己的政策自己修](http://www.meetclub.tw/article/view/id/36558) / 創業小聚 James Huang 2015.10.19
