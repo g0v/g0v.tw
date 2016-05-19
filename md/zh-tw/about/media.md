@@ -1,6 +1,7 @@
 ### 媒體報導
 #### 2016 第二季
 
+* [高嘉良「看不下去」 催生g0v](https://webcache.googleusercontent.com/search?q=cache:jR4e3zVQrFoJ:https://www.thekono.com/articles/d865f1dc-31d6-4bdf-8324-ab35d8c8d84d&num=1&lr=lang_fr%7Clang_zh-TW&hl=zh-TW&tbs=lr:lang_1fr%7Clang_1zh-TW&strip=1&vwsrc=0) 新新聞 2016.05.19
 * [拆政府原地重建　零時政府3年躋身全球前3大黑客社群](https://www.twreporter.org/a/g0v-civic-tech-community) / 報導者 2016.05.18
 * [如何監督新政府和國會？g0v獻策，也呼籲監督者開放資訊讓全民參與](http://www.ithome.com.tw/news/105925) / iThome 2016.05.15
 * [張善政談政府開放資料：「過去我們裡應外合，現在 g0v 要更加油！」](http://www.bnext.com.tw/article/view/id/39575) / 數位時代 2016.05.14
