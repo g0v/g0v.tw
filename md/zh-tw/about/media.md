@@ -1,7 +1,7 @@
 ### 媒體報導
 #### 2016 第二季
 
-* [零時政府 Summit，科技改變民主的地景] / 端傳媒 簡韻真 2016.05.31
+* [零時政府 Summit，科技改變民主的地景](https://theinitium.com/article/20160531-opinion-yunchenchien-g0v/) / 端傳媒 簡韻真 2016.05.31
 * [潛入衛福部400天  她發現什麼？](http://www.cw.com.tw/article/article.action?id=5076435) / 天下雜誌 2016.05.22
 * [創造和「不同意見的人」共處的社群](http://www.setn.com/News.aspx?NewsID=148432) / 新新聞 2016.05.20
 * [高嘉良「看不下去」 催生g0v](https://webcache.googleusercontent.com/search?q=cache:jR4e3zVQrFoJ:https://www.thekono.com/articles/d865f1dc-31d6-4bdf-8324-ab35d8c8d84d&num=1&lr=lang_fr%7Clang_zh-TW&hl=zh-TW&tbs=lr:lang_1fr%7Clang_1zh-TW&strip=1&vwsrc=0) / 新新聞 2016.05.19
