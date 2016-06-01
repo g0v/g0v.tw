@@ -1,6 +1,7 @@
 ### 媒體報導
 #### 2016 第二季
 
+* [走進台灣「零時政府」，他們改變了什麼？](https://theinitium.com/article/20160601-taiwan-g0v/) / 端傳媒 蔣珮伊 2016.06.01
 * [零時政府 Summit，科技改變民主的地景](https://theinitium.com/article/20160531-opinion-yunchenchien-g0v/) / 端傳媒 簡韻真 2016.05.31
 * [太陽花學運推手呂家華：「公開資料的精神是開放管治！」](http://www.inmediahk.net/node/1042642) / 香港獨立媒體網 余依庭 2016.05.31
 * [用數據改變社會：網絡工程師吳泰輝 力推新聞資料視覺化](http://www.inmediahk.net/node/1042523) / 香港獨立媒體網 余依庭 2016.05.24
