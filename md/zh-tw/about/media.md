@@ -1,6 +1,8 @@
 ### 媒體報導
 #### 2016 第二季
 
+* [許恩恩：打字，轉動公民社會](https://theinitium.com/article/20160602-opinion-enenhsu-g0v/) / 端傳媒 2016.06.02
+* [彭盛韶：公私協力，台灣黑客改造政府](https://theinitium.com/article/20160602-opinion-g0v1/) / 端傳媒 2016.06.02
 * [走進台灣「零時政府」，他們改變了什麼？](https://theinitium.com/article/20160601-taiwan-g0v/) / 端傳媒 蔣珮伊 2016.06.01
 * [零時政府 Summit，科技改變民主的地景](https://theinitium.com/article/20160531-opinion-yunchenchien-g0v/) / 端傳媒 簡韻真 2016.05.31
 * [還在等「官方回應」？ 氣球空拍監測環境不求人](http://e-info.org.tw/node/115555) / 環境資訊中心 陳文姿 2016.05.27
