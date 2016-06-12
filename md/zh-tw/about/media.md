@@ -1,4 +1,7 @@
 ### 媒體報導
+
+Also see [international media coverage](https://g0v.tw/en-US/media.html).
+
 #### 2016 第二季
 
 * [中、港和外國的開源運動者，為什麼羡慕台灣？](https://theinitium.com/article/20160606-taiwan-g0v/) / 端傳媒 蔣珮伊 2016.06.06
