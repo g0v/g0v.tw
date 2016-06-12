@@ -26,3 +26,6 @@ For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.htm
 #### 2014 Q4
 * [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
 
+#### 2014 Q2
+
+* [How Technology Revolutionized Taiwan’s Sunflower Movement](http://thediplomat.com/2014/04/how-technology-revolutionized-taiwans-sunflower-movement/2/) / The Diplomat 2014.04.15
