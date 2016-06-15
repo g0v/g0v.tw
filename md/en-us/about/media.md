@@ -5,6 +5,7 @@ For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.htm
 #### 2016 Q2
 
 * [日本のシビックテックはガラパゴス！？「G0V summit 2016」報告会【鈴木まなみ】](http://www.civicwave.jp/archives/52135261.html) / CivicWave 2016.06.12
+* [대만의 국제 서밋 g0v summit 2016 참가 후기](https://medium.com/wagl-art/wagl-network-%EB%8C%80%EB%A7%8C%EC%9D%98-%EA%B5%AD%EC%A0%9C-%EC%84%9C%EB%B0%8B-g0v-summit-2016-%EC%B0%B8%EA%B0%80-%ED%9B%84%EA%B8%B0-9c253abc87c6) / WAGL NEWS 2016.06.08
 * [« Une expérience pionnière de démocratie numérique » à Taïwan](http://www.lemonde.fr/idees/article/2016/05/25/une-experience-pionniere-de-democratie-numerique-a-taiwan_4926104_3232.html) / Le Monde 2016.05.25
 
 #### 2016 Q1
