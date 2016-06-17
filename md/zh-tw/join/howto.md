@@ -21,8 +21,8 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
   * 了解更多：[提案小訣竅](http://ipa.logdown.com/posts/143277-g0v-proposal-tips)
 2. 尋找伙伴
   * 在【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】告訴大家
-  * 參與[大松](http://g0v-tw.kktix.cc/)，填專案報告登記表，開場時各專案有 3 分鐘可上台提案
-    * 參考過去的大松[記錄](http://beta.hackfoldr.org/g0v-hackath12n/g0v--JWIizPuN3mz)
+  * 參與[大松](http://hack.g0v.tw/)，填專案報告登記表，開場時各專案有 3 分鐘可上台提案
+    * 參考過去的大松[記錄](http://hack.g0v.tw/)
   * 上 [Slack](http://join.g0v.today/)/[IRC](http://hack.g0v.tw/irc) 呼朋引伴
 
 ### 想跳坑
@@ -32,7 +32,7 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 * 【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】參與討論
 * 【[hackpad](https://g0v.hackpad.com/)】加入共筆
 * 上 [Slack](http://join.g0v.today/)/[IRC](http://hack.g0v.tw/irc) 一起聊天
-* 參與[黑客松](http://g0v-tw.kktix.cc/)
+* 參與[黑客松](http://hack.g0v.tw/)
 
 ## 參與活動
 
@@ -42,7 +42,7 @@ g0v.tw 主要的實體活動是黑客松（ Hackathon ）。
 * [我是... 如何參與黑客松](https://g0v.hackpad.com/...--ciS8hEGw7iu)
 * [活動守則](https://g0v.hackpad.com/2mprMIpYMz9)
 * [非資訊人參與指南](http://ipa.logdown.com/posts/166655-g0v-hackathon-nongeek)
-* [近期活動列表](http://g0v-tw.kktix.cc/)
+* [近期活動列表](http://hack.g0v.tw/)
 
 ## 了解更多 g0v 密技
 
