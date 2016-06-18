@@ -49,7 +49,7 @@ wikileaks 主要是公布非開放的機密資料，g0v 則是推廣政府開放
   </div>
 </div>
 
-歡迎來到網路時代，不用等下次，現在就可以上[共筆 hackpad](http://hack.g0v.tw) 分享，可在相關專案留言討論，或直接開個專案吧！:)
+歡迎來到網路時代，不用等下次，現在就可以上[共筆 hackpad](http://g0v.hackpad.com) 分享，可在相關專案留言討論，或直接開個專案吧！:)
 
 <div class="ui message">
   <div class="header">
