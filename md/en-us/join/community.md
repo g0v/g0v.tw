@@ -1,7 +1,3 @@
-### Community Decision Mechanism: Liquid Feedback
-
-g0v embraces distributed processing, which makes things rarely necessary to be decided jointly. If discussion is needed, Liquid Feedback will be used to discuss, examine, and vote on such matters. Every g0v contributor has the right to examine and vote. (Participate any project, and be recommended by the project initiator will become a contributor.) Sign in with [Liquid Feedback](http://lqfb-test.g0v.tw/pf/).
-
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
