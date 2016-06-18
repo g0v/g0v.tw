@@ -19,7 +19,6 @@ scripts:
   test: 'npm run build && bower i && ./node_modules/karma/bin/karma start --browsers PhantomJS --single-run true test/karma.conf.js'
   start: 'gulp dev'
 devDependencies:
-  'LiveScript': '^1.3.1'
   'bower': '^1.3.12'
   'chai': '~1.10.0'
   'connect': '^3.3.4'
@@ -36,7 +35,7 @@ devDependencies:
   'gulp-json-editor': '~2.2.1'
   'gulp-less': '~3.0.0'
   'gulp-livereload': '^3.6.0'
-  'gulp-livescript': '^2.3.0'
+  'gulp-livescript': '^3.0.1'
   'gulp-open': '^0.3.2'
   'gulp-plumber': '^0.6.6'
   'gulp-rename': \>=1.2.0
