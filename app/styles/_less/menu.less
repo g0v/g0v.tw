@@ -1,0 +1,64 @@
+#header {
+  width: 100%;
+  height: 80px;
+  position: inherit;
+  background-color: #000000;
+  box-shadow: 0 0 0px rgba(0,0,0,0.6);
+  margin: 0 auto 16px;
+}
+
+#header #logo {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+#nav {
+  float: right;
+  width: 90%;
+  background-color: #7F7F7F;
+  height: 80px;
+
+  #info {
+    text-align: right;
+    height: 40px;
+  }
+}
+
+#nav #lang, #nav #social_block {
+  display: inline-block;
+  height: 100%;
+  margin-top: 5px;
+}
+
+#nav #social_block {
+  margin-right: 10px;
+}
+
+#nav #social_block .icon {
+  color: white;
+}
+
+#nav #lang {
+  margin-right: 20px;
+
+  .ui.button {
+    background-color: #7F7F7F;
+    background-image: none;
+    border-radius: 0;
+    font-weight: 400;
+    box-shadow: none;
+    color: white;
+    text-transform: none;
+  }
+}
+
+#nav_bar {
+  margin-top: 0;
+  height: 40px;
+  border-radius: 0;
+
+  .item::before {
+    height: 40px;
+  }
+}

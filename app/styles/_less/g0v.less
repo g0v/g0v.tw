@@ -17,120 +17,20 @@ body {
   color: #333333;
 }
 
-
-
 i.icon {
   font-family: Icons !important;
   font-style: normal !important;
 }
 
-#container, #nav_bar, #footer { width: 960px; }
-#header {
-  width: 100%;
-  position: inherit;
-}
-#nav_bar .nav_tab { width: 200px; }
+#container, #footer { width: 960px; }
 #index_left_container { width: 669px; /* container width - index_right_container width - margin */ }
 #index_right_container { width: 271px; }
-@media (max-width: 1100px) {
-  #container, #header, #nav_bar, #footer { width: 100%; }
-  #nav_bar .nav_tab { letter-spacing: 0 !important; width: 20%; }
-  #index_left_container { width: 100%; }
-  #index_right_container { width: 100%; }
-    iframe { width: 100%; }
-    .videos iframe { height: 100%; }
-    .logbot { width: 100%; }
-}
 
 @media (max-width: 640px) {
   body {
     padding: 0 5%;
   }
-  #nav_bar .nav_tab { font-size: 80% !important; }
 }
-
-
-#header {
-  background-color: #000000;
-  border-bottom: 2px solid rgba(0,0,0,0);
-  box-shadow: 0 0 0px rgba(0,0,0,0.6);
-  margin: 0 auto;
-}
-
-#header_inner_container {
-  margin: 0 auto;
-
-  #logo {
-    float: left;
-  }
-
-  .translator {
-    padding: 19px 0;
-    margin-right: 180px;
-    .ui.button {
-      margin-right: 5px;
-      float: right;
-    }
-  }
-
-  #social_block {
-    display: table-cell;
-    float: right;
-    -webkit-transform: translate(-30px, 20px) scale(0.95);
-    -moz-transform: translate(-30px, 20px) scale(0.95);
-    -ms-transform: translate(-30px, 20px) scale(0.95);
-    transform: translate(-30px, 20px) scale(0.95);
-    #fb_block {
-      display: inline-block;
-      vertical-align: bottom;
-      margin-right: 10px;
-    }
-    #g_block {
-      display: inline-block;
-      vertical-align: bottom;
-      margin-right: 10px;
-      height: 20px;
-    }
-  }
-}
-
-#nav_bar {
-  margin: 0 auto;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0 0 0px rgba(0,0,0,0.6);
-  background: url(../imgs/binding_light.png);
-
-  .nav_tab {
-    color: #fff;
-    text-shadow: -1px -1px 1px #666;
-    cursor: pointer;
-    float: left;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    line-height: 2em;
-    padding-top: 4px;
-    text-align: center;
-    height: 50px;
-    line-height: 45px;
-    a {
-        color: #ddd;
-        text-decoration: none;
-        display: block;
-        position: relative;
-    }
-    &:first-child { border-left: 0; }
-    &.active, &:hover {
-        background-color: rgba(0,0,0,0.4);
-        box-shadow: 0 0 0px rgba(0,0,0,0.9);
-        text-shadow: none;
-        a {
-          color: #fff;
-        }
-    }
-  }
-}
-
 
 .header h1 {
   letter-spacing: -1px;

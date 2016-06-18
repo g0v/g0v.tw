@@ -2,9 +2,7 @@
 - nav_cls.index = nav_cls.about = nav_cls.talk = ''
 - nav_cls.actinfo = nav_cls.join = nav_cls.contact = ''
 block vars
-.ui.fluid.seven.item.evenly.menu
-    a.item(href="/#{lang}/index.html", translate="MENU_HOME", class="#{nav_cls.index}")
-      | 首頁
+#nav_bar.ui.fluid.six.item.evenly.menu
     .ui.pointing.dropdown.link.item(class="#{nav_cls.about}")
       span(translate="MENU_ABOUT") 關於
       .menu
