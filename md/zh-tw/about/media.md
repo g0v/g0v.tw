@@ -4,6 +4,7 @@ Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
 #### 2016 第二季
 
+* [公開即是透明 領先全球的民主實驗](http://www.cw.com.tw/magazine/magazine.action?id=1382) / 天下雜誌 宋東 2016.06.21
 * [開放政府，不只是形式，更是精神](https://www.twreporter.org/a/opinion-open-government) / 報導者 林雨蒼 2016.06.10
 * [中、港和外國的開源運動者，為什麼羡慕台灣？](https://theinitium.com/article/20160606-taiwan-g0v/) / 端傳媒 蔣珮伊 2016.06.06
 * [許恩恩：打字，轉動公民社會](https://theinitium.com/article/20160602-opinion-enenhsu-g0v/) / 端傳媒 2016.06.02
