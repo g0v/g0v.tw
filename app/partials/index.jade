@@ -7,9 +7,15 @@ block vars
 
 block content
   #index_left_container
-      .ui.segment
-        a(href="http://g0v.tw/zh-TW/join.html")
-          img.ui.image(src='/imgs/g0vactionbanner-800.gif')
+      .ui.segment(ng-controller="EventCtrl")
+        a.banner-wrapper(ng-href="{{events[0].url}}")
+          .banner-text
+            {{events[0].title}}
+          .banner-pointer
+            .pointer-text
+              i.pointing.right.icon
+              |  參加活動
+
 
       .ui.three.connected.items
           a.item(target="_blank",href="/#{lang}/about.html")
