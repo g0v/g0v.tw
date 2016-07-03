@@ -37,13 +37,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
 .controller EventCtrl: <[$q $http $scope]> ++ ($q, $http, $scope) ->
   $scope.events = []
 
-  $scope.event-sources = <[
-    http://g0v-jothon.kktix.cc/events.json
-    http://g0v-tw.kktix.cc/events.json
-    http://moe.kktix.cc/events.json
-    http://g0vlawthon.kktix.cc/events.json
-    http://fr0ntend.kktix.cc/events.json
-  ]>
+  $scope.event-sources = []
 
   $scope.events-of = (url) ->
     defer = $q.defer()
@@ -51,22 +45,18 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
       defer.resolve([event if moment(event.published).diff(moment()) > 0 for event in result.entry])
     return defer.promise
 
-  $scope.from-github = ->
+  $scope.from-smallthon-config= ->
     defer = $q.defer!
     result <- $http
-      .get 'https://api.github.com/repos/g0v/g0v.tw/issues/127/comments'
+      .get '/data/small-thon.json'
       .success
     defer.resolve result
     return defer.promise
 
   { data } <- $scope
-    .from-github!
+    .from-smallthon-config!
     .then
-  re = /http:\/\/(.+\.cc)\/?/
-  $scope.event-sources = $scope.event-sources.concat ( data
-    .filter -> re.test it.body
-    .map -> "http://#{it.body.match re .1}/events.json"
-  )
+  $scope.event-sources = data.map -> it + "/events.json"
 
   $scope.event-sources.map (source) ->
     $scope.events-of(source)
