@@ -109,6 +109,7 @@ gulp.task 'watch', <[ build server ]> ->
   gulp-livereload.listen silent: true
   gulp.watch [
     'app/**/*.jade',
+    'app/assets/data/*',
     \app/assets/translations/*.json.ls,
     'md/**/*.md'
   ], <[ html ]> .on \change, gulp-livereload.changed
