@@ -10,7 +10,7 @@
   "keywords": "g0v",
   "license": "BSD",
   "scripts": {
-    "prepublish": "node ./node_modules/LiveScript/bin/lsc -cj package.ls\nnode ./node_modules/LiveScript/bin/lsc -cj bower.ls\nnode ./node_modules/LiveScript/bin/lsc -c test/*.js.ls",
+    "prepublish": "node ./node_modules/livescript/bin/lsc -cj package.ls\nnode ./node_modules/livescript/bin/lsc -cj bower.ls\nnode ./node_modules/livescript/bin/lsc -c test/*.js.ls",
     "build": "gulp",
     "test": "npm run build && bower i && ./node_modules/karma/bin/karma start --browsers PhantomJS --single-run true test/karma.conf.js",
     "start": "gulp dev"
