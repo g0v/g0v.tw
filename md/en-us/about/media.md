@@ -2,6 +2,10 @@
 
 For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
+#### 2016 Q3
+
+* [Open-data Hactivists Help Taipei Craft Regulatory Response to Uber](http://www.shareable.net/blog/open-data-hactivists-help-taipei-craft-regulatory-response-to-uber) / Shareable 2016.07.06
+
 #### 2016 Q2
 
 * [日本のシビックテックはガラパゴス！？「G0V summit 2016」報告会【鈴木まなみ】](http://www.civicwave.jp/archives/52135261.html) / CivicWave 2016.06.12
