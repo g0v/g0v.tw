@@ -8,14 +8,15 @@ block vars
 block content
   #index_left_container
       .ui.segment(ng-controller="EventCtrl")
-        a.banner-wrapper(ng-href="{{events[0].url}}")
+        a(href="http://g0v.tw/zh-TW/join.html", ng-show="events.length === 0")
+          img.ui.image(src='/imgs/g0vactionbanner-800.gif')
+        a.banner-wrapper(ng-href="{{events[0].url}}", ng-show="events.length !== 0")
           .banner-text
             {{events[0].title}}
           .banner-pointer
             .pointer-text
               i.pointing.right.icon
               |  參加活動
-
 
       .ui.three.connected.items
           a.item(target="_blank",href="/#{lang}/about.html")
@@ -75,14 +76,12 @@ block content
 
       .ui.orange.segment(ng-controller="EventCtrl")
 
-          .event-loading(ng-show="events.length === 0")
-          h4 最新活動
-              .ui.list
-                  .item(ng-repeat="event in events")
-                      .content
-                          a(ng-href="{{event.url}}") {{event.title}}
-
-          .ui.divider
+          h4(ng-show="events.length !== 0") 最新活動
+            .ui.list
+              .item(ng-repeat="event in events")
+                .content
+                  a(ng-href="{{event.url}}") {{event.title}}
+            .ui.divider
           .videos
               h4(translate="HOME_VIDEOS") 相關影片
               iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
