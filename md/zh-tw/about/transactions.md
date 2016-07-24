@@ -5,13 +5,7 @@
 
 <tr>
 <td rowspan="1" colspan="1">
-<h3>大黑客松(揪松團)收支明細</h3>
-</td>
-</tr>
-
-<tr>
-<td rowspan="1" colspan="1">
-<h3>從 01/01/2012 到 12/31/2015</h3>
+<h3>從 08/09/2012 到 05/31/2015</h3>
 
 <table border="0" cellpadding="1" cellspacing="1">
 <tr>
@@ -24,6 +18,40 @@
 <th>總額</th>
 
 <th>結算</th>
+</tr>
+
+<tr bgcolor="#eee8aa">
+<td rowspan="1" colspan="5">Q2 2015</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td rowspan="1" colspan="5">April 2015</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">04/18/2015</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath13n food</td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=d282b06061de8d98b668720d63c03bb5#">-NT$23,571</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$3,345</td>
+</tr>
+
+<tr bgcolor="#fafad2">
+<td class="total-label-cell" rowspan="1" colspan="4">小計 April 2015</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$23,571</td>
+</tr>
+
+<tr bgcolor="#eee8aa">
+<td class="total-label-cell" rowspan="1" colspan="4">小計 Q2 2015</td>
+
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$23,571</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
@@ -42,7 +70,7 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=c0e65a82f7fab6c86fce2e5ff340f5bb#">NT$-24,700</a>
+<a href="gnc-register:trans-guid=c0e65a82f7fab6c86fce2e5ff340f5bb#">-NT$24,700</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$26,916</td>
@@ -79,13 +107,13 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 February 2015</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-17,200</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$17,200</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 Q1 2015</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-17,200</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$17,200</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
@@ -104,7 +132,7 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=6a2bffbec569b2f97ee623c75646b5c7#">NT$-28,365</a>
+<a href="gnc-register:trans-guid=6a2bffbec569b2f97ee623c75646b5c7#">-NT$28,365</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$44,116</td>
@@ -127,7 +155,7 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 December 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-24,865</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$24,865</td>
 </tr>
 
 <tr bgcolor="#fafad2">
@@ -157,7 +185,7 @@
 <tr bgcolor="#eee8aa">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 Q4 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-23,065</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$23,065</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
@@ -205,15 +233,15 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/21/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1">johhny & ronnywang donation (nctu talk)</td>
+<td class="text-cell" rowspan="1" colspan="1">hackath9n food</td>
 
-<td>Income:Donation</td>
+<td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=d1411c5f36074cfb261e1e17bef0d438#">NT$4,000</a>
+<a href="gnc-register:trans-guid=e247bac0aa6b1799c2aaa892163bc700#">-NT$19,765</a>
 </td>
 
-<td class="number-cell" rowspan="1" colspan="1">NT$62,381</td>
+<td class="number-cell" rowspan="1" colspan="1">NT$56,381</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -233,67 +261,25 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/21/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1">hackath9n food</td>
+<td class="text-cell" rowspan="1" colspan="1">johhny & ronnywang donation (nctu talk)</td>
 
-<td>Expenses:Dining</td>
+<td>Income:Donation</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=e247bac0aa6b1799c2aaa892163bc700#">NT$-19,765</a>
+<a href="gnc-register:trans-guid=d1411c5f36074cfb261e1e17bef0d438#">NT$4,000</a>
 </td>
 
-<td class="number-cell" rowspan="1" colspan="1">NT$56,381</td>
+<td class="number-cell" rowspan="1" colspan="1">NT$62,381</td>
 </tr>
 
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 June 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-13,765</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$13,765</td>
 </tr>
 
 <tr bgcolor="#fafad2">
 <td rowspan="1" colspan="5">April 2014</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath8n insurance</td>
-
-<td>Expenses:Insurance</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=7db4c4f14b0bc91122f699c9d7f854b9#">NT$-4,000</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$76,146</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath8n venue</td>
-
-<td>Expenses:Rent</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=851eab07af8f6fdd71465a4dfcd114a9#">NT$-21,000</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$80,146</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackah8n equipment</td>
-
-<td>Expenses:Equipment Rental</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=97adef3afa11b43a6c4aba1c5c9d0e23#">NT$-27,195</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$101,146</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -304,24 +290,10 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=33a8f929219351a3a46ecf2ca01806bf#">NT$-31,365</a>
+<a href="gnc-register:trans-guid=33a8f929219351a3a46ecf2ca01806bf#">-NT$31,365</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$128,341</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath8n transfer</td>
-
-<td>Expenses:Bank Service Charge</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=43c74af08795221ec2009054206feb3b#">NT$-15</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$159,706</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -341,27 +313,83 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
 
+<td class="text-cell" rowspan="1" colspan="1">hackath8n insurance</td>
+
+<td>Expenses:Insurance</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=7db4c4f14b0bc91122f699c9d7f854b9#">-NT$4,000</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$76,146</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackah8n equipment</td>
+
+<td>Expenses:Equipment Rental</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=97adef3afa11b43a6c4aba1c5c9d0e23#">-NT$27,195</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$101,146</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath8n venue</td>
+
+<td>Expenses:Rent</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=851eab07af8f6fdd71465a4dfcd114a9#">-NT$21,000</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$80,146</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
+
 <td class="text-cell" rowspan="1" colspan="1">hackath8n eletricity</td>
 
 <td>Expenses:Utilities:Electric</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=06d75d91fa8875bfdabbf3676e70743f#">NT$-1,966</a>
+<a href="gnc-register:trans-guid=06d75d91fa8875bfdabbf3676e70743f#">-NT$1,966</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$99,721</td>
 </tr>
 
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">04/19/2014</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath8n transfer</td>
+
+<td>Expenses:Bank Service Charge</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=43c74af08795221ec2009054206feb3b#">-NT$15</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$159,706</td>
+</tr>
+
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 April 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-25,541</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$25,541</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 Q2 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-39,306</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$39,306</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
@@ -399,20 +427,6 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/25/2014</td>
 
-<td class="text-cell" rowspan="1" colspan="1">clkao moi</td>
-
-<td>Income:Donation</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=949af5af26af4f7901da76c70dbe57cf#">NT$3,200</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$51,687</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">02/25/2014</td>
-
 <td class="text-cell" rowspan="1" colspan="1">ronnywang moi</td>
 
 <td>Income:Donation</td>
@@ -425,6 +439,20 @@
 </tr>
 
 <tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">02/25/2014</td>
+
+<td class="text-cell" rowspan="1" colspan="1">clkao moi</td>
+
+<td>Income:Donation</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=949af5af26af4f7901da76c70dbe57cf#">NT$3,200</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$51,687</td>
+</tr>
+
+<tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">02/22/2014</td>
 
 <td class="text-cell" rowspan="1" colspan="1">hackath7n food</td>
@@ -432,7 +460,7 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=f3dac8f9aefc2d922ef2592e3880cd41#">NT$-20,700</a>
+<a href="gnc-register:trans-guid=f3dac8f9aefc2d922ef2592e3880cd41#">-NT$20,700</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$45,287</td>
@@ -441,7 +469,7 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 February 2014</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-14,300</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$14,300</td>
 </tr>
 
 <tr bgcolor="#fafad2">
@@ -499,6 +527,20 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
 
+<td class="text-cell" rowspan="1" colspan="1">hackath6n food</td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=b468bc0f210ad7ada5569c59783c7ecf#">-NT$20,300</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$44,067</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
+
 <td class="text-cell" rowspan="1" colspan="1">tailtooth remaining donation</td>
 
 <td>Income:Donation</td>
@@ -508,20 +550,6 @@
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$52,387</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">12/21/2013</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath6n food</td>
-
-<td>Expenses:Dining</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=b468bc0f210ad7ada5569c59783c7ecf#">NT$-20,300</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$44,067</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -546,7 +574,7 @@
 <td>Assets:Current Assets:Cash</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=8478808fd591d74f91e2b5f81eb12504#">NT$-16,524</a>
+<a href="gnc-register:trans-guid=8478808fd591d74f91e2b5f81eb12504#">-NT$16,524</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$0</td>
@@ -659,12 +687,26 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
+<td class="text-cell" rowspan="1" colspan="1">hackath5n registrano fee</td>
+
+<td>Expenses:Online Services</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=bb107f4ac57233575be5cf61a2c2ef9d#">-NT$965</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$17,035</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+
 <td class="text-cell" rowspan="1" colspan="1">hackath5n goscup fee</td>
 
 <td>Expenses:Professional Fees</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=c098fc9616ab4b3b82fc6660e4cff7c4#">NT$-511</a>
+<a href="gnc-register:trans-guid=c098fc9616ab4b3b82fc6660e4cff7c4#">-NT$511</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$16,524</td>
@@ -673,15 +715,15 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1">hackath5n registrano fee</td>
+<td class="text-cell" rowspan="1" colspan="1">hackath5n food</td>
 
-<td>Expenses:Online Services</td>
+<td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=bb107f4ac57233575be5cf61a2c2ef9d#">NT$-965</a>
+<a href="gnc-register:trans-guid=1b41065acd5a290fc58c8dd7a880df0e#">-NT$21,555</a>
 </td>
 
-<td class="number-cell" rowspan="1" colspan="1">NT$17,035</td>
+<td class="number-cell" rowspan="1" colspan="1">NT$9,343</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -713,17 +755,17 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">10/20/2013</td>
+<td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1">hackath5n food</td>
+<td class="text-cell" rowspan="1" colspan="1">clkao hackgen judge</td>
 
-<td>Expenses:Dining</td>
+<td>Income:Donation</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=1b41065acd5a290fc58c8dd7a880df0e#">NT$-21,555</a>
+<a href="gnc-register:trans-guid=5325ccba98b66007ce17d4e49a9fbe87#">NT$2,000</a>
 </td>
 
-<td class="number-cell" rowspan="1" colspan="1">NT$9,343</td>
+<td class="number-cell" rowspan="1" colspan="1">NT$28,898</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -738,20 +780,6 @@
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$30,898</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">10/13/2013</td>
-
-<td class="text-cell" rowspan="1" colspan="1">clkao hackgen judge</td>
-
-<td>Income:Donation</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=5325ccba98b66007ce17d4e49a9fbe87#">NT$2,000</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$28,898</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -862,10 +890,24 @@
 <td>Assets:Current Assets:Cash</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=a52f9676f6592cd8f51754862ddab807#">NT$-13,925</a>
+<a href="gnc-register:trans-guid=a52f9676f6592cd8f51754862ddab807#">-NT$13,925</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$0</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath4n food</td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=b6fa62607c25c7818fbd4e8b173267da#">-NT$23,375</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">-NT$1,027</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -883,34 +925,6 @@
 </tr>
 
 <tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/10/2013</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath4n food</td>
-
-<td>Expenses:Dining</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=b6fa62607c25c7818fbd4e8b173267da#">NT$-23,375</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$-1,027</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath4n goscup fee</td>
-
-<td>Expenses:Professional Fees</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=a6f1940f9aa27182a17b61150897678d#">NT$-1,280</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$13,925</td>
-</tr>
-
-<tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
 
 <td class="text-cell" rowspan="1" colspan="1">hackath4n registrano fee</td>
@@ -918,7 +932,7 @@
 <td>Expenses:Online Services</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=ff4f79034ba72deedcc9f2c6f60f1bb9#">NT$-795</a>
+<a href="gnc-register:trans-guid=ff4f79034ba72deedcc9f2c6f60f1bb9#">-NT$795</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$15,205</td>
@@ -938,10 +952,24 @@
 <td class="number-cell" rowspan="1" colspan="1">NT$16,000</td>
 </tr>
 
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">08/09/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath4n goscup fee</td>
+
+<td>Expenses:Professional Fees</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=a6f1940f9aa27182a17b61150897678d#">-NT$1,280</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$13,925</td>
+</tr>
+
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 August 2013</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-3,450</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$3,450</td>
 </tr>
 
 <tr bgcolor="#fafad2">
@@ -1013,6 +1041,20 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
 
+<td class="text-cell" rowspan="1" colspan="1">hackath3n food</td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=c12ebfe0f0eb40f951f1df17eee6a8a7#">-NT$12,790</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$10,368</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
+
 <td class="text-cell" rowspan="1" colspan="1">MJ donation</td>
 
 <td>Income:Donation</td>
@@ -1036,20 +1078,6 @@
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$11,368</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">06/08/2013</td>
-
-<td class="text-cell" rowspan="1" colspan="1">hackath3n food</td>
-
-<td>Expenses:Dining</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=c12ebfe0f0eb40f951f1df17eee6a8a7#">NT$-12,790</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$10,368</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -1113,20 +1141,6 @@
 <tr bgcolor="#ffffff">
 <td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
 
-<td class="text-cell" rowspan="1" colspan="1">hackath2n food</td>
-
-<td>Expenses:Dining</td>
-
-<td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=7fc4599323d5b358abbaa6248f032cd6#">NT$-12,350</a>
-</td>
-
-<td class="number-cell" rowspan="1" colspan="1">NT$10,158</td>
-</tr>
-
-<tr bgcolor="#ffffff">
-<td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
-
 <td class="text-cell" rowspan="1" colspan="1">hackath2n donation</td>
 
 <td>Income:Donation</td>
@@ -1136,6 +1150,20 @@
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$22,508</td>
+</tr>
+
+<tr bgcolor="#ffffff">
+<td class="date-cell" rowspan="1" colspan="1">03/23/2013</td>
+
+<td class="text-cell" rowspan="1" colspan="1">hackath2n food</td>
+
+<td>Expenses:Dining</td>
+
+<td class="number-cell" rowspan="1" colspan="1">
+<a href="gnc-register:trans-guid=7fc4599323d5b358abbaa6248f032cd6#">-NT$12,350</a>
+</td>
+
+<td class="number-cell" rowspan="1" colspan="1">NT$10,158</td>
 </tr>
 
 <tr bgcolor="#ffffff">
@@ -1170,7 +1198,7 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=c52202af8ecd22ebd81d3ede3a4c6d15#">NT$-13,420</a>
+<a href="gnc-register:trans-guid=c52202af8ecd22ebd81d3ede3a4c6d15#">-NT$13,420</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$4,508</td>
@@ -1193,13 +1221,13 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 January 2013</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-8,321</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$8,321</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 Q1 2013</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-2,671</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$2,671</td>
 </tr>
 
 <tr bgcolor="#eee8aa">
@@ -1218,7 +1246,7 @@
 <td>Expenses:Dining</td>
 
 <td class="number-cell" rowspan="1" colspan="1">
-<a href="gnc-register:trans-guid=d8b074a2d50f94eab761713bd167d973#">NT$-19,070</a>
+<a href="gnc-register:trans-guid=d8b074a2d50f94eab761713bd167d973#">-NT$19,070</a>
 </td>
 
 <td class="number-cell" rowspan="1" colspan="1">NT$12,829</td>
@@ -1227,7 +1255,7 @@
 <tr bgcolor="#fafad2">
 <td class="total-label-cell" rowspan="1" colspan="4">小計 December 2012</td>
 
-<td class="total-number-cell" rowspan="1" colspan="1">NT$-19,070</td>
+<td class="total-number-cell" rowspan="1" colspan="1">-NT$19,070</td>
 </tr>
 
 <tr bgcolor="#fafad2">
@@ -1264,15 +1292,11 @@
 <td rowspan="1" colspan="5">
 <hr /></td>
 </tr>
-
-<tr bgcolor="#ffff00">
-<td class="total-label-cell" rowspan="1" colspan="4">總和</td>
-
-<td class="total-number-cell" rowspan="1" colspan="1">NT$26,916</td>
-</tr>
 </table>
 </td>
 </tr>
+
+<tr>
+<td rowspan="1" colspan="1"></td>
+</tr>
 </table>
-</center></body>
-</html>
