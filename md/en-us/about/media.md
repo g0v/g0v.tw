@@ -4,6 +4,7 @@ For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.htm
 
 #### 2016 Q3
 
+* [vTaiwan: Public Participation Methods on the Cyberpunk Frontier of Democracy](http://civichall.org/civicist/vtaiwan-democracy-frontier/) / Civicist 2016.08.11
 * [Open-data Hactivists Help Taipei Craft Regulatory Response to Uber](http://www.shareable.net/blog/open-data-hactivists-help-taipei-craft-regulatory-response-to-uber) / Shareable 2016.07.06
 
 #### 2016 Q2
