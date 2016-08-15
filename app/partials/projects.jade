@@ -29,6 +29,16 @@ block content
 
     .ui.horizontal.divider
       i.code.icon
+    - var useRegistryAPI = false;
+    if useRegistryAPI
+      #g0vprojects.ui.stackable.three.items
+      script(src="https://g0v-data.github.io/registry/viewer/lib/registry.js")
+      script.
+        g0vRegistry.loadInto({
+          root: document.getElementById('g0vprojects'),
+          filter: function(item) { return item.thumbnail; },
+          layout: "semantic-ui"
+        });
 
     div#openGov
       h3.ui.header
