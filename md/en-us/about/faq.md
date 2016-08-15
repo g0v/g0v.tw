@@ -20,7 +20,7 @@
   * 大黑客松：每兩個月辦理的大型黑客松不定期會開賣有價券「源碼大明神香油票」（https://kktix.com/group/g0v-tw/ ），請注意各期報名訊息。（原則上只預留下期經費，不累積募款）
   * 小黑客松：另外也有不定期小型黑客松，由各發起人辦理，目前尚未有捐款流程。如有確認會再公布
 * **贊助特定專案**：如希望支持特定專案，可以詢問專案發起人意願。不知發起人聯繫方式，可先來信 g0v-talks[at]googlegroups.com 詢問。
-* **黑客松收支明細在此**：http://g0v.tw/transaction.html
+* **黑客松收支明細在此**：http://hack.g0v.tw/transaction
 
 <div class="ui message">
   <div class="header">
@@ -61,5 +61,3 @@ wikileaks 主要是公布非開放的機密資料，g0v 則是推廣政府開放
 
 -----
 ### 更多 [FAQ](https://g0v.hackpad.com/g0v-FAQ-ULNGIs20R9X) 陸續彙整中。。。
-
-
