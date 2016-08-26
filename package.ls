@@ -7,8 +7,9 @@ repository:
   type: 'git'
   url: 'https://github.com/g0v/g0v.tw'
 keywords:
-  * "g0v"
-license: 'BSD'
+  "g0v"
+  ...
+license: 'BSD-2-Clause'
 scripts:
   prepublish: """
     node ./node_modules/livescript/bin/lsc -cj package.ls
@@ -49,7 +50,7 @@ devDependencies:
   'karma-ng-scenario': '0.1.0'
   'livescript': '1.4.0'
   'main-bower-files': '^2.5.0'
-  'marked': '^0.3.3'
+  'marked': '^0.3.6'
   'mocha': '^2.1.0'
   'streamqueue': '^0.1.0'
   'tiny-lr': '^0.1.5'
