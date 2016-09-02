@@ -1,0 +1,83 @@
+extend ../layout/layout
+
+block title
+    title(translate="MENU_LIST")
+block vars
+    - nav_cls.project = 'highlight'
+block content
+  div#projects_left_container
+    div.navbar-wrapper
+      ui.ui.vertical.pointing.secondary.menu.nav.navbar-nav
+        li.item.menuItem.active
+          a(href="#openGov") 開放政府
+        li.item.menuItem
+          a(href="#openData") 開放資料
+        li.item.menuItem
+          a(href="#socEngage") 社會參與
+        li.item.menuItem
+          a(href="#newMedia") 新媒體應用
+        li.item.menuItem
+          a(href="#policyFeedback") 政策共筆
+        li.item.menuItem
+          a(href="#comCollaboration" ) g0v基礎建設
+
+  div#projects_right_container
+    h1.ui.huge.header.center.aligned
+      .content
+        | 零時政府促成了哪些專案？
+        .sub.header 多項專案持續彙整中......
+
+    .ui.horizontal.divider
+      i.code.icon
+
+    - var showProjectByCategory = false;
+    - var projectCategoryList = [ { id: 'openGov', content: '開放政府 Open Government', header: '草根力量打造開放透明資訊平台，促進公民參與及雙向溝通', area: 'Open Government / 開放政府' }, { id: 'openData', content: '開放資料 Open Data', header: '創新應用將資料', area: 'Open Data / 開放資料' }, { id: 'socEngage', content: '社會參與 Social Engagement', header: '從 Web 2.0 群眾號召，走向開源型態的群眾協作' }, { id: 'newMedia', content: '新媒體應用 New Media', header: '新工具．新媒介．新內容的新型態實驗場', area: 'Media / 新媒體' }, { id: 'policyFeedback', content: '政策共筆 Policy Feedback', header: '新工具帶來新媒介，新媒介產生新型態內容' }, { id: 'comCollaboration', content: 'g0v 社群基礎建設 Community Collaboration', header: '新工具帶來新媒介，新媒介產生新型態內容', area: 'Infrastructure / g0v 基礎建設' } ];
+
+      //-script(src="https://g0v-data.github.io/registry/viewer/lib/registry.js")
+      script(src="http://localhost:9999/lib/registry.js")
+      if showProjectByCategory
+        #g0v-projects
+          each item in projectCategoryList
+            div(id=item.id)
+              h3.ui.header
+                i.dashboard.icon
+                .content
+                  span= item.content
+                  .sub.header= item.header
+              .ui.stackable.three.items(id=item.id + "-list")
+            .ui.horizontal.divider
+              i.circular.code.icon
+        script var categorylist = !{JSON.stringify(projectCategoryList)};
+        script.
+          (function(){
+            var _ = function(id,area) {
+              g0vRegistry.loadInto({
+                root: document.getElementById(id),
+                filter: function(item) {
+                  return area && item.name && item.homepage && item.area == area;
+                },
+                sort: function(b,a) {
+                  if(b.thumbnail) return 1;
+                  if(b.description && (!a.description || b.description.length > a.description)) return 1;
+                  return -1;
+                },
+                layout: "semantic-ui"
+              });
+            };
+            for(var i=0; i<categorylist.length; i++) {
+              _(categorylist[i].id + "-list", categorylist[i].area);
+            }
+          })();
+      else
+        #g0v-projects.ui.stackable.three.items
+        script.
+          g0vRegistry.loadInto({
+            root: document.getElementById("g0v-projects"),
+            filter: function(item) { return item.name && item.homepage; },
+            sort: function(a,b) {
+              if(b.thumbnail) return 1;
+              if(b.description && (!a.description || b.description.length > a.description)) return 1;
+              return -1;
+            },
+            layout: "semantic-ui"
+          });
