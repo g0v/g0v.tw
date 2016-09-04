@@ -1,8 +1,8 @@
 - var nav_cls = {}
 - nav_cls.index = nav_cls.about = nav_cls.talk = ''
-- nav_cls.actinfo = nav_cls.join = nav_cls.contact = ''
+- nav_cls.actinfo = nav_cls.join = nav_cls.project = ''
 block vars
-.ui.fluid.seven.item.evenly.menu
+.ui.fluid.five.item.evenly.menu
     a.item(href="/#{lang}/index.html", translate="MENU_HOME", class="#{nav_cls.index}")
       | 首頁
     .ui.pointing.dropdown.link.item(class="#{nav_cls.about}")
@@ -12,78 +12,50 @@ block vars
           | 關於 g0v
         a.item(href="/#{lang}/manifesto.html", translate="MENU_MANIFESTO")
           | 零時政府宣言
+        a.item(href="/#{lang}/contact.html", translate="MENU_CONTACT")
+          | 聯繫我們
+        a.item(href="/#{lang}/media.html", translate="MENU_MEDIA")
+          | 媒體報導
+        a.item(target="blank", href="http://blog.g0v.tw")
+          span(translate="MENU_BLOG") g0v 部落格
           i.external.url.right.icon
-
-        a.item(href="/#{lang}/community.html", translate="MENU_COMMUNITY")
+        //a.item(href="/#{lang}/community.html", translate="MENU_COMMUNITY")
           | 社群文化
-        a.item(href="/#{lang}/faq.html", translate="MENU_FAQ")
+        //a.item(href="/#{lang}/faq.html", translate="MENU_FAQ")
           | 常見問題
         a.item(href="/#{lang}/transaction.html", translate="MENU_TRANSACTION")
           | 收支明細
-    .ui.pointing.dropdown.link.item(class="#{nav_cls.project}")
-      span(translate="MENU_PROJECT") 專案
+    .ui.pointing.dropdown.link.item(class="#{nav_cls.join}")
+      span(translate="MENU_HOWTO") 如何參與
       .menu
-        a.item(href="/#{lang}/projects.html", translate="MENU_LIST")
-          span(translate="MENU_LIST") 成果列表
-          i.external.url.right.icon
-        //a.item(target="blank",href="http://hack.g0v.tw/project")
-          span(translate="MENU_PROGRESS") 開發中專案
+        a.item(href="/#{lang}/join.html", translate="MENU_HOWTO")
+          | 如何參與
+        a.item(href="https://www.facebook.com/groups/g0v.general/", target="_blank")
+          span(translate="MENU_MEMBER") FB 後勤中心
           i.external.url.right.icon
         a.item(target="blank",href="https://g0v.hackpad.com/", )
           span(translate="MENU_HACKPAD") 開發共筆
           i.external.url.right.icon
-        //a.item(target="blank",href="http://g0v.github.io/g0vis/#!/project/1")
-          span(translate="MENU_VISUAL") 專案貢獻者
-          i.external.url.right.icon
-        a.item(target="blank",href="http://data.g0v.tw")
-          span(translate="MENU_OPENDATA") g0v資料開放平臺
-          i.external.url.right.icon
-    .ui.pointing.dropdown.link.item(class="#{nav_cls.join}")
-      span(translate="MENU_JOIN") 加入行動
-      .menu
-        a.item(href="/#{lang}/join.html", translate="MENU_HOWTO")
-          | 如何參與
-        //a.item(href="/#{lang}/tools.html", translate="MENU_TOOLS")
-          | 常用工具
-        a.item(href="https://www.facebook.com/groups/g0v.general/", target="_blank")
-          span(translate="MENU_MEMBER") fb 後勤中心
-          i.external.url.right.icon
-        //a.item(href="/#{lang}/links.html", translate="MENU_LINKS")
-          | 相關連結
-    .ui.pointing.dropdown.link.item(class="#{nav_cls.news}")
-      span( translate="MENU_NEWS") 新聞
-      .menu
-        a.item(href="/#{lang}/media.html", translate="MENU_MEDIA")
-          | 媒體報導
-        a.item(href="/#{lang}/blogpost.html", translate="MENU_BLOGPOST")
-          | 社群分享
-        a.item(href="/#{lang}/communique.html", translate="MENU_COMMUNIQUE")
-          | g0v 公報
-        a.item(href="http://blog.g0v.tw")
-          span(translate="MENU_BLOG") g0v 部落格
-          i.external.url.right.icon
-        a.item(target="blank", href="http://logbot.g0v.tw")
-          span(translate="MENU_LOGBOT") IRC log
-          i.external.url.right.icon
+        a.item(href="/#{lang}/faq.html", translate="MENU_FAQ")
+          | 常見問題
+
+    a.item(href="/#{lang}/projects.html", translate="MENU_LIST", class="#{nav_cls.project}")
+      span(translate="MENU_LIST") 成果列表
+
     .ui.pointing.dropdown.link.item(class="#{nav_cls.actinfo}")
-      span( translate="MENU_ACT") 活動資訊
+      span( translate="MENU_ACT") g0v 活動
       .menu
         a.item(href="/#{lang}/actinfo.html", translate="MENU_ACTINFO")
-          | 黑客松資訊
-        a.item(href="/#{lang}/hacklog.html", translate="MENU_ACTRECORD")
-          | 黑客松紀錄
+          | 活動資訊
         a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
           | 演講資訊
 
-
-    a(class="item",href="/#{lang}/contact.html", translate="MENU_CONTACT", class="#{nav_cls.contact}")
-      | 聯繫
 script.
   (function(){
     var links,lang;
     if(document.title === '找不到頁面'){
       lang = window.navigator.userLanguage || window.navigator.language;
-      links = document.querySelectorAll('.ui.fluid.seven.item.menu a');
+      links = document.querySelectorAll('.ui.fluid.five.item.menu a');
       for(var key in links){
         if(links[key].href){
           url = links[key].href.toString();
