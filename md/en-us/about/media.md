@@ -4,6 +4,8 @@ For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.htm
 
 #### 2016 Q3
 
+* [Así están transformando los movimientos sociales la democracia a través de la tecnología](http://www.lavanguardia.com/tecnologia/20160917/41364139386/movimientos-sociales-democracia-tecnologia.html) / 
+La Vanguardia 2016.09.17
 * [vTaiwan: Public Participation Methods on the Cyberpunk Frontier of Democracy](http://civichall.org/civicist/vtaiwan-democracy-frontier/) / Civicist 2016.08.11
 * [Open-data Hactivists Help Taipei Craft Regulatory Response to Uber](http://www.shareable.net/blog/open-data-hactivists-help-taipei-craft-regulatory-response-to-uber) / Shareable 2016.07.06
 
