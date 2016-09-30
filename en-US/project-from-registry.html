@@ -26,11 +26,12 @@
       }
     }
   }
-}());</script><div id="projects_left_container"><div class="navbar-wrapper"><ui class="ui vertical pointing secondary menu nav navbar-nav"><li class="item menuItem active"><a href="#openGov">開放政府</a></li><li class="item menuItem"><a href="#openData">開放資料</a></li><li class="item menuItem"><a href="#socEngage">社會參與</a></li><li class="item menuItem"><a href="#newMedia">新媒體應用</a></li><li class="item menuItem"><a href="#policyFeedback">政策共筆</a></li><li class="item menuItem"><a href="#comCollaboration">g0v基礎建設</a></li></ui></div></div><div id="projects_right_container"><h1 class="ui huge header center aligned"><div class="content">零時政府促成了哪些專案？<div class="sub header">多項專案持續彙整中......</div></div></h1><div class="ui horizontal divider"><i class="code icon"></i></div><script src="http://localhost:9999/lib/registry.js"></script><div id="g0v-projects" class="ui stackable three items"></div><script>g0vRegistry.loadInto({
+}());</script><div id="projects_left_container"><div class="navbar-wrapper"><ui class="ui vertical pointing secondary menu nav navbar-nav"><li class="item menuItem active"><a href="#openGov">開放政府</a></li><li class="item menuItem"><a href="#openData">開放資料</a></li><li class="item menuItem"><a href="#socEngage">社會參與</a></li><li class="item menuItem"><a href="#newMedia">新媒體應用</a></li><li class="item menuItem"><a href="#policyFeedback">政策共筆</a></li><li class="item menuItem"><a href="#comCollaboration">g0v基礎建設</a></li></ui></div></div><div id="projects_right_container"><h1 class="ui huge header center aligned"><div class="content">零時政府促成了哪些專案？<div class="sub header">多項專案持續彙整中......</div></div></h1><div class="ui horizontal divider"><i class="code icon"></i></div><script src="https://g0v-data.github.io/registry/viewer/lib/registry.js"></script><div id="g0v-projects" class="ui stackable three items"></div><script>g0vRegistry.loadInto({
   root: document.getElementById("g0v-projects"),
   filter: function(item) { return item.name && item.homepage; },
   sort: function(a,b) {
-    if(b.thumbnail) return 1;
+    if(b.thumbnail && !a.thumbnail) return 1;
+    if(!b.thumbnail && a.thumbnail) return -1;
     if(b.description && (!a.description || b.description.length > a.description)) return 1;
     return -1;
   },
