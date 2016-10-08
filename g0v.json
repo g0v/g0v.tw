@@ -1,11 +1,12 @@
 {
+  "repo": "g0v/g0v.tw",
   "status": "beta",
   "name": "g0vsite",
-  "name_zh": "零時政府官網",
-  "description": "g0v.tw site",
-  "description_zh": "g0v 官網",
-  "document": "http://hack.g0v.tw/meta/YC0Ig73WEMJ",
+  "name_zh": "零時政府官網--",
+  "description": "g0v.tw site-- Code for Better Society!  Hack Projects of g0v community with us.",
+  "description_zh": "g0v 官網 --了解社群最新動態與專案，一同寫程式改造社會！",
   "homepage": "http://g0v.tw/",
+  "document": "http://hack.g0v.tw/meta/YC0Ig73WEMJ",
   "repository": {
     "type": "git",
     "url": "https://github.com/g0v/g0v.tw"
@@ -22,5 +23,10 @@
   ],
   "audience": [
     "public"
-  ]
+  ],
+  "author": "ttcat",
+  "thumbnail": "https://raw.githubusercontent.com/zbryikt/g0v.tw/master/thumbnail.png",
+  "contributors": "Claire",
+  "partOf": "g0v hub",
+  "needs": "txt"
 }
