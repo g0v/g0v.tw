@@ -2,6 +2,10 @@
 
 For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
+#### 2016 Q4
+
+* [Open government essential to digital economy: minister](http://www.chinapost.com.tw/taiwan/business/2016/10/06/480286/Open-government.html) / China Post 2016.10.06
+
 #### 2016 Q3
 
 * [Así están transformando los movimientos sociales la democracia a través de la tecnología](http://www.lavanguardia.com/tecnologia/20160917/41364139386/movimientos-sociales-democracia-tecnologia.html) / 
