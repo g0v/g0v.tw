@@ -1,6 +1,6 @@
 ### International Media Coverage
 
-For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
+For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
 #### 2016 Q4
 
@@ -8,9 +8,12 @@ For local media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.htm
 
 #### 2016 Q3
 
+* [Audrey, hacker transgender diventa ministro: "Qui stiamo reinventando la democrazia"](http://www.repubblica.it/tecnologia/2016/09/19/news/l_hacker_transgender_di_taiwan_qui_stiamo_reinventando_la_democrazia_-148101656/?refresh_ce) / la Repubblica 2016.9.19
 * [Así están transformando los movimientos sociales la democracia a través de la tecnología](http://www.lavanguardia.com/tecnologia/20160917/41364139386/movimientos-sociales-democracia-tecnologia.html) / 
 La Vanguardia 2016.09.17
+* [Taiwan’s new digital minister is a transgender software programmer who wants to make government more open](http://qz.com/767298/taiwans-new-digital-minister-is-a-transgender-software-programmer-who-wants-to-make-government-more-open/v) / Quartz 2016.8.26
 * [vTaiwan: Public Participation Methods on the Cyberpunk Frontier of Democracy](http://civichall.org/civicist/vtaiwan-democracy-frontier/) / Civicist 2016.08.11
+* [Can Technology Improve Democracy? Answers from g0v Summit 2016](http://medium.com/@aelcenganda/can-technology-improve-democracy-answers-from-g0v-summit-2016-db51a126e110#.1lljhbqac) / @aelcenganda 2016.7.20
 * [Open-data Hactivists Help Taipei Craft Regulatory Response to Uber](http://www.shareable.net/blog/open-data-hactivists-help-taipei-craft-regulatory-response-to-uber) / Shareable 2016.07.06
 
 #### 2016 Q2
@@ -33,10 +36,12 @@ La Vanguardia 2016.09.17
 * [Saving the Amis language one megabyte at a time](http://www.taipeitimes.com/News/feat/archives/2015/09/28/2003628753) / Taipei Times 2015.09.28
 
 #### 2015 Q1
+* [COLLABORATE OR PERISH: WHAT THE INTERNET OF EVERYTHING TEACHES US ABOUT PUBLIC-PRIVATE PARTNERSHIPS](http://www.nextgov.com/technology-news/tech-insider/2015/03/5-reflections-taiwan-and-australia-importance-public-private-partnerships/106998/) / Nextgov 2015.3.5
 * [Transparency Web site links public with government](http://www.taipeitimes.com/News/taiwan/archives/2015/01/11/2003608980) / Taipei Times 2015.01.11
 
 #### 2014 Q4
 * [After Sunflower Movement, Taiwan's g0v Uses Open Source to Open the Government](http://techpresident.com/news/wegov/25339/sunflower-movement-g0v-taiwan-open-government) / TechPresident 2014.11.05
+* [Taiwan's g0v: Using Open-Source Code And Communities To Engage Citizens And Make Government More Open](http://www.techdirt.com/articles/20141107/10025529078/taiwans-g0v-using-open-source-code-communities-to-engage-citizens-make-government-more-open.shtml) / Techdirt 2014.11.07
 
 #### 2014 Q2
 
