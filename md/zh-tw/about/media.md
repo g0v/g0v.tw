@@ -2,6 +2,18 @@
 
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
+#### 2016 第四季
+
+* [唐鳳：數位協作　讓懶惰鬼也願意行動](http://www.cw.com.tw/article/article.action?id=5079252) / 天下雜誌 2016.11.8
+
+#### 2016 第三季
+* [这名黑客可以改造台湾政府吗？](http://www.ftchinese.com/story/001069156) / FT中文網 張鐵志 2016.8.31
+* [從g0v到gov 蔡英文政府布局為哪樁？](http://www.ntdtv.com/xtr/b5/2016/08/26/a1283266.html) / 新唐人電視台 2016.8.26
+* [臺灣第一位數位政委！唐鳳要把開放、協作精神帶進政府](http://www.ithome.com.tw/news/107925) / IThome 2016.8.25
+* [李維斌：設計X智能 說故事吸引公民參與打造](http://www.cw.com.tw/article/article.action?id=5078044) / 天下雜誌 2016.8.25
+* [徵才工時假的 「工時透明化運動」告訴你哪個行業不加班](http://www.cw.com.tw/article/article.action?id=5077747) / 天下雜誌 2016.8.8
+* [加班費算了沒 勞基法計算機算給你聽](http://udn.com/news/story/9846/1829075) / 聯合新聞網 2016.7.14
+
 #### 2016 第二季
 
 * [臺灣公民科技的覺醒](http://www.ithome.com.tw/news/106629) / iThome 胡瑋佳 2016.06.25
