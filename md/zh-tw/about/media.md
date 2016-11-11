@@ -5,6 +5,7 @@ Also see [international media coverage](https://g0v.tw/en-US/media.html).
 #### 2016 第四季
 
 * [唐鳳：數位協作　讓懶惰鬼也願意行動](http://www.cw.com.tw/article/article.action?id=5079252) / 天下雜誌 2016.11.8
+* [門口香雞排開張時，會讓你家的空氣紫爆嗎？](https://theinitium.com/article/20161020-taiwan-Air-pollution/) / 端傳媒 2016.10.20
 
 #### 2016 第三季
 * [这名黑客可以改造台湾政府吗？](http://www.ftchinese.com/story/001069156) / FT中文網 張鐵志 2016.8.31
