@@ -7,7 +7,7 @@ block vars
 
 block content
   #index_left_container
-      .ui.segment(ng-controller="EventCtrl")
+      .ui.segment
         a(href="http://grants.g0v.tw", ng-show="events.length === 0")
           img.ui.image(src='/imgs/grant.jpg')
         a.banner-wrapper(ng-href="{{events[0].url}}", ng-show="events.length !== 0")
