@@ -3,7 +3,7 @@
   "name": "g0vsite",
   "name_zh": "零時政府官網",
   "description": "g0v.tw site",
-  "description_zh": "g0v 官網",
+  "description_zh": "g0v 官方網站，定期更新社群的最新動態、專案進度，以及做為社群理念傳達的出發點。",
   "document": "http://hack.g0v.tw/meta/YC0Ig73WEMJ",
   "homepage": "http://g0v.tw/",
   "repository": {
@@ -20,6 +20,7 @@
     "g0v.tw",
     "communication"
   ],
+  "thumbnail": "https://raw.githubusercontent.com/zbryikt/g0v.tw/master/thumbnail.png",
   "audience": [
     "public"
   ]
