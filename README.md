@@ -1,4 +1,5 @@
 # Introduction
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/g0v/g0v.tw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [g0v.tw](http://g0v.tw) 的網頁內容由此專案產生
 
