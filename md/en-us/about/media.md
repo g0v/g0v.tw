@@ -2,6 +2,10 @@
 
 For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
+#### 2017 Q1
+
+* [How Civic Activists Counter Fake News in Taiwan] (http://civichall.org/civicist/civic-activists-counter-fake-news-taiwan/) / Civicist 2017.01.09
+
 #### 2016 Q4
 
 * [Open government essential to digital economy: minister](http://www.chinapost.com.tw/taiwan/business/2016/10/06/480286/Open-government.html) / China Post 2016.10.06
