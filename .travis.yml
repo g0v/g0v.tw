@@ -8,6 +8,9 @@ sudo: false
 git:
   depth: 1
 
+git:
+  depth: 1
+
 branches:
   except:
     - gh-pages
