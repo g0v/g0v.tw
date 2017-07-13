@@ -1,14 +1,34 @@
 ### 媒體報導
-
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
+
+#### 2017 第三季
+* [挖掘海外台灣史料 旅美台人推國家寶藏計畫](http://news.ltn.com.tw/news/focus/paper/1117571) / 自由時報 邱燕玲 2017.7.10
+* [公民黑客力 g0v零時政府](https://udn.com/news/story/6845/2569895) / 台灣光華雜誌 龍珮寧／劉嫈楓 2017.07.07
+* [強化公民科技續航力！g0v要給你50萬元開發公民科技](http://www.ithome.com.tw/news/115413)
+ / iThome 胡瑋佳 2017.07.07
+
+#### 2017 第二季
+* [g0v 獎助金》微氣候監控，讓小農不必再看天吃飯](https://goo.gl/LUrGjG) / g0v.news 鄭婷宇 2017.06.30
+* [判決書API計劃 建立司法與民眾的橋樑](http://news.cts.com.tw/vita/campus/201706/201706151873434.html#.WWcjBNOGOqA) / 華視 王林曄、張然2017.06.15
+* [g0v 獎助金》 只要有他，甚麼都能抓：爬資料神人 — 王向榮](https://goo.gl/MPU6Ma) / g0v.news 鄭婷宇 2017.06.11
+* [七件提案獲得 g0v 獎助金，鼓勵跨界開源長期開發](https://medium.com/@chengtingyu/3abb7989c012) / g0v.news 鄭婷宇 2017.04.07
+
 #### 2017 第一季
+* [黑客公務員的血汗之路](https://g0v.news/gov-hackers/home) / g0v.news 劉致昕 2017.03.22
+* [「零時政府」的第24次黑客松：挖坑和跳坑的派對](https://theinitium.com/article/20170321-notes-g0v-hackson/)/端傳媒 黃威凱 2017.03.20
+* [願景工程贊助g0v公民科技獎 分辨LINE真偽提案](https://udn.com/news/story/9/2350610)/聯合報 2017.03.18
+* [首屆 g0v 公民科技創新獎助金揭曉，七項專案共獲 300 萬獎金](http://technews.tw/2017/03/13/1st-g0v-civic-tech-prototype-grant-winner/)/TechNews 科技新報 2017.03.13
+* [公民科技提案踴躍，94 件投稿爭取 g0v 獎助金](https://goo.gl/xXUy5N)/g0v.news 鄭婷宇 2017.02.04
 * [網路假新聞氾濫 零時政府推LINE查證群組](http://www.cna.com.tw/news/ahel/201701115010-1.aspx) / 中央通訊社 2017.1.12
+* [快邀長輩加入！g0v 推 LINE 查證群組，打擊假新聞](https://www.inside.com.tw/2017/01/11/g0v-line-news) / 2017.01.11
 
 #### 2016 第四季
 
+* [一個台灣替代役男，與聖多美第一張「開放街圖」](https://g0v.news/%E4%B8%80%E5%80%8B%E5%8F%B0%E7%81%A3%E6%9B%BF%E4%BB%A3%E5%BD%B9%E7%94%B7-%E8%88%87%E8%81%96%E5%A4%9A%E7%BE%8E%E7%AC%AC%E4%B8%80%E5%BC%B5-%E9%96%8B%E6%94%BE%E8%A1%97%E5%9C%96-e9aecf4ca8f) / g0v.news 劉致昕 2016.12.27
+* [300 萬獎助金，g0v 零時政府徵求公民科技創新專案](http://technews.tw/2016/12/19/g0v-civic-tech-plan/) / 科技新報 2017.12.l9
+* [【巴黎現場】這裡，鎂光燈照在「隱形」的台灣身上](https://g0v.news/%E5%B7%B4%E9%BB%8E-ogp-%E5%BE%8C%E8%A8%98-%E4%B8%8A%E7%99%BE%E5%80%8B%E5%9C%8B%E5%AE%B6%E4%B9%8B%E4%B8%AD-%E5%8F%B0%E7%81%A3%E5%9C%A8%E5%93%AA%E8%A3%A1-1582c1fabe9b) / g0v.news 劉致昕 2016.12.16
 * [唐鳳：數位協作　讓懶惰鬼也願意行動](http://www.cw.com.tw/article/article.action?id=5079252) / 天下雜誌 2016.11.8
 * [門口香雞排開張時，會讓你家的空氣紫爆嗎？](https://theinitium.com/article/20161020-taiwan-Air-pollution/) / 端傳媒 2016.10.20
-* [300 萬獎助金，g0v 零時政府徵求公民科技創新專案](http://technews.tw/2016/12/19/g0v-civic-tech-plan/) / 科技新報 2017.12.l9
 
 #### 2016 第三季
 * [这名黑客可以改造台湾政府吗？](http://www.ftchinese.com/story/001069156) / FT中文網 張鐵志 2016.8.31
