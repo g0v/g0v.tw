@@ -2,8 +2,18 @@
 
 For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
-#### 2017 Q1
+#### 2017 Q3
+* [Activists seeking Taiwan treasure in US, UN files](http://www.taipeitimes.com/News/front/archives/2017/07/11/2003674316) / Taipei Times 
+by Chiu Yan-ling and Jonathan Chin 2017.07.11
+* [Les hackeurs prennent le pouvoir à Taiwan](http://www.taiwanmag.net/2017/07/03/les-hackeurs-prennent-le-pouvoir-a-taiwan/) / Taiwan Mag 2017.07.03 
 
+#### 2017 Q2
+* [Meet G0v, the Open Source, Digital Community Transforming Democracy in Taiwan](http://www.shareable.net/blog/meet-g0v-the-open-source-digital-community-transforming-democracy-in-taiwan) / Shareable 2017.06.17
+* [Taiwan’s g0v community holds 23rd hackathon](https://www.digitalasiahub.org/2017/04/29/taiwans-g0v-community-holds-23rd-hackathon/) / Digital Asia Hub 2017.04.29
+* [How the g0v movement is forking the Taiwanese government](https://medium.com/open-source-politics/how-the-g0v-movement-is-forking-the-taiwanese-government-74b7cce0e92b) / Open Source Politics by Noe Jacomet 2017.04.13
+
+#### 2017 Q1
+* [Civic Tech Thailand 4.0](http://socialtech.or.th/post/civic-tech-thailand-4-0) / Social Technology Institute 2017.03.28
 * [How Civic Activists Counter Fake News in Taiwan] (http://civichall.org/civicist/civic-activists-counter-fake-news-taiwan/) / Civicist 2017.01.09
 
 #### 2016 Q4
