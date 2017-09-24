@@ -2,7 +2,7 @@
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
 #### 2017 第三季
-* [防災能量大會師　震視安全有保障](http://www.cdnews.com.tw/cdnews_site/docDetail.jsp?coluid=108&docid=104343525)/中央網路報 2017.09.24
+* [防災能量大會師 熊讚參加「國家防災日」宣導活動](http://www.chinatimes.com/realtimenews/20170923003400-260405)/中時電子報 林郁平 2017.09.23
 * [260 萬元 g0v 獎助金，將開發無人機搜救、揭露百大集團環保紀錄](https://technews.tw/2017/09/22/260-million-g0v-award-money/) / Technews 2017.09.22
 * [台青年探索台灣史 美國國家檔案局挖寶](http://www.cna.com.tw/news/firstnews/201709200030-1.aspx) / 中央社 羅苑韶 2017.09.20
 * [把台灣的歷史，從世界各地找回來——7個年輕人挖掘的「國家寶藏」大公開](https://www.thenewslens.com/article/79174) / 關鍵評論網 Abby Huang 2017.09.20
