@@ -6,8 +6,8 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2017/9/12 TICTeC@Taipei: A Civic Hackers Guide to the Galaxy - Don’t Panic!/簡韻真（ael）
 * 2017/9/11 2017 年春季 g0v 公民科技創新獎助金成果發表會(https://www.facebook.com/g0v.tw/videos/1673065972734682/) / 吳銘軒(ttcat)，吳泰輝（Kirby），林雨蒼，駱勁成（johnny），蕭新晟（hsiao-a），吳君孝（shawwu），郭冠宏（ggm），陳韋銘，王向榮（ronnywang）
 * 2017/09/07 Mekong ICT Camp: Civic Tech, Participation and Collboration / Yun-Chen Chien (ael)
-* 2017/7/?? [Introduction to Cofacts @ Google News Lab APAC summit 2017](https://www.youtube.com/watch?v=569cj67xN7c) / Johnson (Mrorz)
 * 2017/7/19 開放政府與公民參與工作坊 / 吳泰輝（Kirby）
+* 2017/7/14 [Introduction to Cofacts @ Google News Lab APAC summit 2017](https://www.youtube.com/watch?v=569cj67xN7c) / Johnson (Mrorz)
 * 2017/05/26 2017 年臺灣科技與社會研究學會年會：「開放」的技術：台灣公民黑客如何轉譯開放 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-76388939)】
 * 2017/05/13 民主深化在台灣？系列講座【透明的黑箱？開放政府與公民科技講座】/ 唐鳳（au）、張維志（Whisky）、藍一婷（ETBlue）、時代力量智庫副執行長 彭盛韶（Saul Peng）、簡宏偉【[共筆](https://paper.dropbox.com/doc/2017.05.13-yJqLSDwQEJLfbJachOV4o)】
 * 2017/04/27 HackNTU: 黑客精神與公民科技/李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-74613030)】
