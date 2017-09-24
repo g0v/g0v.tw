@@ -3,17 +3,21 @@
 For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
 
 #### 2017 Q3
+* [Virtual Flowers and Tomatoes: Citizen Participation in Taiwan](https://waag.org/nl/blog/virtual-flowers-and-tomatoes-citizen-participation-taiwan) / By Coen Bergman, Waag Society 2017.09.22
+* [TAIWANESE CIVIC TECH IS NOT RE-INVENTING DEMOCRACY, YET](https://civichall.org/civicist/taiwanese-civic-tech-not-re-inventing-democracy-yet/) / BY: AARON WYTZE WILSON, Civicist 2017.08.03
 * [Activists seeking Taiwan treasure in US, UN files](http://www.taipeitimes.com/News/front/archives/2017/07/11/2003674316) / Taipei Times 
 by Chiu Yan-ling and Jonathan Chin 2017.07.11
 * [Les hackeurs prennent le pouvoir à Taiwan](http://www.taiwanmag.net/2017/07/03/les-hackeurs-prennent-le-pouvoir-a-taiwan/) / Taiwan Mag 2017.07.03 
 
 #### 2017 Q2
-* [Meet G0v, the Open Source, Digital Community Transforming Democracy in Taiwan](http://www.shareable.net/blog/meet-g0v-the-open-source-digital-community-transforming-democracy-in-taiwan) / Shareable 2017.06.17
+* [Meet G0v, the Open Source, Digital Community Transforming Democracy in Taiwan](http://www.shareable.net/blog/meet-g0v-the-open-source-digital-community-transforming-democracy-in-taiwan) / Shareable 2017.05.16
 * [Taiwan’s g0v community holds 23rd hackathon](https://www.digitalasiahub.org/2017/04/29/taiwans-g0v-community-holds-23rd-hackathon/) / Digital Asia Hub 2017.04.29
 * [How the g0v movement is forking the Taiwanese government](https://medium.com/open-source-politics/how-the-g0v-movement-is-forking-the-taiwanese-government-74b7cce0e92b) / Open Source Politics by Noe Jacomet 2017.04.13
 
 #### 2017 Q1
+* [Open Communities](http://bumble.blue/openness/taiwan/2017/03/30/g0v/)/Eileen Wagner 2017.03.30
 * [Civic Tech Thailand 4.0](http://socialtech.or.th/post/civic-tech-thailand-4-0) / Social Technology Institute 2017.03.28
+* [How Taiwan is inoculating itself against the Uber “virus”](http://www.citymetric.com/business/how-taiwan-inoculating-itself-against-uber-virus-2786) / By Max Rashbrooke, CityMetric 2017.02.08
 * [How Civic Activists Counter Fake News in Taiwan] (http://civichall.org/civicist/civic-activists-counter-fake-news-taiwan/) / Civicist 2017.01.09
 
 #### 2016 Q4
@@ -27,7 +31,7 @@ by Chiu Yan-ling and Jonathan Chin 2017.07.11
 La Vanguardia 2016.09.17
 * [Taiwan’s new digital minister is a transgender software programmer who wants to make government more open](http://qz.com/767298/taiwans-new-digital-minister-is-a-transgender-software-programmer-who-wants-to-make-government-more-open/v) / Quartz 2016.8.26
 * [vTaiwan: Public Participation Methods on the Cyberpunk Frontier of Democracy](http://civichall.org/civicist/vtaiwan-democracy-frontier/) / Civicist 2016.08.11
-* [Can Technology Improve Democracy? Answers from g0v Summit 2016](http://medium.com/@aelcenganda/can-technology-improve-democracy-answers-from-g0v-summit-2016-db51a126e110#.1lljhbqac) / @aelcenganda 2016.7.20
+* [Can Technology Improve Democracy? Answers from g0v Summit 2016](http://medium.com/@aelcenganda/can-technology-improve-democracy-answers-from-g0v-summit-2016-db51a126e110#.1lljhbqac) / Yun-Chen Chien(@aelcenganda) 2016.7.20
 * [Open-data Hactivists Help Taipei Craft Regulatory Response to Uber](http://www.shareable.net/blog/open-data-hactivists-help-taipei-craft-regulatory-response-to-uber) / Shareable 2016.07.06
 
 #### 2016 Q2
@@ -37,7 +41,7 @@ La Vanguardia 2016.09.17
 * [« Une expérience pionnière de démocratie numérique » à Taïwan](http://www.lemonde.fr/idees/article/2016/05/25/une-experience-pionniere-de-democratie-numerique-a-taiwan_4926104_3232.html) / Le Monde 2016.05.25
 
 #### 2016 Q1
-
+* [Taïwan: g0v, les hackers qui veulent changer la démocratie](http://www.rfi.fr/hebdo/20161202-taiwan-hackers-gov-transparence-democratie-technologies)/RFI by Baptiste Condominas 2016.02.12
 * [Le futur de la démocratie ? Made in Taïwan !](http://rue89.nouvelobs.com/2016/02/10/futur-democratie-made-in-taiwan-263140) / _Tous les internets 2016.02.10
 * [Blooming digital democracy in Taiwan’s Sunflower movement](http://www.mobilisationlab.org/blooming-digital-democracy-taiwan-sunflower-movement/) / Mobilization Lab 2016.01.25
 
