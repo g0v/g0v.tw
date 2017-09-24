@@ -10,6 +10,8 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2017/7/14 [Introduction to Cofacts @ Google News Lab APAC summit 2017](https://www.youtube.com/watch?v=569cj67xN7c) / Johnson (Mrorz)
 * 2017/05/26 2017 年臺灣科技與社會研究學會年會：「開放」的技術：台灣公民黑客如何轉譯開放 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-76388939)】
 * 2017/05/13 民主深化在台灣？系列講座【透明的黑箱？開放政府與公民科技講座】/ 唐鳳（au）、張維志（Whisky）、藍一婷（ETBlue）、時代力量智庫副執行長 彭盛韶（Saul Peng）、簡宏偉【[共筆](https://paper.dropbox.com/doc/2017.05.13-yJqLSDwQEJLfbJachOV4o)】
+* 2017/05/12 HackNTU: 公民科技開發者法律指南 / 侯怡秀（Isabel）【[共筆](https://paper.dropbox.com/doc/2017-7-0512-BaLxYpKNeotZmazz8LbGn)】
+* 2017/05/05 HackNTU: [以資料出發，規劃一個社會行動——透明足跡案例分享] / 黃雋（Jimmy）【[共筆](https://paper.dropbox.com/doc/2017-6-0505-iVOBkTVTIioejvIu9pL5m)】
 * 2017/04/27 HackNTU: 黑客精神與公民科技/李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-74613030)】
 * 2017/03/31 HackNTU: 「開放原始碼簡介」/林雨蒼 【[投影片](http://bit.ly/2oguxxA)】【[共筆](https://paper.dropbox.com/doc/2017-1-0331-nqgwIQkCJQci06J1tSNUa)】
 * 2017/03/16 願景工程公民沙龍：開放政府(https://www.facebook.com/g0v.tw/posts/1451793214861960) / 唐鳳(au) x 高嘉良(clkao)
