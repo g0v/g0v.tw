@@ -2,6 +2,7 @@
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
 #### 2017 第三季
+* [美國解密文件 找到…政大抗議信](https://udn.com/news/story/7314/2720691) / 聯合報 章凱閎 2017.09.25
 * [防災能量大會師 熊讚參加「國家防災日」宣導活動](http://www.chinatimes.com/realtimenews/20170923003400-260405)/中時電子報 林郁平 2017.09.23
 * [260 萬元 g0v 獎助金，將開發無人機搜救、揭露百大集團環保紀錄](https://technews.tw/2017/09/22/260-million-g0v-award-money/) / Technews 2017.09.22
 * [台青年探索台灣史 美國國家檔案局挖寶](http://www.cna.com.tw/news/firstnews/201709200030-1.aspx) / 中央社 羅苑韶 2017.09.20
@@ -158,6 +159,8 @@ Also see [international media coverage](https://g0v.tw/en-US/media.html).
 * [觀察／恐龍般的國民兩黨網路政策想像](http://www.nownews.com/n/2014/06/10/1270440) / NOWnews 2014.06.10
 * [「零時」時代的「小額參與」：新時代NGO面臨的公民力量](http://www.ncafroc.org.tw/mag/news1_show.asp?id=150&tp=nextp) / 國家文化藝術基金會線上誌 2014.06
 * [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
+* [立委投票指南 讓你知道該投誰](https://vita.tw/%E7%AB%8B%E5%A7%94%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97-%E8%AE%93%E4%BD%A0%E7%9F%A5%E9%81%93%E8%A9%B2%E6%8A%95%E8%AA%B0-55460a925a21) / 生命力新聞 郭昱辰、陳葛泉成 2014.05.28
+* [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號 
 * [太陽花運動：數位時代的新社會運動](http://techsoup-taiwan.blogspot.com/2014/05/blog-post.html) / 科技濃湯 2014.05.23
 * [Diseñando las protestas taiwanesas de #CongressOccupied](http://es.globalvoicesonline.org/2014/05/10/disenando-las-protestas-taiwanesas-de-congressoccupied/) / Global Voices 2014.05.10
 * [選後數百筆小額支出 朱立倫駁走路工](https://www.youtube.com/watch?v=-UruElk0X5o) / 年代新聞 2014.05.09
