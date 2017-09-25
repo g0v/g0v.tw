@@ -1,6 +1,8 @@
 ### 過往演講/座談資訊、投影片
 
 #### 2017 年
+* 2017/09/16 燃點公民平台，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1d2FoBcwHSlXG1HOgOBMubTk4IYKHNZ7g5aEVaA9IF1c)/駱勁成（johnny）
 * 2017/9/12 TICTeC@Taipei:[
 Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by the Open Source Community](https://hackmd.io/KwUwhgZgzAbAxsAtAIwBwAYKICxmAdhQEYQQd1URsYRUAmEATiiA#keyboard-participation-an-analysis-of-‘g0v’-for-collaborative-participation-by-the-open-source-community-ting-yu-cheng-national-taiwan-university)/鄭婷宇（Claire）
 * 2017/9/12 TICTeC@Taipei: A Civic Hackers Guide to the Galaxy - Don’t Panic!/簡韻真（ael）
@@ -19,10 +21,20 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 
 #### 2016 年
 * 2016/11/20 泛科知識節：[從公民科技談公民參與](https://www.youtube.com/watch?v=qcapUY4Oh9s)/ 簡韻真（ael）【[投影片](https://docs.google.com/presentation/d/1CxBv1qzzUgpFUn_XTBSVAloA1GJwj8Sre9mn6v9GUWQ/edit?usp=sharing)】
+* 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
 
 #### 2015 年
+* 2015/07/23 美國Sunlight Fundation MPT，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1WcdhhbgZJRnkhJfTJ4qXDBb-babOM-HgWGdbtC_t-xY)/駱勁成（johnny）
+* 2015/04/27 中山大學政治系，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1l4a6SEwYYNrtsSM-34FinPlY2CRXQOr8vm-Cx10nfQg)/駱勁成（johnny）
+* 2015/03/27 中央選舉委員會，選舉資料開放及社群協作座談會[
+紀錄](http://hackpad.g0v.link/wW1K62Txnsb.html)/王向榮（ronnywang）、江明宗（kiang）、駱勁成（johnny）
 
 #### 2014 年
+* 2016/11/20 交大統計所，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1RQAcVWRXX8pdMobjVGh1JrylN4JQeebO7wwVmlP3V84)/王向榮（ronnywang）、駱勁成（johnny）
 * 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/09/22 中正大學圖書館[【面對夢想行動家2 - 用鍵盤敲出正義】](http://ccuweb.ccu.edu.tw/calendar/view-details.php?id=436) / 瞿筱葳
 * 2014/09/14 CNEX影展《不服從行動守則Everday Rebellion》[映後座談：《素人革命Z＞B》](http://tw.cnexfest.org/?page_id=677) / 瞿筱葳
@@ -36,6 +48,8 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2014/07/02 第三屆國際領航員營隊 / 瞿筱葳 (ipa)
 * 2014/06/12 沃草：clkao 環球考察分享會/ 高嘉良(clkao)【[共筆](https://g0v.hackpad.tw/ep/pad/static/zlvgEFmKNel)】
 * 2014/06/07 [獨立發聲，反抗有理： 網路時代下的新媒體與新聞自由 公民論壇](https://www.facebook.com/events/1414694238809642/?ref=25&source=1) / 瞿筱葳 (ipa)
+* 2014/05/26 東吳大學政治系，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/115ths0HtqEMg92r_ge-pIZGN_02mZpAGsbxXLzizVJk)/駱勁成（johnny）
 * 2014/05/24 科技與社會研究」工作坊 / 鄭智中 (mindos)
 * 2014/05/21 [交點DOIT](https://taiwan-doit.com/) / 簡信昌 (hcchien)
 * 2014/05/20 臺大新聞所：[看見太陽花運動中的新媒體](http://ntujournal.blogspot.tw/2014/05/g0ve.html) / 趙偉伶 (venev)
