@@ -20,6 +20,8 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2017/03/02 台大人類學系：數位田野：當人類學家 hack 進零時政府黑客松 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/hack-72734675)】
 
 #### 2016 年
+
+* 2016/12/08 [My Best Fail with OGov / OpenData](https://en.ogpsummit.org/osem/conference/ogp-summit/program/proposal/718)：Impossible Election for recall in Taiwan - Appendectomy Project / 劉宇庭（YuTin）【[投影片](https://docs.google.com/presentation/d/1UGb8YonaEOtItH8zs34Bvbqc41ySetWLY3S21LTjgcg/edit?usp=sharing)】
 * 2016/11/20 泛科知識節：[從公民科技談公民參與](https://www.youtube.com/watch?v=qcapUY4Oh9s)/ 簡韻真（ael）【[投影片](https://docs.google.com/presentation/d/1CxBv1qzzUgpFUn_XTBSVAloA1GJwj8Sre9mn6v9GUWQ/edit?usp=sharing)】
 * 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
