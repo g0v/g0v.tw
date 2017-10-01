@@ -22,7 +22,10 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 #### 2016 年
 
 * 2016/12/08 [My Best Fail with OGov / OpenData](https://en.ogpsummit.org/osem/conference/ogp-summit/program/proposal/718)：Impossible Election for recall in Taiwan - Appendectomy Project / 劉宇庭（YuTin）【[投影片](https://docs.google.com/presentation/d/1UGb8YonaEOtItH8zs34Bvbqc41ySetWLY3S21LTjgcg/edit?usp=sharing)】
+* 2016/11/27 Code for America Summit 分享會: [Code For America 見聞錄
+](https://docs.google.com/presentation/d/104hcJU9NZgx9HVgpVoAk-ZjhhuTusNMkCy4w5gpiCaI/edit?usp=sharing)
 * 2016/11/20 泛科知識節：[從公民科技談公民參與](https://www.youtube.com/watch?v=qcapUY4Oh9s)/ 簡韻真（ael）【[投影片](https://docs.google.com/presentation/d/1CxBv1qzzUgpFUn_XTBSVAloA1GJwj8Sre9mn6v9GUWQ/edit?usp=sharing)】
+* 2016/10/30 Fork and Merge an Open Government: Experiments of g0v in Taiwan: [Impossible Election for recall in Taiwan](https://docs.google.com/presentation/d/1zsUfYicpPuQk9SOvmBRWNxciX8HCUlmsg_5cZkqwO-s/edit?usp=sharing)
 * 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
 
