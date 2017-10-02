@@ -6,7 +6,7 @@
 * 2017/9/12 TICTeC@Taipei:[
 Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by the Open Source Community](https://hackmd.io/KwUwhgZgzAbAxsAtAIwBwAYKICxmAdhQEYQQd1URsYRUAmEATiiA#keyboard-participation-an-analysis-of-‘g0v’-for-collaborative-participation-by-the-open-source-community-ting-yu-cheng-national-taiwan-university)/鄭婷宇（Claire）
 * 2017/9/12 TICTeC@Taipei: A Civic Hackers Guide to the Galaxy - Don’t Panic!/簡韻真（ael）
-* 2017/9/11 2017 年春季 g0v 公民科技創新獎助金成果發表會(https://www.facebook.com/g0v.tw/videos/1673065972734682/) / 吳銘軒(ttcat)，吳泰輝（Kirby），林雨蒼，駱勁成（johnny），蕭新晟（hsiao-a），吳君孝（shawwu），郭冠宏（ggm），陳韋銘，王向榮（ronnywang）
+* 2017/9/11 [2017 年春季 g0v 公民科技創新獎助金成果發表會](https://www.facebook.com/g0v.tw/videos/1673065972734682/) / 吳銘軒(ttcat)，吳泰輝（Kirby），瞿筱葳（ipa），林雨蒼，駱勁成（johnny），蕭新晟（hsiao-a），吳君孝（shawwu），郭冠宏（ggm），陳韋銘，王向榮（ronnywang）
 * 2017/09/07 Mekong ICT Camp: Civic Tech, Participation and Collboration / Yun-Chen Chien (ael)
 * 2017/7/19 開放政府與公民參與工作坊 / 吳泰輝（Kirby）
 * 2017/7/14 [Introduction to Cofacts @ Google News Lab APAC summit 2017](https://www.youtube.com/watch?v=569cj67xN7c) / Johnson (Mrorz)
@@ -16,7 +16,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2017/05/05 HackNTU: [以資料出發，規劃一個社會行動——透明足跡案例分享] / 黃雋（Jimmy）【[共筆](https://paper.dropbox.com/doc/2017-6-0505-iVOBkTVTIioejvIu9pL5m)】
 * 2017/04/27 HackNTU: 黑客精神與公民科技/李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-74613030)】
 * 2017/03/31 HackNTU: 「開放原始碼簡介」/林雨蒼 【[投影片](http://bit.ly/2oguxxA)】【[共筆](https://paper.dropbox.com/doc/2017-1-0331-nqgwIQkCJQci06J1tSNUa)】
-* 2017/03/16 願景工程公民沙龍：開放政府(https://www.facebook.com/g0v.tw/posts/1451793214861960) / 唐鳳(au) x 高嘉良(clkao)
+* 2017/03/16 [願景工程公民沙龍：開放政府](https://www.facebook.com/g0v.tw/posts/1451793214861960) / 唐鳳(au) x 高嘉良(clkao)
 * 2017/03/02 台大人類學系：數位田野：當人類學家 hack 進零時政府黑客松 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/hack-72734675)】
 
 #### 2016 年
@@ -30,7 +30,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
 
 #### 2015 年
-* 2015/07/23 美國Sunlight Fundation MPT，立委/議員投票指南經驗分享，[
+* 2015/07/23 美國Sunlight F[undation MPT，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1WcdhhbgZJRnkhJfTJ4qXDBb-babOM-HgWGdbtC_t-xY)/駱勁成（johnny）
 * 2015/04/27 中山大學政治系，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1l4a6SEwYYNrtsSM-34FinPlY2CRXQOr8vm-Cx10nfQg)/駱勁成（johnny）
@@ -38,7 +38,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 紀錄](http://hackpad.g0v.link/wW1K62Txnsb.html)/王向榮（ronnywang）、江明宗（kiang）、駱勁成（johnny）
 
 #### 2014 年
-* 2016/11/20 交大統計所，立委/議員投票指南經驗分享，[
+* 2014/11/20 交大統計所，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1RQAcVWRXX8pdMobjVGh1JrylN4JQeebO7wwVmlP3V84)/王向榮（ronnywang）、駱勁成（johnny）
 * 2014/09/27 哈佛台灣學生會：[Open Government & Open Data movement in Chile and Taiwan](https://www.facebook.com/photo.php?fbid=10152633344256999&set=a.10150266132596999.368164.559471998&type=1) @哈佛法學院 / 高嘉良
 * 2014/09/22 中正大學圖書館[【面對夢想行動家2 - 用鍵盤敲出正義】](http://ccuweb.ccu.edu.tw/calendar/view-details.php?id=436) / 瞿筱葳
