@@ -28,6 +28,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2016/10/30 Fork and Merge an Open Government: Experiments of g0v in Taiwan: [Impossible Election for recall in Taiwan](https://docs.google.com/presentation/d/1zsUfYicpPuQk9SOvmBRWNxciX8HCUlmsg_5cZkqwO-s/edit?usp=sharing)
 * 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
+* 2016/01/22 臺北市政府社會局105年度災害救助民間團體聯繫會報 - [物資管理系統與災民證](https://speakerdeck.com/yurenju/wu-zi-guan-li-xi-tong-yu-zai-min-zheng)
 
 #### 2015 年
 * 2015/07/23 美國Sunlight F[undation MPT，立委/議員投票指南經驗分享，[
