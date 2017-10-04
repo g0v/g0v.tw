@@ -2,6 +2,7 @@
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
 #### 2017 第三季
+* [放上網免費參閱 留美台青年挖掘被遺落歷史](https://www.singtaousa.com/ny/436-%E7%B4%90%E7%B4%84/312506-%E6%94%BE%E4%B8%8A%E7%B6%B2%E5%85%8D%E8%B2%BB%E5%8F%83%E9%96%B1+%E7%95%99%E7%BE%8E%E5%8F%B0%E9%9D%92%E5%B9%B4%E6%8C%96%E6%8E%98%E8%A2%AB%E9%81%BA%E8%90%BD%E6%AD%B7%E5%8F%B2/) / 星島日報 2017.10.01
 * [美國解密文件 找到…政大抗議信](https://udn.com/news/story/7314/2720691) / 聯合報 章凱閎 2017.09.25
 * [防災能量大會師 熊讚參加「國家防災日」宣導活動](http://www.chinatimes.com/realtimenews/20170923003400-260405)/中時電子報 林郁平 2017.09.23
 * [260 萬元 g0v 獎助金，將開發無人機搜救、揭露百大集團環保紀錄](https://technews.tw/2017/09/22/260-million-g0v-award-money/) / Technews 2017.09.22
