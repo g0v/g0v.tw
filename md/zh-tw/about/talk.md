@@ -1,5 +1,43 @@
 ### 過往演講/座談資訊、投影片
 
+#### 2017 年
+* 2017/09/16 燃點公民平台，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1d2FoBcwHSlXG1HOgOBMubTk4IYKHNZ7g5aEVaA9IF1c)/駱勁成（johnny）
+* 2017/9/12 TICTeC@Taipei:[
+Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by the Open Source Community](https://hackmd.io/KwUwhgZgzAbAxsAtAIwBwAYKICxmAdhQEYQQd1URsYRUAmEATiiA#keyboard-participation-an-analysis-of-‘g0v’-for-collaborative-participation-by-the-open-source-community-ting-yu-cheng-national-taiwan-university)/鄭婷宇（Claire）
+* 2017/9/12 TICTeC@Taipei: A Civic Hackers Guide to the Galaxy - Don’t Panic!/簡韻真（ael）
+* 2017/9/11 [2017 年春季 g0v 公民科技創新獎助金成果發表會](https://www.facebook.com/g0v.tw/videos/1673065972734682/) / 吳銘軒(ttcat)，吳泰輝（Kirby），瞿筱葳（ipa），林雨蒼，駱勁成（johnny），蕭新晟（hsiao-a），吳君孝（shawwu），郭冠宏（ggm），陳韋銘，王向榮（ronnywang）
+* 2017/09/07 Mekong ICT Camp: Civic Tech, Participation and Collboration / Yun-Chen Chien (ael)
+* 2017/7/19 開放政府與公民參與工作坊 / 吳泰輝（Kirby）
+* 2017/7/14 [Introduction to Cofacts @ Google News Lab APAC summit 2017](https://www.youtube.com/watch?v=569cj67xN7c) / Johnson (Mrorz)
+* 2017/05/26 2017 年臺灣科技與社會研究學會年會：「開放」的技術：台灣公民黑客如何轉譯開放 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-76388939)】
+* 2017/05/13 民主深化在台灣？系列講座【透明的黑箱？開放政府與公民科技講座】/ 唐鳳（au）、張維志（Whisky）、藍一婷（ETBlue）、時代力量智庫副執行長 彭盛韶（Saul Peng）、簡宏偉【[共筆](https://paper.dropbox.com/doc/2017.05.13-yJqLSDwQEJLfbJachOV4o)】
+* 2017/05/12 HackNTU: 公民科技開發者法律指南 / 侯怡秀（Isabel）【[共筆](https://paper.dropbox.com/doc/2017-7-0512-BaLxYpKNeotZmazz8LbGn)】
+* 2017/05/05 HackNTU: [以資料出發，規劃一個社會行動——透明足跡案例分享] / 黃雋（Jimmy）【[共筆](https://paper.dropbox.com/doc/2017-6-0505-iVOBkTVTIioejvIu9pL5m)】
+* 2017/04/27 HackNTU: 黑客精神與公民科技/李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/ss-74613030)】
+* 2017/03/31 HackNTU: 「開放原始碼簡介」/林雨蒼 【[投影片](http://bit.ly/2oguxxA)】【[共筆](https://paper.dropbox.com/doc/2017-1-0331-nqgwIQkCJQci06J1tSNUa)】
+* 2017/03/16 [願景工程公民沙龍：開放政府](https://www.facebook.com/g0v.tw/posts/1451793214861960) / 唐鳳(au) x 高嘉良(clkao)
+* 2017/03/02 台大人類學系：數位田野：當人類學家 hack 進零時政府黑客松 / 李梅君（mglee）【[投影片](https://www.slideshare.net/atmglee/hack-72734675)】
+
+#### 2016 年
+
+* 2016/12/08 [My Best Fail with OGov / OpenData](https://en.ogpsummit.org/osem/conference/ogp-summit/program/proposal/718)：Impossible Election for recall in Taiwan - Appendectomy Project / 劉宇庭（YuTin）【[投影片](https://docs.google.com/presentation/d/1UGb8YonaEOtItH8zs34Bvbqc41ySetWLY3S21LTjgcg/edit?usp=sharing)】
+* 2016/11/27 Code for America Summit 分享會: [Code For America 見聞錄
+](https://docs.google.com/presentation/d/104hcJU9NZgx9HVgpVoAk-ZjhhuTusNMkCy4w5gpiCaI/edit?usp=sharing) - Yuren Ju
+* 2016/11/20 泛科知識節：[從公民科技談公民參與](https://www.youtube.com/watch?v=qcapUY4Oh9s)/ 簡韻真（ael）【[投影片](https://docs.google.com/presentation/d/1CxBv1qzzUgpFUn_XTBSVAloA1GJwj8Sre9mn6v9GUWQ/edit?usp=sharing)】
+* 2016/10/30 Fork and Merge an Open Government: Experiments of g0v in Taiwan: [Impossible Election for recall in Taiwan](https://docs.google.com/presentation/d/1zsUfYicpPuQk9SOvmBRWNxciX8HCUlmsg_5cZkqwO-s/edit?usp=sharing) - Yuren Ju
+* 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
+* 2016/01/22 臺北市政府社會局105年度災害救助民間團體聯繫會報 - [物資管理系統與災民證](https://speakerdeck.com/yurenju/wu-zi-guan-li-xi-tong-yu-zai-min-zheng) - Yuren Ju
+
+#### 2015 年
+* 2015/07/23 美國Sunlight F[undation MPT，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1WcdhhbgZJRnkhJfTJ4qXDBb-babOM-HgWGdbtC_t-xY)/駱勁成（johnny）
+* 2015/04/27 中山大學政治系，立委/議員投票指南經驗分享，[
+投影片](https://docs.google.com/presentation/d/1l4a6SEwYYNrtsSM-34FinPlY2CRXQOr8vm-Cx10nfQg)/駱勁成（johnny）
+* 2015/03/27 中央選舉委員會，選舉資料開放及社群協作座談會[
+紀錄](http://hackpad.g0v.link/wW1K62Txnsb.html)/王向榮（ronnywang）、江明宗（kiang）、駱勁成（johnny）
+
 #### 2014 年
 
 * 2014/12/02 萌典、群眾協作與開放資料 / 唐鳳
