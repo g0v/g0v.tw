@@ -58,10 +58,8 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 投影片](https://docs.google.com/presentation/d/1l4a6SEwYYNrtsSM-34FinPlY2CRXQOr8vm-Cx10nfQg)/駱勁成（johnny）
 * 2015/03/23 勞動部研習: 資料、社群、大協作 - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/lao-dong-bu-yan-xi)】
 * 2015/03/23 金管會研習: 資料、社群、大協作 - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/g0v-jin-guan-hui)】
-* 2015/03/17 交通大學傳播與科技學系：Open Data 的鍵盤社會運動
- - 王向榮(ronnywang) [投影片](https://docs.google.com/presentation/d/1kqrdk-1pTRD708aSqqgnF06SBi_ue6jRGiwe7BKoPgY/edit#slide=id.p)
-* 2015/03/17 聯發科開放資料社：g0v x 小幫手 x Open Data
- - 王向榮 (ronnywang)[投影片](https://docs.google.com/presentation/d/12LWJ_ngXaEtKKBb1KUJfCNFLzYEcMqg3WinbnPkBBNA/edit#slide=id.p)
+* 2015/03/17 交通大學傳播與科技學系：Open Data 的鍵盤社會運動 - 王向榮(ronnywang) [投影片](https://docs.google.com/presentation/d/1kqrdk-1pTRD708aSqqgnF06SBi_ue6jRGiwe7BKoPgY/edit#slide=id.p)
+* 2015/03/17 聯發科開放資料社：g0v x 小幫手 x Open Data - 王向榮 (ronnywang)[投影片](https://docs.google.com/presentation/d/12LWJ_ngXaEtKKBb1KUJfCNFLzYEcMqg3WinbnPkBBNA/edit#slide=id.p)
 * 2015/01/31 網路發展趨勢研習營: g0v 零時政府不只寫程式改造社會 - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/wang-lu-fa-zhan-qu-shi-yan-xi-ying)】
 
 
