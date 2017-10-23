@@ -1,4 +1,8 @@
-### 過往演講/座談資訊、投影片
+### 演講訪談邀約
+
+來信請寄：g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
+
+### 演講/座談資訊、投影片
 
 #### 2017 年
 * 2017/09/22 2017 Digital Government Summit: Civic Tech as PPP - 高嘉良 (clkao) 【[投影片](http://opensource.hk/en/2014/open-source-beyond-developers-g0v.tw)】
@@ -35,7 +39,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
  * 從開放資料到開放治理 - 林雨蒼【[投影片](https://docs.google.com/presentation/d/1PLHTqcjUx6_FYPiBKni4cYBa8GJOjJBTB3oWzFDStik/pub?)】start=false&loop=false&delayms=3000&slide=id.p
 * 2016/10/30 g0v@Stanford, Fork and Merge an Open Government: Experiments of g0v in Taiwan:【[錄影](https://www.youtube.com/embed/XI-uYe50dG4)】
   * Introduction to g0v - Kirby Wu
-  * [Impossible Election for recall in Taiwan](https://docs.google.com/presentation/d/1zsUfYicpPuQk9SOvmBRWNxciX8HCUlmsg_5cZkqwO-s/edit?usp=sharing) - Yuren Ju 
+  * [Impossible Election for recall in Taiwan](https://docs.google.com/presentation/d/1zsUfYicpPuQk9SOvmBRWNxciX8HCUlmsg_5cZkqwO-s/edit?usp=sharing) - Yuren Ju
   * From Community to Foundation - ttcat
 * 2016/09/03 沃草立院國會松，立委/議員投票指南經驗分享，[
 投影片](https://docs.google.com/presentation/d/1d5wtwdoRZNtld_WWk3MbStVPcPpTXPZDH_CFlieYoPs)/駱勁成（johnny）
@@ -70,7 +74,7 @@ Keyboard Participation: An Analysis of 'g0v' For Collaborative Participation by 
 * 2014/11/28 電子治理研究中心: g0v 零時政府不只寫程式改造社會 - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/g0v-at-dian-zi-zhi-li-yan-jiu-zhong-xin)】
 * 2014/11/28 守護台灣防災大賽 : g0v 零時政府不只寫程式改造社會 - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/g0v-at-shou-hu-tai-wan-fang-zai-da-sai)】
 * 2014/11/21 交大巨量資料分析實務課程 / 駱勁成、王向榮
-* 2014/11/20 GovforDev : 
+* 2014/11/20 GovforDev :
 Beyond Hacking for Good: An Inclusive, Government (and Citizen)-Friendly Approach Toward Civic Tech - 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/beyond-hacking-for-good-an-inclusive-government-and-citizen-friendly-approach-toward-civic-tech)】
 * 2014/11/8-9 [g0v Summit 2014 零時政府年會](http://summit.g0v.tw)
 * 2014/11/07 資策會科法所：2014科技法制前瞻論壇【政府資料開放的價值與管理】 / 楊孝先
@@ -145,8 +149,5 @@ Beyond Hacking for Good: An Inclusive, Government (and Citizen)-Friendly Approac
 * 2013/04 OSDC Taiwan: "PgRest Node.js in the Data / 萌典" / 唐鳳 (au) 【[投影片](https://speakerdeck.com/audreyt/pgrest-node-dot-js-in-the-database)】
 * 2013/01 WebConf Taiwan ：「g0v 黑客松 - 寫程式改造社會」 / 高嘉良 (clkao)【[投影片](https://speakerdeck.com/clkao/g0v-hei-ke-song-xie-cheng-shi-gai-zao-she-hui)】
 
-### 演講訪談邀約
-
-來信請寄：g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
 
 
