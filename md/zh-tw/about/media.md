@@ -1,8 +1,10 @@
 ### 媒體報導
 Also see [international media coverage](https://g0v.tw/en-US/media.html).
 
-#### 2017 第三季
+#### 2017 第四季
 * [放上網免費參閱 留美台青年挖掘被遺落歷史](https://www.singtaousa.com/ny/436-%E7%B4%90%E7%B4%84/312506-%E6%94%BE%E4%B8%8A%E7%B6%B2%E5%85%8D%E8%B2%BB%E5%8F%83%E9%96%B1+%E7%95%99%E7%BE%8E%E5%8F%B0%E9%9D%92%E5%B9%B4%E6%8C%96%E6%8E%98%E8%A2%AB%E9%81%BA%E8%90%BD%E6%AD%B7%E5%8F%B2/) / 星島日報 2017.10.01
+
+#### 2017 第三季
 * [美國解密文件 找到…政大抗議信](https://udn.com/news/story/7314/2720691) / 聯合報 章凱閎 2017.09.25
 * [防災能量大會師 熊讚參加「國家防災日」宣導活動](http://www.chinatimes.com/realtimenews/20170923003400-260405)/中時電子報 林郁平 2017.09.23
 * [260 萬元 g0v 獎助金，將開發無人機搜救、揭露百大集團環保紀錄](https://technews.tw/2017/09/22/260-million-g0v-award-money/) / Technews 2017.09.22
@@ -13,7 +15,9 @@ Also see [international media coverage](https://g0v.tw/en-US/media.html).
 * [工時薪資透明化 打造健康勞動環境](https://vita.tw/%E5%B7%A5%E6%99%82%E8%96%AA%E8%B3%87%E9%80%8F%E6%98%8E%E5%8C%96-%E6%89%93%E9%80%A0%E5%81%A5%E5%BA%B7%E5%8B%9E%E5%8B%95%E7%92%B0%E5%A2%83-2b507b87906c)/生命力新聞 林姿含、許婷宜 2017.09.05
 * [【科技農夫共創微氣候新農耕模式】年輕小農靠開源翻轉傳統農業](http://www.ithome.com.tw/news/116184) / iThome 何維涓 2017.08.19
 * [致力公民科技 生動呈現視覺化資訊](https://vita.tw/%E8%87%B4%E5%8A%9B%E5%85%AC%E6%B0%91%E7%A7%91%E6%8A%80-%E7%94%9F%E5%8B%95%E5%91%88%E7%8F%BE%E8%A6%96%E8%A6%BA%E5%8C%96%E8%B3%87%E8%A8%8A-34f0ba7df093)/ 生命力新聞 2017.08.03
+* [阿龜微氣候天眼通 在地監控農田狀況](http://news.cts.com.tw/vita/campus/201707/201707181879471.html#.Wfq_4ROCx-V) / 生命力新聞 林姿含、許婷宜 2017.07.18
 * [g0v 獎助金》用鄉民科技開放台灣歷史：尋找遺落在世界的國家寶藏](https://g0v.news/g0v-%E7%8D%8E%E5%8A%A9%E9%87%91-%E7%94%A8%E9%84%89%E6%B0%91%E7%A7%91%E6%8A%80%E9%96%8B%E6%94%BE%E5%8F%B0%E7%81%A3%E6%AD%B7%E5%8F%B2-%E5%B0%8B%E6%89%BE%E9%81%BA%E8%90%BD%E5%9C%A8%E4%B8%96%E7%95%8C%E7%9A%84%E5%9C%8B%E5%AE%B6%E5%AF%B6%E8%97%8F-b93199dd3327)/ g0v.news 簡韻真 2017.07.14
+* [民主也能當飯吃 公民科技獎助金上看50萬](https://udn.com/news/story/7314/2579396) / 聯合報 2017.7.12
 * [挖掘海外台灣史料 旅美台人推國家寶藏計畫](http://news.ltn.com.tw/news/focus/paper/1117571) / 自由時報 邱燕玲 2017.7.10
 * [公民黑客力 g0v零時政府](https://udn.com/news/story/6845/2569895) / 台灣光華雜誌 龍珮寧／劉嫈楓 2017.07.07
 * [強化公民科技續航力！g0v要給你50萬元開發公民科技](http://www.ithome.com.tw/news/115413)
@@ -23,14 +27,17 @@ Also see [international media coverage](https://g0v.tw/en-US/media.html).
 * [g0v 獎助金》微氣候監控，讓小農不必再看天吃飯](https://goo.gl/LUrGjG) / g0v.news 鄭婷宇 2017.06.30
 * [判決書API計劃 建立司法與民眾的橋樑](http://news.cts.com.tw/vita/campus/201706/201706151873434.html#.WWcjBNOGOqA) / 華視 王林曄、張然2017.06.15
 * [g0v 獎助金》 只要有他，甚麼都能抓：爬資料神人 — 王向榮](https://goo.gl/MPU6Ma) / g0v.news 鄭婷宇 2017.06.11
+* [走進農田裡的資料科學家，吳君孝：資料是一門探索未知的學問](https://www.bnext.com.tw/article/44818/a-story-about-a-data-scientist-who-works-in-agricultire) / 數位時代 2017.06.07
 * [七件提案獲得 g0v 獎助金，鼓勵跨界開源長期開發](https://medium.com/@chengtingyu/3abb7989c012) / g0v.news 鄭婷宇 2017.04.07
 
 #### 2017 第一季
 * [黑客公務員的血汗之路](https://g0v.news/gov-hackers/home) / g0v.news 劉致昕 2017.03.22
 * [「零時政府」的第24次黑客松：挖坑和跳坑的派對](https://theinitium.com/article/20170321-notes-g0v-hackson/)/端傳媒 黃威凱 2017.03.20
+* [真的假的LINE…奪10萬獎金](https://udn.com/news/story/7314/2351146)/經濟日報 2017.03.19
 * [願景工程贊助g0v公民科技獎 分辨LINE真偽提案](https://udn.com/news/story/9/2350610)/聯合報 2017.03.18
 * [首屆 g0v 公民科技創新獎助金揭曉，七項專案共獲 300 萬獎金](http://technews.tw/2017/03/13/1st-g0v-civic-tech-prototype-grant-winner/)/TechNews 科技新報 2017.03.13
 * [公民科技提案踴躍，94 件投稿爭取 g0v 獎助金](https://goo.gl/xXUy5N)/g0v.news 鄭婷宇 2017.02.04
+* [打擊食物浪費 好點子獎助50萬](https://vision.udn.com/vision/story/10629/2242000)/2017-01-20/聯合報系願景工程
 * [網路假新聞氾濫 零時政府推LINE查證群組](http://www.cna.com.tw/news/ahel/201701115010-1.aspx) / 中央通訊社 2017.1.12
 * [快邀長輩加入！g0v 推 LINE 查證群組，打擊假新聞](https://www.inside.com.tw/2017/01/11/g0v-line-news) / 2017.01.11
 
