@@ -1,5 +1,5 @@
 ### 媒體報導
-Also see [international media coverage](https://g0v.tw/en-US/media.html).
+Also see [international media coverage](http://g0v.tw/en-US/media.html).
 
 #### 2017 第四季
 * [從巴西到台灣，他們用開放資料監督政治人物如何花錢](https://theinitium.com/article/20171024-tech-open-data/) / 端傳媒 蔣珮伊 2017.10.24
