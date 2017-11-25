@@ -51,6 +51,7 @@ g0v.tw 主要的實體活動是黑客松（ Hackathon ）。
 
 ## 參與 g0v 心得
 
+* [g0v 公民科技創新獎助金：Into the Darkness and a New Hope](https://medium.com/g0v-tw/g0v-%E5%85%AC%E6%B0%91%E7%A7%91%E6%8A%80%E5%89%B5%E6%96%B0%E7%8D%8E%E5%8A%A9%E9%87%91-into-the-darkness-and-a-new-hope-5ac25e373ccd) / ipa
 * [零時政府 | 子姓網友半年 summit](http://blog.yam.com/shulusama/article/81318638) / 子龍 2014.11.10
 * [Digital Hero – Fran Bennett](http://blog.delib.net/digital-hero-fran-bennett/) / delib 2014.06.13
 * [First Year of g0v: March 2014 [Transcript]](https://www.facebook.com/notes/%E5%94%90%E9%B3%B3/first-year-of-g0v-march-2014-transcript/808828052479750) / au 2014.04.14
