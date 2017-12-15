@@ -23,6 +23,7 @@ MENU_COMMUNITY: 'Community Culture'
 MENU_MEMBER: 'fb Group'
 MENU_LINKS: 'Links'
 MENU_TALKS: 'Talks'
+MENU_SEARCH: 'Search'
 MENU_ACT: 'Events'
 MENU_ACTINFO: 'Event Info'
 MENU_ACTRECORD: 'Hackathon Logs'
@@ -89,6 +90,11 @@ ACTRECORD: 'Hackathon Logs'
 # contact page
 CONTACT_TITLE: 'Contact g0v'
 CONTACT_US: 'Contact g0v'
+# search page
+SEARCH_TITLE: 'Search'
+SEARCH: 'Search'
+SEARCH_BUTTON: 'Search'
+SEARCH_EMPTY: 'nobody is here!'
 # 404 page
 NOTFOUND_TITLE: 'Page Not Found'
 # footer

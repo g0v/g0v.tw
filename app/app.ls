@@ -112,6 +112,62 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
   $scope.changeLang = (lang) ->
     page = $window.location.pathname.split('/').2
     $window.location.href = '/' + lang + '/' + page
+
+.controller SearchCtrl: <[$http $scope]> ++ ($http, $scope) ->
+  ENTRY_PER_PAGE = 10
+
+  $scope.input = ''
+  $scope.start = 0
+  $scope.total = 0
+  $scope.result = []
+  $scope.hasPrev = false
+  $scope.hasNext = false
+
+  $scope.date = -> new Date(1000 * it).toDateString!
+
+  $scope.trunc = (str, n) ->
+    if str.length > n then str.substr(0, n-1) + '…' else str
+
+  search = ->
+    query =
+      query:
+        query_string:
+          query: $scope.input
+      from: $scope.start
+      highlight:
+        fields:
+          content: {}
+      aggs:
+        source_count:
+          terms:
+            field: 'source'
+      sort: [{ updated_at: 'desc' }]
+    { hits: { hits: result, total } } <- $http
+      .get 'http://api.search.g0v.io/query.php?query=' + encodeURIComponent(JSON.stringify(query))
+      .success
+    $scope.total = total
+    $scope.hasPrev = $scope.start isnt 0
+    $scope.hasNext = $scope.start + ENTRY_PER_PAGE < $scope.total
+    $scope.result = result.map (._source)
+
+  $scope.submit = ->
+    $scope.start = 0
+    search!
+
+  $scope.prev = ->
+    $scope.start = if $scope.start is 0
+      then 0
+      else $scope.start - ENTRY_PER_PAGE
+    scrollTo 0 0
+    search!
+
+  $scope.succ = ->
+    $scope.start = if $scope.start + ENTRY_PER_PAGE >= $scope.total
+      then $scope.start
+      else $scope.start + ENTRY_PER_PAGE
+    scrollTo 0 0
+    search!
+
 show = ->
   prj-img = $ \#prj-img
   prj-img.animate {opacity: 1}, 500

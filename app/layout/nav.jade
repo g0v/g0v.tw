@@ -1,8 +1,8 @@
 - var nav_cls = {}
 - nav_cls.index = nav_cls.about = nav_cls.talk = ''
-- nav_cls.actinfo = nav_cls.join = nav_cls.project = ''
+- nav_cls.actinfo = nav_cls.join = nav_cls.project = nav_cls.search = ''
 block vars
-.ui.fluid.five.item.evenly.menu
+.ui.fluid.six.item.evenly.menu
     a.item(href="/#{lang}/index.html", translate="MENU_HOME", class="#{nav_cls.index}")
       | 首頁
     .ui.pointing.dropdown.link.item(class="#{nav_cls.about}")
@@ -54,6 +54,9 @@ block vars
           | 大松入口
         a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
           | 演講資訊
+
+    a.item(href="/search.html", translate="MENU_SEARCH", class="#{nav_cls.search}")
+      span(translate="MENU_SEARCH") g0v search
 
 script.
   (function(){

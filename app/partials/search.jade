@@ -1,0 +1,40 @@
+extend ../layout/layout
+
+block title
+    title(translate="SEARCH_TITLE") 搜尋 g0v
+
+block vars
+    - nav_cls.search = 'highlight'
+
+block content
+  #search_content.ui.teal.segment(ng-controller="SearchCtrl")
+    .ui.label.black.ribbon.large(translate="SEARCH") 搜尋
+    form.ui.form
+      .inline.fields
+        #search_bar.field
+          input(type="text" name="search" ng-model="input")
+          button.ui.submit.button(type="submit" translate="SEARCH_BUTTON" ng-click="submit()") 送出
+    #search_pagenator(ng-if="total !== 0")
+      a(ng-class="hasPrev ? '' : 'disabled'" ng-click="prev()") &lt;
+      &nbsp;
+      span {{ start }}/{{ total }}
+      &nbsp;
+      a(ng-class="hasNext ? '' : 'disabled'" ng-click="succ()") &gt;
+    #search_empty(ng-if="result.length === 0" translate="SEARCH_EMPTY") 沒有人找到東西！
+    ul#search_result
+      li(ng-repeat="entry in result")
+        a(ng-href="{{ entry.url }}" target="_blank") {{ entry.title }}
+        .meta
+          span.source.ui.label(ng-class="'label-' + entry.source") {{ entry.source }}
+          span.time {{ date(entry.updated_at) }}
+        .content {{ trunc(entry.content, 140) }}
+    #search_pagenator(ng-if="total !== 0")
+      a(ng-class="hasPrev ? '' : 'disabled'" ng-click="prev()") &lt;
+      &nbsp;
+      span {{ start }}/{{ total }}
+      &nbsp;
+      a(ng-class="hasNext ? '' : 'disabled'" ng-click="succ()") &gt;
+    #search_footer
+      | powered by 
+      a(href="http://api.search.g0v.io/" target="_blank") g0v-search-api
+

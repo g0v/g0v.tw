@@ -22,6 +22,7 @@ MENU_COMMUNITY: '社群文化'
 MENU_MEMBER: 'fb 後勤中心'
 MENU_LINKS: '相關連結'
 MENU_TALKS: '演講資訊'
+MENU_SEARCH: '搜尋 g0v'
 MENU_ACT: 'g0v 活動'
 MENU_ACTINFO: '活動介紹'
 MENU_ACTRECORD: '活動紀錄'
@@ -88,6 +89,11 @@ ACTRECORD: '黑客松紀錄'
 # contact page
 CONTACT_TITLE: '聯繫社群'
 CONTACT_US: '聯繫社群'
+# search page
+SEARCH_TITLE: '搜尋 g0v'
+SEARCH: '搜尋'
+SEARCH_BUTTON: '搜尋'
+SEARCH_EMPTY: '沒有人找到東西！'
 # 404 page
 NOTFOUND_TITLE: '找不到頁面'
 # footer
