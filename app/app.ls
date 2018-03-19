@@ -143,7 +143,7 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
             field: 'source'
       sort: [{ updated_at: 'desc' }]
     { hits: { hits: result, total } } <- $http
-      .get 'http://api.search.g0v.io/query.php?query=' + encodeURIComponent(JSON.stringify(query))
+      .get 'https://api.search.g0v.io/query.php?query=' + encodeURIComponent(JSON.stringify(query))
       .success
     $scope.total = total
     $scope.hasPrev = $scope.start isnt 0
