@@ -1,6 +1,6 @@
 ### g0v Introduction
 
-g0v.tw is an online community that pushes information transparency, focusing on developing information platform and tools for the citizens to participate in society. Substituting the “o” with “0″ in gov, the new “g0v” not only stands for rethinking the role that the government plays from the bottom up, but also represents the world view of 0 and 1 in the digital natives generation. Based on the spirit of open source, g0v cares about freedom of speech and open data, writing code to provide citizens the easy-to-use information service. The transparency of information can help citizens to have a better understanding on how the government works, to understand the issues faster and to avoid media monopoly, so they can monitor the government more efficiently, and become involved in actions and finally deepen the quality of democracy.
+g0v.tw is an online community that pushes information transparency, focusing on developing information platforms and tools for citizen participation in society. Substituting the “o” with “0” in government, the new “g0v” (pronounced “gov-zero”) not only stands for rethinking the role that the government plays from the bottom up, but also represents the worldview of 0 and 1 in the current generation of digital natives. Based on the spirit of open source, g0v cares about freedom of speech and open data, writing code to provide citizens with user-friendly digital services. The transparency of information can help citizens to have a better understanding on how the government works, to understand the issues faster and to avoid media monopolies, so they can monitor the government more effectively and become involved in actions, deepening the quality of democracy.
 <div class="pagination-centered">
 	<img src="/imgs/g0v-about-en.png" alt="g0v about" style="width: 60%;" />
 </div>
@@ -10,7 +10,7 @@ g0v.tw is an online community that pushes information transparency, focusing on 
 
 ### Origin of g0v
 
-In 2012, when the government released an advertisement of its Economic Power-Up Plan. Unsatisfied with government’s asymmetrical and non-transparent attitude, Wu became skeptical about its policy executing efficiency and direction. As a result, he and his friends together founded g0v.tw, and in December of the same year, the organization launched its first event, named “g0v.tw hackath0n” which attracted more than expected number of participants, and this online community officially started.
+In 2012, the government released a version of its Economic Power-Up Plan. Unsatisfied with government’s asymmetrical and non-transparent attitude, Wu became skeptical about its policy-executing efficiency and direction. As a result, he and his friends together founded g0v.tw. In December of that same year, the organization launched its first event, named “g0v.tw hackath0n” which attracted a more-than-expected number of participants, and this online community officially started.
 <div class="video-container pagination-centered"><iframe width="640" height="480" src="http://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe></div>
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
@@ -18,7 +18,7 @@ In 2012, when the government released an advertisement of its Economic Power-Up 
 
 ### Contributors
 
-g0v.tw has a great variety of contributors, including web developers, high-classed programmers from famous coporation (like Google, Apple, Yahoo, HTC, Canonical, Mediatek, Trend and etc.), elite hackers, professors, NGO/NPO activist, students, writers, artist, designers and other professionals from every aspect. People gather here to share his or hers expertise, learn together and generate meaningful results. Everyone is always welcomed to join [g0v.tw](/en-US/join.html) with passion and a devoted attitude.
+g0v.tw has a great variety of contributors -- web developers, professional programmers from well-known corporations (Google, Apple, Yahoo, HTC, Canonical, Mediatek, Trend, etc.), elite hackers, professors, NGO/NPO activists, students, writers, artists, designers and other professionals from many sectors. People gather to share their expertise, learn together and generate meaningful results. Everyone is always welcomed to join [g0v.tw](/en-US/join.html) with passion and a devoted attitude.
 
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
