@@ -1,6 +1,8 @@
 ### International Media Coverage
 
 For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
+#### 2018 Q2
+* [Taiwan’s revolutionary hackers are forking the government](http://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v) / By Kate O'Flaherty, WIRED UK, 2018.05.04
 
 #### 2017 Q3
 * [Virtual Flowers and Tomatoes: Citizen Participation in Taiwan](https://waag.org/nl/blog/virtual-flowers-and-tomatoes-citizen-participation-taiwan) / By Coen Bergman, Waag Society 2017.09.22
