@@ -24,6 +24,7 @@ MENU_ACT: 'イベント'　
 MENU_ACTINFO: 'ハッカソンを申し込む'　
 MENU_ACTRECORD: '過去のイベント'　
 MENU_CONTACT: 'お問い合わせ'
+MENU_HACK: '大松入口'
 # home page
 HOME_TITLE: '零時政府 g0v.tw'
 HOME_TOPIC_LEFT: '致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。'
