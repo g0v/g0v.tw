@@ -141,7 +141,6 @@ angular.module "g0v.tw" <[firebase btford.markdown pascalprecht.translate]>
         source_count:
           terms:
             field: 'source'
-      sort: [{ updated_at: 'desc' }]
     { hits: { hits: result, total } } <- $http
       .get 'https://api.search.g0v.io/query.php?query=' + encodeURIComponent(JSON.stringify(query))
       .success
