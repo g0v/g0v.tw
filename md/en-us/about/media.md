@@ -1,6 +1,10 @@
 ### International Media Coverage
 
 For Chinese media coverage please see [媒體報導](http://g0v.tw/zh-TW/media.html).
+
+#### 2018 Q3
+* [The simple but ingenious system Taiwan uses to crowdsource its laws](https://www.technologyreview.com/s/611816/the-simple-but-ingenious-system-taiwan-uses-to-crowdsource-its-laws/) / By Chris Horton, MIT Technology Review, 2018.08.21
+
 #### 2018 Q2
 * [Taiwan’s revolutionary hackers are forking the government](http://www.wired.co.uk/article/taiwan-sunflower-revolution-audrey-tang-g0v) / By Kate O'Flaherty, WIRED UK, 2018.05.04
 
