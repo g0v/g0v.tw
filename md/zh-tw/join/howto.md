@@ -31,7 +31,7 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 
 * 【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】參與討論
 * 【[hackpad](https://g0v.hackpad.com/)】加入共筆
-* 上 [Slack](http://join.g0v.today/)/[IRC](http://hack.g0v.tw/irc) 一起聊天
+* 上 [Slack](http://join.g0v.tw/)/[IRC](http://hack.g0v.tw/irc) 一起聊天
 * 參與[黑客松](http://hack.g0v.tw/)
 
 ## 參與活動
