@@ -23,7 +23,7 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
   * 在【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】告訴大家
   * 參與[大松](http://hack.g0v.tw/)，填專案報告登記表，開場時各專案有 3 分鐘可上台提案
     * 參考過去的大松[記錄](http://hack.g0v.tw/)
-  * 上 [Slack](http://join.g0v.today/)/[IRC](http://hack.g0v.tw/irc) 呼朋引伴
+  * 上 [Slack](http://join.g0v.tw/)/[IRC](http://hack.g0v.tw/irc) 呼朋引伴
 
 ### 想跳坑
 
