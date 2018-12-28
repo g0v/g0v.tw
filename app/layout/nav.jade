@@ -3,8 +3,8 @@
 - nav_cls.actinfo = nav_cls.join = nav_cls.project = nav_cls.search = ''
 block vars
 .ui.fluid.six.item.evenly.menu
-    a.item(href="/#{lang}/index.html", translate="MENU_HOME", class="#{nav_cls.index}")
-      | 首頁
+    //a.item(href="/#{lang}/index.html", translate="MENU_HOME", class="#{nav_cls.index}")
+      //| 首頁
     .ui.pointing.dropdown.link.item(class="#{nav_cls.about}")
       span(translate="MENU_ABOUT") 關於
       .menu
@@ -28,16 +28,13 @@ block vars
     .ui.pointing.dropdown.link.item(class="#{nav_cls.join}")
       span(translate="MENU_HOWTO") 如何參與
       .menu
-        a.item(href="https://hack.g0v.tw/", translate="MENU_HOWTO")
+        a.item(href="/#{lang}/join.html", translate="MENU_HOWTO")
           | 如何參與
         a.item(href="https://www.facebook.com/groups/g0v.general/", target="_blank")
           span(translate="MENU_MEMBER") FB 後勤中心
           i.external.url.right.icon
         a.item(target="blank",href="https://g0v.hackpad.tw/", )
           span(translate="MENU_HACKPAD") 開發共筆
-          i.external.url.right.icon
-        a.item(target="blank",href="http://ocf.tw/donate/", )
-          span(translate="") 捐款方式
           i.external.url.right.icon
         a.item(href="/#{lang}/faq.html", translate="MENU_FAQ")
           | 常見問題
@@ -54,7 +51,8 @@ block vars
           | 大松入口
         a.item(href="/#{lang}/talk.html", translate="MENU_TALKS")
           | 演講資訊
-
+    a.item(href="https://bit.ly/donateg0v", translate="MENU_DONATE", class="#{nav_cls.search}")
+      span(translate="MENU_DONATE") 捐款支持
     a.item(href="/search.html", translate="MENU_SEARCH", class="#{nav_cls.search}")
       span(translate="MENU_SEARCH") g0v search
 

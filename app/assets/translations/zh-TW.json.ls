@@ -30,6 +30,7 @@ MENU_CONTACT: '聯繫'
 MENU_NEWS: '新聞'
 MENU_LOGBOT: 'IRC 聊天紀錄'
 MENU_HACK: '大松入口'
+MENU_DONATE: '捐款支持'
 # home page
 HOME_TITLE: '零時政府 g0v.tw'
 HOME_TOPIC_LEFT: '致力推動資訊透明化，關心言論自由、資訊開放，從零重新思考政府的角色。'
