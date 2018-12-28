@@ -58,7 +58,7 @@ block content
               p(ng-bind-html="communique.content")
 
 
-      .ui.green.segment(ng-controller="BlogCtrl")
+      //.ui.green.segment(ng-controller="BlogCtrl")
           .ui.red.ribbon.large.label(translate="HOME_BLOG") 零時政府部落格
           .blog-loading(ng-show="articles.length === 0")
           article(ng-repeat="article in articles | orderBy:'$index':true")
@@ -89,13 +89,13 @@ block content
               .item(ng-repeat="event in events")
                 .content
                   a(ng-href="{{event.url}}") {{event.title}}
-            .ui.divider
-          .videos
-              h4(translate="HOME_VIDEOS") 相關影片
-              iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
+          //  .ui.divider
+          //.videos
+          //    h4(translate="HOME_VIDEOS") 相關影片
+          //    iframe(defer-src="//www.youtube.com/embed/videoseries?list=PLdwQWxpS513Ayb0JJfgbf79i3pgP9vGxG",frameborder="0",allowfullscreen,width="100%")
               p
                 a(href="https://www.youtube.com/user/g0vTW") 更多 g0v 影片...
-          .ui.divider
+          //.ui.divider
           .g0vslack
               h4(translate="HOME_SLACK") 加入 g0v.tw Slack
               p 現在 IRC 與 Slack 已經同步囉！
@@ -108,18 +108,18 @@ block content
                 a(translate="HOME_CHATROOM_GENERAL_LOGS" target="_blank",href="http://logbot.g0v.tw/") (主頻道紀錄)
                 | ・
                 a(translate="HOME_CHATROOM_OTHER_LOGS" target="_blank",href="https://g0v-tw.slackarchive.io/") (其他紀錄)
-              p
-                a(target="_blank",class="ui blue small button",href="http://hack.g0v.tw/irc") 來聊天！
+              //p
+              //  a(target="_blank",class="ui blue small button",href="http://hack.g0v.tw/irc") 來聊天！
               // iframe(height="480",target="_blank",defer-src="http://lumberjack.ultrab0t.net/widget/g0v.tw/",frameborder="0",allowfullscreen)
               iframe(height="480",target="_blank",defer-src="http://logbot.g0v.tw/widget/g0v.tw",frameborder="0",allowfullscreen)
           .ui.divider
           .google_calendar
-              h4(translate="HOME_FACEBOOK_PAGE") fb專頁
-          .fb-like-box(data-href='http://www.facebook.com/g0vtw', data-width='240', data-colorscheme='light', data-show-faces='false', data-header='true', data-stream='true', data-show-border='true')
-          .ui.divider
-          .google_calendar
-              h4(translate="HOME_SCHEDULE") 行事曆
-              iframe(height="488",target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
+          //    h4(translate="HOME_FACEBOOK_PAGE") fb專頁
+          //.fb-like-box(data-href='http://www.facebook.com/g0vtw', data-width='240', data-colorscheme='light', data-show-faces='false', data-header='true', data-stream='true', data-show-border='true')
+          //.ui.divider
+          //.google_calendar
+            //  h4(translate="HOME_SCHEDULE") 行事曆
+              //iframe(height="488",target="_blank",defer-src="https://www.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&wkst=1&bgcolor=%23FFFFFF&src=cpcf6iv5pt9l6gl2ue3svo63e8%40group.calendar.google.com&color=%23865A5A&ctz=Asia%2FTaipei",frameborder="0",allowfullscreen)
 
 
   #index_float_clear
