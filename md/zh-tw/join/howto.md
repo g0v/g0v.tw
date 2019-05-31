@@ -13,11 +13,11 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 
 ### 想挖坑
 
-1. 在 【[hackpad](https://g0v.hackpad.com/)】上寫下你的提案，最好包含：
+1. 在 【[hackpad](https://g0v.hackpad.tw/)】上寫下你的提案，最好包含：
   * Why? ：為什麼要做這個
   * How? ：打算怎麼做，授權方式
   * Need?：需要哪些技術
-  * [g0v 社群 hackpad 協做共筆指南](https://g0v.hackpad.com/g0v-hackpad--nHk4V2TNU67)
+  * [g0v 社群 hackpad 協做共筆指南](https://g0v.hackpad.tw/g0v-hackpad--nHk4V2TNU67)
   * 了解更多：[提案小訣竅](http://ipa.logdown.com/posts/143277-g0v-proposal-tips)
 2. 尋找伙伴
   * 在【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】告訴大家
@@ -30,7 +30,7 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 ![跳坑的不同方式](/imgs/participate.jpg)
 
 * 【[FB 後勤中心](https://www.facebook.com/groups/g0v.general/)】參與討論
-* 【[hackpad](https://g0v.hackpad.com/)】加入共筆
+* 【[hackpad](https://g0v.hackpad.tw/)】加入共筆
 * 上 [Slack](http://join.g0v.tw/)/[IRC](http://hack.g0v.tw/irc) 一起聊天
 * 參與[黑客松](http://hack.g0v.tw/)
 
@@ -38,16 +38,16 @@ g0v 許多成員來自開放原碼社群，我們鼓勵成果開放授權（Open
 
 g0v.tw 主要的實體活動是黑客松（ Hackathon ）。
 
-* [常見問題](https://g0v.hackpad.com/FAQ-gLNXqwv6krA)
-* [我是... 如何參與黑客松](https://g0v.hackpad.com/...--ciS8hEGw7iu)
-* [活動守則](https://g0v.hackpad.com/2mprMIpYMz9)
+* [常見問題](https://g0v.hackpad.tw/FAQ-gLNXqwv6krA)
+* [我是... 如何參與黑客松](https://g0v.hackpad.tw/...--ciS8hEGw7iu)
+* [活動守則](https://g0v.hackpad.tw/2mprMIpYMz9)
 * [非資訊人參與指南](http://ipa.logdown.com/posts/166655-g0v-hackathon-nongeek)
 * [近期活動列表](http://hack.g0v.tw/)
 
 ## 了解更多 g0v 密技
 
 * [g0v github](https://github.com/g0v)
-* [g0v 黑話與語錄](https://g0v.hackpad.com/g0v--MI7fGNIdygb)
+* [g0v 黑話與語錄](https://g0v.hackpad.tw/g0v--MI7fGNIdygb)
 
 ## 參與 g0v 心得
 

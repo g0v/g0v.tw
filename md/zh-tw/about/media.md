@@ -216,7 +216,7 @@ Also see [international media coverage](http://g0v.tw/en-US/media.html).
 * [網路新勢力 顛覆全世界](http://www.pubu.com.tw/news/%E7%B6%B2%E8%B7%AF%E6%96%B0%E5%8B%A2%E5%8A%9B-%E9%A1%9B%E8%A6%86%E5%85%A8%E4%B8%96%E7%95%8C-1093) / 財訊雙週刊 2014.01.28
 * 他們[他們正在做！900鄉民用鍵盤捍衛正義](http://www.businessweekly.com.tw/KArticle.aspx?id=53258) / 商業周刊 1367 期 2014.01.22 ([全文備份](http://i.imgur.com/YXK7jp5.png))
  *  商業周刊  [1367 期專題報導](http://www.businessweekly.com.tw/EMagMainPage.aspx?id=2069)  :談希臘、德國、芬蘭、與 g0v
- *  延伸閱讀: [民怨商品化？從德國國會觀察網站談起](https://g0v.hackpad.com/CGIWfeyAG5r)
+ *  延伸閱讀: [民怨商品化？從德國國會觀察網站談起](https://g0v.hackpad.tw/CGIWfeyAG5r)
 * [台語輸入法APP 法籍學生研發](http://www.libertytimes.com.tw/2014/new/jan/12/today-life2.htm) / 自由時報 2014.01.12
 
 #### 2013 第四季

@@ -10,7 +10,7 @@ Perspectives from various profession is necessary to build a new citizen informa
 
 ### 必要學會的協作工具
 
-* 文件協作工具：【[hackpad](https://hackpad.com/)】，讓多人同時編輯文件，記錄與規劃專案。
+* 文件協作工具：【[hackpad](https://hackpad.tw/)】，讓多人同時編輯文件，記錄與規劃專案。
   * 【[基礎教學文](http://citizen.wiki.g0v.tw/index.php?title=%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hackPad%E5%B0%B1%E4%B8%8A%E6%89%8B)】、【[進階教學文](https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-Hackpad)】。
 * 溝通工具：【 [irc](http://hack.g0v.tw/irc)】，g0v成員聊天、推坑、挖坑、跳坑的地方。
   * 【[基礎教學文](https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-IRC)】。
@@ -36,7 +36,7 @@ g0v社群人數眾多，實作議題多元，想要有效率的參與可按照�
   * 然後加入 g0v【[irc 聊天室](http://hack.g0v.tw/irc)】，很多成員在此聊天動腦挖坑推坑。
 <p></p>
 2. 找想法：
-	* 初步想法到【[g0v idea pool](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fg0v.hackpad.com%252Fep%252Fgroup%252FyvUEJD5fNjX)】瀏覽填寫。
+	* 初步想法到【[g0v idea pool](http://hack.g0v.tw/g0vMOE/https%253A%252F%252Fg0v.hackpad.tw%252Fep%252Fgroup%252FyvUEJD5fNjX)】瀏覽填寫。
 	* 長期專案到【[專案列表](http://hack.g0v.tw/project)】找。
 <p></p>
 3. facebook上的【[g0v 後勤中心](https://www.facebook.com/groups/g0v.general/)】也不時有成員發文討論相關議題、專案激盪、徵人糾團。請不要害羞，大膽主動出擊。

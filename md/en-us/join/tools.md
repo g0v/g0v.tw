@@ -30,10 +30,10 @@
 
 #### 共筆系統：hackpad
 
-* 網址：https://hackpad.com/
+* 網址：https://hackpad.tw/
 * 說明：在電腦上如果想要紀錄一些簡單的資訊，應該很少有人會選擇新增一個 word 檔案，通常比較可能會新建一個純文字檔案。hackpad 就是一個多人共同編輯的純文字檔案。而它不單純只是純文字檔，也支援簡單的格式，可以簡單的製作一個看起來還不錯的文件。在線上工作，常常需要整理文件、列出待辦事項、徵求幫手、提供教學文件、記錄備忘等等。這些都可以用 Hackpad 簡單做到。
 * 相關連結：
-* https://hackpad.com/JrHwLqM8nkO
+* https://hackpad.tw/JrHwLqM8nkO
 
 #### 檔案共享：dropbox
 * 網址：http://www.dropbox.com

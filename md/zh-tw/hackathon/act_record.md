@@ -1,8 +1,8 @@
 ### 關注黑客松最新消息：
 * [g0v blog](http://blog.g0v.tw) : g0v 官方部落格
 * [g0v fb後勤中心](https://www.facebook.com/groups/g0v.general/)：社群最新動態
-* [g0v 公報](https://g0v.hackpad.com/ep/group/yZ9JT9UlJf4) : 每日 IRC / 論壇 消息摘要
-* [g0v hackpad](https://g0v.hackpad.com/) : g0v 的共同筆記簿
+* [g0v 公報](https://g0v.hackpad.tw/ep/group/yZ9JT9UlJf4) : 每日 IRC / 論壇 消息摘要
+* [g0v hackpad](https://g0v.hackpad.tw/) : g0v 的共同筆記簿
 
 ### 照片：
 * [g0v 活動紀錄照片彙整：g0v.photos](http://g0v.photos) / g0vers

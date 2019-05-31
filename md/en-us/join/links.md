@@ -17,7 +17,7 @@
 
 #### 瀏覽專案
 * [hackfoldr](http://hack.g0v.tw)
-* [g0v hackpad](https://g0v.hackpad.com/)：Follow 一下，更新會通知。
+* [g0v hackpad](https://g0v.hackpad.tw/)：Follow 一下，更新會通知。
 
 #### 開啟專案
 * 初步構想：[idea pool]

@@ -7,7 +7,7 @@
 
 ### 可以！
 社群約有 3-4 成是非資訊背景的參與者。文字、插畫、翻譯、設計、議題分析都對公民參與行動有重要的幫助。
-先參考一下「[我是...，如何參與黑客松](https://g0v.hackpad.com/...--ciS8hEGw7iu)」。如果有想進行的專案，歡迎到社群找尋同好，問問題或討論議題。
+先參考一下「[我是...，如何參與黑客松](https://g0v.hackpad.tw/...--ciS8hEGw7iu)」。如果有想進行的專案，歡迎到社群找尋同好，問問題或討論議題。
 
 <div class="ui message">
   <div class="header">
@@ -49,7 +49,7 @@ wikileaks 主要是公布非開放的機密資料，g0v 則是推廣政府開放
   </div>
 </div>
 
-歡迎來到網路時代，不用等下次，現在就可以上[共筆 hackpad](http://g0v.hackpad.com) 分享，可在相關專案留言討論，或直接開個專案吧！:)
+歡迎來到網路時代，不用等下次，現在就可以上[共筆 hackpad](http://g0v.hackpad.tw) 分享，可在相關專案留言討論，或直接開個專案吧！:)
 
 <div class="ui message">
   <div class="header">
@@ -60,4 +60,4 @@ wikileaks 主要是公布非開放的機密資料，g0v 則是推廣政府開放
 有些專案除了做出來給民眾使用以外, 也有「示範」或「展現概念」的意味在, 也因此與其把東西花很多時間弄得很完整後上線, 不如在有概念雛形時就先釋出, 一來刺激其他民眾 / 政府單位對於專案變化性的想像, 二來也可以更早得到各方的回饋及協助。這一點是採取 Open Source 運動中 release early, release often 的大原則，也順應專案投入資源較分散化的去中心工作模式。
 
 -----
-### 更多 [FAQ](https://g0v.hackpad.com/g0v-FAQ-ULNGIs20R9X) 陸續彙整中。。。
+### 更多 [FAQ](https://g0v.hackpad.tw/g0v-FAQ-ULNGIs20R9X) 陸續彙整中。。。
