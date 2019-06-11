@@ -31,22 +31,22 @@ block content
               .image
                 img(src='/imgs/transparency.jpg')
               .content
-                .name 關於社群
-                p.description
+                .name(translate="HOME_ABOUT") 關於社群
+                p.description(translate="HOME_TOPIC_LEFT")
                   | 致力推動資訊透明化，關心言論自由、資訊開放，從零思考政府的角色。
           a.item(target="_blank",href="/#{lang}/project-from-registry.html")
               .image
                 img(src='/imgs/sunflower.png')
               .content
-                .name 協作成果
-                p.description
+                .name(translate="HOME_COLLAB") 協作成果
+                p.description(translate="HOME_TOPIC_CENTER")
                   | 以開源、開放、開幹的協作模式，兩年多來促成許多開放資料開放政府的成果。
           a.item(target="_blank",href="http://hack.g0v.tw")
               .image
                 img(src='/imgs/speech.png')
               .content
-                .name 揪松網
-                p.description
+                .name(translate="HOME_JOTHON") 揪松網
+                p.description(translate="HOME_TOPIC_RIGHT")
                   | 大松的協作入口站，有當期黑客松資訊，以及過往協作紀錄資料、共筆、錄影。
 
       //.ui.red.segment(ng-controller="CommuniqueCtrl")
@@ -98,9 +98,9 @@ block content
           //.ui.divider
           .g0vslack
               h4(translate="HOME_SLACK") 加入 g0v.tw Slack
-              p 現在 IRC 與 Slack 已經同步囉！
-              a(target="_blank",class="ui blue small button",href="http://join.g0v.today/") 立刻申請加入 Slack
-          .ui.divider
+              p(translate="HOME_IRC_SLACK") 現在 IRC 與 Slack 已經同步囉！
+              a(translate="HOME_SLACK_BUTTON",target="_blank",class="ui blue small button",href="http://join.g0v.today/") 立刻申請加入 Slack
+          .ui.divide
           .logbot
               h4
                 span(translate="HOME_CHATROOM") 即時聊天
