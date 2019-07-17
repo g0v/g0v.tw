@@ -18,6 +18,7 @@ MENU_ACT: 'Events'
 MENU_ACTINFO: 'Event Info'
 MENU_CONTACT: 'Contact Us'
 MENU_HACK: 'g0v Hackathon'
+MENU_DONATE: 'Donate'
 # home page
 HOME_TITLE: '零時政府 g0v.tw'
 HOME_COMMUNITY: '社群動態'
@@ -41,6 +42,7 @@ MEDIA_TITLE: 'g0v on Media'
 MEDIA: 'g0v on Media'
 BLOGPOST: 'g0v on Blogs'
 # faq page
+FAQ_TITLE: 'FAQ'
 FAQ: 'FAQ'
 # transaction page
 TRANSACTION_TITLE: 'Financial Disclosure'
