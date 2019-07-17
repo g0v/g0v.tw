@@ -39,6 +39,7 @@ MANIFESTO: 'g0v宣言'　
 MEDIA_TITLE: 'メディア'　
 MEDIA: 'メディア'　
 # faq page
+FAQ_TITLE: 'よくあるご質問'
 FAQ: 'よくあるご質問'
 # transaction page
 TRANSACTION_TITLE: '収支計算書'　
