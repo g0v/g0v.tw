@@ -1,5 +1,7 @@
 ### 媒體報導
-Also see [international media coverage](http://g0v.tw/en-US/media.html).
+Also see [international media coverage](http://g0v.tw/en-US/media.html).<br>
+媒體報導統整 [統整表 spreadsheet 連結](https://docs.google.com/spreadsheets/d/1YaD9e3HQ19ft2lSz_B9nnxjw8A-4Tbfain9OvnS38aw/edit#gid=0)
+
 
 #### 2018 第三季
 * [勞基法變程式碼 工程師一秒判讀過勞班表](https://udn.com/news/story/7269/3352655) / 聯合報 章凱閎 2018.09.06
@@ -87,7 +89,7 @@ Also see [international media coverage](http://g0v.tw/en-US/media.html).
 * [高嘉良「看不下去」 催生g0v](https://webcache.googleusercontent.com/search?q=cache:jR4e3zVQrFoJ:https://www.thekono.com/articles/d865f1dc-31d6-4bdf-8324-ab35d8c8d84d&num=1&lr=lang_fr%7Clang_zh-TW&hl=zh-TW&tbs=lr:lang_1fr%7Clang_1zh-TW&strip=1&vwsrc=0) / 新新聞 2016.05.19
 * [拆政府原地重建　零時政府3年躋身全球前3大黑客社群](https://www.twreporter.org/a/g0v-civic-tech-community) / 報導者 2016.05.18
 * [如何監督新政府和國會？g0v獻策，也呼籲監督者開放資訊讓全民參與](http://www.ithome.com.tw/news/105925) / iThome 2016.05.15
-* [【2016 g0v 拆後重建年會】張善政：卸任後有機會與 g0v 一起行動！](http://www.inside.com.tw/2016/05/14/2016-g0v-summit-01) / Inside 2016.05.14 
+* [【2016 g0v 拆後重建年會】張善政：卸任後有機會與 g0v 一起行動！](http://www.inside.com.tw/2016/05/14/2016-g0v-summit-01) / Inside 2016.05.14
 * [張善政談政府開放資料：「過去我們裡應外合，現在 g0v 要更加油！」](http://www.bnext.com.tw/article/view/id/39575) / 數位時代 2016.05.14
 * [資安周報第19期：新政府準科技政委的四大挑戰](http://www.ithome.com.tw/news/105357) / iThome 黃彥棻 2016.04.18
 * [商討匯流五法 政院召開線上諮詢會議](http://udn.com/news/story/1/1611679-%E5%95%86%E8%A8%8E%E5%8C%AF%E6%B5%81%E4%BA%94%E6%B3%95--%E6%94%BF%E9%99%A2%E5%8F%AC%E9%96%8B%E7%B7%9A%E4%B8%8A%E8%AB%AE%E8%A9%A2%E6%9C%83%E8%AD%B0) / 中央社 2016.04.06
@@ -95,7 +97,7 @@ Also see [international media coverage](http://g0v.tw/en-US/media.html).
 #### 2016 第一季
 
 * [下臺前的倒數演講，開放資料重要推手張善政將在 g0v Summit 發表主題演講](http://technews.tw/2016/03/31/premier-simon-chang-keynote-on-g0v-summit/) / 科技新報 陳瑞霖 2016.03.31
-* [災民證APP、物資捐贈地圖 今晚實際演練](http://news.ltn.com.tw/news/life/breakingnews/1644142) / 自由時報 2016.03.25  
+* [災民證APP、物資捐贈地圖 今晚實際演練](http://news.ltn.com.tw/news/life/breakingnews/1644142) / 自由時報 2016.03.25
 * [偵測PM2.5 北市國小裝空氣盒子探測](http://www.cna.com.tw/news/aloc/201603220338-1.aspx) / 中央社 2016.03.22
 * [立委候選人現身「黑客松」是為...](http://news.ltn.com.tw/news/politics/breakingnews/1573359) / 自由時報 2016.01.15
 * [2016網路社運者的挑戰](https://www.twreporter.org/a/opinion-tang) / 報導者 2016.01.04
@@ -103,7 +105,7 @@ Also see [international media coverage](http://g0v.tw/en-US/media.html).
 #### 2015 第四季
 
 * [他可能是未來的總統！強大的「立委投票指南」，秒懂你家選區有誰參選、政見又如何](http://buzzorange.com/2015/12/31/the-website-to-introduce-the-candidates/) / BuzzOrage 2015.12.31
-* [開放協作服務應用：阿宅的鍵盤革命](http://www.ndc.gov.tw/cp.aspx?n=2A117ADDF16F6181&s=9064B3F41FA3A734) / 國土及公共治理季刊 陳貞樺 2015.12 
+* [開放協作服務應用：阿宅的鍵盤革命](http://www.ndc.gov.tw/cp.aspx?n=2A117ADDF16F6181&s=9064B3F41FA3A734) / 國土及公共治理季刊 陳貞樺 2015.12
 * [拚合法落地，Airbnb共同創辦人來台與政府對話](http://www.bnext.com.tw/article/view/id/37756) / 數位時代 李欣宜  2015.10.24
 * [公民網路來參政，協作平台、網頁遊戲一目瞭然](http://www.inside.com.tw/2015/10/20/president-election-policy-comparison) / INSIDE 2015.10.20
 * [自己的國家自己救，自己的政策自己修](http://www.meetclub.tw/article/view/id/36558) / 創業小聚 James Huang 2015.10.19
@@ -178,7 +180,7 @@ Also see [international media coverage](http://g0v.tw/en-US/media.html).
 * [「零時」時代的「小額參與」：新時代NGO面臨的公民力量](http://www.ncafroc.org.tw/mag/news1_show.asp?id=150&tp=nextp) / 國家文化藝術基金會線上誌 2014.06
 * [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
 * [立委投票指南 讓你知道該投誰](https://vita.tw/%E7%AB%8B%E5%A7%94%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97-%E8%AE%93%E4%BD%A0%E7%9F%A5%E9%81%93%E8%A9%B2%E6%8A%95%E8%AA%B0-55460a925a21) / 生命力新聞 郭昱辰、陳葛泉成 2014.05.28
-* [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號 
+* [零時政府，發揮公民的力量](http://www.30.com.tw/article_content_25486.html) /《30》雜誌 2014年6月號
 * [太陽花運動：數位時代的新社會運動](http://techsoup-taiwan.blogspot.com/2014/05/blog-post.html) / 科技濃湯 2014.05.23
 * [Diseñando las protestas taiwanesas de #CongressOccupied](http://es.globalvoicesonline.org/2014/05/10/disenando-las-protestas-taiwanesas-de-congressoccupied/) / Global Voices 2014.05.10
 * [選後數百筆小額支出 朱立倫駁走路工](https://www.youtube.com/watch?v=-UruElk0X5o) / 年代新聞 2014.05.09
