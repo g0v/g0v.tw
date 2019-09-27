@@ -3,6 +3,7 @@
 來信請寄：g0v-talks [at] googlegroups.com（黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！）
 
 ### 演講/座談資訊、投影片
+* 若有與 g0v 社群相關演講資訊，歡迎自行加入，[演講資訊列表](https://docs.google.com/spreadsheets/d/1fz-V_nAvd-7Xwd8cjjC_SYSgygsVPhKB0ls_lG7v160/edit#gid=0)
 
 #### 2017 年
 * 2017/09/22 2017 Digital Government Summit: Civic Tech as PPP - 高嘉良 (clkao) 【[投影片](http://opensource.hk/en/2014/open-source-beyond-developers-g0v.tw)】
