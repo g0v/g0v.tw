@@ -10,7 +10,7 @@
 
 #### 採訪/演講邀約：如無特定人選可來信至 g0v-talks 群組，社群將協調是否有適合人選
 * g0v-talks [at] googlegroups.com（[g0v-talks 群組介紹](https://g0v.hackpad.tw/g0v-Media-Policy--Rbpc5FiUyA5#:h=什麼是-g0v-talks-小組))
-* 社群採訪多採共筆形式，可參考過往[媒體採訪共筆](https://g0v.hackpad.tw/ep/group/FCfDxuRKD2m)。
+* 社群採訪多採共筆形式，可參考過往[媒體採訪共筆](https://g0v.hackmd.io/@jothon/g0vinterview)。
 * 黑客松不開放旁聽、採訪，想來現場請報名參與活動。感謝！
 
 #### 關於「與 g0v 合作」......
