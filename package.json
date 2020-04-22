@@ -52,5 +52,8 @@
     "mocha": "^2.1.0",
     "streamqueue": "^0.1.0",
     "tiny-lr": "^0.1.5"
+  },
+  "dependencies": {
+    "phantomjs": "^2.1.7"
   }
 }
