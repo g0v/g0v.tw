@@ -1,6 +1,5 @@
 jQuery(
 function($) {
-
 	$(document).ready(function(){
 		var contentButton = [];
 		var contentTop = [];
@@ -14,6 +13,7 @@ function($) {
 		var stickyMarginB = 0;
 		var currentMarginT = 0;
 		var topMargin = 0;
+		var vartop;
 		$(window).scroll(function(event){
    			var st = $(this).scrollTop();
    			if (st > lastScrollTop){

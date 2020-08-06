@@ -24,10 +24,10 @@
 * [caasi’s hackath3n心得](http://murmur.caasigd.org/post/52519795740/hackath3n)
 * [5/23 pre-hackathon活動速記](http://blog.g0v.tw/post/51282992309)
 * [tbirby’s hackath2n 紀錄](http://www.tkirby.org/blog/?p=2151)
-* [g0v hackath0n | 台灣零時政府第零次動員戡亂黑客松](http://www.youtube.com/watch?v=vywVfj_3R7M) / ipa
+* [g0v hackath0n | 台灣零時政府第零次動員戡亂黑客松](https://www.youtube.com/watch?v=vywVfj_3R7M) / ipa
 
 ### 影音：
 
-* [hackath4n 影音記錄：開場專案報告（共 19 部）](http://www.youtube.com/playlist?list=PLJYQbDzKBkcKpcoQqckwKf5RMvCJ5JXtK) / macpaul
-* [hackath4n 影音記錄：閉幕成果分享（共 12 部）](http://www.youtube.com/playlist?list=PLJYQbDzKBkcItv5FIYdQkf5Xko6rCbDA9) / macpaul
-* [hackath3n 影音紀錄（共18部）](http://www.youtube.com/watch?v=XyRm-lNncKk&list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU&feature=mh_lolz)
+* [hackath4n 影音記錄：開場專案報告（共 19 部）](https://www.youtube.com/playlist?list=PLJYQbDzKBkcKpcoQqckwKf5RMvCJ5JXtK) / macpaul
+* [hackath4n 影音記錄：閉幕成果分享（共 12 部）](https://www.youtube.com/playlist?list=PLJYQbDzKBkcItv5FIYdQkf5Xko6rCbDA9) / macpaul
+* [hackath3n 影音紀錄（共18部）](https://www.youtube.com/watch?v=XyRm-lNncKk&list=PLS1JHIK5Va9K-nP7gbq3C0cqG1409FpiU&feature=mh_lolz)

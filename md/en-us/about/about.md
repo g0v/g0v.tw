@@ -11,7 +11,7 @@ g0v.tw is an online community that pushes information transparency, focusing on 
 ### Origin of g0v
 
 In 2012, when the government released an advertisement of its Economic Power-Up Plan. Unsatisfied with government’s asymmetrical and non-transparent attitude, Wu became skeptical about its policy executing efficiency and direction. As a result, he and his friends together founded g0v.tw, and in December of the same year, the organization launched its first event, named “g0v.tw hackath0n” which attracted more than expected number of participants, and this online community officially started.
-<div class="video-container pagination-centered"><iframe width="640" height="480" src="http://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container pagination-centered"><iframe width="640" height="480" src="https://www.youtube.com/embed/0HURMy0l4Ck" frameborder="0" allowfullscreen></iframe></div>
 <div class="ui horizontal icon divider">
   <i class="code icon"></i>
 </div>
