@@ -15,16 +15,15 @@ block content
               i.pointing.right.icon
               |  年會詳情
       .ui.segment(ng-controller="EventCtrl")
-        a(href="https://hack.g0v.tw/", ng-show="events.length === 0")
+        a(href="https://hack.g0v.tw/", ng-show="{{!events.length === 0}}")
           img.ui.image(src='/imgs/g0vactionbanner-800.gif')
-        a.banner-wrapper(ng-href="{{events[0].url}}", ng-show="events.length !== 0")
+        a.banner-wrapper(ng-href="{{events[0].url}}", ng-show="{{!events.length > 0}}")
           .banner-text
             {{events[0].title}}
           .banner-pointer
             .pointer-text
               i.pointing.right.icon
               |  參加活動
-
 
       .ui.three.connected.items
           a.item(target="_blank",href="/#{lang}/about.html")
