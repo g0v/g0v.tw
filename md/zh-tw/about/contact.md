@@ -6,7 +6,7 @@
 * [公共郵件論壇](https://groups.google.com/forum/?fromgroups#!forum/g0v-general)
 * 線上聊天室（兩入口殊途同歸）：
  * [irc](http://hack.g0v.tw/irc)
- * [slack](http://join.g0v.today)
+ * [slack](http://join.g0v.tw)
 
 #### 採訪/演講邀約：如無特定人選可來信至 g0v-talks 群組，社群將協調是否有適合人選
 * g0v-talks [at] googlegroups.com（[g0v-talks 群組介紹](https://g0v.hackpad.tw/g0v-Media-Policy--Rbpc5FiUyA5#:h=什麼是-g0v-talks-小組))
