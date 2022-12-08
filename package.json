@@ -23,7 +23,7 @@
     "chai": "~1.10.0",
     "connect": "^3.3.4",
     "connect-livereload": "^0.5.2",
-    "express": "^4.11.1",
+    "express": "^4.18.2",
     "gulp": "^3.8.10",
     "gulp-bower": "~0.0.10",
     "gulp-commonjs": "~0.1.0",
@@ -34,14 +34,14 @@
     "gulp-jade": "^0.11.0",
     "gulp-json-editor": "~2.2.1",
     "gulp-less": "~3.0.0",
-    "gulp-livereload": "^3.6.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-livescript": "^3.0.1",
     "gulp-open": "^0.3.2",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": ">=1.2.0",
     "gulp-uglify": "^1.1.0",
     "gulp-util": "~3.0.2",
-    "karma": "^0.12.31",
+    "karma": "^6.4.1",
     "karma-live-preprocessor": "~0.2.0",
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-mocha": "~0.1.0",
@@ -52,7 +52,7 @@
     "marked": "^0.3.6",
     "mocha": "^2.1.0",
     "streamqueue": "^0.1.0",
-    "tiny-lr": "^0.1.5"
+    "tiny-lr": "^2.0.0"
   },
   "resolutions": {
     "graceful-fs": "4.2.4"
