@@ -23,7 +23,7 @@
     "chai": "~1.10.0",
     "connect": "^3.3.4",
     "connect-livereload": "^0.5.2",
-    "express": "^4.11.1",
+    "express": "^4.17.3",
     "gulp": "^3.8.10",
     "gulp-bower": "~0.0.10",
     "gulp-commonjs": "~0.1.0",
